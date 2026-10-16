@@ -1,0 +1,36 @@
+# Game data never goes in the repo
+*.iso
+*.ISO
+*.7z
+*.psarc
+*.PSARC
+*.sdat
+*.SDAT
+*.self
+*.SELF
+*.elf
+*.ELF
+*.PUP
+EBOOT.*
+# ...but the EBOOT's translation worksheet is ours
+!worksheets/EBOOT.elf.json
+/Super Robot Taisen*/
+PS3_GAME/
+PS3_UPDATE/
+work/
+build/
+extracted/
+
+# Scratch
+__pycache__/
+*.pyc
+.venv/
+
+# Third-party patches (not ours to redistribute)
+*.xdelta
+*.ppf
+screenshots/
+
+# API keys
+anthropic_key.txt
+*_key.txt

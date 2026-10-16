@@ -1,0 +1,942 @@
+{
+ "texture": "Common/Dat/Font/exFont01.bin",
+ "tool": "exfont_text.py",
+ "note": "Moon Dwellers exFont01 (512x1280 texture; layout differs from 2nd OG). Same sprite set and wording as the 2nd OG spec; boxes re-measured (exclusive ink bounds). Single-kanji legends (terrain 宇空陸水地, Spirit Command abbreviations) are left Japanese, as in 2nd OG. The 例 badge (a white document icon overlapping the orange octagon) is left as is.",
+ "font": "bahnschrift.ttf",
+ "labels": [
+  {
+   "box": [
+    3,
+    239,
+    106,
+    268
+   ],
+   "jp": "援護攻撃",
+   "en": "SUP ATK",
+   "fill": [
+    255,
+    50,
+    50
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "italic": true,
+   "variation": "Bold"
+  },
+  {
+   "box": [
+    116,
+    239,
+    218,
+    268
+   ],
+   "jp": "援護防御",
+   "en": "SUP DEF",
+   "fill": [
+    50,
+    128,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "italic": true,
+   "variation": "Bold"
+  },
+  {
+   "box": [
+    270,
+    666,
+    340,
+    689
+   ],
+   "jp": "援護攻撃",
+   "en": "SUP ATK",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ]
+  },
+  {
+   "box": [
+    362,
+    945,
+    397,
+    964
+   ],
+   "jp": "援攻",
+   "en": "S.ATK",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "box": [
+    403,
+    945,
+    438,
+    964
+   ],
+   "jp": "援防",
+   "en": "S.DEF",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    30,
+    30,
+    30
+   ]
+  },
+  {
+   "box": [
+    435,
+    768,
+    480,
+    790
+   ],
+   "jp": "合体",
+   "en": "COMBINE",
+   "fill": [
+    251,
+    115,
+    4
+   ],
+   "outline": [
+    40,
+    15,
+    0
+   ],
+   "italic": true,
+   "variation": "Bold"
+  },
+  {
+   "box": [
+    225,
+    788,
+    257,
+    815
+   ],
+   "jp": "合体 (icon)",
+   "en": "CMB",
+   "fill": [
+    235,
+    235,
+    235
+   ],
+   "outline": [
+    47,
+    48,
+    50
+   ],
+   "inner": true,
+   "inset": 3
+  },
+  {
+   "box": [
+    394,
+    586,
+    436,
+    628
+   ],
+   "jp": "攻 (badge)",
+   "en": "ATK",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    26,
+    34
+   ],
+   "inner": true,
+   "inset": 3
+  },
+  {
+   "box": [
+    443,
+    586,
+    485,
+    628
+   ],
+   "jp": "反 (badge)",
+   "en": "CTR",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    26,
+    34
+   ],
+   "inner": true,
+   "inset": 3
+  },
+  {
+   "box": [
+    172,
+    635,
+    214,
+    677
+   ],
+   "jp": "反 (badge)",
+   "en": "CTR",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    27,
+    26
+   ],
+   "inner": true,
+   "inset": 3
+  },
+  {
+   "box": [
+    221,
+    635,
+    263,
+    677
+   ],
+   "jp": "攻 (badge)",
+   "en": "ATK",
+   "fill": [
+    251,
+    251,
+    249
+   ],
+   "outline": [
+    29,
+    27,
+    26
+   ],
+   "inner": true,
+   "inset": 3
+  },
+  {
+   "box": [
+    444,
+    720,
+    494,
+    739
+   ],
+   "jp": "再攻撃",
+   "en": "RE-ATK",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    10,
+    10,
+    10
+   ]
+  },
+  {
+   "box": [
+    346,
+    688,
+    441,
+    717
+   ],
+   "jp": "不参加",
+   "en": "ABSENT",
+   "fill": [
+    251,
+    248,
+    220
+   ],
+   "outline": [
+    55,
+    18,
+    0
+   ],
+   "cross": [
+    251,
+    83,
+    0
+   ]
+  },
+  {
+   "box": [
+    398,
+    887,
+    425,
+    915
+   ],
+   "jp": "空 (terrain header)",
+   "en": "Ai",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    432,
+    888,
+    459,
+    915
+   ],
+   "jp": "陸 (terrain header)",
+   "en": "La",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    464,
+    888,
+    492,
+    915
+   ],
+   "jp": "海 (terrain header)",
+   "en": "Se",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    2,
+    921,
+    30,
+    948
+   ],
+   "jp": "宇 (terrain header)",
+   "en": "Sp",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    35,
+    920,
+    62,
+    948
+   ],
+   "jp": "空 (move type)",
+   "en": "A",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    69,
+    921,
+    96,
+    948
+   ],
+   "jp": "陸 (move type)",
+   "en": "L",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    101,
+    920,
+    129,
+    948
+   ],
+   "jp": "水 (move type)",
+   "en": "W",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    134,
+    921,
+    162,
+    947
+   ],
+   "jp": "地 (move type)",
+   "en": "U",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed"
+  },
+  {
+   "box": [
+    231,
+    918,
+    252,
+    940
+   ],
+   "jp": "閃 (Flash)",
+   "en": "Fl",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    253,
+    918,
+    274,
+    940
+   ],
+   "jp": "不 (Persist)",
+   "en": "Pe",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    274,
+    917,
+    297,
+    939
+   ],
+   "jp": "鉄 (Wall)",
+   "en": "Wa",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    296,
+    917,
+    319,
+    940
+   ],
+   "jp": "信 (Trust)",
+   "en": "Tr",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    318,
+    917,
+    341,
+    940
+   ],
+   "jp": "集 (Focus)",
+   "en": "Fo",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    340,
+    917,
+    363,
+    939
+   ],
+   "jp": "必 (Bullseye)",
+   "en": "Bu",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    362,
+    917,
+    384,
+    939
+   ],
+   "jp": "加 (Accel)",
+   "en": "Ac",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    385,
+    917,
+    407,
+    940
+   ],
+   "jp": "覚 (Awaken)",
+   "en": "Aw",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    406,
+    917,
+    429,
+    940
+   ],
+   "jp": "手 (Mercy)",
+   "en": "Me",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    480,
+    918,
+    501,
+    940
+   ],
+   "jp": "同 (Sync)",
+   "en": "Sy",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    483,
+    983,
+    506,
+    1006
+   ],
+   "jp": "狙 (Snipe)",
+   "en": "Sn",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    0,
+    1005,
+    22,
+    1027
+   ],
+   "jp": "突 (Assault)",
+   "en": "As",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    22,
+    1005,
+    44,
+    1027
+   ],
+   "jp": "直 (Pierce)",
+   "en": "Pi",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    43,
+    1005,
+    66,
+    1027
+   ],
+   "jp": "連 (Blitz)",
+   "en": "Bl",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    65,
+    1005,
+    88,
+    1028
+   ],
+   "jp": "幸 (Luck)",
+   "en": "Lu",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    88,
+    1005,
+    110,
+    1027
+   ],
+   "jp": "努 (Gain)",
+   "en": "Ga",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    109,
+    1005,
+    132,
+    1028
+   ],
+   "jp": "修 (Training)",
+   "en": "Tn",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    131,
+    1005,
+    154,
+    1027
+   ],
+   "jp": "乱 (Disrupt)",
+   "en": "Di",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    369,
+    720,
+    390,
+    741
+   ],
+   "jp": "熱 (Valor)",
+   "en": "Va",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    391,
+    720,
+    412,
+    741
+   ],
+   "jp": "魂 (Soul)",
+   "en": "So",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    414,
+    721,
+    433,
+    741
+   ],
+   "jp": "闘 (Mettle)",
+   "en": "Mt",
+   "fill": [
+    0,
+    240,
+    240
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "shrink": 2
+  },
+  {
+   "box": [
+    446,
+    929,
+    472,
+    948
+   ],
+   "jp": "Lv (after skill names)",
+   "en": "Lv",
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    0,
+    0
+   ],
+   "variation": "Bold Condensed",
+   "align": "right",
+   "note": "drawn flush against the skill name: right-aligned to leave a gap"
+  }
+ ]
+}

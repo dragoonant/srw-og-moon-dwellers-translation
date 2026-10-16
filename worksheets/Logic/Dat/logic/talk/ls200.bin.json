@@ -1,0 +1,4105 @@
+{
+ "file": "ls200.bin",
+ "format": "LDBI",
+ "strings": [
+  {
+   "id": 0,
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 2,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 6,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 9,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 10,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 12,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 13,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 14,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 15,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 16,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 17,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 18,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 19,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 20,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 21,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 22,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 23,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 24,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 25,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 26,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 27,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 28,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 29,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 30,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 31,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 32,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 33,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 34,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 35,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 36,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 37,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 38,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 39,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 40,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 41,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 42,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 43,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 44,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 45,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 46,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 47,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 48,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 49,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 50,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 51,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 52,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 53,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 54,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 55,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 56,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 57,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 58,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 59,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 60,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 61,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 62,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 63,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 64,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 65,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 66,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 67,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 68,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 69,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 70,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 71,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 72,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 73,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 74,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 75,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 76,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 77,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 78,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 79,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 80,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 81,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 82,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 83,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 84,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 85,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 86,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 87,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 88,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 89,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 90,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 91,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 92,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 93,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 94,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 95,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 96,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 97,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 98,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 99,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 100,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 101,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 102,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 103,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 104,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 105,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 106,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 107,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 108,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 109,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 110,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 111,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 112,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 113,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 114,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 115,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 116,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 117,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 118,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 119,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 120,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 121,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 122,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 123,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 124,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 125,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 126,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 127,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 128,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 129,
+   "en": "Ginto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 130,
+   "en": "All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 131,
+   "en": "Kurt",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "en": "Ngh...! All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 133,
+   "en": "Ryusei",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 134,
+   "en": "D-Dammit!@They got me!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "en": "Rai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "en": "Tch...! It can't hold out any longer...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 137,
+   "en": "Aya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 138,
+   "en": "Ah...! I have to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 139,
+   "en": "Viletta",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 140,
+   "en": "Time to go...! I'm ejecting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "Mai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 142,
+   "en": "I-Is this... the end...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 143,
+   "en": "Kyosuke",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 144,
+   "en": "Blew it...!@Have to bail out...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 145,
+   "en": "Excellen",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "en": "Oh dear...@How uncool of me, honestly!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 147,
+   "en": "Kusuha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 148,
+   "en": "I-I'm sorry...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 149,
+   "en": "Bullet",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 150,
+   "en": "Taken down in a place like this...@I'm still so green...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "Arieil",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 152,
+   "en": "I leave the rest to you...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 153,
+   "en": "Duban",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 154,
+   "en": "To think someone could force me back...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 155,
+   "en": "Irm",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "en": "Tch!! What an early curtain call!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "en": "Ing",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 158,
+   "en": "Th-This is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 159,
+   "en": "Ryoto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 160,
+   "en": "Ngh...! I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 161,
+   "en": "Rio",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "I-I won't lose next time!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 163,
+   "en": "Kai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "en": "Ngh! So this is my limit...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "en": "Lamia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "en": "I'm ejecting, I am...@Ngh...! I can't even go out with dignity...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 167,
+   "en": "Hugo",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 168,
+   "en": "Waaaaaaagh!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 169,
+   "en": "Aqua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "Kyaaaaah!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "en": "Arado",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 172,
+   "en": "Damn it!@You won't get me next time!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 173,
+   "en": "Seolla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 174,
+   "en": "N-Next time... for sure!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "en": "Latune",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "en": "So this... is the end...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 177,
+   "en": "Shine",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 178,
+   "en": "Kyah! I leave the rest to you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 179,
+   "en": "Katina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "en": "Me, screwing up in a place like this...?!@This is no fun...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 181,
+   "en": "Russel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "en": "I'm sorry! I'm bailing out!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "Tasuku",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 184,
+   "en": "Dammit! How pathetic...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "en": "Leona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 186,
+   "en": "How... humiliating...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 187,
+   "en": "Sänger",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "Ngh...! So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 189,
+   "en": "Rätsel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 190,
+   "en": "So I, too, still have much to learn...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "en": "Lefina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "en": "A-All hands!@Abandoning ship is top priority...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 193,
+   "en": "Touma",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 194,
+   "en": "Dammit! Is this all I've got...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 195,
+   "en": "Yuuki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "en": "That was careless of me...@I'll pull back for now...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 197,
+   "en": "Carla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "en": "I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "en": "Axel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 200,
+   "en": "Ngh!@So this is it...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "en": "Alchemie",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 202,
+   "en": "Is this... as far as I go...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "en": "Kota",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 204,
+   "en": "Dammit...!@Is this it?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 205,
+   "en": "Shoko",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 206,
+   "en": "Big brother... Emi... I'm sorry!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 207,
+   "en": "Michiru",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": "Oh, no way! This is as far as I go!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 209,
+   "en": "Ibis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "en": "At my current skill...@this is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "en": "Sleigh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": "Ngh... Me, made a shooting star...@I'm ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 213,
+   "en": "Raul",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "en": "This... This can't be happening...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "en": "Fiona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "en": "I-I'm beaten?! No way!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 217,
+   "en": "Despinis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 218,
+   "en": "Oh no, it can't be!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 219,
+   "en": "Josh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 220,
+   "en": "Th-This is my limit!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "en": "Rim",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "en": "Ngggh! Not in a place like this!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "en": "Glacies",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 224,
+   "en": "So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 225,
+   "en": "Rishu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 226,
+   "en": "Nngh! Have I blundered...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 227,
+   "en": "Gilliam",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "en": "Ngh! Ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 229,
+   "en": "Radha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 230,
+   "en": "N-Not in a place like this...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 231,
+   "en": "Yon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 232,
+   "en": "Aah! M-Master!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 233,
+   "en": "Masaki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 234,
+   "en": "Sorry!@I'm gonna have to bow out...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 235,
+   "en": "Lüne",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 236,
+   "en": "I'm sorry, Valsione...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 237,
+   "en": "Shu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 238,
+   "en": "For the Granzon... to be shot down...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 239,
+   "en": "Amala",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 240,
+   "en": "It can't be helped... Withdrawing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 241,
+   "en": "Albada",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 242,
+   "en": "Damn it, is this as far as I go?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 243,
+   "en": "Serena",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 244,
+   "en": "N-No way!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 245,
+   "en": "Haken",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 246,
+   "en": "Guess I blew it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 247,
+   "en": "Akimi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 248,
+   "en": "Damn it! It's no good!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 249,
+   "en": "Akemi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 250,
+   "en": "I-Is this the end?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 251,
+   "en": "Vort",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 252,
+   "en": "I can't keep fighting...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 253,
+   "en": "Sieg",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 254,
+   "en": "Sally",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 255,
+   "en": "I have no choice but to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 256,
+   "en": "Touya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 257,
+   "en": "N-Not here!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 258,
+   "en": "Calvina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 259,
+   "en": "How disgraceful...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 260,
+   "en": "E-Selda",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 261,
+   "en": "Curses...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 262,
+   "en": "Al-Van",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 263,
+   "en": "I let my guard down...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 264,
+   "en": "Skull Knight",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 265,
+   "en": "Aw, man, they got me good!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 266,
+   "en": "Return face to default",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 267,
+   "en": "???",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 268,
+   "en": "To all you players out there,@welcome to the world of Super Robot Wars!@I'm Arado Balanga!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 269,
+   "en": "And serving as my coach is the demon drill@instructor who makes crying kids laugh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 270,
+   "en": "Why would they laugh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 271,
+   "en": "Huh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 272,
+   "en": "Whatever. I'm Major Kai Kitamura, leader@of the Special Combat Training Unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 273,
+   "en": "He may not look it, but the Major's actually@pretty young.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 274,
+   "en": "Ngh! What's that supposed to mean!?@You don't need to say that!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 275,
+   "en": "S-Sorry!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 276,
+   "en": "...Ahem.@Now, let's begin our lesson on how to play.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 277,
+   "en": "Y-Yes, sir! I'm counting on you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 278,
+   "en": "Arado, have you ever played@Super Robot Wars before?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 279,
+   "en": "No, sir!@I'm a total rookie!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 280,
+   "en": "...I trust you've read the manual@cover to cover?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 281,
+   "en": "Nope! I'm going in totally blind!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 282,
+   "en": "You fool!@What do you take Super Robot Wars for?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 283,
+   "en": "A-A simulation RPG, sir!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 284,
+   "en": "...Hmm, that's correct.@Then I'll explain everything from the start.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 285,
+   "en": "U-Um, Major Kai...@I'm not so great at remembering stuff.@Will I be okay?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 286,
+   "en": "Then drill this into your head first.@If anything's unclear, press <I=92>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 287,
+   "en": "<I=92>... you mean on the@wireless controller?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 288,
+   "en": "Right.@Depending on the situation, it'll explain@the controls and features.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 289,
+   "en": "When in doubt, <I=92>.@Don't forget that.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 290,
+   "en": "Roger!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 291,
+   "en": "Now, I'll explain step by step@how to play Super Robot Wars.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 292,
+   "en": "Scenes like this one, where we're talking,@are called Scenario Demos...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 293,
+   "en": "You advance the \"Scenario Demo\" by pressing <I=41>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 294,
+   "en": "And pressing <I=55> and <I=41> together@fast-forwards it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 295,
+   "en": "Furthermore, pressing <I=61> and <I=55> together@skips the \"Scenario Demo\" entirely.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 296,
+   "en": "All right, let's try it...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 297,
+   "en": "Wait. If you try it here, this Scenario Demo@will end.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 298,
+   "en": "Whoa... R-Right.@Close one, close one.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 299,
+   "en": "But that feature'll be handy@for second playthroughs and stuff,@so I'd better write it down.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 300,
+   "en": "Good attitude, but do you actually@remember exactly what I said?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 301,
+   "en": "Uh, um... well... er...@How did it go again?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 302,
+   "en": "...I thought so. In that case, press <I=45>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 303,
+   "en": "That brings up the Backlog, which lets you@scroll back and reread the conversation@up to a certain point.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 304,
+   "en": "So it's fine even if I accidentally@skip past some lines!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 305,
+   "en": "However, there's a limit to how much you@can reread. Keep that in mind.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 306,
+   "en": "Roger that!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 307,
+   "en": "Also, sometimes words in a different@color will appear in the conversation...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 308,
+   "en": "That's called a \"Keyword.\" Press <I=47>@to open a window that explains it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 309,
+   "en": "<Inspector Incident>.@...Press <I=47> at times like this for an explanation.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 310,
+   "en": "<Inspector Incident>.@Press <I=47> and give it a try.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 311,
+   "en": "Got it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 312,
+   "en": "Right!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 313,
+   "en": "For other controls in the \"Scenario Demo,\"@try pressing <I=92>, as I explained earlier.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 314,
+   "en": "That will display a panel@explaining the various controls.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 315,
+   "en": "Like this.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 316,
+   "en": "Gotcha...@So if I press <I=92>, I can see@that control guide again.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 317,
+   "en": "Now, let's move on to the battle map.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 318,
+   "en": "Hmm, so this is the battle map.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 319,
+   "en": "In Super Robot Wars, you progress by@clearing the battle map prepared@for each scenario.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 320,
+   "en": "First, you move your robots, known as \"units,\"@during the Player Phase...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 321,
+   "en": "Once you're done, the computer@moves the enemy units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 322,
+   "en": "So my turn and the enemy's turn alternate.@Kinda like shogi or baseball, huh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 323,
+   "en": "That's right.@The game proceeds by repeating@the Player Phase and Enemy Phase.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 324,
+   "en": "Got it.@So what am I actually supposed to do?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 325,
+   "en": "The task you must complete to clear a@scenario, the Mission Objective, is shown@under General Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 326,
+   "en": "General Commands?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 327,
+   "en": "Put the cursor on a unit and press <I=41>@to bring up the \"Individual Commands\"@for controlling that unit...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 328,
+   "en": "Put the cursor where there's no unit and@press <I=41> to display the \"General Commands.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 329,
+   "en": "Like so.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 330,
+   "en": "Now press <I=41>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 331,
+   "en": "Gotcha...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 332,
+   "en": "And if I put the cursor on a unit and press <I=41>,@the \"Individual Commands\" come up, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 333,
+   "en": "Can I really memorize all those commands...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 334,
+   "en": "Don't worry.@You'll understand how each command works@once you actually use it in the game.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 335,
+   "en": "The \"Mission Objectives\" you mentioned earlier@are under \"General Commands,\" right?@Let's take a look.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 336,
+   "en": "That red robot is@the Razangriff Raven.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 337,
+   "en": "So I control that thing and@move it to the point?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 338,
+   "en": "Correct.@Get it to that designated point,@and you'll have met the victory condition.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 339,
+   "en": "Now, use the \"Move\" Unit Command@and head for the designated point.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 340,
+   "en": "Note that the Mass-Production Huckebein Mk-II@over there can't act this time.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 341,
+   "en": "Each unit can only act once per phase.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 342,
+   "en": "Once a unit finishes its action,@it can't move again that phase. Be careful.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 343,
+   "en": "Then let's begin@LESSON 1: Movement.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 344,
+   "en": "Huh?@Didn't quite make it...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 345,
+   "en": "All units that can move@have now finished their actions.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 346,
+   "en": "What now?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 347,
+   "en": "Hand the phase over to the enemy.@Select \"End Phase\" at the top of the@\"General Commands\" and confirm it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 348,
+   "en": "Otherwise, the game won't progress.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 349,
+   "en": "What happens if I give the enemy the phase?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 350,
+   "en": "Normally, enemy units would act.@But since there are no enemies right now,@it'll go straight back to the player phase.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 351,
+   "en": "So that means it's my turn, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 352,
+   "en": "All right, this time I'll nail it!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 353,
+   "en": "Now, end the player phase.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 354,
+   "en": "That clears LESSON 1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 355,
+   "en": "Next one, please!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 356,
+   "en": "Then let's move on to LESSON 2.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 357,
+   "en": "Same as before?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 358,
+   "en": "Not quite. The designated point is over there.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 359,
+   "en": "It's kinda far...@Well, I'll just get there in two moves.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 360,
+   "en": "Wait.@An \"SR Point Condition\" has been added@to the \"Mission Objectives.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 361,
+   "en": "Seriously?@Show me that again, Major.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 362,
+   "en": "Yeah.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 363,
+   "en": "Hey, it's true.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 364,
+   "en": "\"SR (Super Robot) Points\"...@Each map has one task, separate from@the victory conditions.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 365,
+   "en": "Clear it, and you'll earn an \"SR Point.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 366,
+   "en": "Is that actually good for anything?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 367,
+   "en": "The moment you get it, you receive \"PP\"...@points for training pilots. Each allied pilot@on the map gets 10.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 368,
+   "en": "Then I've gotta get them!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 369,
+   "en": "However, if you earn the points,@you'll be judged a skilled player,@and the game's difficulty will rise.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 370,
+   "en": "If you obtain 80% or more of all \"SR Points\"@(one per map), the difficulty becomes Hard.@Below 80%, it becomes Normal.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 371,
+   "en": "So beginners don't need to push themselves@to collect \"SR Points.\" They have nothing@to do with scenario branching conditions.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 372,
+   "en": "So it's like a challenge for players@who think they've got skills, huh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 373,
+   "en": "That's right.@That said, I recommend beginners choose@\"Beginner's Mode\" when starting the game.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 374,
+   "en": "Is there some difference?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 375,
+   "en": "Yes. The game's difficulty is locked@to \"NORMAL\" from start to finish.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 376,
+   "en": "So I don't have to worry about@the conditions for getting \"SR Points\"?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 377,
+   "en": "Correct. But earning an \"SR Point\" gives you@a flat bonus of funds. When you have@the leeway, give it a shot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 378,
+   "en": "Then when it looks like I can grab@an \"SR Point\" easily, I'll go for it!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 379,
+   "en": "Now, let's sum up \"SR Points.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 380,
+   "en": "But with that unit's movement,@there's no way I can reach the point@in a single move.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 381,
+   "en": "In that case, use Spirit Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 382,
+   "en": "Spirit Commands?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 383,
+   "en": "They're special commands@assigned to each pilot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 384,
+   "en": "By spending a pilot's \"Spirit Points,\" or \"SP,\"@they can produce all sorts of effects@on units and pilots.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 385,
+   "en": "Wh-Whoa, sounds like magic.@Can I fire those off like crazy from the start?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 386,
+   "en": "Depends on the pilot.@Though at low levels, they'll only have@a limited set of Spirit Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 387,
+   "en": "So when a pilot levels up...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 388,
+   "en": "Accordingly, they gradually learn@new Spirit Commands, and their@Spirit Points increase too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 389,
+   "en": "Then if I learn around 100 Spirit Commands,@I'll be invincible!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 390,
+   "en": "Life doesn't work out that easily.@A single pilot can learn@up to six Spirit Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 391,
+   "en": "Aw, c'mon...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 392,
+   "en": "When a new pilot joins you, check@which Spirit Commands they have.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 393,
+   "en": "You won't be able to clear LESSON 2@without using Spirit Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 394,
+   "en": "Roger! I'll give it a shot!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 395,
+   "en": "All right!@Time to take on LESSON 2!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 396,
+   "en": "Before that, hand the phase over to the enemy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 397,
+   "en": "H-How do I do that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 398,
+   "en": "Select \"End Phase\" at the top of the General@Commands and press <I=41>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 399,
+   "en": "Normally, the enemy units would act now.@But since there aren't any enemies,@it goes straight back to the Player Phase.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 400,
+   "en": "All right, I'm gonna give LESSON 2 my all!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 401,
+   "en": "Now use End Phase to end the@Player Phase.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 402,
+   "en": "Select \"End Phase\" from the General Commands@and press <I=41>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 403,
+   "en": "Okay!@Now let's take another shot at LESSON 2!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 404,
+   "en": "Hold on.@You won't reach the target point without using@a certain something.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 405,
+   "en": "A certain something?@You mean Spirit Commands, sir?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 406,
+   "en": "Right. Use Accel, a Spirit Command@that raises a unit's movement.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 407,
+   "en": "There are also many other kinds of@Spirit Commands besides Accel.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 408,
+   "en": "Valor when you want to deal big damage,@Flash when you need to dodge for sure...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 409,
+   "en": "Vigor or Trust when you want to restore@a unit's HP...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 410,
+   "en": "Choosing the right Spirit Command for each@situation is the key to winning.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 411,
+   "en": "Then I'll just zip-zip-zip over there with@Accel and clear this thing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 412,
+   "en": "Oh... You seem confident.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 413,
+   "en": "You bet!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 414,
+   "en": "If you fail...@you only get two refills at meals.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 415,
+   "en": "Gah!@B-But I'll roll the dice and give it a shot!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 416,
+   "en": "Your dice rolls never pay off.@Are you sure about this?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 417,
+   "en": "Actually... it'd be nice if I could@get a do-over if I mess up, heh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 418,
+   "en": "That's what saving is for.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 419,
+   "en": "Saving?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 420,
+   "en": "Yes. In the command menu, there's a command@called Suspend Save.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 421,
+   "en": "Use it to record your progress@partway through the game.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 422,
+   "en": "And during the game, <I=61><I=53><I=55> (hold)...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 423,
+   "en": "...and you'll return to where you saved.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 424,
+   "en": "So, a soft reset, basically...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 425,
+   "en": "If you make a mistake you can't undo,@you can soft reset and try again.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 426,
+   "en": "Always save before the moments that count.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 427,
+   "en": "Got it, sir!@Now, on to LESSON 2!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 428,
+   "en": "All riiight, cleared it!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 429,
+   "en": "That earns you an SR Point.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 430,
+   "en": "Aw, man... I blew it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 431,
+   "en": "If you'd used the Spirit Command Accel,@you should've reached the point.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 432,
+   "en": "Oh well. Just this once, I'll let you@have the SR Point.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 433,
+   "en": "I see.@So that's what getting an SR Point does.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 434,
+   "en": "The conditions for earning SR Points@vary from map to map.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 435,
+   "en": "Some are simple, like this one, while others@require you to make full use of various@skills and strategies.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 436,
+   "en": "Also, if you replay after a Game Over,@you can't earn the SR Point. Keep that in mind.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 437,
+   "en": "Th-That sounds kinda tough...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 438,
+   "en": "You can still progress through and clear@the game without earning SR Points.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 439,
+   "en": "So I recommend beginners play without@worrying about SR Points.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 440,
+   "en": "That keeps the game's difficulty lower, too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 441,
+   "en": "Got it!@Then I'll take it easy and not worry about it!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 442,
+   "en": "Now, next up is combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 443,
+   "en": "Combat is arguably the most important element@of Super Robot Wars.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 444,
+   "en": "Then let's get right to it!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 445,
+   "en": "Don't rush, Arado.@You won't win battles by going it alone.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 446,
+   "en": "The key is making good use of your units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 447,
+   "en": "Units, huh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 448,
+   "en": "The units you control on the map come in@two types: Twin Units and Single Units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 449,
+   "en": "A Twin Unit has two positions... a Main unit@that leads, and a Sub unit that follows it,@for a total of two machines...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 450,
+   "en": "A Single Unit consists of just one@machine: the Main unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 451,
+   "en": "A Twin Unit acts as a single group. Both@machines move together and attack together.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 452,
+   "en": "Also, only Twin Units can use@Twin Spirit Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 453,
+   "en": "Only Main pilots can use Twin Spirit Commands.@Unlike regular Spirit Commands, they consume@the Spirit Points of both Main pilots.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 454,
+   "en": "...Perhaps it'd be easier to understand@if I showed you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 455,
+   "en": "But there aren't any Twin Units on the map, sir.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 456,
+   "en": "You can reorganize units into Single Units@or Twin Units on the map, too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 457,
+   "en": "How do I do that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 458,
+   "en": "Use the Join unit command to combine two@Single Units within the surrounding 8 squares@into a Twin Unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 459,
+   "en": "There are no special requirements, like Will,@but battleships are the exception--they can't@form a Twin Unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 460,
+   "en": "The window shown when joining displays the@squad's Abilities and their effects.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 461,
+   "en": "Abilities?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 462,
+   "en": "Abilities are equipped to units and pilots,@granting special effects that give you an edge@in battle.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 463,
+   "en": "Units and pilots each have Slots that can@hold three Abilities apiece.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 464,
+   "en": "And when three or more of the same Ability@are equipped, an Ability Effect activates.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 465,
+   "en": "Ability Effects give a squad various bonuses,@such as increased weapon damage or evasion.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 466,
+   "en": "A Single Unit counts six Slots in total, from@its unit and main pilot, while a Twin Unit@counts twelve.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 467,
+   "en": "So a Single Unit can have up to two@Ability Effects, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 468,
+   "en": "A Twin Unit can activate up to four Ability@Effects for each unit, so it's a better deal!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 469,
+   "en": "You equip Abilities with the Ability command@during the intermission.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 470,
+   "en": "Now, let's try using a Twin Spirit Command.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 471,
+   "en": "When a Twin Unit attacks, the sub unit doesn't@have to attack, but it can still be targeted@by enemy counterattacks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 472,
+   "en": "And as I said earlier, each unit can only act@once per phase, so the sub unit will also@finish its action.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 473,
+   "en": "It finishes its action without doing anything?@What a waste.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 474,
+   "en": "In that case, just split the Twin Unit@back into Single Units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 475,
+   "en": "To turn a Twin Unit into Single Units,@use the Disband unit command.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 476,
+   "en": "But be careful: separating will cancel@the effects of any active Twin Spirit@Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 477,
+   "en": "Now, I'll bring out some enemy units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 478,
+   "en": "Before we get into combat, I'll explain weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 479,
+   "en": "There are three types of weapons:@Normal, ALL, and MAP.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 480,
+   "en": "Um... ALL weapons are the ones marked@with ALL...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 481,
+   "en": "And MAP weapons are marked with MAP...@and the ones with no mark are Normal, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 482,
+   "en": "Correct. An attack with a Normal weapon@is called a Normal Attack...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 483,
+   "en": "An attack with an ALL weapon is an ALL Attack,@and an attack with a MAP weapon is called@a MAP Weapon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 484,
+   "en": "A Normal Attack weapon damages one unit,@while an ALL Attack weapon damages a whole@squad...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 485,
+   "en": "And a MAP Weapon damages every squad@within its area of effect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 486,
+   "en": "Th-that's powerful!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 487,
+   "en": "Also, keep in mind that position matchups@matter in combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 488,
+   "en": "Same positions--your main unit attacking the@enemy's main unit, or sub attacking sub--@are fine, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 489,
+   "en": "Opposite positions--such as a main unit@attacking a sub unit--deal less damage@than normal.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 490,
+   "en": "Attacks from the main unit deal 100% damage@to the enemy's main unit and 65% to its sub.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 491,
+   "en": "I see...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 492,
+   "en": "Also, some weapons can only be used when@the pilot's Will is at a certain level@or higher.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 493,
+   "en": "Will also affects the damage you deal.@It rises and falls as you fight in battles@and as enemy or allied units are shot down.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 494,
+   "en": "Now, I'll demonstrate an ALL Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 495,
+   "en": "So that's an ALL Attack...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 496,
+   "en": "Some ALL Attack weapons can also perform@a Double Attack, damaging an adjacent enemy@squad at the same time.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 497,
+   "en": "Next, I'll explain MAP Weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 498,
+   "en": "Yes, sir.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 499,
+   "en": "As I said earlier, MAP Weapons damage every@squad within their area of effect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 500,
+   "en": "Their damage isn't reduced by position,@and the enemy can't counterattack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 501,
+   "en": "That's pretty handy!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 502,
+   "en": "However, if allies are within the area,@they'll take damage along with the enemy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 503,
+   "en": "Be very careful when using MAP Weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 504,
+   "en": "Y-Yes, ma'am.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 505,
+   "en": "Now, I'll use a MAP Weapon for real.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 506,
+   "en": "Wh-whoa... wiped 'em all out in one go.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 507,
+   "en": "One feature of MAP Weapons is that each type@has its own unique area of effect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 508,
+   "en": "Next, I'll explain Normal Attacks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 509,
+   "en": "Huh? There's more than one kind of@Normal Attack?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 510,
+   "en": "That's right. In battles between Twin Units,@you can choose Single Attack or Focused Attack.@I'll explain each one briefly.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 511,
+   "en": "First, Single Attack. With this, each of the@Twin Unit's two units attacks its target...@the enemy in the same position.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 512,
+   "en": "Use Single Attack when you want to spread@damage evenly across an enemy squad.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 513,
+   "en": "Understood!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 514,
+   "en": "Now, I'll explain Focused Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 515,
+   "en": "Single Attack hits the enemy in the same@position, while Focused Attack lets you pick@any one unit in the enemy squad to attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 516,
+   "en": "So I can gang up on whoever's in the way!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 517,
+   "en": "Exactly. Now, I'll demonstrate@a Focused Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 518,
+   "en": "That was a Focused Attack. Remember that@Normal Attacks come in two kinds:@Single Attack and Focused Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 519,
+   "en": "Also, Normal Attacks can trigger Support@Attack or Support Defense from adjacent squads.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 520,
+   "en": "With Support Attack, an adjacent squad makes@a follow-up attack after your Normal Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 521,
+   "en": "Conversely, with Support Defense, when the@enemy hits you with a Normal Attack,@an adjacent squad takes the damage instead.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 522,
+   "en": "I see... So with a Normal Attack,@the unit next to me might lend a hand.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 523,
+   "en": "That's right, but you can't always@perform a Support Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 524,
+   "en": "To perform a \"Support Attack\" or \"Support Defense,\"@the main pilot needs the special skill@\"Support Attack Lv\" or \"Support Defense Lv.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 525,
+   "en": "Got it!@I'll pick that stuff up as I play!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 526,
+   "en": "Besides the attacks I've covered, there are@other types, such as Combination Attacks@and Maximum Break.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 527,
+   "en": "A Combination Attack uses a dedicated@Combination Attack weapon to hit@up to five enemies at once.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 528,
+   "en": "Weapons marked with a C are the ones@that can be used for Combination Attacks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 529,
+   "en": "Also, the targets must be next to each other,@and the attacking pilot must have learned the@special skill Continuous Attack Lv.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 530,
+   "en": "If \"Twin Units\" are adjacent and the attacking@pilot has learned the special skill \"MB Activate,\"@they can perform a \"Maximum Break.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 531,
+   "en": "In a Maximum Break, four units unleash@a barrage with support weapons marked F,@followed by an attack with the main weapon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 532,
+   "en": "Note that weapons marked ALL can't@be used as the main weapon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 533,
+   "en": "Also, everyone's Will must be 140 or higher.@And afterward, their Will drops by 10.@So think carefully about when to use it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 534,
+   "en": "The key to victory is using the attacks I've@taught you as the situation demands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 535,
+   "en": "Normal Attack, ALL Attack,@and, uh... what was the other one?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 536,
+   "en": "I already told you what to do at times like this.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 537,
+   "en": "Huh? What was it again?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 538,
+   "en": "Seriously... I taught you that first thing.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 539,
+   "en": "Oh, right!@I press <I=92>!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 540,
+   "en": "Next lesson: looking up terms on the Status@screen and elsewhere... using Menu Help.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 541,
+   "en": "Using Status in the Unit Commands lets you@see all sorts of info about that unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 542,
+   "en": "Arado, bring up the help for the weapon@types we just talked about.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 543,
+   "en": "Uhh, I open \"Stats\" in the \"Individual Commands\"...@and press <I=92> on the \"Weapon Stats\" screen.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 544,
+   "en": "I see... Help can tell you all kinds of stuff.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 545,
+   "en": "Also, <I=92> Help can be used while the@\"General Commands\" or \"Individual Commands\"@are displayed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 546,
+   "en": "In that case, a description of the command@appears at the bottom of the screen.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 547,
+   "en": "When in trouble, <I=92> Help!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 548,
+   "en": "You earn EXP by hitting@or shooting down enemies.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 549,
+   "en": "Every 500 EXP, the pilot levels up@and grows stronger.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 550,
+   "en": "You can also earn EXP by using@the Repair or Resupply commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 551,
+   "en": "Repair? Resupply?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 552,
+   "en": "They're special commands that@support other units in combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 553,
+   "en": "Only certain units can use them...@but if you don't master them, you won't@win the tough battles.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 554,
+   "en": "If a unit with that ability is made squad@leader, the command will appear@in the Unit Commands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 555,
+   "en": "For example, after taking damage from@an enemy attack...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 556,
+   "en": "Ah!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 557,
+   "en": "I'll set the Mass-Production Huckebein Mk-II@equipped with a Repair Module as the main unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 558,
+   "en": "Whoa! My HP recovered!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 559,
+   "en": "That was Repair.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 560,
+   "en": "Then what about Resupply?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 561,
+   "en": "Resupply restores a unit's spent EN@and weapon ammo.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 562,
+   "en": "Keep in mind both commands only work on@squads within Repair or Resupply range.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 563,
+   "en": "Shooting down enemies also earns Funds and PP,@and sometimes even Enhancement Parts.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 564,
+   "en": "Those are used during the Intermission@after you clear a map.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 565,
+   "en": "All right!@First, I'll beat the enemies and clear the map!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 566,
+   "en": "The enemy will fight back, so be careful.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 567,
+   "en": "Now, let's begin the final lesson.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 568,
+   "en": "Clear this one, and you'll be ready@to start the game right away.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 569,
+   "en": "Yeah! I beat the enemies!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 570,
+   "en": "Good. You've mastered the basics.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 571,
+   "en": "I won this time, but I bet there are@some tough maps out there.@Think I can clear them?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 572,
+   "en": "Dammit, I got taken out!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 573,
+   "en": "Normally, that'd be a Game Over.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 574,
+   "en": "Aw, man... What do I do?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 575,
+   "en": "No need to worry.@On a Game Over, you restart the map@from the beginning, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 576,
+   "en": "The Funds and EXP you earned before the@Game Over carry over.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 577,
+   "en": "So if I level up and then get a Game Over,@I get to retry at that level?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 578,
+   "en": "That's right.@Even tough maps can be cleared if you keep at it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 579,
+   "en": "Then I've got nothing to worry about!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 580,
+   "en": "There's also a Strategy Q&A with tips@and info to help you beat the game.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 581,
+   "en": "Reading it should help when you're@tackling difficult maps.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 582,
+   "en": "So how do I view that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 583,
+   "en": "Select \"LIBRARY\" on the title screen,@then select \"Strategy Q&A\"...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 584,
+   "en": "Or go to \"Library\" under \"Options\" during@the \"Intermission\" and pick \"Strategy Q&A.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 585,
+   "en": "That concludes the battle map guidance.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 586,
+   "en": "Good work, Arado.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 587,
+   "en": "That was a piece of cake!@So, is this the \"Intermission\"?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 588,
+   "en": "No. The \"Intermission\" comes once this@\"Scenario Demo\" is over.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 589,
+   "en": "That's where you prepare to move on to the@next scenario.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 590,
+   "en": "Prepare?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 591,
+   "en": "For example, you can save your game@data up to this point...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 592,
+   "en": "Reorganize your team for the next scenario,@equip your units with \"Enhancement Parts\"...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 593,
+   "en": "Upgrade units with \"Funds\" earned in battle,@and train pilots using \"PP.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 594,
+   "en": "I see.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 595,
+   "en": "To really understand it, you should see an@actual \"Intermission\" in the main story.@Then try out the various functions yourself.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 596,
+   "en": "Roger that!@Then I'll jump right into the main story!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 597,
+   "en": "But first, a quick review.@What should you do if something confuses you?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 598,
+   "en": "Uhh... umm... Oh, I know!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 599,
+   "en": "First, I find some way to call Major Kai!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 600,
+   "en": "Yes. Then I appear on the screen and give@you the answer...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 601,
+   "en": "You fool! There's no such feature!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 602,
+   "en": "Aww, man...@You players out there know the answer, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 603,
+   "en": "With that, the \"Guidance Scenario\" is complete.@I wish you all luck, players. Until we meet@again in the main story.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  }
+ ]
+}

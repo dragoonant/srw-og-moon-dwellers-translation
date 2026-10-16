@@ -1,0 +1,3863 @@
+{
+ "file": "StageData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 804,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 828,
+   "payload_offset": 840,
+   "size": 1620,
+   "count": 81
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 2460,
+   "payload_offset": 2468,
+   "size": 644,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 3112,
+   "payload_offset": 3124,
+   "size": 17896,
+   "count": 161
+  }
+ ],
+ "records": {
+  "count": 81,
+  "size": 20
+ },
+ "dofs": {
+  "entries": 201,
+  "unused_ids": 120
+ },
+ "string_fields": [
+  {
+   "offset": 3,
+   "width": 1,
+   "label": "title",
+   "kind": "display"
+  },
+  {
+   "offset": 4,
+   "width": 1,
+   "label": "subtitle",
+   "kind": "display"
+  },
+  {
+   "offset": 5,
+   "width": 1,
+   "label": "title_b",
+   "kind": "unknown"
+  },
+  {
+   "offset": 6,
+   "width": 1,
+   "label": "route",
+   "kind": "display"
+  },
+  {
+   "offset": 16,
+   "width": 1,
+   "label": "icon",
+   "kind": "internal"
+  }
+ ],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 3124,
+   "text_offset": 3130,
+   "role": "display",
+   "refs": [
+    "rec0.title",
+    "rec77.title",
+    "rec77.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Prologue",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 3146,
+   "text_offset": 3152,
+   "role": "display",
+   "refs": [
+    "rec0.subtitle"
+   ],
+   "orig_chars": [
+    69
+   ],
+   "orig_bytes": 208,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sentinel Commander E-Selda flees with the Throne Unit Granteed to Ashurey Kreuzer on the Moon, but finds it already ravaged by mobile weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 3360,
+   "text_offset": 3366,
+   "role": "unknown",
+   "refs": [
+    "rec0.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Prologue OGMI",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 3394,
+   "text_offset": 3400,
+   "role": "display",
+   "refs": [
+    "rec0.route",
+    "rec1.route",
+    "rec14.route",
+    "rec21.route",
+    "rec22.route",
+    "rec23.route",
+    "rec24.route",
+    "rec25.route",
+    "rec26.route",
+    "rec27.route",
+    "rec28.route",
+    "rec29.route",
+    "rec30.route",
+    "rec31.route",
+    "rec32.route",
+    "rec33.route",
+    "rec34.route",
+    "rec41.route",
+    "rec42.route",
+    "rec43.route",
+    "rec44.route",
+    "rec45.route",
+    "rec54.route",
+    "rec55.route",
+    "rec56.route",
+    "rec57.route",
+    "rec58.route",
+    "rec59.route",
+    "rec60.route",
+    "rec61.route",
+    "rec62.route",
+    "rec63.route",
+    "rec64.route",
+    "rec65.route",
+    "rec66.route",
+    "rec75.route",
+    "rec76.route",
+    "rec77.route",
+    "rec79.route"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Common",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 3407,
+   "text_offset": 3413,
+   "role": "internal",
+   "refs": [
+    "rec0.icon",
+    "rec1.icon",
+    "rec14.icon",
+    "rec21.icon",
+    "rec22.icon",
+    "rec23.icon",
+    "rec24.icon",
+    "rec25.icon",
+    "rec26.icon",
+    "rec27.icon",
+    "rec28.icon",
+    "rec29.icon",
+    "rec30.icon",
+    "rec31.icon",
+    "rec32.icon",
+    "rec33.icon",
+    "rec34.icon",
+    "rec41.icon",
+    "rec42.icon",
+    "rec43.icon",
+    "rec44.icon",
+    "rec45.icon",
+    "rec54.icon",
+    "rec55.icon",
+    "rec56.icon",
+    "rec57.icon",
+    "rec58.icon",
+    "rec59.icon",
+    "rec60.icon",
+    "rec61.icon",
+    "rec62.icon",
+    "rec63.icon",
+    "rec64.icon",
+    "rec65.icon",
+    "rec66.icon",
+    "rec75.icon",
+    "rec76.icon",
+    "rec77.icon",
+    "rec79.icon",
+    "rec80.icon"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 3435,
+   "text_offset": 3441,
+   "role": "display",
+   "refs": [
+    "rec1.title",
+    "rec1.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Branch Scenario 1",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 3466,
+   "text_offset": 3472,
+   "role": "display",
+   "refs": [
+    "rec1.subtitle"
+   ],
+   "orig_chars": [
+    74
+   ],
+   "orig_bytes": 223,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ashurey Kreuzer on the Moon has been attacked. Returning there, Calvina, test pilot of the prototype Bellzelute, runs into an unknown unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 3695,
+   "text_offset": 3701,
+   "role": "display",
+   "refs": [
+    "rec2.title",
+    "rec2.title_b"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Soul Saber vs. Compati Kaiser",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 3750,
+   "text_offset": 3756,
+   "role": "display",
+   "refs": [
+    "rec2.subtitle"
+   ],
+   "orig_chars": [
+    65
+   ],
+   "orig_bytes": 196,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Akimi and Akemi, siblings who test the Mighty Walker Soul Saber built by Mogami Heavy Industries, spar with the Compatible Kaiser.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 3952,
+   "text_offset": 3958,
+   "role": "display",
+   "refs": [
+    "rec2.route",
+    "rec3.route",
+    "rec4.route",
+    "rec5.route",
+    "rec6.route",
+    "rec7.route",
+    "rec15.route",
+    "rec16.route",
+    "rec17.route",
+    "rec78.route"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Surface",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 3965,
+   "text_offset": 3971,
+   "role": "internal",
+   "refs": [
+    "rec2.icon",
+    "rec3.icon",
+    "rec4.icon",
+    "rec5.icon",
+    "rec6.icon",
+    "rec7.icon",
+    "rec15.icon",
+    "rec16.icon",
+    "rec17.icon",
+    "rec35.icon",
+    "rec36.icon",
+    "rec37.icon",
+    "rec46.icon",
+    "rec47.icon",
+    "rec48.icon",
+    "rec49.icon",
+    "rec78.icon"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 3988,
+   "text_offset": 3994,
+   "role": "display",
+   "refs": [
+    "rec3.title",
+    "rec3.title_b",
+    "rec78.title",
+    "rec78.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Father, Son and Fate",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 4022,
+   "text_offset": 4028,
+   "role": "display",
+   "refs": [
+    "rec3.subtitle",
+    "rec78.subtitle"
+   ],
+   "orig_chars": [
+    68
+   ],
+   "orig_bytes": 205,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Touya boards Granteed with his visiting father Seldoa. With Kota's group they drive off the enemy, but his father soon passes away.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 4233,
+   "text_offset": 4239,
+   "role": "display",
+   "refs": [
+    "rec4.title",
+    "rec4.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Puppet Trap",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 4255,
+   "text_offset": 4261,
+   "role": "display",
+   "refs": [
+    "rec4.subtitle"
+   ],
+   "orig_chars": [
+    51
+   ],
+   "orig_bytes": 154,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Federation troops sent to help attack Kota's group. Their controller is after the Compatible Kaiser.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 4415,
+   "text_offset": 4421,
+   "role": "display",
+   "refs": [
+    "rec5.title",
+    "rec5.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Each Their Own Reasons",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 4443,
+   "text_offset": 4449,
+   "role": "display",
+   "refs": [
+    "rec5.subtitle"
+   ],
+   "orig_chars": [
+    61
+   ],
+   "orig_bytes": 184,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Zovorg mobile weapons attack Mogami's offshore plant. To save their father Zuiun, Akimi and Akemi rush there with Kota's group.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 4633,
+   "text_offset": 4639,
+   "role": "display",
+   "refs": [
+    "rec6.title",
+    "rec6.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Crystal Dragon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 4652,
+   "text_offset": 4658,
+   "role": "display",
+   "refs": [
+    "rec6.subtitle"
+   ],
+   "orig_chars": [
+    71
+   ],
+   "orig_bytes": 214,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Crystal Dragoon, a Dark Brain remnant, raids Yakumo Base for the G-Compatible Kaiser. To escape the crisis, Touya boards Granteed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 4872,
+   "text_offset": 4878,
+   "role": "display",
+   "refs": [
+    "rec7.title",
+    "rec7.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gunner Guard",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 4903,
+   "text_offset": 4909,
+   "role": "display",
+   "refs": [
+    "rec7.subtitle"
+   ],
+   "orig_chars": [
+    48
+   ],
+   "orig_bytes": 145,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "As Zovorg mobile weapons attack Izu Base, Akemi intercepts them in the Soul Saber GG.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 5054,
+   "text_offset": 5060,
+   "role": "display",
+   "refs": [
+    "rec8.title",
+    "rec8.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "White Lynx",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 5088,
+   "text_offset": 5094,
+   "role": "display",
+   "refs": [
+    "rec8.subtitle"
+   ],
+   "orig_chars": [
+    67
+   ],
+   "orig_bytes": 202,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At the ruins of Ashurey Kreuzer on the Moon, the Bellzelute fights troops posing as the Federation. The new PTX Team arrives to help.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 5296,
+   "text_offset": 5302,
+   "role": "display",
+   "refs": [
+    "rec8.route",
+    "rec9.route",
+    "rec10.route",
+    "rec11.route",
+    "rec12.route",
+    "rec13.route",
+    "rec18.route",
+    "rec19.route",
+    "rec20.route"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Space",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 5309,
+   "text_offset": 5315,
+   "role": "internal",
+   "refs": [
+    "rec8.icon",
+    "rec9.icon",
+    "rec10.icon",
+    "rec11.icon",
+    "rec12.icon",
+    "rec13.icon",
+    "rec18.icon",
+    "rec19.icon",
+    "rec20.icon",
+    "rec38.icon",
+    "rec39.icon",
+    "rec40.icon",
+    "rec50.icon",
+    "rec51.icon",
+    "rec52.icon",
+    "rec53.icon",
+    "rec67.icon",
+    "rec68.icon",
+    "rec69.icon",
+    "rec70.icon",
+    "rec71.icon",
+    "rec72.icon",
+    "rec73.icon",
+    "rec74.icon"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 5332,
+   "text_offset": 5338,
+   "role": "display",
+   "refs": [
+    "rec9.title",
+    "rec9.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unwelcome Return",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 5351,
+   "text_offset": 5357,
+   "role": "display",
+   "refs": [
+    "rec9.subtitle"
+   ],
+   "orig_chars": [
+    60
+   ],
+   "orig_bytes": 181,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Zovorg mobile weapons attack the Steel Dragons on a shakedown cruise after reorganizing. The SRX and PTX Teams intercept.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 5538,
+   "text_offset": 5544,
+   "role": "display",
+   "refs": [
+    "rec10.title",
+    "rec10.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Calamity from That Land",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 5569,
+   "text_offset": 5575,
+   "role": "display",
+   "refs": [
+    "rec10.subtitle"
+   ],
+   "orig_chars": [
+    97
+   ],
+   "orig_bytes": 292,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Among the foes attacking the Steel Dragons en route to the Cross Gate is a unit like one seen at Ashurey Kreuzer, and Calvina sorties. Suddenly, a shower of light pours from the Cross Gate onto Earth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 5867,
+   "text_offset": 5873,
+   "role": "display",
+   "refs": [
+    "rec11.title",
+    "rec11.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ghosts Revived",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 5886,
+   "text_offset": 5892,
+   "role": "display",
+   "refs": [
+    "rec11.subtitle"
+   ],
+   "orig_chars": [
+    51
+   ],
+   "orig_bytes": 154,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A grotesque foe emerges from the Cross Gate: Ares Geist, thought lost inside the Adamatron.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 6046,
+   "text_offset": 6052,
+   "role": "display",
+   "refs": [
+    "rec12.title",
+    "rec12.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sleeping Enemies",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 6065,
+   "text_offset": 6071,
+   "role": "display",
+   "refs": [
+    "rec12.subtitle"
+   ],
+   "orig_chars": [
+    46
+   ],
+   "orig_bytes": 139,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Cross Gate Watch Fleet's AMs suddenly attack the Steel Dragons. Someone is controlling them.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 6210,
+   "text_offset": 6216,
+   "role": "display",
+   "refs": [
+    "rec13.title",
+    "rec13.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ginto's Calculation",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 6235,
+   "text_offset": 6241,
+   "role": "display",
+   "refs": [
+    "rec13.subtitle"
+   ],
+   "orig_chars": [
+    54
+   ],
+   "orig_bytes": 163,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ordered back to Izu Base, the Steel Dragons descend to Earth, where enemies lie in wait, just as Ginto predicted.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 6404,
+   "text_offset": 6410,
+   "role": "display",
+   "refs": [
+    "rec14.title",
+    "rec14.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Common Scenario",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 6429,
+   "text_offset": 6435,
+   "role": "display",
+   "refs": [
+    "rec14.subtitle"
+   ],
+   "orig_chars": [
+    47
+   ],
+   "orig_bytes": 142,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Hiryu Custom is sent to survey an asteroid nearing Earth; the Hagane, to fight enemies in Japan.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 6577,
+   "text_offset": 6583,
+   "role": "display",
+   "refs": [
+    "rec15.title",
+    "rec15.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Finest Prey",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 6599,
+   "text_offset": 6605,
+   "role": "display",
+   "refs": [
+    "rec15.subtitle"
+   ],
+   "orig_chars": [
+    64
+   ],
+   "orig_bytes": 193,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Hagane rushes to Tokyo to fight enemies raiding the city. It drives them off, but with it away, someone appears at Izu Base.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 6798,
+   "text_offset": 6804,
+   "role": "display",
+   "refs": [
+    "rec16.title",
+    "rec16.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Shining Granteed",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 6832,
+   "text_offset": 6838,
+   "role": "display",
+   "refs": [
+    "rec16.subtitle"
+   ],
+   "orig_chars": [
+    63
+   ],
+   "orig_bytes": 190,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The sudden appearance of an unknown enemy, the Thorn, leaves Izu Base in peril. To save his friends, Touya boards Granteed once again.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 7028,
+   "text_offset": 7034,
+   "role": "display",
+   "refs": [
+    "rec17.title",
+    "rec17.title_b"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Resonance",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 7041,
+   "text_offset": 7047,
+   "role": "display",
+   "refs": [
+    "rec17.subtitle"
+   ],
+   "orig_chars": [
+    52
+   ],
+   "orig_bytes": 157,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "As Zovorg mobile weapons appear at Izu Base right after, Josh sorties in the Geant Chevalier.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 7204,
+   "text_offset": 7210,
+   "role": "display",
+   "refs": [
+    "rec18.title",
+    "rec18.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Guardian Sword Shards",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 7226,
+   "text_offset": 7232,
+   "role": "display",
+   "refs": [
+    "rec18.subtitle"
+   ],
+   "orig_chars": [
+    56
+   ],
+   "orig_bytes": 169,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Attacking the Hiryu Custom during a long-range warp test is the Canis, a unit once used by the Gaia Savers.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 7401,
+   "text_offset": 7407,
+   "role": "display",
+   "refs": [
+    "rec19.title",
+    "rec19.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Transition Route",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 7420,
+   "text_offset": 7426,
+   "role": "display",
+   "refs": [
+    "rec19.subtitle"
+   ],
+   "orig_chars": [
+    54
+   ],
+   "orig_bytes": 163,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Warped to the 2nd relay point, the Hiryu Custom meets a likely Golaikunru ship and chases the fleeing foe.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 7589,
+   "text_offset": 7595,
+   "role": "display",
+   "refs": [
+    "rec20.title",
+    "rec20.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gadisword",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 7614,
+   "text_offset": 7620,
+   "role": "display",
+   "refs": [
+    "rec20.subtitle"
+   ],
+   "orig_chars": [
+    83
+   ],
+   "orig_bytes": 250,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Hiryu Custom is headed for Rabulpaila, an artificial body warped into the solar system. During peace talks with the alien Gadisword, Golaikunru forces suddenly attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 7870,
+   "text_offset": 7876,
+   "role": "display",
+   "refs": [
+    "rec21.title",
+    "rec21.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Larseilam",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 7898,
+   "text_offset": 7904,
+   "role": "display",
+   "refs": [
+    "rec21.subtitle"
+   ],
+   "orig_chars": [
+    61
+   ],
+   "orig_bytes": 184,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Granteed vanishes in light emitted by the Thorn. The Kurogane's crew saves Touya and the others from being taken away.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 8088,
+   "text_offset": 8094,
+   "role": "display",
+   "refs": [
+    "rec22.title",
+    "rec22.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Night of Tragedy (Part 1)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 8119,
+   "text_offset": 8125,
+   "role": "display",
+   "refs": [
+    "rec22.subtitle"
+   ],
+   "orig_chars": [
+    71
+   ],
+   "orig_bytes": 214,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Axel and Alchemie visit Tokyo to study what the Cross Gate Burst rained onto Earth, and meet endlessly appearing Unknowns.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 8339,
+   "text_offset": 8345,
+   "role": "display",
+   "refs": [
+    "rec23.title",
+    "rec23.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Night of Tragedy (Part 2)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 8370,
+   "text_offset": 8376,
+   "role": "display",
+   "refs": [
+    "rec23.subtitle"
+   ],
+   "orig_chars": [
+    62
+   ],
+   "orig_bytes": 187,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Endless Unknowns combine and corner the Steel Dragons, but Captain Ginto's plan lets them wipe out the Unknowns.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 8563,
+   "text_offset": 8569,
+   "role": "display",
+   "refs": [
+    "rec24.title",
+    "rec24.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Steel Dragons Head West",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 8591,
+   "text_offset": 8597,
+   "role": "display",
+   "refs": [
+    "rec24.subtitle"
+   ],
+   "orig_chars": [
+    57
+   ],
+   "orig_bytes": 172,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Steel Dragons head to Osaka to hunt Lamaris, but Zovorg mobile weapons under someone's control block the way.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 8769,
+   "text_offset": 8775,
+   "role": "display",
+   "refs": [
+    "rec25.title",
+    "rec25.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Wicked Clown",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 8794,
+   "text_offset": 8800,
+   "role": "display",
+   "refs": [
+    "rec25.subtitle"
+   ],
+   "orig_chars": [
+    66
+   ],
+   "orig_bytes": 199,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Michiru Hanaten faces the Lamaris in Osaka with the Steel Dragons. Then Debudedabide, a Dark Brain Army remnant, appears.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 8999,
+   "text_offset": 9005,
+   "role": "display",
+   "refs": [
+    "rec26.title",
+    "rec26.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Taipei Rush",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 9018,
+   "text_offset": 9024,
+   "role": "display",
+   "refs": [
+    "rec26.subtitle"
+   ],
+   "orig_chars": [
+    79
+   ],
+   "orig_bytes": 238,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Enemy forces await the Steel Dragons in Taipei on their Lamaris hunt. Calvina is shocked to see among them one who should have died at Ashurey on the Moon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 9262,
+   "text_offset": 9268,
+   "role": "display",
+   "refs": [
+    "rec27.title",
+    "rec27.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Name Thought Forgotten",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 9296,
+   "text_offset": 9302,
+   "role": "display",
+   "refs": [
+    "rec27.subtitle"
+   ],
+   "orig_chars": [
+    81
+   ],
+   "orig_bytes": 244,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "In Taipei, the Steel Dragons meet enemies led by a gray Thorn. Calvina learns its pilot is Al-Van, her lover Ally, thought dead.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 9546,
+   "text_offset": 9552,
+   "role": "display",
+   "refs": [
+    "rec28.title",
+    "rec28.title_b"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Hook & Blade",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 9562,
+   "text_offset": 9568,
+   "role": "display",
+   "refs": [
+    "rec28.subtitle"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Rätsel and Rishu join. Sänger returns. Haken joins.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 9650,
+   "text_offset": 9656,
+   "role": "display",
+   "refs": [
+    "rec29.title",
+    "rec29.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Skull Knight",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 9672,
+   "text_offset": 9678,
+   "role": "display",
+   "refs": [
+    "rec29.subtitle"
+   ],
+   "orig_chars": [
+    100
+   ],
+   "orig_bytes": 301,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Steel Dragons fight the returning Crystal Dragoon, and Skull Knight of the Dark Brain Army seizes the chance to attack the Hiryu Custom. To the rescue comes the Hagane, now fitted with a space warp device.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 9979,
+   "text_offset": 9985,
+   "role": "display",
+   "refs": [
+    "rec30.title",
+    "rec30.title_b"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Runaway Ghost",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 10019,
+   "text_offset": 10025,
+   "role": "display",
+   "refs": [
+    "rec30.subtitle"
+   ],
+   "orig_chars": [
+    81
+   ],
+   "orig_bytes": 244,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Dr. Kenzou Kobayashi theorizes that willpower can wipe out the Lamaris. His operation proves him right, but then Ares Geist appears again.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 10269,
+   "text_offset": 10275,
+   "role": "display",
+   "refs": [
+    "rec31.title",
+    "rec31.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Serendipity",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 10300,
+   "text_offset": 10306,
+   "role": "display",
+   "refs": [
+    "rec31.subtitle"
+   ],
+   "orig_chars": [
+    58
+   ],
+   "orig_bytes": 175,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Golaikunru targets the Steel Dragons. The crew suspects it's after the Drift Wing aboard the Hagane.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 10481,
+   "text_offset": 10487,
+   "role": "display",
+   "refs": [
+    "rec32.title",
+    "rec32.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gilliam's Gambit",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 10509,
+   "text_offset": 10515,
+   "role": "display",
+   "refs": [
+    "rec32.subtitle"
+   ],
+   "orig_chars": [
+    66
+   ],
+   "orig_bytes": 199,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Steel Dragons hunt Lamaris in India. The Fury appear to retake Granteed, but fail thanks to Gilliam's quick wits.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 10714,
+   "text_offset": 10720,
+   "role": "display",
+   "refs": [
+    "rec33.title",
+    "rec33.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Performers",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 10742,
+   "text_offset": 10748,
+   "role": "display",
+   "refs": [
+    "rec33.subtitle"
+   ],
+   "orig_chars": [
+    56
+   ],
+   "orig_bytes": 169,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Two Gadisword units seek contact with the Steel Dragons. Golaikunru forces chase them to the Hiryu Custom.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 10917,
+   "text_offset": 10923,
+   "role": "display",
+   "refs": [
+    "rec34.title",
+    "rec34.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Branch Scenario 2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 10948,
+   "text_offset": 10954,
+   "role": "display",
+   "refs": [
+    "rec34.subtitle"
+   ],
+   "orig_chars": [
+    91
+   ],
+   "orig_bytes": 274,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "With signs that Gadisword and Golaikunru are in league, the Hagane joins Operation Triumph to free Paris, and the Hiryu Custom heads for Karachi, where Lamaris gather.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 11228,
+   "text_offset": 11234,
+   "role": "display",
+   "refs": [
+    "rec35.title",
+    "rec35.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Masked Infiltrator",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 11253,
+   "text_offset": 11259,
+   "role": "display",
+   "refs": [
+    "rec35.subtitle"
+   ],
+   "orig_chars": [
+    72
+   ],
+   "orig_bytes": 217,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A survey team at an object that fell in Southern Europe Army territory goes missing; the Hagane warps in. Ing senses unknown forces lurking.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 11476,
+   "text_offset": 11482,
+   "role": "display",
+   "refs": [
+    "rec35.route",
+    "rec36.route",
+    "rec37.route"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "To Paris",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 11501,
+   "text_offset": 11507,
+   "role": "display",
+   "refs": [
+    "rec36.title",
+    "rec36.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "United Front",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 11520,
+   "text_offset": 11526,
+   "role": "display",
+   "refs": [
+    "rec36.subtitle"
+   ],
+   "orig_chars": [
+    71
+   ],
+   "orig_bytes": 214,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Crystal Dragoon and Lamaris appear at Aviano Base. Sieg and Sally board the Leonysis to survive and repel them with the arriving Hagane.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 11740,
+   "text_offset": 11746,
+   "role": "display",
+   "refs": [
+    "rec37.title",
+    "rec37.title_b"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Operation Triumph",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 11786,
+   "text_offset": 11792,
+   "role": "display",
+   "refs": [
+    "rec37.subtitle"
+   ],
+   "orig_chars": [
+    68
+   ],
+   "orig_bytes": 205,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Hagane joins Operation Triumph to free Paris, but Debudedabide appears and tries to carry off a Lamaris Kaana.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 11997,
+   "text_offset": 12003,
+   "role": "display",
+   "refs": [
+    "rec38.title",
+    "rec38.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Two Decoys",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 12028,
+   "text_offset": 12034,
+   "role": "display",
+   "refs": [
+    "rec38.subtitle"
+   ],
+   "orig_chars": [
+    78
+   ],
+   "orig_bytes": 235,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Skull Knight and Lamaris appear at Hindan Base in India. When the crew wonders why no Lamaris Kaana form, Alchemie says malice isn't stagnant here.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 12269,
+   "text_offset": 12275,
+   "role": "display",
+   "refs": [
+    "rec38.route",
+    "rec39.route",
+    "rec40.route"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "To Karachi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 12297,
+   "text_offset": 12303,
+   "role": "display",
+   "refs": [
+    "rec39.title",
+    "rec39.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Liberation of Karachi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 12319,
+   "text_offset": 12325,
+   "role": "display",
+   "refs": [
+    "rec39.subtitle"
+   ],
+   "orig_chars": [
+    67
+   ],
+   "orig_bytes": 202,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Hiryu Custom rushes to Karachi, Pakistan, to face Debudedabide and the Lamaris. Debudedabide tries to carry off a Lamaris Kaana.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 12527,
+   "text_offset": 12533,
+   "role": "display",
+   "refs": [
+    "rec40.title",
+    "rec40.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Soul of Al-Van",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 12561,
+   "text_offset": 12567,
+   "role": "display",
+   "refs": [
+    "rec40.subtitle"
+   ],
+   "orig_chars": [
+    70
+   ],
+   "orig_bytes": 211,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Al-Van's Fury unit confronts the Hiryu Custom to retake Granteed. He tells Calvina he had no part in the Ashurey attack, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 12778,
+   "text_offset": 12784,
+   "role": "display",
+   "refs": [
+    "rec41.title",
+    "rec41.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Jua-Mu's Charge",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 12806,
+   "text_offset": 12812,
+   "role": "display",
+   "refs": [
+    "rec41.subtitle"
+   ],
+   "orig_chars": [
+    83
+   ],
+   "orig_bytes": 250,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Fairy unit appear before the Steel Dragons hunting Lamaris in Berlin. Cornered by Calvina, Jua-Mu unleashes the Raftclans' power and wrecks the Bellzelute.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 13062,
+   "text_offset": 13068,
+   "role": "display",
+   "refs": [
+    "rec42.title",
+    "rec42.title_b"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Bait The Trap",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 13099,
+   "text_offset": 13105,
+   "role": "display",
+   "refs": [
+    "rec42.subtitle"
+   ],
+   "orig_chars": [
+    77
+   ],
+   "orig_bytes": 232,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Steel Dragons fight Debudedabide and his Lamaris. To shield the Drift Wing from Gadisword forces exploiting the chaos, the Hagane withdraws, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 13337,
+   "text_offset": 13343,
+   "role": "display",
+   "refs": [
+    "rec43.title",
+    "rec43.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Soul of the Sword, Transcendent",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 13371,
+   "text_offset": 13377,
+   "role": "display",
+   "refs": [
+    "rec43.subtitle"
+   ],
+   "orig_chars": [
+    74
+   ],
+   "orig_bytes": 223,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gadisword forces raid the withdrawn Hagane. Saving it from certain doom is the Super Soul Saber, powered up with the Saber Booster.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 13600,
+   "text_offset": 13606,
+   "role": "display",
+   "refs": [
+    "rec44.title",
+    "rec44.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Where Hope Lies",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 13622,
+   "text_offset": 13628,
+   "role": "display",
+   "refs": [
+    "rec44.subtitle"
+   ],
+   "orig_chars": [
+    114
+   ],
+   "orig_bytes": 343,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Debudedabide appears in Shinjuku and the Steel Dragons rush there, but two Raftclans show up and take Granteed. Calvina gives chase in the upgraded, evolved Bellzelute Brigandi, but beating So-Des costs her the trail.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 13971,
+   "text_offset": 13977,
+   "role": "display",
+   "refs": [
+    "rec45.title",
+    "rec45.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Branch Scenario 3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 14002,
+   "text_offset": 14008,
+   "role": "display",
+   "refs": [
+    "rec45.subtitle"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Steel Dragons to the Garden of Baral; Kurogane team to the Moon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 14102,
+   "text_offset": 14108,
+   "role": "display",
+   "refs": [
+    "rec46.title",
+    "rec46.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Barrier of Sand",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 14124,
+   "text_offset": 14130,
+   "role": "display",
+   "refs": [
+    "rec46.subtitle"
+   ],
+   "orig_chars": [
+    79
+   ],
+   "orig_bytes": 238,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At the Garden of Baral ruins, the Steel Dragons are blocked by Yokijin under Madnet's control. The Hagane tries to break the ruins' barrier with the Tronium Buster Cannon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 14368,
+   "text_offset": 14374,
+   "role": "display",
+   "refs": [
+    "rec46.route",
+    "rec47.route",
+    "rec48.route",
+    "rec49.route"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "To Garden of Baral",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 14408,
+   "text_offset": 14414,
+   "role": "display",
+   "refs": [
+    "rec47.title",
+    "rec47.title_b"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Monument of Malice (Part 1)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 14445,
+   "text_offset": 14451,
+   "role": "display",
+   "refs": [
+    "rec47.subtitle"
+   ],
+   "orig_chars": [
+    59
+   ],
+   "orig_bytes": 178,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The barrier at the Garden of Baral ruins falls, revealing a pyramid. The Steel Dragons defeat Debudedabide and try to enter it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 14629,
+   "text_offset": 14635,
+   "role": "display",
+   "refs": [
+    "rec48.title",
+    "rec48.title_b"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Monument of Malice (Part 2)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 14666,
+   "text_offset": 14672,
+   "role": "display",
+   "refs": [
+    "rec48.subtitle"
+   ],
+   "orig_chars": [
+    88
+   ],
+   "orig_bytes": 265,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Inside the pyramid, the Hiryu Custom finds a device holding a Lamaris Kaana. A giant Lamaris emerges from it, only to be carried off by Crystal Dragoon and Skull Knight.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 14937,
+   "text_offset": 14943,
+   "role": "display",
+   "refs": [
+    "rec49.title",
+    "rec49.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Burning Grass",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 14956,
+   "text_offset": 14962,
+   "role": "display",
+   "refs": [
+    "rec49.subtitle"
+   ],
+   "orig_chars": [
+    86
+   ],
+   "orig_bytes": 259,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Serena and Albada of Team Jelba, the 5th Special Ops PT Unit, meet an unknown enemy where a mystery object fell. Albada dies so Serena can escape, and Serena is badly hurt.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 15221,
+   "text_offset": 15227,
+   "role": "display",
+   "refs": [
+    "rec50.title",
+    "rec50.title_b"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ruler of Space",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 15246,
+   "text_offset": 15252,
+   "role": "display",
+   "refs": [
+    "rec50.subtitle"
+   ],
+   "orig_chars": [
+    97
+   ],
+   "orig_bytes": 292,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Jua-Mu attacks the Kurogane team with Larseilam, freezing units in the stasis field. Two Excellence Gunstrikers with Time Flow Engines come to their comrades' rescue.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 15544,
+   "text_offset": 15550,
+   "role": "display",
+   "refs": [
+    "rec50.route",
+    "rec51.route",
+    "rec52.route",
+    "rec53.route"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "To the Moon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 15566,
+   "text_offset": 15572,
+   "role": "display",
+   "refs": [
+    "rec51.title",
+    "rec51.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Vort and Fairy",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 15600,
+   "text_offset": 15606,
+   "role": "display",
+   "refs": [
+    "rec51.subtitle"
+   ],
+   "orig_chars": [
+    64
+   ],
+   "orig_bytes": 193,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Vort's unit nears the Kurogane on its way to the Moon. Seeing the Gyanonia Ogre's true power, Akimi and Akemi feel their unit lacks power.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 15799,
+   "text_offset": 15805,
+   "role": "display",
+   "refs": [
+    "rec52.title",
+    "rec52.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Imperial Blade",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 15821,
+   "text_offset": 15827,
+   "role": "display",
+   "refs": [
+    "rec52.subtitle"
+   ],
+   "orig_chars": [
+    87
+   ],
+   "orig_bytes": 262,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Granteed suddenly activates and appears before Touya with Shana-Mia. Fu-Ruu invokes Larseilam to capture it, but Granteed transforms into the Granteed Dracodeus.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 16089,
+   "text_offset": 16095,
+   "role": "display",
+   "refs": [
+    "rec53.title",
+    "rec53.title_b"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Confuse the Enemy",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 16135,
+   "text_offset": 16141,
+   "role": "display",
+   "refs": [
+    "rec53.subtitle"
+   ],
+   "orig_chars": [
+    50
+   ],
+   "orig_bytes": 151,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Kurogane team detects a gravity quake: Golaikunru forces heading for a colony in the L4 area.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 16292,
+   "text_offset": 16298,
+   "role": "display",
+   "refs": [
+    "rec54.title",
+    "rec54.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Hollow Soul",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 16311,
+   "text_offset": 16317,
+   "role": "display",
+   "refs": [
+    "rec54.subtitle"
+   ],
+   "orig_chars": [
+    98
+   ],
+   "orig_bytes": 295,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Endlich Geist appears before the Steel Dragons. Arieil moves in to save Duban. It seems to respond to her, but only for a moment before Skull Knight suddenly appears and carries Endlich Geist off.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 16612,
+   "text_offset": 16618,
+   "role": "display",
+   "refs": [
+    "rec55.title",
+    "rec55.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Shana-Mia's Words",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 16646,
+   "text_offset": 16652,
+   "role": "display",
+   "refs": [
+    "rec55.subtitle"
+   ],
+   "orig_chars": [
+    70
+   ],
+   "orig_bytes": 211,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Shana-Mia resolves to confront Gu-Landon to restore peace. Meanwhile, Fury forces attack the Hagane to take Shana-Mia back.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 16863,
+   "text_offset": 16869,
+   "role": "display",
+   "refs": [
+    "rec56.title"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "People Drawn Together",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 16894,
+   "text_offset": 16900,
+   "role": "display",
+   "refs": [
+    "rec56.subtitle"
+   ],
+   "orig_chars": [
+    65
+   ],
+   "orig_bytes": 196,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mystery unit tries to capture Ing, who sortied on sensing the enemy. Viletta suspects it was from the Ze Balmary Empire.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 17096,
+   "text_offset": 17102,
+   "role": "unknown",
+   "refs": [
+    "rec56.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Golar Golem",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 17124,
+   "text_offset": 17130,
+   "role": "display",
+   "refs": [
+    "rec57.title",
+    "rec57.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Return from Silent Death",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 17152,
+   "text_offset": 17158,
+   "role": "display",
+   "refs": [
+    "rec57.subtitle"
+   ],
+   "orig_chars": [
+    74
+   ],
+   "orig_bytes": 223,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Steel Dragons face Golaikunru forces after the Cross Gate. Its energy surges, and out come Masaki and company, who should be in La Gias.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 17381,
+   "text_offset": 17387,
+   "role": "display",
+   "refs": [
+    "rec58.title",
+    "rec58.subtitle",
+    "rec58.title_b",
+    "rec67.title",
+    "rec67.subtitle",
+    "rec67.title_b",
+    "rec67.route",
+    "rec68.title",
+    "rec68.subtitle",
+    "rec68.title_b",
+    "rec68.route",
+    "rec69.title",
+    "rec69.subtitle",
+    "rec69.title_b",
+    "rec69.route",
+    "rec70.title",
+    "rec70.subtitle",
+    "rec70.title_b",
+    "rec70.route",
+    "rec71.title",
+    "rec71.subtitle",
+    "rec71.title_b",
+    "rec71.route",
+    "rec72.title",
+    "rec72.subtitle",
+    "rec72.title_b",
+    "rec72.route",
+    "rec73.title",
+    "rec73.subtitle",
+    "rec73.title_b",
+    "rec73.route",
+    "rec74.title",
+    "rec74.subtitle",
+    "rec74.title_b",
+    "rec74.route"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Dummy",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 17397,
+   "text_offset": 17403,
+   "role": "display",
+   "refs": [
+    "rec59.title",
+    "rec59.title_b"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "7 Minutes to Evacuation",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 17425,
+   "text_offset": 17431,
+   "role": "display",
+   "refs": [
+    "rec59.subtitle"
+   ],
+   "orig_chars": [
+    79
+   ],
+   "orig_bytes": 238,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Rabulpaila warps right above the Cross Gate and deploys forces to seize the area. To save the imperiled Steel Dragons, Captain Ginto orders a retreat without permission.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 17669,
+   "text_offset": 17675,
+   "role": "display",
+   "refs": [
+    "rec60.title"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Offered Vessel of Malice",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 17700,
+   "text_offset": 17706,
+   "role": "display",
+   "refs": [
+    "rec60.subtitle"
+   ],
+   "orig_chars": [
+    72
+   ],
+   "orig_bytes": 217,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Crystal Dragoon nears the Steel Dragons and summons Lamaris. The revived Debudedabide vanishes with the fused Lamaris Kaana.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 17923,
+   "text_offset": 17929,
+   "role": "unknown",
+   "refs": [
+    "rec60.title_b",
+    "rec75.title_b"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "DB Three Generals Battle (Temp)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 17957,
+   "text_offset": 17963,
+   "role": "display",
+   "refs": [
+    "rec61.title"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Hagane on the Brink",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 17985,
+   "text_offset": 17991,
+   "role": "display",
+   "refs": [
+    "rec61.subtitle"
+   ],
+   "orig_chars": [
+    92
+   ],
+   "orig_bytes": 277,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Super Soul Saber, powered up by the Siebe Drive, drives off Vort as he tries to stop the Steel Dragons, but Herluga orders the huge Zemon Mortar fired at the Hagane.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 18268,
+   "text_offset": 18274,
+   "role": "unknown",
+   "refs": [
+    "rec61.title_b"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Rabulpaila Battle 1 (Temp)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 18314,
+   "text_offset": 18320,
+   "role": "display",
+   "refs": [
+    "rec62.title",
+    "rec62.title_b"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Whirlwind of Blood",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 18333,
+   "text_offset": 18339,
+   "role": "display",
+   "refs": [
+    "rec62.subtitle"
+   ],
+   "orig_chars": [
+    80
+   ],
+   "orig_bytes": 241,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Dodging the Zemon Mortar by warping, the Hagane nears Rabulpaila. Once the Steel Dragons beat the escorts, Herluga appears in her own Arounzer \"Floraga\".",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 18580,
+   "text_offset": 18586,
+   "role": "display",
+   "refs": [
+    "rec63.title"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gatekeeper of White Light",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 18617,
+   "text_offset": 18623,
+   "role": "display",
+   "refs": [
+    "rec63.subtitle"
+   ],
+   "orig_chars": [
+    104
+   ],
+   "orig_bytes": 313,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "After a fierce battle, Arounzer \"Floraga\" falls to the Steel Dragons and Rabulpaila agrees to disarm. But the Fury mothership Gaw-La Furia warps in and fires its huge bow Orgone Cannon at Rabulpaila.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 18936,
+   "text_offset": 18942,
+   "role": "unknown",
+   "refs": [
+    "rec63.title_b"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Floraga Showdown (Temp)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 18973,
+   "text_offset": 18979,
+   "role": "display",
+   "refs": [
+    "rec64.title"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "When Swords Cross",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 18998,
+   "text_offset": 19004,
+   "role": "display",
+   "refs": [
+    "rec64.subtitle"
+   ],
+   "orig_chars": [
+    106
+   ],
+   "orig_bytes": 319,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gu-Landon raises Gaw-La Furia from the Moon to retake Shana-Mia and the Granteed Dracodeus, the \"keys\" to controlling the Cross Gate. After defeating Fu-Ruu, the Hagane tries to storm Gaw-La Furia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 19323,
+   "text_offset": 19329,
+   "role": "unknown",
+   "refs": [
+    "rec64.title_b"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gaw-La Furia Battle 1 (Temp)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 19375,
+   "text_offset": 19381,
+   "role": "display",
+   "refs": [
+    "rec65.title"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Coldhearted World (Part 1)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 19409,
+   "text_offset": 19415,
+   "role": "display",
+   "refs": [
+    "rec65.subtitle"
+   ],
+   "orig_chars": [
+    61
+   ],
+   "orig_bytes": 184,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Jua-Mu awaits the Steel Dragons inside Gaw-La Furia. Al-Van appears and chooses to fight alongside Calvina.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 19599,
+   "text_offset": 19605,
+   "role": "unknown",
+   "refs": [
+    "rec65.title_b"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gaw-La Furia Battle 2 (Temp)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 148,
+   "section": "STRI",
+   "offset": 19651,
+   "text_offset": 19657,
+   "role": "display",
+   "refs": [
+    "rec66.title"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Coldhearted World (Part 2)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 149,
+   "section": "STRI",
+   "offset": 19685,
+   "text_offset": 19691,
+   "role": "display",
+   "refs": [
+    "rec66.subtitle"
+   ],
+   "orig_chars": [
+    94
+   ],
+   "orig_bytes": 283,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Reaching the heart of Gaw-La Furia, the Steel Dragons fight a fierce battle against Gu-Landon's Emperor Unit Zee-Gadin. He was the one who broke Fabula Foresse's seal and let Ruina in.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 150,
+   "section": "STRI",
+   "offset": 19974,
+   "text_offset": 19980,
+   "role": "unknown",
+   "refs": [
+    "rec66.title_b"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Zee-Gadin Battle (Temp)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 151,
+   "section": "STRI",
+   "offset": 20020,
+   "text_offset": 20026,
+   "role": "display",
+   "refs": [
+    "rec75.title"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Demon Castle Appears",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 152,
+   "section": "STRI",
+   "offset": 20042,
+   "text_offset": 20048,
+   "role": "display",
+   "refs": [
+    "rec75.subtitle"
+   ],
+   "orig_chars": [
+    87
+   ],
+   "orig_bytes": 262,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Dark Brain's Three Generals' huge battleship appears in Cross Gate Space. Defeating Crystal Dragoon, who tries to stall them, the Steel Dragons chase Skull Knight's group to the Gate.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 153,
+   "section": "STRI",
+   "offset": 20310,
+   "text_offset": 20316,
+   "role": "display",
+   "refs": [
+    "rec76.title"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Two Pillars of Battle",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 154,
+   "section": "STRI",
+   "offset": 20332,
+   "text_offset": 20338,
+   "role": "display",
+   "refs": [
+    "rec76.subtitle"
+   ],
+   "orig_chars": [
+    114
+   ],
+   "orig_bytes": 343,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Contrary to Skull Knight's plan to revive Dark Brain, out of the Cross Gate comes Roa's old mothership. But XN-L, damaged fighting Dark Brain, has gone berserk, bent on wiping out intelligent life that breeds negative thoughts.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 155,
+   "section": "STRI",
+   "offset": 20681,
+   "text_offset": 20687,
+   "role": "unknown",
+   "refs": [
+    "rec76.title_b"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "XN-L (Zanel) Showdown (Temp)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 156,
+   "section": "STRI",
+   "offset": 20739,
+   "text_offset": 20745,
+   "role": "display",
+   "refs": [
+    "rec77.subtitle"
+   ],
+   "orig_chars": [
+    62
+   ],
+   "orig_bytes": 187,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sentinel Commander E-Selda flees with the Throne Unit Granteed to Ashurey Kreuzer on the Moon, but finds it already in ruins.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 157,
+   "section": "STRI",
+   "offset": 20932,
+   "text_offset": 20938,
+   "role": "display",
+   "refs": [
+    "rec79.title",
+    "rec79.title_b"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "????????",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 158,
+   "section": "STRI",
+   "offset": 20963,
+   "text_offset": 20969,
+   "role": "display",
+   "refs": [
+    "rec79.subtitle",
+    "rec80.subtitle"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 159,
+   "section": "STRI",
+   "offset": 20970,
+   "text_offset": 20976,
+   "role": "display",
+   "refs": [
+    "rec80.title",
+    "rec80.title_b"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Guidance",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 160,
+   "section": "STRI",
+   "offset": 20992,
+   "text_offset": 20998,
+   "role": "display",
+   "refs": [
+    "rec80.route"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "symbol",
+   "keep": true
+  }
+ ],
+ "inline_strings": []
+}

@@ -1,0 +1,67 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_09.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 9: ALL Attacks",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   110,
+   75,
+   352,
+   169
+  ],
+  [
+   583,
+   216,
+   873,
+   390
+  ],
+  [
+   5,
+   208,
+   39,
+   242
+  ]
+ ],
+ "icons": {
+  "all": [
+   292,
+   8,
+   354,
+   24
+  ],
+  "w": [
+   173,
+   247,
+   233,
+   263
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● An {o|ALL Attack} uses an ALL Attack Weapon {i:all}. When a Twin Unit makes an ALL Attack and the sub machine can also use an ALL Attack Weapon, both machines attack with them.",
+   "h": 72
+  },
+  {
+   "x": 5,
+   "y": 174,
+   "text": "● ALL Attacks can't be met with a Support Attack (Attack Again) or Support Defense."
+  },
+  {
+   "x": 45,
+   "y": 210,
+   "text": "{y|Special ALL Attack}"
+  },
+  {
+   "x": 45,
+   "y": 242,
+   "text": "ALL Attack Weapons whose class shows {i:w} can also hit a unit adjacent to the target at the same time: a {o|Double Attack}.",
+   "w": 525,
+   "h": 100
+  }
+ ]
+}

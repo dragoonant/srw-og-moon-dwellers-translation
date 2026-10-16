@@ -1,0 +1,42 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_03.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 3: Suspend Save, soft reset, Quick Continue",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "icons": {
+  "combo": [
+   30,
+   132,
+   124,
+   153
+  ],
+  "start": [
+   30,
+   156,
+   64,
+   177
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● The {o|\"Suspend Save\"} general command saves your progress on the map.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 70,
+   "text": "● Choosing {o|\"CONTINUE\"} on the title screen returns you to the state saved with {o|\"Suspend Save\"}.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 132,
+   "text": "● Press {i:combo} at the same time to soft reset. If you keep holding {i:start}, the title screen is skipped and the title's {o|\"CONTINUE\"} command runs automatically. This is called {o|Quick Continue}.",
+   "h": 80
+  }
+ ]
+}

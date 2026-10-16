@@ -1,0 +1,3307 @@
+{
+ "file": "ls019.bin",
+ "format": "LDBI",
+ "strings": [
+  {
+   "id": 0,
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 2,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 6,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 9,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 10,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 12,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 13,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 14,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 15,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 16,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 17,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 18,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 19,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 20,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 21,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 22,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 23,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 24,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 25,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 26,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 27,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 28,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 29,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 30,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 31,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 32,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 33,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 34,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 35,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 36,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 37,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 38,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 39,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 40,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 41,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 42,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 43,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 44,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 45,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 46,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 47,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 48,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 49,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 50,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 51,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 52,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 53,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 54,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 55,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 56,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 57,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 58,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 59,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 60,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 61,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 62,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 63,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 64,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 65,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 66,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 67,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 68,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 69,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 70,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 71,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 72,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 73,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 74,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 75,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 76,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 77,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 78,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 79,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 80,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 81,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 82,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 83,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 84,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 85,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 86,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 87,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 88,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 89,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 90,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 91,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 92,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 93,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 94,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 95,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 96,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 97,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 98,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 99,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 100,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 101,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 102,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 103,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 104,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 105,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 106,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 107,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 108,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 109,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 110,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 111,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 112,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 113,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 114,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 115,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 116,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 117,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 118,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 119,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 120,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 121,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 122,
+   "en": "Ginto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 123,
+   "en": "All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 124,
+   "en": "Kurt",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 125,
+   "en": "Ngh...! All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 126,
+   "en": "Ryusei",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 127,
+   "en": "D-Dammit!@They got me!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 128,
+   "en": "Rai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 129,
+   "en": "Tch...! It can't hold out any longer...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 130,
+   "en": "Aya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 131,
+   "en": "Ah...! I have to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "en": "Viletta",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 133,
+   "en": "Time to go...! I'm ejecting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 134,
+   "en": "Mai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "en": "I-Is this... the end...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "en": "Kyosuke",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 137,
+   "en": "Blew it...!@Have to bail out...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 138,
+   "en": "Excellen",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 139,
+   "en": "Oh dear...@How uncool of me, honestly!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 140,
+   "en": "Kusuha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "I-I'm sorry...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 142,
+   "en": "Bullet",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 143,
+   "en": "Taken down in a place like this...@I'm still so green...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 144,
+   "en": "Arieil",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 145,
+   "en": "I leave the rest to you...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "en": "Duban",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 147,
+   "en": "To think someone could force me back...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 148,
+   "en": "Irm",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 149,
+   "en": "Tch!! What an early curtain call!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 150,
+   "en": "Ing",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "Th-This is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 152,
+   "en": "Ryoto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 153,
+   "en": "Ngh...! I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 154,
+   "en": "Rio",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 155,
+   "en": "I-I won't lose next time!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "en": "Kai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "en": "Ngh! So this is my limit...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 158,
+   "en": "Lamia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 159,
+   "en": "I'm ejecting, I am...@Ngh...! I can't even go out with dignity...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 160,
+   "en": "Hugo",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 161,
+   "en": "Waaaaaaagh!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "Aqua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 163,
+   "en": "Kyaaaaah!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "en": "Arado",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "en": "Damn it!@You won't get me next time!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "en": "Seolla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 167,
+   "en": "N-Next time... for sure!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 168,
+   "en": "Latune",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 169,
+   "en": "So this... is the end...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "Shine",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "en": "Kyah! I leave the rest to you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 172,
+   "en": "Katina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 173,
+   "en": "Me, screwing up in a place like this...?!@This is no fun...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 174,
+   "en": "Russel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "en": "I'm sorry! I'm bailing out!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "en": "Tasuku",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 177,
+   "en": "Dammit! How pathetic...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 178,
+   "en": "Leona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 179,
+   "en": "How... humiliating...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "en": "Sänger",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 181,
+   "en": "Ngh...! So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "en": "Rätsel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "So I, too, still have much to learn...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 184,
+   "en": "Lefina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "en": "A-All hands!@Abandoning ship is top priority...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 186,
+   "en": "Touma",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 187,
+   "en": "Dammit! Is this all I've got...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "Yuuki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 189,
+   "en": "That was careless of me...@I'll pull back for now...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 190,
+   "en": "Carla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "en": "I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "en": "Axel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 193,
+   "en": "Ngh!@So this is it...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 194,
+   "en": "Alchemie",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 195,
+   "en": "Is this... as far as I go...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "en": "Kota",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 197,
+   "en": "Dammit...!@Is this it?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "en": "Shoko",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "en": "Big brother... Emi... I'm sorry!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 200,
+   "en": "Michiru",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "en": "Oh, no way! This is as far as I go!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 202,
+   "en": "Ibis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "en": "At my current skill...@this is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 204,
+   "en": "Sleigh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 205,
+   "en": "Ngh... Me, made a shooting star...@I'm ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 206,
+   "en": "Raul",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 207,
+   "en": "This... This can't be happening...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": "Fiona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 209,
+   "en": "I-I'm beaten?! No way!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "en": "Despinis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "en": "Oh no, it can't be!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": "Josh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 213,
+   "en": "Th-This is my limit!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "en": "Rim",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "en": "Ngggh! Not in a place like this!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "en": "Glacies",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 217,
+   "en": "So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 218,
+   "en": "Rishu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 219,
+   "en": "Nngh! Have I blundered...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 220,
+   "en": "Gilliam",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "en": "Ngh! Ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "en": "Radha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "en": "N-Not in a place like this...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 224,
+   "en": "Yon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 225,
+   "en": "Aah! M-Master!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 226,
+   "en": "Masaki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 227,
+   "en": "Sorry!@I'm gonna have to bow out...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "en": "Lüne",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 229,
+   "en": "I'm sorry, Valsione...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 230,
+   "en": "Shu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 231,
+   "en": "For the Granzon... to be shot down...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 232,
+   "en": "Amala",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 233,
+   "en": "It can't be helped... Withdrawing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 234,
+   "en": "Albada",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 235,
+   "en": "Damn it, is this as far as I go?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 236,
+   "en": "Serena",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 237,
+   "en": "N-No way!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 238,
+   "en": "Haken",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 239,
+   "en": "Guess I blew it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 240,
+   "en": "Akimi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 241,
+   "en": "Damn it! It's no good!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 242,
+   "en": "Akemi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 243,
+   "en": "I-Is this the end?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 244,
+   "en": "Vort",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 245,
+   "en": "I can't keep fighting...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 246,
+   "en": "Sieg",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 247,
+   "en": "Sally",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 248,
+   "en": "I have no choice but to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 249,
+   "en": "Touya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 250,
+   "en": "N-Not here!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 251,
+   "en": "Calvina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 252,
+   "en": "How disgraceful...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 253,
+   "en": "E-Selda",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 254,
+   "en": "Curses...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 255,
+   "en": "Al-Van",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 256,
+   "en": "I let my guard down...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 257,
+   "en": "Skull Knight",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 258,
+   "en": "Aw, man, they got me good!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 259,
+   "en": "Return face to default",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 260,
+   "en": "???",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 261,
+   "en": "Hiryu Custom - Briefing Room",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 262,
+   "en": "Aya, are all the summoned pilots here?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 263,
+   "en": "Yes, everyone's present.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 264,
+   "en": "And the Doctor?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 265,
+   "en": "He's already standing by.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 266,
+   "en": "Then we're just waiting on Major Kai.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 267,
+   "en": "(The members are pilots of machines with special@man-machine interfaces... the <T-LINK System>,@the <Sympathia>, or the Cytron System.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 268,
+   "en": "(Though I'm the exception...@Probably because I operate the SRX.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 269,
+   "en": "Ryusei, have you heard what this is about?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 270,
+   "en": "Nope, no idea.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 271,
+   "en": "(We're definitely getting some special mission...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 272,
+   "en": "Tenia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 273,
+   "en": "Hey, Touya.@Why didn't they call Calvina?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 274,
+   "en": "Beats me...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 275,
+   "en": "Do you know, Melua?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 276,
+   "en": "Melua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 277,
+   "en": "Nuh-uh.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 278,
+   "en": "Katia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 279,
+   "en": "Probably because of the Cytron System...@We can link with it, so I think that's@why we were included in this group.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 280,
+   "en": "Sorry to keep you waiting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 281,
+   "en": "All members are present.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 282,
+   "en": "Then let's begin. The Steel Dragons' next mission is@exterminating the <Lamaris> in Jakarta. During it,@I want the members here to carry out a certain task.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 283,
+   "en": "Dr. Kenzou Kobayashi in Izu@will explain the details.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 284,
+   "en": "...Um, who's that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 285,
+   "en": "A key member of the <SRX Project> who developed@the SRX and the R Series. He's the one@who created the <T-LINK System>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 286,
+   "en": "And he's Captain Aya and Mai's father.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 287,
+   "en": "Huh.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 288,
+   "en": "Aya, call up the Doctor.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 289,
+   "en": "Yes, sir.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 290,
+   "en": "Kenzo",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 291,
+   "en": "I'm Kenzou Kobayashi of the SRX Lab. The Lamaris that@have appeared everywhere are a serious threat, because@they keep reappearing even after being driven off.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 292,
+   "en": "According to our research so far,@most have appeared in densely populated areas.@It's only a hypothesis, but as long as people...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 293,
+   "en": "To be precise, I believe they'll keep appearing@as long as human thoughts exist.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 294,
+   "en": "You mean they feed on people's thoughts@and multiply?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 295,
+   "en": "But the Lamaris have been appearing@even in areas that were fully evacuated...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 296,
+   "en": "Is there something besides human thoughts@that can fuel their activity?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 297,
+   "en": "Most likely, it's the miscellaneous thoughts that@linger in places like busy districts... so-called@residual thoughts.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 298,
+   "en": "Or perhaps energy released by inhuman beings,@like the <Einst> or <Yokijin> of the past,@could also be nourishment for them.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 299,
+   "en": "As you know, in several areas where the@Steel Dragons wiped out the Lamaris,@they have not been seen reappearing, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 300,
+   "en": "they share the fact that they fused into Kaana types.@That may be a countermeasure in response@to strong thoughts.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 301,
+   "en": "And when struck by even more intense thoughts,@they can't absorb or otherwise process them,@and are completely annihilated...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 302,
+   "en": "So I'd like you, whom I've selected, to form a team@and test this hypothesis.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 303,
+   "en": "Also, as some of you may have noticed, most of you@use man-machine interfaces that link with your brains@in some way...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 304,
+   "en": "In other words, you are people who can convert@your thoughts into another kind of power@and release them.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 305,
+   "en": "So if we focus our thoughts and hit the Lamaris@with them, they turn into Kaana types...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 306,
+   "en": "That would explain why the Lamaris Kaana@only appear where we've been.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 307,
+   "en": "Because other units don't have machines with@the T-LINK System or the Sympathia?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 308,
+   "en": "Right. And it's now even more likely@the Fury's machines carry the Cytron System,@or something like it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 309,
+   "en": "(And the hypothesis about the builders of the@Fabula Foresse and the roots of the Sympathia@gains credibility too...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 310,
+   "en": "Josh, about this mission...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 311,
+   "en": "I understand the intent.@I just don't want to push her too hard.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 312,
+   "en": "(He means Rim.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 313,
+   "en": "It's okay, big brother.@Lately, whenever I use the Sympathia,@I feel like I can sense Chris.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 314,
+   "en": "But she's...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 315,
+   "en": "She's gone far, far away, but it feels like she's@by my side, protecting me.@So I don't think anything bad will happen.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 316,
+   "en": "...Fine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 317,
+   "en": "In the next operation, you'll be designated@Alpha Team. The leader is Aya.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 318,
+   "en": "Roger.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 319,
+   "en": "Major Kai, I have a question.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 320,
+   "en": "What's that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 321,
+   "en": "There are T-LINK System users besides us.@What about them?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 322,
+   "en": "I'll answer that.@They'll be standing by in the rear@in case of an emergency.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 323,
+   "en": "(An emergency...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 324,
+   "en": "(Like getting possessed by a Lamaris Kaana?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 325,
+   "en": "If there are no other questions... The Hiryu Custom@will stay at Taoyuan Base while it repairs its space@transfer device, so only the Hagane will head out.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 326,
+   "en": "Space transfer will be executed at 1400.@We'll reach the Lamaris gathering point 60 seconds@after transfer. That is all.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 327,
+   "en": "Hagane - Hangar",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 328,
+   "en": "Everyone, board your units in 10 minutes and stand by.@Got it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 329,
+   "en": "Understood.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 330,
+   "en": "...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 331,
+   "en": "What's wrong, Touya?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 332,
+   "en": "I don't know about the others, but even if I'm told@to hit the Lamaris with strong thoughts,@I don't know how to actually do that...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 333,
+   "en": "I figured. Truth is, me neither.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 334,
+   "en": "Huh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 335,
+   "en": "I'm not a <Telekinetic>.@The Sympathia reacts to my thoughts, but it's not@a device that does things with telekinesis.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 336,
+   "en": "I'd guess the Cytron System is the same.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 337,
+   "en": "Yes, more or less...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 338,
+   "en": "Then picture some kind of object in your head@and throw it at the Lamaris. That's what I plan to do.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 339,
+   "en": "Picture something...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 340,
+   "en": "Like food?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 341,
+   "en": "If it's chocolate or cookies, I could probably do it...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 342,
+   "en": "You shouldn't throw food.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 343,
+   "en": "(...Is that really how it works?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 344,
+   "en": "What Josh said just now is right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 345,
+   "en": "!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 346,
+   "en": "Lieutenant Ryusei...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 347,
+   "en": "I picture a sword of light and throw it at the enemy.@The R-1's finishing move, the T-Link Sword...@that's exactly it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 348,
+   "en": "Uh-huh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 349,
+   "en": "Then you think up some spell-like words and shout the@attack name. Will it to break, become the blade--T-Link@Sword! Like that. That part's important.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 350,
+   "en": "Oh, that might actually be easy to get.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 351,
+   "en": "Right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 352,
+   "en": "(Is that how it works...? I'm not confident.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 353,
+   "en": "Don't feel pressured.@Thinking we can do it, we can pull it off...@that's one way of picturing it, too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 354,
+   "en": "And that'll actually work?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 355,
+   "en": "It did... in the final battle against the <Ruina>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 356,
+   "en": "It may be cold comfort, but you've got us around you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 357,
+   "en": "Yeah. Feel free to lean on us.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 358,
+   "en": "...Hearing you say that makes me feel a little better.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 359,
+   "en": "Good.@Let's both do our best, Touya Shiun.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 360,
+   "en": "Tetsuya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 361,
+   "en": "Captain, we've reached the Lamaris gathering point.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 362,
+   "en": "All stop, both sides. <TD Hovering> at current@position and altitude.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 363,
+   "en": "Eita",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 364,
+   "en": "The Lamaris swarm is getting even more active!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 365,
+   "en": "Commander, moving to Phase 2.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 366,
+   "en": "Miles",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 367,
+   "en": "Mm.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 368,
+   "en": "XO, launch all mobile units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 369,
+   "en": "Roger. Launch in order, starting with Alpha Team.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 370,
+   "en": "Spiria 3 to all Alpha Team units.@Let's begin.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 371,
+   "en": "Rim.@If you feel anything strange, cut off@the <Sympathia> right away.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 372,
+   "en": "I know, big brother.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 373,
+   "en": "(T-LINK contact...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 374,
+   "en": "(Focus my thoughts...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 375,
+   "en": "Touya, let's do it too.@Like Lieutenant Ryusei said, let's picture it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 376,
+   "en": "Y-Yeah.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 377,
+   "en": "Touya, think you can pull it off?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 378,
+   "en": "Honestly, I'm not confident. How about you, Tenia?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 379,
+   "en": "You just close your eyes and picture something, right?@It's easy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 380,
+   "en": "(Something... That's the problem.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 381,
+   "en": "Touya, let's do it too. Let's concentrate.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 382,
+   "en": "Touya, throw a sword of light.@Just trust me and give it a try.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 383,
+   "en": "Y-Yes.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 384,
+   "en": "(...A sword of light...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 385,
+   "en": "(And...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 386,
+   "en": "(This feeling...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 387,
+   "en": "(It's the same as That Time... when I first@activated the Sympathia in front of Granteed.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 388,
+   "en": "(A sword of light...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 389,
+   "en": "(Throw it!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 390,
+   "en": "The Lamaris swarm is fusing!@A Kaana type has appeared!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 391,
+   "en": "To react this quickly...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 392,
+   "en": "(Father's guess was right...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 393,
+   "en": "Josh, what just happened...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 394,
+   "en": "Yeah. Touya's power, or Granteed's performance...@or maybe both.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 395,
+   "en": "We were hitting it with our thoughts too, but@he's the one who gave it the last push.@I'd say he's got a knack for it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 396,
+   "en": "Same here.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 397,
+   "en": "The Kaana type is on the move!@It's approaching the ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 398,
+   "en": "So it is after Alpha Team?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 399,
+   "en": "XO, move to Phase 3.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 400,
+   "en": "Roger.@All units, commence attack! Wipe out@the Lamaris in the combat area!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 401,
+   "en": "...! This feeling...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 402,
+   "en": "Th-This is...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 403,
+   "en": "Something's coming...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 404,
+   "en": "I know this sensation...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 405,
+   "en": "New Lamaris?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 406,
+   "en": "No... It's not that. Everyone, be on guard.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 407,
+   "en": "Radar contact!@Unknown approaching fast! Straight from two o'clock!@Just one! Entering Range 3 shortly!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 408,
+   "en": "This reading... It can't be!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 409,
+   "en": "Identification complete! It's the Ares Geist!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 410,
+   "en": "(I'd seen it in recorded footage, but...@has its Jetzt transformation progressed further...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 411,
+   "en": "...Couldn't pass on in peace, eh? Same as me.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 412,
+   "en": "So it has fallen to the dark path and become a demon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 413,
+   "en": "What we'd call a bounty head in our world?@Or are things like that all over the place here?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 414,
+   "en": "Nah, that one's actually super rare.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 415,
+   "en": "Is it after Alchemie?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 416,
+   "en": "No... That doesn't seem to be the case.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 417,
+   "en": "New Lamaris appearing around the Ares Geist!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 418,
+   "en": "What!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 419,
+   "en": "So the Ares Geist summoned the Lamaris?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 420,
+   "en": "No. If our thoughts are what trigger the Kaana types@to appear, then something similar to that@may have happened.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 421,
+   "en": "Then something inside the Ares Geist@is emitting thoughts...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 422,
+   "en": "...It shouldn't be the <AI1> or Erde Mitte.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 423,
+   "en": "That's right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 424,
+   "en": "Then it's him.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 425,
+   "en": "(Duban... Are you inside it?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 426,
+   "en": "......",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 427,
+   "en": "It seems to be heading this way.@You'd best be careful.@Especially you, Arieil.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 428,
+   "en": "The Ares Geist, after me...@Understood.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 429,
+   "en": "The Ares Geist's presence is@stimulating the Lamaris' activity...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 430,
+   "en": "Again! New Lamaris appearing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 431,
+   "en": "If we don't do something about the Ares Geist fast,@we could be in trouble.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 432,
+   "en": "Are they going to keep coming out forever...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 433,
+   "en": "It stopped moving...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 434,
+   "en": "The Ares Geist is leaving the combat area!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 435,
+   "en": "Shall we pursue, Captain?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 436,
+   "en": "There are still Lamaris in the combat area.@Wiping them out is our top priority.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 437,
+   "en": "No. We'll stay in the current combat area and confirm@whether the Lamaris have been completely eliminated.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 438,
+   "en": "Remaining enemies wiped out! No enemies in the area!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 439,
+   "en": "This ship will hold TD Hovering at its position.@All units, maintain strict all-around watch.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 440,
+   "en": "(Those movements... Is the Ares Geist@coming after me?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 441,
+   "en": "(I have no proof... But to find out@whether this hunch is right, for now...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 442,
+   "en": "What is it you want?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 443,
+   "en": "(It either won't answer or can't answer...@I can't tell which.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 444,
+   "en": "(If the Ares Geist is drawing in the Lamaris too...@could the reverse also be possible?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 445,
+   "en": "(If he really did come back from inside the Cross Gate@after that battle ended... If such a thing@is possible...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 446,
+   "en": "Whatever you are, if you stand@in the way of Josh and me,@I will show no mercy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 447,
+   "en": "I can't predict how that thing will come at us...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 448,
+   "en": "(If I picture that too...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 449,
+   "en": "Careful, Touya! That thing's not normal!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 450,
+   "en": "I can see that! But we've got no choice!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 451,
+   "en": "Touya,@I can't predict how that thing will attack...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 452,
+   "en": "(Where was it and what was it doing between running@into us in space and showing up here...?!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 453,
+   "en": "(The Ares Geist's goal...@Could it be Lieutenant Arieil?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 454,
+   "en": "This is our second time fighting it.@I'd like to get some kind of clue, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 455,
+   "en": "(Just what is the connection between@the Ares Geist and the Lamaris...?!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 456,
+   "en": "I don't know what it's after, but unless we deal with it,@we can't liberate Jakarta!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 457,
+   "en": "That form...@A ghost fallen to the dark path, I'd say.@Beyond saving.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 458,
+   "en": "It's just like the Einst... No, the Jetzt.@The ultimate counterfeit, then.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 459,
+   "en": "...After the way it ended in that final battle,@I guess it can't be helped that it@came wandering back...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 460,
+   "en": "Always return alive... The iron rule of the Cry Wolves,@kept not by Captain Albero, who was absorbed,@but by you...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 461,
+   "en": "(Did it survive because it was the one absorbed,@not the one doing the absorbing...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 462,
+   "en": "Indonesia, Jakarta District",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 463,
+   "en": "Steel Dragons",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 464,
+   "en": "Hagane - Briefing Room",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 465,
+   "en": "Just like Aya's old man guessed,@the <Lamaris> do react to our thoughts.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 466,
+   "en": "Yes. And when they're hit with thoughts too strong@to absorb, they vanish...@I hope they stop reappearing like before.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 467,
+   "en": "We'll need to stay in Jakarta for a while@to confirm that, but it seems@quite likely.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 468,
+   "en": "But does this mean we'll have to keep relying@on <Telekinetic> pilots to defeat the Lamaris?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 469,
+   "en": "No, I don't think that's the case.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 470,
+   "en": "Everyone has thoughts.@It's true a telekinetic's are special, strong enough@to be applied to weapons, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 471,
+   "en": "Telekinetics aren't the only thing the Lamaris fear.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 472,
+   "en": "It was the same when we fought <Perfectio>, the \"King@of Ruin.\" What pushed it back beyond the <Cross Gate>@was the power of everyone's feelings there.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 473,
+   "en": "That's right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 474,
+   "en": "(Could that be...@what Josh was talking about earlier?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 475,
+   "en": "But... the Ares Geist barging in@while we're fighting the Lamaris?@Where's that thing been all this time?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 476,
+   "en": "Nobody knew where it was since@we ran into it in space, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 477,
+   "en": "It came after us, just like last time.@It seemed to be targeting Lieutenant Arieil,@but to think it'd stir up the Lamaris...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 478,
+   "en": "But they were targeting@the Ares Geist too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 479,
+   "en": "So at the very least, they're not allies.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 480,
+   "en": "If the Lamaris react to human thoughts,@couldn't the same be said@of the Ares Geist?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 481,
+   "en": "Alchemie, what do you think? What's inside it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 482,
+   "en": "I can't tell clearly... It's all hazy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 483,
+   "en": "You mean you can't see it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 484,
+   "en": "Yes... It felt like something was rejecting me.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 485,
+   "en": "Rejecting, huh?@Then why'd it suddenly pull out, I wonder?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 486,
+   "en": "It's an ordinary answer, but wasn't it@because our attacks damaged it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 487,
+   "en": "Or perhaps its operating time is limited,@it might be so.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 488,
+   "en": "(I don't think so...@Was it me that rejected it? Or..........)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

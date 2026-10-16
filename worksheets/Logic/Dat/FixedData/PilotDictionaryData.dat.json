@@ -1,0 +1,3844 @@
+{
+ "file": "PilotDictionaryData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 552,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 576,
+   "payload_offset": 588,
+   "size": 552,
+   "count": 138
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 1140,
+   "payload_offset": 1148,
+   "size": 592,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 1740,
+   "payload_offset": 1752,
+   "size": 54032,
+   "count": 148
+  }
+ ],
+ "records": {
+  "count": 138,
+  "size": 4
+ },
+ "dofs": {
+  "entries": 138,
+  "unused_ids": 0
+ },
+ "string_fields": [
+  {
+   "offset": 2,
+   "width": 1,
+   "label": "text",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 1752,
+   "text_offset": 1758,
+   "role": "display",
+   "refs": [
+    "rec0.text"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 1759,
+   "text_offset": 1773,
+   "role": "display",
+   "refs": [
+    "rec1.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    11
+   ],
+   "orig_bytes": 202,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Executive officer of the Space Noah-class multipurpose\nbattleship Hagane, flagship of the\n<Earth Federation Army>'s 1st Independent Special\nSquadron, known as the \"<Steel Dragons>.\" Honest and\nupright, he is deeply trusted by his subordinates.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 1975,
+   "text_offset": 1981,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 1991,
+   "text_offset": 2017,
+   "role": "display",
+   "refs": [
+    "rec2.text"
+   ],
+   "orig_chars": [
+    27,
+    6,
+    28,
+    29,
+    27,
+    17
+   ],
+   "orig_bytes": 404,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A bridge operator on the Hagane, second ship of the Space\nNoah-class multipurpose battleships.\nHe mainly handles sensors. A skilled operator, but easygoing\nand always saying one word too many. Before the <DC War>, he\nserved as a bridge operator on the first ship, the Shirogane,\nand that connection led Tetsuya to recommend him for the\nHagane.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 2421,
+   "text_offset": 2447,
+   "role": "display",
+   "refs": [
+    "rec3.text"
+   ],
+   "orig_chars": [
+    27,
+    6,
+    29,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 365,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A bridge operator on the Hagane, second ship of the Space\nNoah-class multipurpose battleships.\nMainly in charge of communications. Originally on the\nsecond bridge, but reassigned to the first bridge after the\n<Shura Revolt>. Quiet and reserved, but a bit scatterbrained.\nA huge cat lover and a good singer.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 2812,
+   "text_offset": 2834,
+   "role": "display",
+   "refs": [
+    "rec4.text"
+   ],
+   "orig_chars": [
+    31,
+    17,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 324,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the Hiryu-class general-purpose battleship\nHiryu Custom of the <Earth Federation Army>'s 1st\nIndependent Special Squadron, known as the\n\"<Steel Dragons>.\"\nA gifted young woman who graduated top of her class\nfrom the space officer academy at Icarus Base in the\nasteroid belt. Graceful, a worrier and quick to tears, but\nwith a strong core.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 3158,
+   "text_offset": 3176,
+   "role": "display",
+   "refs": [
+    "rec5.text"
+   ],
+   "orig_chars": [
+    21,
+    27,
+    27,
+    4
+   ],
+   "orig_bytes": 241,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Executive officer of the Hiryu-class general-purpose\nbattleship Hiryu Custom.\nA soft-spoken English gentleman. With his wealth of\nknowledge and experience and his sense of humor, he gives\nLefina just the right support. A heavy drinker and a\nconnoisseur of Western liquor.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 3417,
+   "text_offset": 3439,
+   "role": "display",
+   "refs": [
+    "rec6.text"
+   ],
+   "orig_chars": [
+    26,
+    3,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 299,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Bridge operator of the Hiryu-class multipurpose\nbattleship Hiryu Custom.\nSerious and something of a neat freak, but\npersonable. She and Lefina were classmates at the\nspace officer academy, and she always watches\nover her. Promoted to Second Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 3738,
+   "text_offset": 3760,
+   "role": "display",
+   "refs": [
+    "rec7.text"
+   ],
+   "orig_chars": [
+    25,
+    31,
+    27,
+    29,
+    3
+   ],
+   "orig_bytes": 338,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the Kurogane, third ship of the Space\nNoah-class multipurpose battleships.\nOriginally an officer of the <United Colony Corps>, he was\nseconded to the <DC> along with Rätsel and served as\nexecutive officer of the Space Noah-class Kurogane.\nAfter the <L5 Campaign>, he stayed with Rätsel and took\ncharge of the Kurogane.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 4098,
+   "text_offset": 4116,
+   "role": "display",
+   "refs": [
+    "rec8.text"
+   ],
+   "orig_chars": [
+    24,
+    28,
+    28,
+    15
+   ],
+   "orig_bytes": 277,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' <SRX Team>.\nHot-blooded, impulsive and reckless, and a huge super robot\nfanatic. A bit childish at times, but he has some of the\nstrongest willpower on the team. He is also a <Telekinetic>.\nRank: Second Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 4393,
+   "text_offset": 4411,
+   "role": "display",
+   "refs": [
+    "rec9.text"
+   ],
+   "orig_chars": [
+    24,
+    27,
+    27,
+    19
+   ],
+   "orig_bytes": 287,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' <SRX Team>.\nHe comes from the Branstein family, a distinguished\nmilitary line. Calm and collected, and an exceptional pilot.\nA little sarcastic, but he also shows a passionate side with\na strong sense of duty. Rank: Second Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 4698,
+   "text_offset": 4736,
+   "role": "display",
+   "refs": [
+    "rec10.text"
+   ],
+   "orig_chars": [
+    31,
+    9,
+    27,
+    27,
+    32,
+    13,
+    27,
+    27,
+    2
+   ],
+   "orig_bytes": 574,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' <SRX Team>, and the team's\nleader.\nShe has a special power of the mind, \"telekinesis,\" and\nbefore joining the military she was a test subject at the\nJapan Special Brain Medicine Institute, assisting her\nfather's research. When the <SRX Project> was launched, she\nbecame a <Military Contractor> and was involved in developing\nthe <T-LINK System>.\nShe has a strong sense of responsibility and looks after\nothers. She appears tough on the outside, but is truly a kind\nwoman who dislikes fighting. Rank: Captain.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 5310,
+   "text_offset": 5336,
+   "role": "display",
+   "refs": [
+    "rec11.text"
+   ],
+   "orig_chars": [
+    19,
+    25,
+    27,
+    27,
+    29,
+    21
+   ],
+   "orig_bytes": 434,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the <Steel Dragons>' <SRX Team>.\nShe was once a double agent for the <Aerogators>.\nA rational, composed adult woman. She speaks little and\ngives others a cold impression, but she simply doesn't\nshow more emotion than necessary. An expert in\ninfiltration, she also takes part in the <SRX Project>. Age\nunknown. Rank: Captain.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 5770,
+   "text_offset": 5796,
+   "role": "display",
+   "refs": [
+    "rec12.text"
+   ],
+   "orig_chars": [
+    24,
+    27,
+    27,
+    6,
+    29,
+    28
+   ],
+   "orig_bytes": 417,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' <SRX Team>.\nAya Kobayashi's younger sister, though records listed her as\nkilled in an accident. Quiet and gentle, she has no memories\nof her past.\nFound after the <L5 Campaign>, she recovered under the care\nof her father, Dr. Kenzou Kobayashi, and was then assigned\nto the SRX Team as a trainee.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 6213,
+   "text_offset": 6239,
+   "role": "display",
+   "refs": [
+    "rec13.text"
+   ],
+   "orig_chars": [
+    19,
+    27,
+    27,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 415,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the <Steel Dragons>' <ATX Team>.\nHis taciturn nature makes him seem cool, but he simply\ndoesn't show his feelings; in truth, he burns with a quiet\npassion. He loves gambling, and the worse the odds, the\nmore fired up he gets. He and Excellen are lovers, and\nthough he rarely shows it, he cherishes her above all else.\nRank: First Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 6654,
+   "text_offset": 6684,
+   "role": "display",
+   "refs": [
+    "rec14.text"
+   ],
+   "orig_chars": [
+    24,
+    27,
+    27,
+    27,
+    27,
+    28,
+    26
+   ],
+   "orig_bytes": 557,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' <ATX Team>.\nAt heart she is cool and intelligent, but her flamboyant\nself-promotion and breezy way of talking keep others from\nseeing her that way. She resents that Kyosuke always treats\nher coldly, but she loves him more than anyone. A superb\npilot, she is especially good at high-mobility and ranged\ncombat. A heavy drinker who enjoys watching the drunks\naround her. Rank: Second Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 7241,
+   "text_offset": 7263,
+   "role": "display",
+   "refs": [
+    "rec15.text"
+   ],
+   "orig_chars": [
+    24,
+    27,
+    27,
+    30,
+    11
+   ],
+   "orig_bytes": 350,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' <ATX Team>.\nKind and gentle, but her drive when it counts is remarkable. A\nhealth product fanatic who loves baths. She has telekinesis\nand pilots a unit equipped with the <T-LINK System>. She and\nBullet are lovers.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 7613,
+   "text_offset": 7639,
+   "role": "display",
+   "refs": [
+    "rec16.text"
+   ],
+   "orig_chars": [
+    32,
+    27,
+    27,
+    27,
+    29,
+    2
+   ],
+   "orig_bytes": 426,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' <ATX Team>, known as Bullet.\nA serious young man devoted to duty and loyalty. He has a\nstrong sense of justice and hates anything crooked. He\ntends to get dragged around by the reckless Kyosuke and\nExcellen. He has an aptitude for the special power of the\nmind, \"telekinesis,\" and pilots a unit equipped with the\n<T-LINK System>. Rank: Second Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 8065,
+   "text_offset": 8099,
+   "role": "display",
+   "refs": [
+    "rec17.text"
+   ],
+   "orig_chars": [
+    32,
+    27,
+    30,
+    27,
+    3,
+    29,
+    29,
+    18
+   ],
+   "orig_bytes": 569,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A prototype of the artificial humans called <Idealand>, created\nin \"Project Idealands,\" a plan to govern the people through a\nsuperior race pursued by the \"<Gaia Savers>,\" the special\noperations unit under the direct command of the\n<Earth Federation Government>'s President. Arieil is the\nsecond of them; intelligent, thoughtful and modest.\nDuring <The Sealing War>, she learned of the Gaia Savers'\nconspiracy and deserted. She then made contact with the\n<Steel Dragons> and traveled with them. She now belongs to\nthe squadron's <ATX Team>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 8668,
+   "text_offset": 8694,
+   "role": "display",
+   "refs": [
+    "rec18.text"
+   ],
+   "orig_chars": [
+    32,
+    27,
+    30,
+    27,
+    32,
+    24
+   ],
+   "orig_bytes": 498,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A prototype of the artificial humans called <Idealand>, created\nin \"Project Idealands,\" a plan to govern the people through a\nsuperior race pursued by the \"<Gaia Savers>,\" the special\noperations unit under the direct command of the\n<Earth Federation Government>'s President. Duban is the first\nof them; brilliant, proud, fierce and aggressive. During\n<The Sealing War>, he piloted the <Ares Geist> and fought Arieil\nand the <Steel Dragons>, and was defeated.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 9192,
+   "text_offset": 9226,
+   "role": "display",
+   "refs": [
+    "rec19.text"
+   ],
+   "orig_chars": [
+    18,
+    27,
+    27,
+    27,
+    27,
+    29,
+    27,
+    4
+   ],
+   "orig_bytes": 558,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>.\nA highly cultured man with a quick tongue and quick hands.\nA ladies' man whose targets span a wide age range. He\nonce belonged to the special unit PTX Team and is a\nfirst-rate pilot. He also sees the big picture and won't shy\nfrom ruthless means to reach his goals. His father is\nJonathan Kazahara, a leading figure at the\n<Tesla Reich Institute> and one of the developers of the\nSuper Fighting Robot Grungust. Rank: First Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 9784,
+   "text_offset": 9822,
+   "role": "display",
+   "refs": [
+    "rec20.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    29,
+    31,
+    29,
+    22,
+    26,
+    27,
+    22
+   ],
+   "orig_bytes": 717,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "One of the <Machinery Children> created by the alien <Euzeth>\nGozzo. Specially conditioned, he has immense telekinetic\npower. He once belonged to the <Gaia Savers>, but deserted\nand was taken in by the <Steel Dragons> after losing his\nmemories. He was destined to fuse with the \"man-made god\n<Gan Eden>\" that appeared near the end of <The Sealing War>,\nbut he refused that fate and even defeated Euzeth.\nAfter the war, he joined the Steel Dragons' PTX Team. Ing\nchose the surname \"Wish\" himself after talking it over with\nRyoto and Rio of the same team.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 10539,
+   "text_offset": 10561,
+   "role": "display",
+   "refs": [
+    "rec21.text"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    27,
+    30,
+    14
+   ],
+   "orig_bytes": 369,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>. A shy, kind-hearted boy.\nHe tends to see things pessimistically. He is not very good at\ntelling others how he feels, and he dislikes himself for it. He\nloves tinkering with machines, and that hobby led him to take\npart in developing new <Personal Trooper>s.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 10930,
+   "text_offset": 10956,
+   "role": "display",
+   "refs": [
+    "rec22.text"
+   ],
+   "orig_chars": [
+    16,
+    28,
+    28,
+    27,
+    29,
+    3
+   ],
+   "orig_bytes": 391,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>.\nA cheerful, earnest girl with a strong sense of justice. She\nhates to lose and speaks her mind clearly about what she\nbelieves is right. Still, she is open-minded enough to admit it\nwhen others point out her mistakes. Her father, Yuan, is an\nexecutive at <Mao Industries>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 11347,
+   "text_offset": 11369,
+   "role": "display",
+   "refs": [
+    "rec23.text"
+   ],
+   "orig_chars": [
+    21,
+    27,
+    30,
+    27,
+    17
+   ],
+   "orig_bytes": 359,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the <Earth Federation Army>'s\n<Special Tactics Instructor Unit>.\nA career soldier who rose through the ranks and believes in\nleading from the field. He was once feared as a demon\ncaptain, but has mellowed somewhat since the <L5 Campaign>.\nWith Latune and the others, he creates motion data for\nmainline units and tests new models. Rank: Major.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 11728,
+   "text_offset": 11762,
+   "role": "display",
+   "refs": [
+    "rec24.text"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    27,
+    10,
+    27,
+    29,
+    29,
+    10
+   ],
+   "orig_bytes": 547,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Earth Federation Army>\n<Special Tactics Instructor Unit>.\nPossesses exceptional combat and piloting skills,\nand is calm and composed to the point of seeming\nmechanical. An intelligent, quiet beauty, yet she\nhas an air about her that is somehow inhuman.\nIn truth, she is an artificial human of the type\nknown as the \"W Series.\" Once a spy for the\n<Shadow Mirror> unit, she awakened to her own sense\nof self after meeting Kyosuke and the others.\nShe now serves as Kai's de facto adjutant in the\n<Instructors>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 12309,
+   "text_offset": 12343,
+   "role": "display",
+   "refs": [
+    "rec25.text"
+   ],
+   "orig_chars": [
+    31,
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    2
+   ],
+   "orig_bytes": 587,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Earth Federation Army>'s\n<Special Tactics Instructor Unit>. He previously belonged to\nthe 3rd Special Operations <PT> Unit \"Cry Wolves.\" He was\nmortally wounded in the operation that destroyed that\nunit, and the parts he lost were replaced with artificial\nones. Having faced poverty since childhood, he clings\nfiercely to life. His emotions run high, but he usually\nspeaks little. Partnered with Aqua Centrum, he pilots a\nhumanoid mobile weapon called the TE Absorber.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 12930,
+   "text_offset": 12968,
+   "role": "display",
+   "refs": [
+    "rec26.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    27,
+    27,
+    29,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 690,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Earth Federation Army>'s\n<Special Tactics Instructor Unit>. She pilots a humanoid\nmobile weapon called the TE Absorber with Hugo Medio.\nCheerful, with a scatterbrained side. Her father is Taylor\nCentrum, a senator in the Federation Congress. She was\nraised wanting for nothing, but hated living like a caged\nbird, and joined the <Federation Army> seeking excitement\nand a place to prove herself. Her swimsuit-like outfit is a\nDFC (Direct Feeling Control) suit, needed to pilot the TE\nAbsorber.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 13658,
+   "text_offset": 13680,
+   "role": "display",
+   "refs": [
+    "rec27.text"
+   ],
+   "orig_chars": [
+    26,
+    27,
+    33,
+    27,
+    24
+   ],
+   "orig_bytes": 396,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Earth Federation Army>\n<Special Tactics Instructor Unit>.\nCheerful and upbeat, and easygoing in appearance,\nbut serious at heart. A product of <The School>.\nAfter the <L5 Campaign>, he joined the remnants of\nthe <DC> and opposed Kyosuke's group.\nLater, after meeting Latune and the others, he\ncame to fight alongside them.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 14076,
+   "text_offset": 14098,
+   "role": "display",
+   "refs": [
+    "rec28.text"
+   ],
+   "orig_chars": [
+    26,
+    29,
+    27,
+    27,
+    16
+   ],
+   "orig_bytes": 368,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Earth Federation Army>'s\n<Special Tactics Instructor Unit>.\nA graduate of <The School>, she is partnered with Arado. A\nserious honor-student type, strong-willed and\nshort-tempered. She jumps to conclusions and is scary\nwhen angry. But she truly cares about others and always\nworries about her partner Arado.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 14466,
+   "text_offset": 14488,
+   "role": "display",
+   "refs": [
+    "rec29.text"
+   ],
+   "orig_chars": [
+    26,
+    31,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 358,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Earth Federation Army>'s\n<Special Tactics Instructor Unit>.\nA graduate of <The School>, she shows outstanding skill at\npiloting and fighting in <Personal Trooper>s. The School's\nharsh experiments and training made her close her heart,\nbut meeting Ryusei and the others restored her humanity.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 14846,
+   "text_offset": 14864,
+   "role": "display",
+   "refs": [
+    "rec30.text"
+   ],
+   "orig_chars": [
+    27,
+    26,
+    28,
+    11
+   ],
+   "orig_bytes": 280,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Princess of the Principality of Ricsent, a special\nFederation autonomous zone on the Mediterranean.\nInnocent and curious, she acts the moment an idea\nstrikes her. She is close friends with Latooni and\nharbors a faint crush on Rydeas. She also possesses\nthe power of foresight.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 15144,
+   "text_offset": 15162,
+   "role": "display",
+   "refs": [
+    "rec31.text"
+   ],
+   "orig_chars": [
+    24,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 315,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the <Steel Dragons>' Octopus Squad (Octo\nPlatoon).\nA hot-blooded, headstrong, combative woman. The type\nto act before thinking, she has a harsh way of speaking\nand many violations of orders. But her piloting skill is solid,\nand surprisingly, she looks after her subordinates well.\nRank: First Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 15477,
+   "text_offset": 15495,
+   "role": "display",
+   "refs": [
+    "rec32.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    28,
+    16
+   ],
+   "orig_bytes": 279,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' Octopus Squad.\nKind and gentle. He worries about the reckless Katina and\nacts as her restraint. Both in daily life and on missions, he\nsupports others: an unsung pillar of strength.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 15774,
+   "text_offset": 15796,
+   "role": "display",
+   "refs": [
+    "rec33.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    27,
+    27,
+    20
+   ],
+   "orig_bytes": 370,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' Octopus Squad.\nCarefree and optimistic. He loves contests of chance and\ncalls himself a gambler, always testing his luck. He is\neasygoing but quick-witted, with keen insight. He is good\nwith his hands and skilled at magic tricks, but is actually\nhopeless at sports. Rank: Second Lieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 16166,
+   "text_offset": 16192,
+   "role": "display",
+   "refs": [
+    "rec34.text"
+   ],
+   "orig_chars": [
+    22,
+    28,
+    27,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 476,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot in the <Steel Dragons>' Octopus Squad.\nShe comes from the Garstein family, a branch of the\nBranstein family. She is a cousin of Rai and Elzam. Cool,\nproud and strong-willed. She gives off an air that keeps\nothers away, but because she lives trying to measure up, she\nis actually weak to others' sympathy. She seems able to do\nanything with ease, but she is a poor cook. Rank: Second\nLieutenant.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 16668,
+   "text_offset": 16690,
+   "role": "display",
+   "refs": [
+    "rec35.text"
+   ],
+   "orig_chars": [
+    28,
+    2,
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 332,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot of the Kurogane, third ship of the Space Noah-class\nmultipurpose battleships.\nA bold warrior who stays true to his beliefs. He values\nrighteousness and always strives to act fairly and squarely,\nbut he can be inflexible. An expert in close combat, especially\nswordsmanship.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 17022,
+   "text_offset": 17048,
+   "role": "display",
+   "refs": [
+    "rec36.text"
+   ],
+   "orig_chars": [
+    20,
+    27,
+    28,
+    27,
+    27,
+    22
+   ],
+   "orig_bytes": 455,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mysterious figure who helps the <Steel Dragons> from the\nshadows.\nComposed, proud and devoted to a greater cause. He also\nthinks flexibly, always acting with the big picture in mind. A\ngenius at piloting humanoid mobile weapons, he always calls\nthe unit he pilots by the name of his beloved horse, \"Trombe\"\n(German for \"tornado\"). A true gourmet whose cooking is\nalso top-class.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 17503,
+   "text_offset": 17533,
+   "role": "display",
+   "refs": [
+    "rec37.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    28,
+    27,
+    31,
+    26
+   ],
+   "orig_bytes": 581,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A young man aboard the Kurogane, third ship of the Space\nNoah-class multipurpose battleships, who serves as the\ndedicated pilot of the special humanoid mobile weapon RaiOh.\nHe has a dry outlook, but is at heart an earnest, good young\nman. Frank by nature, he looks after others. He is a bit\nstubborn, though, and once he makes up his mind, he can lose\nflexibility. He was a civilian busy with part-time jobs, but\nduring <The Sealing War> he made contact with the\n<Steel Dragons> and traveled with them. After the war, he\nworks on the Kurogane.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 18114,
+   "text_offset": 18136,
+   "role": "display",
+   "refs": [
+    "rec38.text"
+   ],
+   "orig_chars": [
+    28,
+    2,
+    27,
+    27,
+    18
+   ],
+   "orig_bytes": 311,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot of the Kurogane, third ship of the Space Noah-class\nmultipurpose battleships.\nCalm and collected, he always strives to behave like a\ngentleman. He hates base conduct and never hesitates to\nhelp the weak. He loves black tea and is particular about how\nit is brewed and drunk.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 18447,
+   "text_offset": 18465,
+   "role": "display",
+   "refs": [
+    "rec39.text"
+   ],
+   "orig_chars": [
+    28,
+    9,
+    27,
+    15
+   ],
+   "orig_bytes": 241,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot assigned to the Kurogane, third ship of the\nSpace Noah-class multipurpose battleships. Goes by\nCarla.\nA passionate, tomboyish girl. An optimist, the type\nto forget minor worries after a good night's sleep.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 18706,
+   "text_offset": 18756,
+   "role": "display",
+   "refs": [
+    "rec40.text"
+   ],
+   "orig_chars": [
+    23,
+    27,
+    14,
+    27,
+    27,
+    27,
+    24,
+    31,
+    29,
+    29,
+    29,
+    6
+   ],
+   "orig_bytes": 867,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A man who once belonged to <Shadow Mirror>.\nHe has excellent piloting and martial arts skills. Basically\ncool, but he hides fiery emotions inside.\nIn the world they originally came from, he saw Kyosuke\nNanbu, who had gained a mysterious power, and Kyosuke's\nunit, the Gespenst Mk-III, as dangerous. Predicting that\nthe Kyosuke of this world would eventually gain a similar\npower, he tried to defeat him.\nBut at the end of the <Inspector Incident>, he lost the final\nbattle inside the <White Star> and was mortally wounded. He\nwas later recovered along with his unit, the Soulgain, by\nthe <Earth Federation Army>'s 3rd Special Operations <PT>\nUnit Cry Wolves, and fought alongside Kyosuke and the\nothers during the <Shura Revolt>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 19623,
+   "text_offset": 19653,
+   "role": "display",
+   "refs": [
+    "rec41.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    25,
+    29,
+    27,
+    27,
+    11
+   ],
+   "orig_bytes": 524,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A girl, the only <Einst> with a near-human form. Being a\nclone-like being created from Excellen Browning's data,\nshe resembles her in face and voice.\nDuring the <Inspector Incident>, she fought Kyosuke and the\nothers many times, but was gradually drawn to the \"power\nof human feelings,\" and in the end she became their ally\nand fought the Einst leader, Stern Neu Regisseur.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 20177,
+   "text_offset": 20199,
+   "role": "display",
+   "refs": [
+    "rec42.text"
+   ],
+   "orig_chars": [
+    15,
+    27,
+    28,
+    27,
+    17
+   ],
+   "orig_bytes": 347,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A high school student living in the Asakusa district of Japan.\nThe grandson of local inventor Kisaburo Azuma. He gives\nothers a gruff impression, but is a boy with a strong sense of\njustice. Quick to pick a fight, he loves festivals and spends\nmoney freely. He also dotes on his little sister. He puts on\nthe Roa Armor and transforms into Fighter Roar.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 20546,
+   "text_offset": 20568,
+   "role": "display",
+   "refs": [
+    "rec43.text"
+   ],
+   "orig_chars": [
+    13,
+    27,
+    27,
+    28,
+    12
+   ],
+   "orig_bytes": 326,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mysterious warrior from another world.\nHis body was lost in a past battle, and he moved his\nsoul into the crystal set in the Roa Armor. When\nKota wears the armor, he links with Kota's mind and\ngives him sound advice.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 20894,
+   "text_offset": 20920,
+   "role": "display",
+   "refs": [
+    "rec44.text"
+   ],
+   "orig_chars": [
+    7,
+    27,
+    28,
+    27,
+    28,
+    15
+   ],
+   "orig_bytes": 402,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Kota's sister. A cheerful, lively girl who does all\nthe housework. Friendly and popular at school. She\nalways worries about Kota, but nags him in person.\nUnlike spendthrift Kota, she's frugal to the point\nof being stingy. She dons the Emmy Armor to become\nFighter Emmy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 21322,
+   "text_offset": 21348,
+   "role": "display",
+   "refs": [
+    "rec45.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    27,
+    18
+   ],
+   "orig_bytes": 465,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A senior (held back a year) at Bannamu High School in\nOsaka, and a gang leader famous throughout the Kansai\nregion. Fearsomely strong in a fight, a man brimming with\nwild energy. He tries to solve everything with force, but is\nweak against cute girls. His grandfather was born in Osaka\nbut later moved to Tokyo, then returned to Osaka when\nMichiru was 10. Partly because of that, he speaks\nsomewhat dubious Kansai dialect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 21813,
+   "text_offset": 21839,
+   "role": "display",
+   "refs": [
+    "rec46.text"
+   ],
+   "orig_chars": [
+    31,
+    23,
+    27,
+    28,
+    28,
+    21
+   ],
+   "orig_bytes": 464,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A test pilot in <Project TD>, which was once run by the <DC> and\nis now under <Federation Army> jurisdiction.\nStraightforward and strong-willed. She dreams of setting\nout as an astronaut, and is a hard worker who has endured\ngrueling training for that goal. With Tsugumi and Sleigh, she\npilots the Hyperlion, Project TD's latest <Armored Module>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 22303,
+   "text_offset": 22321,
+   "role": "display",
+   "refs": [
+    "rec47.text"
+   ],
+   "orig_chars": [
+    26,
+    29,
+    27,
+    27
+   ],
+   "orig_bytes": 323,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Chief of <Project TD>'s system development team.\nShe keeps Project TD going with support from\n<Isurugi Heavy Industries>. Basically a caring, friendly and\ndependable person, but at times she makes judgments so\nrational they border on ruthless.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 22644,
+   "text_offset": 22662,
+   "role": "display",
+   "refs": [
+    "rec48.text"
+   ],
+   "orig_chars": [
+    13,
+    29,
+    27,
+    21
+   ],
+   "orig_bytes": 270,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The pilot of the Vegalion.\nThe younger sister of Filio Presty, head of <Project TD>.\nShe has a fierce personality and shows no mercy to those\nwho oppose her. She has enormous confidence in her own\nskill and great pride.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 22932,
+   "text_offset": 22954,
+   "role": "display",
+   "refs": [
+    "rec49.text"
+   ],
+   "orig_chars": [
+    20,
+    28,
+    29,
+    28,
+    6
+   ],
+   "orig_bytes": 334,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The pilot of the Excellence Rescue.\nBasically a hot-blooded guy with a strong sense of\nresponsibility who doesn't sweat the details. With his twin\nsister Fiona, he founded the \"<L&E Corporation>,\" a company\nthat takes on repair and rescue work, and serves as its\npresident.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 23288,
+   "text_offset": 23314,
+   "role": "display",
+   "refs": [
+    "rec50.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    29,
+    27,
+    7
+   ],
+   "orig_bytes": 437,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raul's twin sister. A strong-willed, cheerful woman. More\nlevel-headed than Raul, she is often taken for the older twin.\nFull of a spirit of challenge, she won't back down once she's\nset on something. At the \"<L&E Corporation>\" she founded\nwith Raul and the others, she handles sales, cooking and\nlaundry, and could be called the company's real manager.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 23751,
+   "text_offset": 23773,
+   "role": "display",
+   "refs": [
+    "rec51.text"
+   ],
+   "orig_chars": [
+    28,
+    29,
+    29,
+    28,
+    4
+   ],
+   "orig_bytes": 351,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Techniti Paides (artificial life-form) created by Duminas.\nAfter the <Shura Revolt>, she was taken in by Raul and Fiona and\nbecame part of the family. She works as an assistant at the\ncompany Raul and the others founded, the \"<L&E Corporation>.\"\nModest and quiet.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 24124,
+   "text_offset": 24142,
+   "role": "display",
+   "refs": [
+    "rec52.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 300,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Vice president of the \"<L&E Corporation>,\" which takes on\nrepair and rescue work. An excellent engineer who doesn't\ncare about things that don't interest him, but puts things\nthat do interest him first, often losing sight of everything\naround him.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 24442,
+   "text_offset": 24456,
+   "role": "display",
+   "refs": [
+    "rec53.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    26
+   ],
+   "orig_bytes": 245,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A member of the \"<L&E Corporation>\" and the designer of\nthe Excellence Rescue. Plucky and hardworking. Just as\nshe always wished, she built the new Excellence as a\nmachine for rescue work.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 24701,
+   "text_offset": 24723,
+   "role": "display",
+   "refs": [
+    "rec54.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 349,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Known as Josh. The son of Ferio Radcliffe, a\nRe-Technologist (<Re-Tech>) researching mysterious ruins\ndiscovered in Antarctica. He has a stepsister, Cliana\nRimskaya. Not especially friendly, but calm by nature. Still,\nhe shows an emotional side as well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 25072,
+   "text_offset": 25102,
+   "role": "display",
+   "refs": [
+    "rec55.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    29,
+    31,
+    27,
+    27
+   ],
+   "orig_bytes": 585,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Joshua Radcliffe's stepsister. She took part for a long time\nin experiments with \"<Sympathia>,\" a system excavated from\nthe Antarctic ruins and restored by the Re-Technologists,\nand as a result split into two personalities: <Chris>, modest and\ngentle, and Riana, strong-willed and cool. Near the end of\n<The Sealing War>, in the decisive battle with the <Ruina>,\nChris's personality vanished to protect Riana. Cliana\nRimskaya now has only Riana's personality.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 25687,
+   "text_offset": 25713,
+   "role": "display",
+   "refs": [
+    "rec56.text"
+   ],
+   "orig_chars": [
+    30,
+    23,
+    29,
+    27,
+    29,
+    22
+   ],
+   "orig_bytes": 466,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "One of the \"<Meliores Esse>,\" pseudo-life-forms of the <Ruina>\nthat emerged from the Antarctic ruins of \"<Fabula Foresse>.\"\nDuring <The Sealing War>, a psychic link formed in her battles\nwith Joshua Radcliffe led her to resolve to live alongside him.\nShe broke away from the Ruina and cooperated with the\n<Steel Dragons>. She places absolute trust in Joshua and\nbelieves her life exists for him.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 26179,
+   "text_offset": 26201,
+   "role": "display",
+   "refs": [
+    "rec57.text"
+   ],
+   "orig_chars": [
+    17,
+    27,
+    28,
+    27,
+    5
+   ],
+   "orig_bytes": 313,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An advisor at the <Tesla Reich Institute>.\nA master of the Jigen-ryu school, he is involved in\ndeveloping swords for the Grungust and creating\nsword motion data. He is also the teacher of Sänger\nand Bullet. Strict when it comes to the way of the\nsword, but otherwise a good-natured old man.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 26514,
+   "text_offset": 26536,
+   "role": "display",
+   "refs": [
+    "rec58.text"
+   ],
+   "orig_chars": [
+    17,
+    27,
+    29,
+    32,
+    22
+   ],
+   "orig_bytes": 366,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An officer in the <Earth Federation Army>'s intelligence\ndepartment.\nCalm, collected and brilliant. There is something mysterious\nabout him, but he also has a soft spot for duty and\ncompassion. He came from the <Federation Army>'s\n<Special Tactics Instructor Unit>, which created the base data\nfor the <TC-OS>, and his skill at piloting <Personal Trooper>s is\ntop-class. Rank: Major.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 26902,
+   "text_offset": 26928,
+   "role": "display",
+   "refs": [
+    "rec59.text"
+   ],
+   "orig_chars": [
+    32,
+    26,
+    27,
+    27,
+    27,
+    23
+   ],
+   "orig_bytes": 480,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Mao Industries> staff member, currently seconded to the\n<Earth Federation Army>'s <Special Tactics Instructor Unit> to\nprovide all kinds of support.\nA thoughtful, quiet woman. She has psychic sensitivity and\nworked on developing man-machine interfaces at Mao\nIndustries. Her specialty is yoga, and since she recommends\ndifficult asanas (yoga poses) to others, she is a little feared.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 27408,
+   "text_offset": 27438,
+   "role": "display",
+   "refs": [
+    "rec60.text"
+   ],
+   "orig_chars": [
+    32,
+    32,
+    8,
+    27,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 491,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An envoy sent by the <Zovorg>'s <Privy Council>. During the\n<Inspector Incident>, he fought the <Steel Dragons> as the\ncombat commander of the <Inspectors>.\nRough-spoken, but earnest at heart. He has the judgment to\nread a battle calmly and the coldness to use any means to\nachieve his goals. He is also chivalrous, and was once injured\nshielding his younger brother Wendolo.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 27929,
+   "text_offset": 27959,
+   "role": "display",
+   "refs": [
+    "rec61.text"
+   ],
+   "orig_chars": [
+    31,
+    28,
+    31,
+    27,
+    27,
+    27,
+    4
+   ],
+   "orig_bytes": 516,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The aide of Mekibos Borgue, the envoy sent to Earth by the\n<Zovorg>'s <Privy Council>. Real name: Gayattoba Stecca.\nDuring <The Sealing War>, this aide posed as an\n<Earth Federation Army> officer to search for Shu Shirakawa;\nYon Gebana is the alias used at that time. Interested in\nmachines and well versed in humanoid mobile weapons.\nEarnest, personable and studious.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 28475,
+   "text_offset": 28489,
+   "role": "display",
+   "refs": [
+    "rec62.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    11
+   ],
+   "orig_bytes": 208,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mercenary hired by the <Golaikunru>, the <Zovorg>'s war\nprofiteers. Lives by the creed of getting everything done\nefficiently and quickly, and hates wasting time, budget or\nammunition.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 28697,
+   "text_offset": 28723,
+   "role": "display",
+   "refs": [
+    "rec63.text"
+   ],
+   "orig_chars": [
+    31,
+    31,
+    27,
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 428,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The pilot of the <Masoukishin> Cybuster. He was summoned\nfrom Japan to the <Holy Kingdom of Langran> in the\nunderground world <La Gias> as part of the <Surface Dweller>\nsummoning project. He was later chosen by Cyfis,\nCybuster's guardian spirit, and became a Masoukishin pilot.\nHe is impulsive and has a disastrous sense of direction, but\nhe is great at sports and has a strong sense of justice.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 29151,
+   "text_offset": 29173,
+   "role": "display",
+   "refs": [
+    "rec64.text"
+   ],
+   "orig_chars": [
+    11,
+    27,
+    29,
+    27,
+    28
+   ],
+   "orig_bytes": 367,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Masaki's familiar.\nA familiar cut from part of his unconscious; it doesn't share\nhis personality because it is one of his <Persona>. It rides in\nCybuster with Masaki and supports him. Fairly laid-back, but\nrather cocky and always saying one word too many.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 29540,
+   "text_offset": 29566,
+   "role": "display",
+   "refs": [
+    "rec65.text"
+   ],
+   "orig_chars": [
+    11,
+    27,
+    29,
+    27,
+    27,
+    19
+   ],
+   "orig_bytes": 422,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Masaki's familiar.\nA familiar cut from part of his unconscious; it doesn't\nshare his personality because it is one of his <Persona>. It\nrides in Cybuster with Masaki and supports him. Fairly\nlaid-back, but more of a worrier, and often scolds the\nreckless Shiro and Masaki.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 29988,
+   "text_offset": 30010,
+   "role": "display",
+   "refs": [
+    "rec66.text"
+   ],
+   "orig_chars": [
+    23,
+    27,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 324,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The only daughter of <DC> leader <Bian Zoldark>.\nShe has superhuman motor skills, reflexes and dynamic\nvision. A beauty, but a wild tomboy. Weak to flattery and\ncompliments. A fan of Japanese period dramas, she prefers\nthe slightly obscure ones. Her hobby is saving money.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 30334,
+   "text_offset": 30364,
+   "role": "display",
+   "refs": [
+    "rec67.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    27,
+    12,
+    31,
+    27,
+    5
+   ],
+   "orig_bytes": 452,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A genius scientist who holds more than ten doctorates at\na young age.\nA cool, handsome man with a shadowy air, calm and\ncollected, and tremendously self-confident. He hates\nbeing used by others, and never forgives anyone who uses\nhim.\nUnder <Dr. Bian Zoldark> at the <EOTI Institute>, he handled\nthe Granzon's basic design and special equipment, and also\nserves as its test pilot himself.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 30816,
+   "text_offset": 30830,
+   "role": "display",
+   "refs": [
+    "rec68.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    14
+   ],
+   "orig_bytes": 209,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Shu's familiar. While Shu was on the surface, it was left in\n<La Gias> to mind the house. Noisy and greedy for money.\nLeft alone, it will chatter on forever.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 31039,
+   "text_offset": 31077,
+   "role": "display",
+   "refs": [
+    "rec69.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    31,
+    29,
+    27,
+    29,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 685,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "One of the \"Balshem Series\" of artificial humans created\nby the alien <Euzeth> Gozzo. Cool and proud. Near the end of\n<The Sealing War>, in the final battle inside the <Cross Gate>,\nshe tried to intercept the <Steel Dragons> with Euzeth, but\nwas betrayed by her master. She then warped to the\nunderground world <La Gias>, which the gate led to, and\nafter many twists and turns was taken in by Shu\nShirakawa. By then she had lost her memories, and since\nthen she has regarded Shu, who saved her, as her new\nmaster and serves him.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 31762,
+   "text_offset": 31780,
+   "role": "display",
+   "refs": [
+    "rec70.text"
+   ],
+   "orig_chars": [
+    33,
+    27,
+    27,
+    8
+   ],
+   "orig_bytes": 277,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A member of the <Earth Federation Army>'s 5th Special\nOperations <PT> Unit \"<Team Jelba>.\" Rank: Second\nLieutenant. Serena's senior and her martial arts teacher.\nCheerful and bold, he is well versed in lazy cooking and\ncheap eats.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 32057,
+   "text_offset": 32075,
+   "role": "display",
+   "refs": [
+    "rec71.text"
+   ],
+   "orig_chars": [
+    33,
+    27,
+    28,
+    10
+   ],
+   "orig_bytes": 286,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A member of the <Earth Federation Army>'s 5th Special\nOperations <PT> Unit \"<Team Jelba>.\" Rank: Second Lieutenant.\nA cheerful, spirited woman. She has an autonomous robot\nnamed Elma and excels at infiltration missions. She also\nloves flamenco.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 32361,
+   "text_offset": 32383,
+   "role": "display",
+   "refs": [
+    "rec72.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    28,
+    27,
+    4
+   ],
+   "orig_bytes": 349,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The autonomous <Sabot> (support robot) that serves as\nSerena's partner. His AI has been programmed with a boy's\npersonality, and he has emotions. Openly and behind the\nscenes, he supports Serena, handling everything from\nco-piloting the Gestorben Custom to all the housework.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 32732,
+   "text_offset": 32746,
+   "role": "display",
+   "refs": [
+    "rec73.text"
+   ],
+   "orig_chars": [
+    33,
+    27,
+    22
+   ],
+   "orig_bytes": 237,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the <Earth Federation Army>'s 5th Special\nOperations <PT> Unit \"<Team Jelba>.\" Rank: Major. A gentle\ncommander who looks after his people. Serena looks up to\nhim like a father.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 32983,
+   "text_offset": 32993,
+   "role": "display",
+   "refs": [
+    "rec74.text"
+   ],
+   "orig_chars": [
+    29,
+    24
+   ],
+   "orig_bytes": 157,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "　<Earth Federation Army> marshal. A farsighted,\ndry pragmatist who loves drink and grandkids.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 33150,
+   "text_offset": 33168,
+   "role": "display",
+   "refs": [
+    "rec75.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 264,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Chairman of the <Earth Federation Army>'s Joint Chiefs of\nStaff. Rank: General. Gaspar's right hand. Cautious, with a\nbureaucrat's temperament. For that reason, he never got\nalong with Norman Slay, a man of action who founded the\nEarth Sphere Defense Committee.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 33432,
+   "text_offset": 33458,
+   "role": "display",
+   "refs": [
+    "rec76.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    14,
+    27,
+    27,
+    26
+   ],
+   "orig_bytes": 455,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Director of the <Earth Federation Army>'s intelligence\ndepartment. Rank: Lieutenant General. Gilliam Jaeger's\nsuperior. A very sharp man with strong connections in\npolitical and business circles. He was once an excellent\nspecial agent.\nGilliam places absolute trust in him, and he in turn recognizes\nGilliam's abilities. He always woos women he likes with style\nand finesse. He was married once, but lost his wife in an\naccident.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 33913,
+   "text_offset": 33927,
+   "role": "display",
+   "refs": [
+    "rec77.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    27
+   ],
+   "orig_bytes": 247,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Commander of the <Earth Federation Army> Space Force's 3rd\nOrbital Patrol Squadron. Rare in the Space Force, he was\nborn on Earth yet rose to command a ship. He does not like\nthe existence of specialized forces like the <Steel Dragons>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 34174,
+   "text_offset": 34192,
+   "role": "display",
+   "refs": [
+    "rec78.text"
+   ],
+   "orig_chars": [
+    22,
+    27,
+    29,
+    16
+   ],
+   "orig_bytes": 278,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Commander of the <Earth Federation Army> Far East\nCommand's Izu Base.\nMild-mannered and personable. He looks like a small, gentle\nold man and seems like a bit of a slacker, but he was once\nfamous as a brilliant strategist at the <Federation Army>\nJoint Chiefs of Staff.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 34470,
+   "text_offset": 34488,
+   "role": "display",
+   "refs": [
+    "rec79.text"
+   ],
+   "orig_chars": [
+    18,
+    27,
+    27,
+    19
+   ],
+   "orig_bytes": 273,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Deputy commander of the <Earth Federation Army>'s Far\nEast Command.\nLaker's right-hand man and an excellent staff officer. A\nnervous realist who can be inflexible. But that comes from\nwanting to keep losses as low as possible and caring for\nthe safety of his subordinates.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 34761,
+   "text_offset": 34775,
+   "role": "display",
+   "refs": [
+    "rec80.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    20
+   ],
+   "orig_bytes": 227,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Formerly President of the Colony Government, which\noversees the 10 space colonies, he has also served as\nacting President of the <Earth Federation Government>. A\npolitician skilled at negotiation, and a pacifist.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 35002,
+   "text_offset": 35016,
+   "role": "display",
+   "refs": [
+    "rec81.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    14
+   ],
+   "orig_bytes": 212,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A senator in the <Earth Federation Government>'s Congress\nand Aqua Centrum's father. Earnest by nature, a doting and\nworried father. He always worries about Aqua, who left home\nto join the military.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 35228,
+   "text_offset": 35254,
+   "role": "display",
+   "refs": [
+    "rec82.text"
+   ],
+   "orig_chars": [
+    16,
+    27,
+    29,
+    26,
+    29,
+    27
+   ],
+   "orig_bytes": 456,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A key member of the <SRX Project>.\nA young genius of robotics. Cheerful and friendly, he grew\nup admiring robots from childhood. He worked on\ndeveloping the Grungust series at the\n<Tesla Reich Institute> and now takes part in the Far East\nCommand's SRX Project. He is also the developer of\n<Burning PT>, and he and Ryusei often get carried away\ntalking about robots.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 35710,
+   "text_offset": 35732,
+   "role": "display",
+   "refs": [
+    "rec83.text"
+   ],
+   "orig_chars": [
+    16,
+    29,
+    27,
+    27,
+    4
+   ],
+   "orig_bytes": 306,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A key member of the <SRX Project>.\nAn excellent engineer, and one of the creators of the\n<Personal Trooper>. A cold perfectionist, yet for some\nreason he gets along with Robert, his complete opposite.\nHe and Marion were also once married.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 36038,
+   "text_offset": 36060,
+   "role": "display",
+   "refs": [
+    "rec84.text"
+   ],
+   "orig_chars": [
+    15,
+    27,
+    27,
+    29,
+    6
+   ],
+   "orig_bytes": 309,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A central figure of the <ATX Project>.\nA brilliant scientist, but a workaholic with a strong need\nfor attention and a jealous streak. She also developed the\nAlteisen and Weissritter, and is now developing new\nprototypes at <Mao Industries>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 36369,
+   "text_offset": 36383,
+   "role": "display",
+   "refs": [
+    "rec85.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    23
+   ],
+   "orig_bytes": 236,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A brilliant scientist who once belonged to the\n<EOTI Institute>, now developing new mobile weapons in the\nTsentr Project. Also one of the Granzon's designers.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 36619,
+   "text_offset": 36637,
+   "role": "display",
+   "refs": [
+    "rec86.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 268,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "One of the Re-Technologists, and one of the developers of\nthe Aile Chevalier and Blanche Neige. An eccentric and a\nrationalist. He is close to Josh and Rim and looks out for\nthem like a big brother.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 36905,
+   "text_offset": 36923,
+   "role": "display",
+   "refs": [
+    "rec87.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 283,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A scientist who researched System LIOH alongside father\nKaoru Tohmine. Troubled by a world of endless war, this\nscientist has a strong sense of justice and mission, but\nyears of research cut off from the outside world have left\nthem a little out of touch.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 37206,
+   "text_offset": 37232,
+   "role": "display",
+   "refs": [
+    "rec88.text"
+   ],
+   "orig_chars": [
+    17,
+    27,
+    29,
+    28,
+    27,
+    5
+   ],
+   "orig_bytes": 397,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Director of the <Tesla Reich Institute>.\nIrm's father and Robert's former boss. An authority on\nrobotics whose talent in the field rivals that of the late\n<Bian Zoldark>. But he himself is easygoing, fond of jokes and\nfond of women. He is also the creator of the Grungust series.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 37629,
+   "text_offset": 37655,
+   "role": "display",
+   "refs": [
+    "rec89.text"
+   ],
+   "orig_chars": [
+    27,
+    8,
+    30,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 440,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Head of the special archaeology division of the LTR (Lost\nTechnology Research) Organization.\nShe investigates and studies the \"<Choukijin>\" created in\nancient China. Despite her flashy looks, she is an intelligent,\ncomposed woman. She is passionate about her research and\noften loses sight of everything around her. She is also the\ntype who easily gets caught up in trouble.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 38095,
+   "text_offset": 38117,
+   "role": "display",
+   "refs": [
+    "rec90.text"
+   ],
+   "orig_chars": [
+    28,
+    29,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 352,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A member of Project Ark (species preservation plan)\nand creator of Magus, the <Earth Cradle>'s\nmanagement computer. A rational realist, she seems\naloof, all the more so for her beauty, but she has a\nkind, caring heart.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 38469,
+   "text_offset": 38495,
+   "role": "display",
+   "refs": [
+    "rec91.text"
+   ],
+   "orig_chars": [
+    16,
+    30,
+    27,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 460,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A key member of the <SRX Project>.\nThe developer of the <T-LINK System>, and the father of Aya\nand Mai. He was once known as a maverick of the brain\nmedicine world, and at the Japan Special Brain Medicine\nInstitute he made \"the return of humanity's latent ESP\" his\nlife's work. He is taciturn and dislikes dealing with people.\nAya and Mai are not his real daughters, but their family bond\nis strong.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 38955,
+   "text_offset": 39001,
+   "role": "display",
+   "refs": [
+    "rec92.text"
+   ],
+   "orig_chars": [
+    13,
+    27,
+    27,
+    27,
+    27,
+    12,
+    28,
+    27,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 755,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Kota and Shoko's grandfather.\nDirector of the Azuma Laboratory in Asakusa (though the\nonly person who could be called staff is Shoko, who handles\nthe accounts). A hot-blooded man with a strong sense of\njustice. He takes care of others and also serves as head of\nthe neighborhood association. He always seems to be making\nuseless inventions, but he is actually a highly skilled robotics\nscholar.\nMeeting Roa taught him of the evil that targets Earth, and\nhe repaired the Compatible Kaiser that Roa brought. Once a\nrich man with many patents, he has poured most of his\nfortune into building the Compatible Kaiser and its facilities.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 39756,
+   "text_offset": 39782,
+   "role": "display",
+   "refs": [
+    "rec93.text"
+   ],
+   "orig_chars": [
+    30,
+    7,
+    27,
+    27,
+    29,
+    10
+   ],
+   "orig_bytes": 384,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "President of <Mao Industries>, the maker of <Personal Trooper>s.\nCool-headed and a rationalist. Influenced by her father, the\nfounder of Mao Industries, she set out to become a Personal\nTrooper pilot, and once belonged to the \"PTX Team,\" a\nspecial unit of the <Earth Federation Army>'s Far East branch.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 40166,
+   "text_offset": 40188,
+   "role": "display",
+   "refs": [
+    "rec94.text"
+   ],
+   "orig_chars": [
+    17,
+    27,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 316,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An executive at <Mao Industries>.\nRio's father. One of the members who founded Mao\nIndustries with Ling's father, he is now Ling's right hand.\nHe is a bit overprotective of his daughter and always\nworries about her, since she joined the military against his\nwishes.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 40504,
+   "text_offset": 40526,
+   "role": "display",
+   "refs": [
+    "rec95.text"
+   ],
+   "orig_chars": [
+    13,
+    27,
+    27,
+    28,
+    21
+   ],
+   "orig_bytes": 345,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "President of <Isurugi Heavy Industries>.\nDaughter of former president Renji Isurugi, killed\nin the <L5 Campaign>. A seemingly gentle, soft-spoken\nbeauty, but a shrewd operator. Puts profit first,\nwith no scruples over methods or business partners.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 40871,
+   "text_offset": 40901,
+   "role": "display",
+   "refs": [
+    "rec96.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    29,
+    27,
+    4
+   ],
+   "orig_bytes": 507,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A young tycoon of many faces: shipping magnate,\npromoter, information broker, resort hotel owner, former\nboxing champion and more. He also has pull in the\nunderworld. An old friend of Rätsel, he handles resupplying\nthe Kurogane, among other things. He runs \"AM Battling,\"\nan unofficial competition using <Armored Module>s, and owns\na custom unit of his own (a modified Guarlion).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 41408,
+   "text_offset": 41418,
+   "role": "display",
+   "refs": [
+    "rec97.text"
+   ],
+   "orig_chars": [
+    27,
+    26
+   ],
+   "orig_bytes": 161,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A girl rescued by Ibis's group on Komodin Island.\nAn amnesiac of unknown origin. Quiet and gentle.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 41579,
+   "text_offset": 41593,
+   "role": "display",
+   "refs": [
+    "rec98.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    20
+   ],
+   "orig_bytes": 227,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The newly appointed captain of the Space Noah-class\nmultipurpose battleship Hagane, flagship of the\n<Steel Dragons>. Calm, thoughtful and a man of few words.\nHe previously captained the flagship of the 4th Orbital\nPatrol Fleet.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 41820,
+   "text_offset": 41838,
+   "role": "display",
+   "refs": [
+    "rec99.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 291,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A bounty hunter from the other world of the\n\"<Endless Frontier>.\" Captain of the land battleship \"Zeit\nKrokodil,\" he goes by the epithet \"the Wandering Bounty\nHunter.\" Cool and nihilistic, and fond of saying \"OK.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 42129,
+   "text_offset": 42147,
+   "role": "display",
+   "refs": [
+    "rec100.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 295,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Haken Browning's subordinate. A combat android, but\nsomewhat human and sharp-tongued. Usually expressionless\nand calm, but when she activates \"Code DTD,\" a processing\nboost program that uses thermal runaway, she becomes\ncheerful and innocent.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 42442,
+   "text_offset": 42468,
+   "role": "display",
+   "refs": [
+    "rec101.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    27,
+    29,
+    27,
+    13
+   ],
+   "orig_bytes": 457,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The son of Zuiun Akatsuki, president of the mid-sized heavy\nmachinery maker \"<Mogami Heavy Industries>.\" A cheerful,\nlively high school student with a strong sense of justice.\nPersonable, he can get along with anyone. With his twin\nsister Akemi, he serves as a test pilot of the \"Soul Saber,\"\nthe prototype <Mighty Walker> (a super robot designed for\nmass production by Mogami Heavy Industries).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 42925,
+   "text_offset": 42951,
+   "role": "display",
+   "refs": [
+    "rec102.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    28,
+    28,
+    27,
+    8
+   ],
+   "orig_bytes": 442,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The daughter of Zuiun Akatsuki, president of the mid-sized\nheavy machinery maker \"<Mogami Heavy Industries>.\"\nEnergetic yet thoughtful, she often holds back her headlong\ntwin brother, Akimi. With him, she serves as a test pilot of\nthe \"Soul Saber,\" the prototype <Mighty Walker> (a super\nrobot designed for mass production by Mogami Heavy\nIndustries).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 43393,
+   "text_offset": 43415,
+   "role": "display",
+   "refs": [
+    "rec103.text"
+   ],
+   "orig_chars": [
+    28,
+    29,
+    27,
+    27,
+    30
+   ],
+   "orig_bytes": 420,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A woman of the alien civilization \"Gadisword.\" A bodyguard of\nMalum Quisude, the representative of the space fortress\n\"<Rabulpaila>.\" She stole an experimental craft (Earth's code\nname: \"Drift Wing\") and came to Earth. She has a calm air and\nis a woman of action. She is of the \"<Anex>,\" one of the\ndominant peoples of planet Gadisword.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 43835,
+   "text_offset": 43841,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 43863,
+   "text_offset": 43885,
+   "role": "display",
+   "refs": [
+    "rec104.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    27,
+    28,
+    26
+   ],
+   "orig_bytes": 408,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A genius scientist of the alien civilization \"Gadisword.\" He\ndesigned the space fortress \"<Rabulpaila>\" and serves as its\nHead Officer (director; the person in charge). He also\ndevelops the mobile weapons operated with the Rabulpaila. A\nman true to his own intellectual curiosity, and ambitious. He\nwas the most successful member of the people called the\n\"<Rattma>\" on planet Gadisword.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 44293,
+   "text_offset": 44315,
+   "role": "display",
+   "refs": [
+    "rec105.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    29,
+    27
+   ],
+   "orig_bytes": 415,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A soldier of the alien civilization \"Gadisword.\" Combative by\nnature, he serves as Knight Leader (captain) of the unit that\ntests the mobile weapons Herluga developed (currently\ncalled the Imperial Guard). He is of the people called the\n\"<Rattma>\" on planet Gadisword, and has sworn loyalty to his\nkinsman Herluga, who trusts him deeply in return.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 44730,
+   "text_offset": 44736,
+   "role": "display",
+   "refs": [
+    "rec106.text"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 63,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A man who commands the <Zovorg>'s mobile\nweapon forces.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 44799,
+   "text_offset": 44825,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    29,
+    19
+   ],
+   "orig_bytes": 470,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 45295,
+   "text_offset": 45317,
+   "role": "display",
+   "refs": [
+    "rec107.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 364,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A soldier of the alien civilization \"Gadisword.\" A soldier of\nfew words, calm and collected, who judges things by looking\nat the big picture. Serving as Knight Leader (captain) of a\nhumanoid mobile weapon unit, this pilot is a famous ace in the\nGadisword military. Of the \"<Anex>,\" one of the dominant\npeoples of planet Gadisword.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 45681,
+   "text_offset": 45707,
+   "role": "display",
+   "refs": [
+    "rec108.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    26,
+    27,
+    28,
+    8
+   ],
+   "orig_bytes": 434,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A soldier of the alien civilization \"Gadisword.\" The pilot of a\nhumanoid mobile weapon called the \"Leonysis Harga.\"\nImpulsive and rough-spoken, but kind to those close to him.\nHe and Sally Emil, who is in the same unit, are childhood\nfriends, and he thinks of her as his own little sister. He is of\nthe \"<Anex>,\" one of the dominant peoples of planet\nGadisword.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 46141,
+   "text_offset": 46163,
+   "role": "display",
+   "refs": [
+    "rec109.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    27
+   ],
+   "orig_bytes": 409,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A soldier of the alien civilization \"Gadisword.\" The pilot of a\nhumanoid mobile weapon called the \"Leonysis Varga.\"\nCheerful and honest, with a strong core. She and Sieg\nAltolied, who is in the same unit, are childhood friends, and\nshe looks up to him like her own big brother. She is of the\n\"<Anex>,\" one of the dominant peoples of planet Gadisword.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 46572,
+   "text_offset": 46586,
+   "role": "display",
+   "refs": [
+    "rec110.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    20
+   ],
+   "orig_bytes": 229,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Captain of the \"Golar Golem Unit,\" a special forces unit of\nthe alien civilization \"<Ze Balmary Empire>.\" One of the\n\"Balshem Series\" of artificial humans created by <Euzeth>\nGozzo.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 46815,
+   "text_offset": 46821,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 46843,
+   "text_offset": 46857,
+   "role": "display",
+   "refs": [
+    "rec111.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    21
+   ],
+   "orig_bytes": 232,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Vice captain of the \"Golar Golem Unit,\" a special forces\nunit of the alien civilization \"<Ze Balmary Empire>.\" One of\nthe \"Balshem Series\" of artificial humans created by\n<Euzeth> Gozzo.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 47089,
+   "text_offset": 47103,
+   "role": "display",
+   "refs": [
+    "rec112.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    20
+   ],
+   "orig_bytes": 229,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A member of the \"Golar Golem Unit,\" a special forces unit\nof the alien civilization \"<Ze Balmary Empire>.\" One of the\n\"Balshem Series\" of artificial humans created by <Euzeth>\nGozzo.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 47332,
+   "text_offset": 47354,
+   "role": "display",
+   "refs": [
+    "rec113.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    28,
+    8
+   ],
+   "orig_bytes": 355,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A high school student living in Japan. Basically\nstraightforward with a sense of justice, but a bit timid, and\nnot the type to take the initiative. His father, Seldoa Shiun,\nworks at <Ashurey Kreuzer> on the Moon, so he lives alone. His\nmother died several years ago.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 47709,
+   "text_offset": 47731,
+   "role": "display",
+   "refs": [
+    "rec114.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    27,
+    17
+   ],
+   "orig_bytes": 387,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A test pilot employed by <Ashurey Kreuzer>, who pilots the\nhumanoid mobile weapon \"Bellzelute.\" Formerly an\n<Earth Federation Army> soldier, she was an ace pilot known as\nthe \"White Lynx.\" Cool and somewhat self-righteous, she\ndoesn't care to have much to do with others.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 48118,
+   "text_offset": 48136,
+   "role": "display",
+   "refs": [
+    "rec115.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    27,
+    11
+   ],
+   "orig_bytes": 282,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A serious, quiet girl, though a bit stubborn. Her parents\nwork at <Ashurey Kreuzer>, and after they called her to the\ncompany, it came under attack by unidentified mobile\nweapons, but she survived along with Melua.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 48418,
+   "text_offset": 48432,
+   "role": "display",
+   "refs": [
+    "rec116.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    26
+   ],
+   "orig_bytes": 243,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Known as Tenia. An energetic girl who goes at everything\neagerly. She is compatible with the Bellzelute's \"Cytron\nControl System,\" and comes to fight alongside Calvina. A\nbig eater.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 48675,
+   "text_offset": 48693,
+   "role": "display",
+   "refs": [
+    "rec117.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    28,
+    19
+   ],
+   "orig_bytes": 309,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A modest, gentle girl who rarely asserts herself. Her parents\nwork at <Ashurey Kreuzer>, and after they called her to the\ncompany, it came under attack by unidentified mobile\nweapons, but she survived along with Katia. She loves\nsweets.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 49002,
+   "text_offset": 49024,
+   "role": "display",
+   "refs": [
+    "rec118.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    27,
+    27,
+    16
+   ],
+   "orig_bytes": 379,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A girl who rules the group called the \"Fury\" and holds the\nposition of \"Princess.\" Graceful, thoughtful and\nkind-hearted. She was pursuing a certain plan with\nE-Selda Shune, the <Sentinel> Commander (captain of the\nroyal guard). She is also wary of the rise of Gu-Landon\nGortz, leader of the \"Furia Holy Knights.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 49403,
+   "text_offset": 49429,
+   "role": "display",
+   "refs": [
+    "rec119.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    28,
+    28,
+    28,
+    17
+   ],
+   "orig_bytes": 473,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The <Sentinel> Commander (captain of the royal guard) who\nserves Princess Shana-Mia, ruler of the group called the\n\"Fury.\" The pilot of the Throne Unit \"Granteed,\" his skill is\nsaid to exceed even that of Gu-Landon Gortz, leader of the\nFuria Holy Knights. He is also Al-Van Ranks's teacher. He\ngoes by another name, Seldoa Shiun, and has an only son\n(Touya Shiun).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 49902,
+   "text_offset": 49916,
+   "role": "display",
+   "refs": [
+    "rec120.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28
+   ],
+   "orig_bytes": 249,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A man of the \"Furia Holy Knights,\" which could be called the\narmy of the group known as the \"Fury.\" Impulsive, vindictive\nand hungry for promotion. He respects his superior, Al-Van\nRanks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 50165,
+   "text_offset": 50183,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    28,
+    29,
+    27,
+    10
+   ],
+   "orig_bytes": 282,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 50465,
+   "text_offset": 50483,
+   "role": "display",
+   "refs": [
+    "rec121.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 298,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The man who leads the \"Furia Holy Knights,\" which could\nbe called the army of the group known as the \"Fury.\" Also\ncalled the \"Knight Commander.\" A bold warrior, and\nambitious. While professing obedience to Princess\nShana-Mia, he is advancing a certain plan behind the\nscenes.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 50781,
+   "text_offset": 50787,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 50809,
+   "text_offset": 50831,
+   "role": "display",
+   "refs": [
+    "rec122.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    8
+   ],
+   "orig_bytes": 353,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A man of the \"Furia Holy Knights,\" which could be called\nthe army of the group known as the \"Fury.\" The leading\ncandidate to be the next Knight Commander, and a superb\nknight. He pilots the humanoid mobile weapon \"Raftclans\nAurun\" and excels at sword combat. Serious by nature, he\nprefers to fight fair and square.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 51184,
+   "text_offset": 51190,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 51212,
+   "text_offset": 51230,
+   "role": "display",
+   "refs": [
+    "rec123.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    27,
+    23
+   ],
+   "orig_bytes": 318,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The man who commands the \"<Agent>s,\" who carry out\nintelligence work, assassinations and the like for the group\ncalled the \"Fury.\" He holds the rank of \"Chief Agent.\"\nCalm, collected and cruel, he sides with Gu-Landon Gortz,\nleader of the \"Furia Holy Knights.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 51548,
+   "text_offset": 51554,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 51576,
+   "text_offset": 51594,
+   "role": "display",
+   "refs": [
+    "rec124.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    12
+   ],
+   "orig_bytes": 286,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A woman of the \"Furia Holy Knights,\" which could be called\nthe army of the group known as the \"Fury.\" She pilots the\nhumanoid mobile weapon \"Raftclans Fauneia\" and excels at\nranged combat. She speaks politely, but is a valiant knight.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 51880,
+   "text_offset": 51894,
+   "role": "display",
+   "refs": [
+    "rec125.text"
+   ],
+   "orig_chars": [
+    27,
+    30,
+    18
+   ],
+   "orig_bytes": 224,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "One of the \"<Agent>s,\" who carry out intelligence work,\nassassinations and the like for the group called the \"Fury.\"\nAlso skilled with humanoid mobile weapons. Cruel by nature,\nthis Agent kills people for fun.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 52118,
+   "text_offset": 52124,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 52146,
+   "text_offset": 52164,
+   "role": "display",
+   "refs": [
+    "rec126.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 278,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The newly appointed commander of the\n<Earth Federation Army>'s 1st Independent Special\nSquadron, known as the \"<Steel Dragons>.\" A high-strung\nman who is strict about discipline and won't tolerate his\nsubordinates acting on their own. He plans to control the\nSteel Dragons completely and rise in rank through their\nachievements.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 52442,
+   "text_offset": 52456,
+   "role": "display",
+   "refs": [
+    "rec127.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    23
+   ],
+   "orig_bytes": 238,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot of the <Earth Federation Army>'s 13th Special\nOperations <PT> Unit. Previously a member of the \"FDX\nTeam,\" a special operations PT unit of the Southern\nEurope Command. Hot-tempered and foul-mouthed, but\nskilled at close combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 52694,
+   "text_offset": 52712,
+   "role": "display",
+   "refs": [
+    "rec128.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 278,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A pilot of the <Earth Federation Army>'s 13th Special\nOperations <PT> Unit. Previously the leader of the \"FDX\nTeam,\" a special operations PT unit of the Southern\nEurope Command. Has a superb tactical eye that can find\nthe best answer in any battle.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 52990,
+   "text_offset": 53004,
+   "role": "display",
+   "refs": [
+    "rec129.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    23
+   ],
+   "orig_bytes": 239,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The person who succeeded Graien Grassman, who died during\n<The Sealing War>, as President of the Federation government.\nUntouched by scandal, with an earnest, positive attitude\nthat is the source of the President's popularity.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 53243,
+   "text_offset": 53269,
+   "role": "display",
+   "refs": [
+    "rec130.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    28,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 445,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An engineer at the mid-sized heavy machinery maker\n\"<Mogami Heavy Industries>,\" involved in developing the \"Soul\nSaber,\" the prototype <Mighty Walker> (a super robot designed\nfor mass production by Mogami Heavy Industries). Spirited\nand loud, but thinks of Akimi and Akemi as family. An old\nacquaintance of Kota's grandfather, Kisaburo Azuma.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 53714,
+   "text_offset": 53736,
+   "role": "display",
+   "refs": [
+    "rec131.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 342,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "President of the mid-sized heavy machinery maker\n\"<Mogami Heavy Industries>.\" As the threat from outside\nenemies grew serious, he resolved to develop the\n<Mighty Walker> (a super robot designed for mass\nproduction). To Akimi, he is a strict, nagging parent, but\ndeep down he worries about his children more than anyone.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 54078,
+   "text_offset": 54100,
+   "role": "display",
+   "refs": [
+    "rec132.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    28,
+    27,
+    14
+   ],
+   "orig_bytes": 376,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Head Leader (president) of the alien civilization\n\"Gadisword.\" Originally the Minister of Environmental\nDevelopment, he was the only one aboard the space fortress\n\"<Rabulpaila>\" in the line of succession for Head Leader\nauthority, so after the warp to the solar system, he became\nHead Leader as a temporary measure. Gentle and dutiful, but\na poor negotiator.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 54476,
+   "text_offset": 54490,
+   "role": "display",
+   "refs": [
+    "rec133.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    24
+   ],
+   "orig_bytes": 242,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Head of the 3rd Development Department at\n<Ashurey Kreuzer>'s German branch. At the request of E-Selda\nShune, alias Seldoa Shiun, this department head secretly\ndeveloped the Bellzelute Brigandi.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 54732,
+   "text_offset": 54746,
+   "role": "display",
+   "refs": [
+    "rec134.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    14
+   ],
+   "orig_bytes": 209,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The person who leads the civil officials called\n\"<Chancellor>s\" among the group called the \"Fury.\" Holds the\nrank of \"Chief Chancellor.\" Princess Shana-Mia's political\nadvisor.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 54955,
+   "text_offset": 54961,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 54983,
+   "text_offset": 54997,
+   "role": "display",
+   "refs": [
+    "rec135.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    28
+   ],
+   "orig_bytes": 251,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An officer in the <Earth Federation Army>'s intelligence\ndepartment. Stationed at the Far East Command's Izu Base\nand doing clerical work, this officer's talent was discovered\nby Gilliam after a certain incident, and became one of his\ndirect subordinates.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 55248,
+   "text_offset": 55266,
+   "role": "display",
+   "refs": [
+    "rec136.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 260,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A member of the \"<Golaikunru>,\" the <Zovorg>'s war\nprofiteers. Judging by the surname, this person is thought\nto hold the highest rank or an equivalent post, but the\ndetails are unknown. Full of curiosity and fond of new\nthings.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 55526,
+   "text_offset": 55540,
+   "role": "display",
+   "refs": [
+    "rec137.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    24
+   ],
+   "orig_bytes": 241,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mercenary of the \"<Golaikunru>,\" the <Zovorg>'s war\nprofiteers. Gentle in appearance and manner of speech,\nbut fairly realistic and dry by nature. A skilled humanoid\nmobile weapon pilot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ],
+ "inline_strings": []
+}

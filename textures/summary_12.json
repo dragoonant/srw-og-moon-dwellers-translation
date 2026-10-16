@@ -1,0 +1,88 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_12.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 12: Attack methods",
+ "font": "seguisb.ttf",
+ "size": 20,
+ "lh": 23,
+ "icons": {
+  "f": [
+   395,
+   343,
+   452,
+   359
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● There are 5 main {o|attack methods}:"
+  },
+  {
+   "x": 28,
+   "y": 40,
+   "text": "{G|Normal Attack}"
+  },
+  {
+   "x": 28,
+   "y": 65,
+   "text": "• 2 forms, Focused Attack and Single Attack. Support Attacks can be used."
+  },
+  {
+   "x": 28,
+   "y": 98,
+   "text": "{G|ALL Attack}"
+  },
+  {
+   "x": 28,
+   "y": 123,
+   "text": "• ALL Attack Weapons damage every machine in the target unit."
+  },
+  {
+   "x": 28,
+   "y": 156,
+   "text": "{G|MAP Weapon}"
+  },
+  {
+   "x": 28,
+   "y": 181,
+   "text": "• MAP Weapons damage every unit in their attack area."
+  },
+  {
+   "x": 28,
+   "y": 214,
+   "text": "{G|Combination Attack}"
+  },
+  {
+   "x": 28,
+   "y": 239,
+   "text": "• Damages up to 5 machines when the targets are adjacent to each other."
+  },
+  {
+   "x": 28,
+   "y": 262,
+   "text": "• The main pilot needs the Special Skill \"Continuous Attack\"."
+  },
+  {
+   "x": 28,
+   "y": 295,
+   "text": "{G|Maximum Break}"
+  },
+  {
+   "x": 28,
+   "y": 320,
+   "text": "• 2 adjacent Twin Units attack an enemy unit with all 4 machines at once."
+  },
+  {
+   "x": 28,
+   "y": 343,
+   "text": "• Needs Will 140 or more and a support weapon {i:f}."
+  },
+  {
+   "x": 28,
+   "y": 366,
+   "text": "• The attackers' main pilots need the Special Skill \"MB Activate\"."
+  }
+ ]
+}

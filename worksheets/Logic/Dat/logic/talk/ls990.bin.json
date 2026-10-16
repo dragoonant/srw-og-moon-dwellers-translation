@@ -1,0 +1,165 @@
+{
+ "file": "ls990.bin",
+ "format": "LDBI",
+ "strings": [
+  {
+   "id": 0,
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 2,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 6,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 9,
+   "en": "1234567890123456789012345678901234567890",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "en": "1234567890123456789012345678901234567890@1234567890",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "en": "Lefina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 12,
+   "en": "What level should the Pilots be?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 13,
+   "en": "Leave as is;@Set to 45;@Set to 99",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 14,
+   "en": "Fully upgrade all units?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "en": "Do nothing;@One step short of full upgrade;@Full upgrade",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "en": "Force them to sortie?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 17,
+   "en": "No;@Yes",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "en": "Sortie screen type?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "en": "2nd OG;@OGDP;@Both OGDP and 2nd OG",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "en": "Is this OK?@Or do you want to start over?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "en": "These settings are fine;@Start over",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "en": "Add the Coustwell Brachium?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "en": "Don't add;@Add",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

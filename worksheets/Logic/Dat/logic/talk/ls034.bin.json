@@ -1,0 +1,5790 @@
+{
+ "file": "ls034.bin",
+ "format": "LDBI",
+ "strings": [
+  {
+   "id": 0,
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 2,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 6,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 9,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 10,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 12,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 13,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 14,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 15,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 16,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 17,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 18,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 19,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 20,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 21,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 22,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 23,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 24,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 25,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 26,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 27,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 28,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 29,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 30,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 31,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 32,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 33,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 34,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 35,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 36,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 37,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 38,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 39,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 40,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 41,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 42,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 43,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 44,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 45,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 46,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 47,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 48,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 49,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 50,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 51,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 52,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 53,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 54,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 55,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 56,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 57,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 58,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 59,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 60,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 61,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 62,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 63,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 64,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 65,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 66,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 67,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 68,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 69,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 70,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 71,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 72,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 73,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 74,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 75,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 76,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 77,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 78,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 79,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 80,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 81,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 82,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 83,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 84,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 85,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 86,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 87,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 88,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 89,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 90,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 91,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 92,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 93,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 94,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 95,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 96,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 97,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 98,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 99,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 100,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 101,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 102,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 103,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 104,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 105,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 106,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 107,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 108,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 109,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 110,
+   "en": "Ginto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 111,
+   "en": "All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 112,
+   "en": "Kurt",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 113,
+   "en": "Ngh...! All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 114,
+   "en": "Ryusei",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 115,
+   "en": "D-Dammit!@They got me!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 116,
+   "en": "Rai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "en": "Tch...! It can't hold out any longer...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 118,
+   "en": "Aya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 119,
+   "en": "Ah...! I have to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 120,
+   "en": "Viletta",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 121,
+   "en": "Time to go...! I'm ejecting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 122,
+   "en": "Mai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 123,
+   "en": "I-Is this... the end...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 124,
+   "en": "Kyosuke",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 125,
+   "en": "Blew it...!@Have to bail out...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 126,
+   "en": "Excellen",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 127,
+   "en": "Oh dear...@How uncool of me, honestly!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 128,
+   "en": "Kusuha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 129,
+   "en": "I-I'm sorry...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 130,
+   "en": "Bullet",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 131,
+   "en": "Taken down in a place like this...@I'm still so green...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "en": "Arieil",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 133,
+   "en": "I leave the rest to you...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 134,
+   "en": "Duban",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "en": "To think someone could force me back...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "en": "Irm",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 137,
+   "en": "Tch!! What an early curtain call!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 138,
+   "en": "Ing",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 139,
+   "en": "Th-This is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 140,
+   "en": "Ryoto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "Ngh...! I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 142,
+   "en": "Rio",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 143,
+   "en": "I-I won't lose next time!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 144,
+   "en": "Kai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 145,
+   "en": "Ngh! So this is my limit...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "en": "Lamia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 147,
+   "en": "I'm ejecting, I am...@Ngh...! I can't even go out with dignity...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 148,
+   "en": "Hugo",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 149,
+   "en": "Waaaaaaagh!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 150,
+   "en": "Aqua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "Kyaaaaah!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 152,
+   "en": "Arado",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 153,
+   "en": "Damn it!@You won't get me next time!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 154,
+   "en": "Seolla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 155,
+   "en": "N-Next time... for sure!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "en": "Latune",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "en": "So this... is the end...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 158,
+   "en": "Shine",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 159,
+   "en": "Kyah! I leave the rest to you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 160,
+   "en": "Katina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 161,
+   "en": "Me, screwing up in a place like this...?!@This is no fun...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "Russel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 163,
+   "en": "I'm sorry! I'm bailing out!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "en": "Tasuku",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "en": "Dammit! How pathetic...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "en": "Leona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 167,
+   "en": "How... humiliating...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 168,
+   "en": "Sänger",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 169,
+   "en": "Ngh...! So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "Rätsel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "en": "So I, too, still have much to learn...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 172,
+   "en": "Lefina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 173,
+   "en": "A-All hands!@Abandoning ship is top priority...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 174,
+   "en": "Touma",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "en": "Dammit! Is this all I've got...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "en": "Yuuki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 177,
+   "en": "That was careless of me...@I'll pull back for now...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 178,
+   "en": "Carla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 179,
+   "en": "I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "en": "Axel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 181,
+   "en": "Ngh!@So this is it...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "en": "Alchemie",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "Is this... as far as I go...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 184,
+   "en": "Kota",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "en": "Dammit...!@Is this it?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 186,
+   "en": "Shoko",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 187,
+   "en": "Big brother... Emi... I'm sorry!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "Michiru",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 189,
+   "en": "Oh, no way! This is as far as I go!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 190,
+   "en": "Ibis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "en": "At my current skill...@this is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "en": "Sleigh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 193,
+   "en": "Ngh... Me, made a shooting star...@I'm ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 194,
+   "en": "Raul",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 195,
+   "en": "This... This can't be happening...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "en": "Fiona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 197,
+   "en": "I-I'm beaten?! No way!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "en": "Despinis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "en": "Oh no, it can't be!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 200,
+   "en": "Josh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "en": "Th-This is my limit!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 202,
+   "en": "Rim",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "en": "Ngggh! Not in a place like this!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 204,
+   "en": "Glacies",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 205,
+   "en": "So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 206,
+   "en": "Rishu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 207,
+   "en": "Nngh! Have I blundered...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": "Gilliam",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 209,
+   "en": "Ngh! Ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "en": "Radha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "en": "N-Not in a place like this...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": "Yon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 213,
+   "en": "Aah! M-Master!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "en": "Masaki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "en": "Sorry!@I'm gonna have to bow out...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "en": "Lüne",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 217,
+   "en": "I'm sorry, Valsione...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 218,
+   "en": "Shu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 219,
+   "en": "For the Granzon... to be shot down...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 220,
+   "en": "Amala",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "en": "It can't be helped... Withdrawing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "en": "Albada",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 223,
+   "en": "Damn it, is this as far as I go?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 224,
+   "en": "Serena",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 225,
+   "en": "N-No way!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 226,
+   "en": "Haken",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 227,
+   "en": "Guess I blew it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "en": "Akimi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 229,
+   "en": "Damn it! It's no good!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 230,
+   "en": "Akemi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 231,
+   "en": "I-Is this the end?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 232,
+   "en": "Vort",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 233,
+   "en": "I can't keep fighting...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 234,
+   "en": "Sieg",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 235,
+   "en": "Sally",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 236,
+   "en": "I have no choice but to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 237,
+   "en": "Touya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 238,
+   "en": "N-Not here!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 239,
+   "en": "Calvina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 240,
+   "en": "How disgraceful...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 241,
+   "en": "E-Selda",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 242,
+   "en": "Curses...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 243,
+   "en": "Al-Van",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 244,
+   "en": "I let my guard down...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 245,
+   "en": "Skull Knight",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 246,
+   "en": "Aw, man, they got me good!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 247,
+   "en": "Return face to default",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 248,
+   "en": "???",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 249,
+   "en": "Low Earth Orbit",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 250,
+   "en": "Steel Dragons",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 251,
+   "en": "Hagane: Bridge",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 252,
+   "en": "Tetsuya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 253,
+   "en": "Space transfer sequence complete.@Deviation from planned orbit: point two zero.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 254,
+   "en": "Eita",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 255,
+   "en": "Hiryu Custom has transferred in, 4,000 astern of us.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 256,
+   "en": "Commander, moving to the rendezvous orbit@with the Kurogane designated by Major Gilliam.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 257,
+   "en": "Miles",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 258,
+   "en": "Very well. I'll be in my quarters.@Contact me once the transfer of the mobile units@we entrusted to the Kurogane is complete.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 259,
+   "en": "Roger.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 260,
+   "en": "And make sure the work goes quickly.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 261,
+   "en": "...Still, it's good that Granteed and Touya@and the others came back to us.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 262,
+   "en": "Yeah.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 263,
+   "en": "I wonder if they were taken to@the Fury's home base after all.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 264,
+   "en": "I haven't heard the details either.@We'll probably get a report once we@link up with the Kurogane crew...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 265,
+   "en": "...Radar contact. One o'clock. It's the Kurogane.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 266,
+   "en": "Azuki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 267,
+   "en": "Message from the Kurogane. They're requesting@permission to dock. They also say someone@wishes to meet with the fleet commander.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 268,
+   "en": "Who?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 269,
+   "en": "They say they want to tell the commander that directly.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 270,
+   "en": "(Someone very important, then...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 271,
+   "en": "Hagane - Hangar",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 272,
+   "en": "We made it back here again...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 273,
+   "en": "Katia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 274,
+   "en": "Yeah... When we were prisoners in Gaw-La Furia,@I had no idea what would happen to us.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 275,
+   "en": "Touya, good to have you back.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 276,
+   "en": "Kota...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 277,
+   "en": "Truth is, I wanted to get on the Kurogane@and go rescue you guys myself.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 278,
+   "en": "Akimi and the others told me.@You had something you had to do, Kota.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 279,
+   "en": "I suppose.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 280,
+   "en": "I'm so glad you're safe too, Katia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 281,
+   "en": "I'm sorry, I made you worry.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 282,
+   "en": "Um... So were you two taken@to the Fury's home base after all?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 283,
+   "en": "Yes, that's right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 284,
+   "en": "And yet you still managed to escape.@Splendidly done.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 285,
+   "en": "It's thanks to Granteed rescuing us.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 286,
+   "en": "Huh...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 287,
+   "en": "You mean...@Granteed moved on its own?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 288,
+   "en": "Yes.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 289,
+   "en": "Apparently the soul of the Fury's god dwells@in Granteed. I think it moved on its own@because of that will...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 290,
+   "en": "I never knew...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 291,
+   "en": "So it ain't just the looks that are grandiose.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 292,
+   "en": "You've seen the new Granteed already?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 293,
+   "en": "Yup. It got real beefy, huh?@Big wings sproutin' from its back, and a wolf's face@on its chest.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 294,
+   "en": "Wait, isn't that a lion?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 295,
+   "en": "It's a dragon. In Gaw-La Furia, it combined@with a dragon-shaped machine called Basileus.@That's Granteed's true form.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 296,
+   "en": "Gaw-La...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 297,
+   "en": "Is that the name of the Fury's base?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 298,
+   "en": "...I can't go into detail yet.@Major Gilliam told me to keep quiet.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 299,
+   "en": "Who told you all that in the first place?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 300,
+   "en": "I can't... say that either.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 301,
+   "en": "...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 302,
+   "en": "(It must be some very serious information...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 303,
+   "en": "...Huh? Seriously, Roa?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 304,
+   "en": "Is Roa saying something?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 305,
+   "en": "Yeah. He says the powered-up Granteed@feels like the deity ship.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 306,
+   "en": "Deity ship...? What's that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 307,
+   "en": "A big battleship Roa used to ride in.@Says a god from his world lived inside it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 308,
+   "en": "My, so they have gods in common.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 309,
+   "en": "(Is it... just a coincidence?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 310,
+   "en": "Tenia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 311,
+   "en": "The inside is pretty much the same as the Kurogane,@so it doesn't really feel like it's been a while.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 312,
+   "en": "I'm so glad you're safe too, Tenia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 313,
+   "en": "Yeah. Sorry for making you worry so much.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 314,
+   "en": "So were you two taken@to the Fury's home base after all?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 315,
+   "en": "Yep.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 316,
+   "en": "It's thanks to Granteed@rescuing us.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 317,
+   "en": "You mean...@Granteed moved on its own?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 318,
+   "en": "Yeah.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 319,
+   "en": "The deity ship...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 320,
+   "en": "Melua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 321,
+   "en": "...Phew. I've been tense this whole time,@so it feels like I can finally catch my breath.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 322,
+   "en": "Let's see...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 323,
+   "en": "I'm so glad you're safe too, Melua.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 324,
+   "en": "I'm sorry for making you worry.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 325,
+   "en": "So were you two taken@to the Fury's home base after all?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 326,
+   "en": "Yes, that's right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 327,
+   "en": "Yes, sir.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 328,
+   "en": "So this is the new Excellence...@The head, torso and arms are from the Striker.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 329,
+   "en": "Mizuho",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 330,
+   "en": "Yes. The lower body and backpack are from@the Gunner Frame, which we'd only designed before.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 331,
+   "en": "I see. Gunner plus Striker@makes Gunstriker.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 332,
+   "en": "The Excellence was originally designed@to swap between several frames, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 333,
+   "en": "What about the Lightning and the Eternal?@Those two are the top-tier frames.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 334,
+   "en": "That's true, but this time we had to finish@the unit as fast as possible, and the stability of@the <Time Flow Engine> was the top priority...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 335,
+   "en": "So we decided to build two Strikers,@the Excellence's basic frame.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 336,
+   "en": "But it lacks versatility,@so we built in parts from the Gunner Frame@and a <Tesla Drive>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 337,
+   "en": "That's why it's more agile than it looks.@Even without the backpack,@the main body can fly on its own.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 338,
+   "en": "By the way, didn't you say you'd erased@all the data on the Time Flow Engine?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 339,
+   "en": "Yes, that's right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 340,
+   "en": "Then how...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 341,
+   "en": "Did you secretly keep a backup?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 342,
+   "en": "No, we didn't.@Even we can't erase the blueprints@in Raji's head and mine...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 343,
+   "en": "Jeez, you coulda told us beforehand that its@<Time Flow Engine> might break that trick@the Fury pulls.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 344,
+   "en": "Sorry...@Major Gilliam told me to keep it@top secret.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 345,
+   "en": "He didn't want to confuse us@with something uncertain?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 346,
+   "en": "Well, if we'd known, we'd have counted on it a lot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 347,
+   "en": "We didn't know if it would actually work@until we tried it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 348,
+   "en": "Jua-Mu ambushed the Kurogane and used that trick...@but Fiona and I could still move inside the barrier@in the Excellence Gunstriker.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 349,
+   "en": "And apparently Granteed Dracodeus@can do the same.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 350,
+   "en": "Then if the Fury use that trick from now on,@we can counter it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 351,
+   "en": "I'm glad Katia is safe too...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 352,
+   "en": "Sure. When we went to the ruins of the@<Garden of Baral>, there was a pyramid Fatso built.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 353,
+   "en": "That bastard was gatherin'@Lamaris Kaana in there.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 354,
+   "en": "What...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 355,
+   "en": "We managed to take down Fatso...@but the Lamaris Kaana combined@into somethin' even bigger.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 356,
+   "en": "And on top of that,@the Skull Knight made off with it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 357,
+   "en": "So what are they planning to do?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 358,
+   "en": "People think they mean to make@a lot more Lamaris, or help them@grow even further, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 359,
+   "en": "Nobody knows for sure.@Though I figure that giant Lamaris@is headed for the Dark Iron Castle.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 360,
+   "en": "By the way, about that powered-up Granteed.@Roa says it's got the same feel as@the big battleship he used to ride.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 361,
+   "en": "A battleship...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 362,
+   "en": "Yeah, called the deity ship...@Apparently the soul of a god from his world@lived inside it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 363,
+   "en": "Huh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 364,
+   "en": "What's up?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 365,
+   "en": "Something like that's true of Granteed too...@I heard the soul of the Fury's god dwells in it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 366,
+   "en": "Huh... Maybe that's why they feel alike.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 367,
+   "en": "Hagane - Commander's Office",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 368,
+   "en": "Letting three Gadisword natives fight with us...@Why did you approve Rätsel Feinschmecker's@decision?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 369,
+   "en": "I judged it a necessary measure@to resolve a number of problems.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 370,
+   "en": "In fact, we fought a Gadisword unit on the way@to the Moon, but Fairy, Sieg and Sally@showed no sign of leaving us...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 371,
+   "en": "And they've been cooperative in later operations too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 372,
+   "en": "So you want me to approve it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 373,
+   "en": "If possible, by recommending it to the Joint Chiefs.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 374,
+   "en": "(Even if I bury it here, it'll just get@reported to Lieutenant General Jacob Moore...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 375,
+   "en": "...Very well. I'll consider it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 376,
+   "en": "Next, the matter of meeting@with Princess Shana-Mia Eterna Fura.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 377,
+   "en": "...A hard story to believe on short notice.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 378,
+   "en": "But we have Touya Shiun's testimony...@and Granteed Dracodeus can serve@as physical evidence.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 379,
+   "en": "Even if it's true,@this is far beyond what we can handle at our level.@It's an extremely high-level political issue.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 380,
+   "en": "Of course, we must report it to the Joint Chiefs.@In all likelihood, she'll end up@being transferred to Earth, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 381,
+   "en": "I want to get information out of her while we can.@For the sake of the missions the Steel Dragons@will likely be involved in eventually.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 382,
+   "en": "...All right. I'll meet her.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 383,
+   "en": "Tsugumi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 384,
+   "en": "I see... So there were no clues@at the ruins of the <Garden of Baral>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 385,
+   "en": "But I think it's actually a good thing@that <Irui> wasn't there.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 386,
+   "en": "Why?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 387,
+   "en": "On the surface there was a pyramid built by@Debudedabide, with Lamaris Kaana gathered inside.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 388,
+   "en": "The underground space was strewn with <Yokijin>@wreckage, and malice seemed to have pooled there.@We think the Lamaris absorbed it, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 389,
+   "en": "That place was like a graveyard.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 390,
+   "en": "You saw it yourself?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 391,
+   "en": "Yes. We surveyed the underground part with KoRyuOh.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 392,
+   "en": "There were no life signs...@and I couldn't sense any thoughts@that might have been Irui's.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 393,
+   "en": "(Irui... Where are you now...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 394,
+   "en": "Hagane - Briefing Room",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 395,
+   "en": "...A pleasure to meet you. I am Brigadier General@Miles Boothroyd, commander of the 1st Independent@Special Forces Unit under the Joint Chiefs.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 396,
+   "en": "Shana-Mia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 397,
+   "en": "I am Shana-Mia Eterna Fura...@of the imperial family that rules the Fury.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 398,
+   "en": "I should mention that present here@are not only my unit's commanding officers,@but other concerned parties as well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 399,
+   "en": "I understand.@Let me say this first of all...@I have no wish to fight the people of Earth any longer.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 400,
+   "en": "You said \"I.\"@Meaning that is Your Highness's personal will,@not the consensus of the Fury?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 401,
+   "en": "Yes... At present, Gu-Landon Gortz, Knight Commander@of the Furia Holy Knights, has seized control@of our nation.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 402,
+   "en": "Hmm...@First of all, what exactly are you, the Fury?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 403,
+   "en": "...Long ago, the Fury were an empire@that flourished in a faraway star system.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 404,
+   "en": "But a great catastrophe cost us our home world and@many of our brethren. The few who survived escaped@aboard the colossal spaceship Gaw-La Furia...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 405,
+   "en": "And after wandering space, we reached Earth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 406,
+   "en": "When was this?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 407,
+   "en": "...Let us say several thousand years ago.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 408,
+   "en": "...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 409,
+   "en": "Then you're descendants of Fury@who came to Earth long ago?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 410,
+   "en": "We have hardly gone through any generations.@That's because we have repeatedly undergone@extremely long-term artificial hibernation.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 411,
+   "en": "Why would you do that...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 412,
+   "en": "So that we ourselves might one day return home...@and so that our power and technology would not@be lost over the generations.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 413,
+   "en": "(And for that they managed thousands of years@of artificial hibernation...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 414,
+   "en": "(We've got the <Earth Cradle> and the Moon Cradle@on Earth, but this is on a whole other level...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 415,
+   "en": "What led you to that decision?@You said earlier that you lost your home world...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 416,
+   "en": "It all began with ruins on our home world,@the Ru-Kuku Vodyu... the Gate of Voda.@You call it the Cross Gate.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 417,
+   "en": "Wha...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 418,
+   "en": "(I knew there was more than one of them...@So one existed on the Fury's home world too.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 419,
+   "en": "While we were investigating the Gate of Voda,@the <Vaula> appeared, and our world fell into chaos.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 420,
+   "en": "Their form differed from what you later encountered@on Earth, but their goal was to gather the malice@of intelligent life...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 421,
+   "en": "And to manifest that which endlessly returns the@endlessly expanding universe to primordial darkness.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 422,
+   "en": "(Same as the <Ruina>.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 423,
+   "en": "Despite our valiant efforts, our world was overrun@by the Vaula, who appeared in endless numbers...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 424,
+   "en": "The survivors fled to the fleet of ships@led by Gaw-La Furia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 425,
+   "en": "Then Father, Gu-Landon and the others planned a final@operation: the Furia Holy Knights, led by the Throne@Units, would storm and destroy the Gate of Voda.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 426,
+   "en": "And did you manage to destroy the Cross Gate?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 427,
+   "en": "We don't know.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 428,
+   "en": "What do you mean?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 429,
+   "en": "In the final stage, my father and the Knights had to@withdraw. The attack on the Gate of Voda led to the@worst possible outcome: our home world's collapse.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 430,
+   "en": "The fleet escaped by space transfer.@But it seems that when the planet broke apart, space-@time was distorted, or some force tied to the Gate...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 431,
+   "en": "And we were flung into an unknown region of space,@far, far from our star system.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 432,
+   "en": "(An unplanned ultra-long-distance transfer...@Similar to what happened with the <Rabulpaila>.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 433,
+   "en": "We tried many times to return to our home world,@but to this day we have never succeeded. So we don't@know what became of the Gate of Voda.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 434,
+   "en": "I see...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 435,
+   "en": "While wandering space in search of our home world,@Gaw-La Furia discovered the solar system.@And we learned of Earth, a world that could support life.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 436,
+   "en": "Our survey revealed that intelligent life of the same@type as us... that is, Earthlings, had built a civilization...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 437,
+   "en": "And that the <Gate of Voda> existed in Antarctica,@which was still unexplored at the time.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 438,
+   "en": "We were stunned by that discovery.@And we cursed our fate.@We had met the source of the catastrophe once again.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 439,
+   "en": "Do the Fury know why the Cross Gate was made,@when, and by whom?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 440,
+   "en": "No, it's an unknown to us as well...@but I have one idea.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 441,
+   "en": "Which is?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 442,
+   "en": "In Fury mythology, there is a passage where the creator@god Fureim descended from the heavens with a dragon@through a circular gate and came down to the land.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 443,
+   "en": "The creator god...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 444,
+   "en": "The god who created the Fury long ago and granted us@wisdom and power... a giant crowned with a halo.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 445,
+   "en": "A giant crowned with a halo... Just like Granteed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 446,
+   "en": "Yes. It's a mobile weapon made in Fureim's image,@a mechanical guardian deity handed down@through the imperial family for generations.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 447,
+   "en": "And inside it is housed@the divine body in which the god's soul dwells.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 448,
+   "en": "A god's soul...? Is that true?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 449,
+   "en": "Even among the Fury, some have their doubts.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 450,
+   "en": "Clifford",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 451,
+   "en": "...How does the mythology describe the creator god's@soul coming to dwell in the divine body?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 452,
+   "en": "After the Fury people built their first civilization,@Fureim became its unshakable foundation@and fell into slumber.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 453,
+   "en": "At that time, it's said he left these words:@\"When the hour of the great trial comes,@I shall awaken once more.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 454,
+   "en": "(A trial...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 455,
+   "en": "The land where the creator god slept became@the center of civilization, and after rising and@falling through the ages, it became our capital.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 456,
+   "en": "It's also said that over the long passage of time,@Fureim's body became one with the earth,@until only a crimson jewel remained.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 457,
+   "en": "That's the divine body?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 458,
+   "en": "Yes. It was originally kept inside a temple...@but now it is housed within Granteed's@battle throne.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 459,
+   "en": "Then does the mythology go into detail@about the circular gate Fureim appeared through?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 460,
+   "en": "No...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 461,
+   "en": "So it seems it's only a legend in the end.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 462,
+   "en": "But the Throne Units do have supernatural power...@And the only ones who can pilot them are descendants@of the first emperor, called the child of Fureim...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 463,
+   "en": "The head of the imperial family, and the head of@the Shune family, who serve for generations as its@guard, the Sentinel Commander.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 464,
+   "en": "Shune? Don't tell me...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 465,
+   "en": "It's my father's family name.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 466,
+   "en": "Then you're...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 467,
+   "en": "It's not just me. Katia, Tenia and Melua are@also half Earthling, half Fury.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 468,
+   "en": "!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 469,
+   "en": "Those girls too...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 470,
+   "en": "Seriously? That's...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 471,
+   "en": "Yes.@That's probably why we could@use the Cytron System.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 472,
+   "en": "(Now that you mention it, a lot of things add up.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 473,
+   "en": "(So Father's prediction was right...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 474,
+   "en": "Princess Shana-Mia,@would you also explain the matter@of Touya Shiun and the others?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 475,
+   "en": "Yes, in order...@After we discovered the Gate of Voda in Antarctica,@the Vaula emerged from it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 476,
+   "en": "We had anticipated their attack,@so we intercepted them at once, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 477,
+   "en": "After a fierce battle, most of the Knights fell,@and Gaw-La Furia was badly damaged.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 478,
+   "en": "My father boarded the Throne Unit with E-Selda Shune@and joined the decisive battle at the Gate of Voda...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 479,
+   "en": "But facing a mighty enemy, I'm told, he was driven@so far that he had to prepare himself for death.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 480,
+   "en": "(A mighty enemy...@Something of the same kind as <Perfectio>,@the King of Ruin?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 481,
+   "en": "However, the Throne Unit unleashed a supernatural@power that held that enemy back and closed@the Gate of Voda.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 482,
+   "en": "Granteed had that kind of power...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 483,
+   "en": "But it didn't activate during the battle@on the Fury's home world, did it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 484,
+   "en": "Then why on Earth...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 485,
+   "en": "There are two theories about that.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 486,
+   "en": "In the first battle with the Vaula, my father and the@others obtained a device they used to sense the@thoughts and emotions of intelligent life.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 487,
+   "en": "(The \"key\" that <Perfectio> spoke of...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 488,
+   "en": "They modified it and built it into the Cytron System@of the Throne Units and Knight units, to detect the@Vaula's presence and movements in battle.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 489,
+   "en": "(In other words, a distorted version of the \"key\"...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 490,
+   "en": "As a result, all those at the Antarctic battle... not just@Father, E-Selda and the Knights, but the Vaula too...@resonated and clashed strongly through the system.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 491,
+   "en": "It's thought that the violent surge of positive and@negative thought awakened the soul of Fureim in the@Throne Unit, unleashing the power to seal the Gate.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 492,
+   "en": "(Resonance before the King of Ruin...@That rings a bell.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 493,
+   "en": "(That time... In the final battle with Perfectio,@the power of human feelings, of life, that we@brought forth... The only thing that could resist it...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 494,
+   "en": "(If the Cytron System is the original@of the <Sympathia> that was the key to that,@then Granteed could do the same...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 495,
+   "en": "(No, it wouldn't be strange if it could do even more.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 496,
+   "en": "And the other theory...@My father and the others suspected that@some factor lies with Earth itself.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 497,
+   "en": "What do you mean?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 498,
+   "en": "I feel this planet is a special place that draws in@those with rare fates and ties, and makes them cross.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 499,
+   "en": "In fact, it seems we weren't the first@visitors from another world...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 500,
+   "en": "We also found traces of supernatural beings@waging battles in many places.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 501,
+   "en": "That's...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 502,
+   "en": "Could the former be <Gan Eden>...@and the latter the war between <Baral> and@the Hundred Evils, the Great Mech War?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 503,
+   "en": "Either way, I believe a great power of fate@is at work on Earth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 504,
+   "en": "That may be one of the reasons you were able@to seal the Gate of Voda in the recent@great war.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 505,
+   "en": "(If that's true, then Chris and Ventus,@who went to the other side...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 506,
+   "en": "Let me return to the story.@After the battle with the <Vaula> ended,@my father and the others studied the Gate of Voda...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 507,
+   "en": "But every probe sent to the other side@was lost without a trace.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 508,
+   "en": "But we and the Ares Geist...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 509,
+   "en": "That's a first for us as well. It may be due@to the great power of fate I mentioned earlier.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 510,
+   "en": "So we're the exception of exceptions...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 511,
+   "en": "Passing through the Cross Gate@requires some kind of condition or factor...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 512,
+   "en": "The unmanned probes the survey team sent to the@other side after the Sealing War didn't have it,@so they couldn't come back.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 513,
+   "en": "Then how do you explain the Cross Gates@of the <Endless Frontier>, which allow some@travel back and forth?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 514,
+   "en": "This is only a guess, but the gates in that world@may be simplified copies of the ones we know...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 515,
+   "en": "Or ones that someone had adjusted@and was controlling.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 516,
+   "en": "Then what are those conditions or factors@for passing through the Cross Gate@you mentioned, Major?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 517,
+   "en": "The fragments of false memories Euzeth once spoke of,@rebirth after a Great Kalpa... or the experience@of crossing between parallel worlds or dimensions...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 518,
+   "en": "Those may be brands stamped on our bodies,@proof that we can pass through the Cross Gate.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 519,
+   "en": "You can't say that's true@of everyone in the Steel Dragons, can you?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 520,
+   "en": "Yeah, there are probably other factors too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 521,
+   "en": "What you said earlier... a Great Kalpa, rebirth,@false memories... What do they mean?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 522,
+   "en": "A Great Kalpa is the whole process from a world's@birth to its extinction...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 523,
+   "en": "Rebirth means being born again in the new world@after a Great Kalpa, with a similar appearance,@temperament, abilities and karmic ties...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 524,
+   "en": "And false memories are memories from before@that rebirth... memories of a past life, so to speak.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 525,
+   "en": "I see...@We have similar ideas in our world as well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 526,
+   "en": "Then please, go on.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 527,
+   "en": "Yes.@My father and the others feared that repeated@interference with the Gate would bring the Vaula back...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 528,
+   "en": "So they built the sealed shrine Zig-Gaze Vodyu@beneath the Antarctic ice to physically cut@the Gate off from the outside world.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 529,
+   "en": "(So that's <Fabula Foresse>...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 530,
+   "en": "(I used to think that whoever built those ruins@came out of the Cross Gate,@but I was wrong.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 531,
+   "en": "(But some questions still remain...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 532,
+   "en": "The reason you didn't destroy the Cross Gate...@Was it because you didn't want the tragedy@of the Fury's home world repeated on Earth?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 533,
+   "en": "That's right.@None of the expeditions sent to find our home world@returned, so my father gave up on going back.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 534,
+   "en": "And to protect Earth, a land where we might@take refuge, he kept watch over the Gate of Voda...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 535,
+   "en": "And resolved to one day cut off@the catastrophe at its root.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 536,
+   "en": "(Not sealing the King of Ruin,@but wiping it out...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 537,
+   "en": "Building Zig-Gaze Vodyu, with its monitors and defense@systems for the Gate of Voda, took several years,@and the younger generation like me was born then.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 538,
+   "en": "After the shrine was built, my father hid Gaw-La Furia@deep beneath the Moon, and most of us went into a long@sleep in a hibernation facility, the Grove of Timefaring.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 539,
+   "en": "After that, a few of us woke in turns for set periods@to survey the state of the Earth and maintain@Gaw-La and the sealed shrine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 540,
+   "en": "So you were bystanders@to the history of humanity.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 541,
+   "en": "I suppose you could say that.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 542,
+   "en": "But if you'd wanted to, couldn't you have ruled...@or wiped out our ancestors,@and taken Earth for yourselves?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 543,
+   "en": "When we arrived on Earth, my father@forbade any interference with humanity.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 544,
+   "en": "That was out of respect for the native people...@and also to protect the purity of Fury blood.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 545,
+   "en": "Then what are we...?@Me, Katia, Tenia and Melua...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 546,
+   "en": "You are... the children of the Assimilation Plan@that E-Selda Shune was carrying out.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 547,
+   "en": "The Assimilation... Plan?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 548,
+   "en": "Yes.@A plan to bring the Fury a new future...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 549,
+   "en": "...Explain it to me.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 550,
+   "en": "This goes back a long time...@You know of the two meteorites that fell@to Earth nearly 200 years ago, don't you?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 551,
+   "en": "Yeah, I learned about them in history class.@Meteor 1 fell on New York,@and Meteor 2 fell on Moscow...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 552,
+   "en": "That ended the Old Calendar era,@and the world changed drastically.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 553,
+   "en": "It was an important event for us too...@The Fury leadership woke from hibernation@to discuss what to do next.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 554,
+   "en": "What to do...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 555,
+   "en": "The disaster and chaos from the two meteorites made@Earthlings' negative emotions swell, and there was@a danger that it would stir up the Gate of Voda.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 556,
+   "en": "We watched over the state of the Earth@for about a year... but then my father@fell gravely ill and passed away.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 557,
+   "en": "As his heir, I succeeded him,@and after confirming nothing was amiss with the@Gate of Voda, I went back into hibernation.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 558,
+   "en": "After that, Earthlings expanded to the Moon and@other planets... and there came a chance they'd find@not only Gaw-La Furia, but the sealed shrine as well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 559,
+   "en": "So about 20 years ago, we awoke again@and discussed various countermeasures.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 560,
+   "en": "E-Selda and I, knowing full well it went@against my father's wishes, argued for coexistence@between the Fury and the people of Earth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 561,
+   "en": "Because by clinging to the status quo of our race,@we had become stagnant... and we believed@that would lead to our decline.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 562,
+   "en": "...As a member of the Fury's imperial family,@shouldn't you value bloodlines above all?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 563,
+   "en": "I have not cast aside my pride as a Fury.@But thousands of years have passed@since we lost our home world...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 564,
+   "en": "Earth and the Moon are all but our second home now...@We should accept that, reveal the truth to the native@people of Earth, and ask to coexist with them.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 565,
+   "en": "Otherwise, the Fury have no future.@And to root out the catastrophe of the Gate of Voda,@we will need the strength of the people of Earth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 566,
+   "en": "But Gu-Landon and the others, who wanted to keep@Fury blood pure, opposed our ideas.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 567,
+   "en": "So E-Selda proposed the Assimilation Plan.@It called for Fury and Earthlings to have children...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 568,
+   "en": "And to study what kind of abilities@those children would come to have.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 569,
+   "en": "...Isn't that exactly what Gu-Landon@would loathe most?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 570,
+   "en": "Yes... but E-Selda wanted to establish as fact@that the Fury and the people of Earth@are extremely close to one another.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 571,
+   "en": "I overrode the objections of Gu-Landon and the others@and allowed the Assimilation Plan to proceed...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 572,
+   "en": "And four people, E-Selda among them, left@Gaw-La Furia and made contact with Ashurey Kreuzer,@which had only just been founded.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 573,
+   "en": "And that's where you got those masks@to pass as Earthlings?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 574,
+   "en": "...Yes.@And E-Selda and the others each@had one child.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 575,
+   "en": "You said you'd study what abilities Touya and the@others had. Could it be that the Bellzelute...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 576,
+   "en": "Was developed to confirm whether Katia, Tenia@and Melua could adapt to the Cytron System?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 577,
+   "en": "Not only that. E-Selda and Al-Van@were also seeking a fusion of Fury@and Earth technology.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 578,
+   "en": "With the goal of making Ashurey Kreuzer@produce your weapons, I suppose?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 579,
+   "en": "Yes, to prepare for the battle with the Vaula...@The Bellzelute development project@was the forerunner of that.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 580,
+   "en": "With the Cytron Control System, those girls should've@been able to move the Bellzelute on their own.@So why did you need me?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 581,
+   "en": "A secret test beforehand predicted that their@ability to adapt to the system might be low.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 582,
+   "en": "So, just in case, we needed someone@who could pilot the Bellzelute.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 583,
+   "en": "(So I was the insurance...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 584,
+   "en": "Then when I first got into Granteed alone,@the reason I couldn't move it was...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 585,
+   "en": "Perhaps your ability to adapt to the system@had not fully awakened.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 586,
+   "en": "(So that's why it moved once Katia got in...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 587,
+   "en": "Then why was Jua-Mu at Ashurey?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 588,
+   "en": "Gu-Landon sent him there@to keep watch on the Assimilation Plan.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 589,
+   "en": "(And while he was at it, he learned how to handle@Earth's mobile weapons... from me, of all people.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 590,
+   "en": "Shana-Mia...@Why did my dad escape from Gaw-La Furia@in Granteed?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 591,
+   "en": "And I'd like to hear why So-Des@attacked Ashurey.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 592,
+   "en": "E-Selda took the Throne Unit@out of Gaw-La Furia...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 593,
+   "en": "Because he learned that Gu-Landon and Chief Agent@Karo-Ran Vui had begun moving to crush@the Assimilation Plan.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 594,
+   "en": "Crush the plan...?@Why at that particular moment?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 595,
+   "en": "If Katia, Tenia and Melua were proven@able to adapt to the Cytron Control System...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 596,
+   "en": "The Assimilation Plan's legitimacy would be established.@For those who revere pure Fury blood,@that had to be prevented at all costs...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 597,
+   "en": "They hadn't openly sabotaged it in front of me, but@once they knew the result would be unwelcome,@they must have resorted to force.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 598,
+   "en": "But my dad didn't make it in time...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 599,
+   "en": "No...@We only noticed what Gu-Landon and the others@were scheming just before they acted...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 600,
+   "en": "Why did you let Granteed sortie?@Isn't it your trump card?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 601,
+   "en": "It is Gu-Landon's as well.@That's why I entrusted it to E-Selda.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 602,
+   "en": "A desperate measure, huh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 603,
+   "en": "But it allowed us to draw@the Fury's attention.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 604,
+   "en": "(I can't exactly call it all's well that ends well.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 605,
+   "en": "Your Highness,@did you question Gu-Landon about@the attack on Ashurey Kreuzer?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 606,
+   "en": "...He reported to me@that the Zovorg were behind the incident.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 607,
+   "en": "And you just swallowed that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 608,
+   "en": "Stop it, Calvina.@He's the supreme commander of their military. Even the@Princess can't afford to provoke him carelessly.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 609,
+   "en": "...All right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 610,
+   "en": "Your Highness... Earlier you said@\"to prepare for the battle with the Vaula,\"@didn't you?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 611,
+   "en": "Did you predict they would@appear sometime soon?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 612,
+   "en": "Yes... We thought the great wars that have broken out@one after another in recent years might be@stirring up the Gate of Voda.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 613,
+   "en": "...Actually, it was my father who discovered@Fabula Foresse... the sealed shrine in Antarctica.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 614,
+   "en": "Why did you all overlook what my father was doing?@Why didn't you stop him?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 615,
+   "en": "...About that,@I was never told the details.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 616,
+   "en": "When I questioned Gu-Landon, he said the shrine's@monitoring system had broken down, so they never@noticed the Earthlings getting in.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 617,
+   "en": "No...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 618,
+   "en": "(Is that true?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 619,
+   "en": "If it fails at the crucial moment,@the sealed shrine is pointless.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 620,
+   "en": "...You're quite right. By the time we learned something@was wrong, the Vaula had sealed Antarctica in a barrier,@and soon Earth was cut off by a dimensional rift.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 621,
+   "en": "I ordered the Knights to sortie,@but Gu-Landon refused, saying he would@reinforce Gaw-La's defenses.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 622,
+   "en": "And while we watched how things unfolded,@you drove back the Vaula@and sealed the Gate of Voda.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 623,
+   "en": "For that, I'm truly sorry...@and deeply grateful.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 624,
+   "en": "...However, the other day, Fabula Foresse@was blown up by someone.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 625,
+   "en": "You didn't know about that either?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 626,
+   "en": "Y-Yes, ma'am.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 627,
+   "en": "Judging from all this, it sounds like Gu-Landon@was trying to destroy the evidence.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 628,
+   "en": "Then Gu-Landon knew my father had set foot@in Fabula Foresse, and deliberately@looked the other way...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 629,
+   "en": "Yeah, that's very likely.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 630,
+   "en": "Why are you telling me this...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 631,
+   "en": "Wasn't it so the Ruina would wipe out humanity?@Then if he sealed the Cross Gate with Granteed,@Earth would be theirs.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 632,
+   "en": "But isn't that too risky?@If things went the way the Ruina planned,@the King of Ruin would appear.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 633,
+   "en": "True, but you can narrow down his aim, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 634,
+   "en": "If another Cross Gate Burst happens,@and it ends up summoning the forces of ruin...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 635,
+   "en": "That might suit Gu-Landon just fine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 636,
+   "en": "Your Highness, this can't be dismissed@as a vassal running amok.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 637,
+   "en": "Yes, I understand.@Even so, I want to end the conflict@between the Fury and Earth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 638,
+   "en": "And now... every key Gu-Landon needs@is in your hands.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 639,
+   "en": "(Granteed Dracodeus...@and Shana-Mia and me...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 640,
+   "en": "In this situation, we might be able@to bring Gu-Landon to the negotiating table.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 641,
+   "en": "As for how Your Highness will be treated, I'll report@to our superiors and await their decision.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 642,
+   "en": "That's fine. So long as my will reaches@those who govern the Earth...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 643,
+   "en": "(This...@We may have seized the greatest chance of all.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 644,
+   "en": "...Touya.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 645,
+   "en": "Calvina...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 646,
+   "en": "Things have been so hectic since you got back,@we never had a chance to talk.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 647,
+   "en": "...Is this about Al-Van?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 648,
+   "en": "Not just that.@Remember that time I snapped at you?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 649,
+   "en": "Don't worry about that anymore.@Shana-Mia told me@the truth I wanted to know.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 650,
+   "en": "...You were carrying more@than I ever imagined.@So, um...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 651,
+   "en": "I'm... sorry about everything.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 652,
+   "en": "What's with that face?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 653,
+   "en": "I was just thinking you're a good person, Calvina.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 654,
+   "en": "Don't tease your elders.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 655,
+   "en": "I'm sorry.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 656,
+   "en": "(This kid... He's changed a little since he went there.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 657,
+   "en": "About Al-Van...@I hear he's being held in Gaw-La Furia.@I didn't see him, though.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 658,
+   "en": "I see...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 659,
+   "en": "(So the truth I want is still inside the Moon...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 660,
+   "en": "Phew, I'm stuffed! That hit the spot!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 661,
+   "en": "Man, that was a feast!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 662,
+   "en": "I haven't eaten that much in ages.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 663,
+   "en": "I could still go for more.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 664,
+   "en": "I've still got room for sweets, too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 665,
+   "en": "I'd heard about it, but what kind of stomach is that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 666,
+   "en": "Eating about as much as Arado...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 667,
+   "en": "Hey, it's great she's so lively.@Personally, I think a girl who eats a lot is a good thing.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 668,
+   "en": "(I... could never eat that much...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 669,
+   "en": "(I wonder if there's a secret to eating a lot...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 670,
+   "en": "Tenia, Melua.@Do you know where Touya went?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 671,
+   "en": "Nuh-uh.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 672,
+   "en": "Katia, just now...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 673,
+   "en": "What is it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 674,
+   "en": "You called him plain \"Touya,\"@without being formal about it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 675,
+   "en": "Huh? Yes.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 676,
+   "en": "That caught my attention too...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 677,
+   "en": "Could it be...@while you were captured by the Fury...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 678,
+   "en": "Somethin' happened?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 679,
+   "en": "N-No, it's nothing like that.@He told me I didn't have to be so formal...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 680,
+   "en": "What do you mean, why...?@Tenia, you call him Touya too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 681,
+   "en": "Well, sure, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 682,
+   "en": "Besides, he's the younger one...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 683,
+   "en": "...If nothing happened, then fine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 684,
+   "en": "Hey, Tasuku. Is dropping the formal stuff@really that big a deal?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 685,
+   "en": "Well, I guess you wouldn't get it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 686,
+   "en": "Okay then, dessert too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 687,
+   "en": "Tenia, maybe you should stop there...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 688,
+   "en": "That's right. What'll you do if we get a sortie order?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 689,
+   "en": "All those plates... Did Tenia eat all of that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 690,
+   "en": "No way, that includes Arado's share too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 691,
+   "en": "(Even so, that's amazing...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 692,
+   "en": "Touya, are you done talking with the commander?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 693,
+   "en": "So what's going to happen to Shana-Mia?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 694,
+   "en": "She'll be staying with the Steel Dragons for a while,@until the Joint Chiefs make their decision.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 695,
+   "en": "We'll probably end up being involved@in how Shana-Mia is treated, too...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 696,
+   "en": "I know, Touya.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 697,
+   "en": "...Katia, you don't have to be so formal with me.@You're older than me, after all,@and we share the same fate.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 698,
+   "en": "If you'd rather not, that's fine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 699,
+   "en": "No... I don't mind at all, Touya.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 700,
+   "en": "You too, Melua.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 701,
+   "en": "I'll pass.@I'm used to being polite with you...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 702,
+   "en": "(Hmm...@After all that's happened, you've kinda grown, Touya.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 703,
+   "en": "Still, to think aliens were hiding@on the Moon for thousands of years...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 704,
+   "en": "It's a lot like the case with Gan Eden.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 705,
+   "en": "But a princess from the Moon sounds kind of wonderful.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 706,
+   "en": "Maybe she's where the legend@of Princess Kaguya came from.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 707,
+   "en": "What? There's no way.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 708,
+   "en": "Unknown appearing at range three!@Approaching straight from five o'clock! One target!@No IFF signal!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 709,
+   "en": "All hands, level-one battle stations!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 710,
+   "en": "Fast-approaching unknown identified!@It's the Ares Geist!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 711,
+   "en": "Of all the times...!@Wasn't it hiding down on the surface?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 712,
+   "en": "Duban Org once craved@the Cross Gate's energy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 713,
+   "en": "Perhaps his lingering thoughts are affecting it@somehow, and it came up into space@in response to the anomaly.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 714,
+   "en": "Then why head straight for the Cross Gate...?@No, this is no time to debate that.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 715,
+   "en": "Make sure the Ares Geist is destroyed here.@We can't let a thing like that@reach the Cross Gate area.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 716,
+   "en": "Sir. XO, launch the mobile units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 717,
+   "en": "Roger. All mobile units, launch immediately!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 718,
+   "en": "Target entering range two!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 719,
+   "en": "This feeling... It's grown stronger than last time.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 720,
+   "en": "What's the source of its power?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 721,
+   "en": "Wha--!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 722,
+   "en": "Wh-Whoa, it just spat out Lamaris!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 723,
+   "en": "There are street acts like that.@Not that I'd want to tip for it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 724,
+   "en": "I see, so that's its power source.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 725,
+   "en": "Last time, the Ares Geist was@activating the Lamaris, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 726,
+   "en": "They didn't exactly seem like friends, did they?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 727,
+   "en": "And yet now it can create Lamaris...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 728,
+   "en": "No, isn't it just spitting up@what it had stored in its gut?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 729,
+   "en": "So the Ares Geist plans to feed on@malice-born beings and evolve further.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 730,
+   "en": "But we can purify the Lamaris.@Did it show up without knowing that, or...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 731,
+   "en": "I know, Captain. The Ares Geist is after me...@It may be planning to absorb me@the way it does the Lamaris.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 732,
+   "en": "...A tangled web of fate, huh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 733,
+   "en": "It's not necessarily just Arieil@it wants to absorb, that's how it is.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 734,
+   "en": "When we first ran into it,@it came after us, the SRX Team, and the PTX Team.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 735,
+   "en": "Major Kai, Lieutenant Kyosuke. If Duban is inside@the Ares Geist... please let me settle things with him,@as a fellow <Idealand>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 736,
+   "en": "I can act as a decoy.@And I want to free him@from the Ares Geist's hold.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 737,
+   "en": "That's a long shot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 738,
+   "en": "I'm aware of that.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 739,
+   "en": "All right.@If you're part of the ATX Team, go ahead and bet.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 740,
+   "en": "Lieutenant Kyosuke, you can't just decide that...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 741,
+   "en": "No, it's fine. It's an unpredictable enemy.@If she can draw it off, so much the better.@Arieil, I'm leaving the target to you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 742,
+   "en": "But depending on the situation, all units will focus@fire and destroy the Ares Geist. Understood?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 743,
+   "en": "Roger.@Thank you, Major Kai, Lieutenant Kyosuke.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 744,
+   "en": "Eleve 1 to all units!@Assault 5 will take down the target!@Everyone else, wipe out the Lamaris!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 745,
+   "en": "(Duban, this is your last chance.@Here I come...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 746,
+   "en": "Kyosuke, that girl really...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 747,
+   "en": "I know. We'll back her up.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 748,
+   "en": "I know.@Assault 3 and 4, we in the ATX Team@will back her up.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 749,
+   "en": "Assault 3, roger.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 750,
+   "en": "Assault 4, roger as well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 751,
+   "en": "Duban, are you in there...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 752,
+   "en": "If you are, answer me!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 753,
+   "en": "Oh, ohh... I... AM...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 754,
+   "en": "!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 755,
+   "en": "Ohh... I AM... DESTINY...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 756,
+   "en": "Duban! It's you, isn't it?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 757,
+   "en": "Ohhh... Oh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 758,
+   "en": "Duban!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 759,
+   "en": "What's wrong, Arieil?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 760,
+   "en": "I just heard Duban's voice!@He really is inside the Ares!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 761,
+   "en": "But he may not be the same as before.@Or willing to accept your words.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 762,
+   "en": "That's all the more reason to stop the Ares and find out!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 763,
+   "en": "The odds aren't zero...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 764,
+   "en": "(So that's how it is, after all.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 765,
+   "en": "Could it be that Lieutenant Arieil@means to save Duban...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 766,
+   "en": "...So it seems.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 767,
+   "en": "But he was our enemy@in the Sealing War, wasn't he...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 768,
+   "en": "There are only two Idealand in this world.@Arieil doesn't want to fight her own kind anymore.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 769,
+   "en": "Duban, it's because you exist that the Ares@came back from the Cross Gate@and appeared before me, isn't it...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 770,
+   "en": "Grr, uuh... EVO... LUTION...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 771,
+   "en": "...I... IDEA... LAND...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 772,
+   "en": "You mustn't be bound by that anymore...!@Or by the Ares Geist...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 773,
+   "en": "The Ares has stopped moving.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 774,
+   "en": "Grrr, uh...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 775,
+   "en": "The cockpit should be in about@the same place as before!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 776,
+   "en": "Uuah... A... Ari... eil...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 777,
+   "en": "...! My name?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 778,
+   "en": "I, I... WILL... LIVE...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 779,
+   "en": "Spatial distortion above us!@ES Wave Pattern... It's Debudedabide's halo!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 780,
+   "en": "What!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 781,
+   "en": "Skull Knight!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 782,
+   "en": "Thanks to you lot holdin' it in place,@I showed up right on cue.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 783,
+   "en": "The hell are you talkin' about?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 784,
+   "en": "Ain't got time to mess with you today either.@It's that thing I'm after.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 785,
+   "en": "Right then, here goes!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 786,
+   "en": "Nnngh!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 787,
+   "en": "Now!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 788,
+   "en": "Ah!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 789,
+   "en": "Kahahaha, it's mine!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 790,
+   "en": "Skull Knight and Ares Geist gone!@No readings within search range!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 791,
+   "en": "B-But...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 792,
+   "en": "That moron, what's he gonna do@haulin' that thing home?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 793,
+   "en": "How should I know?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 794,
+   "en": "Roa",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 795,
+   "en": "Could the Skull Knight be doing@the same thing as Debudedabide...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 796,
+   "en": "Eleve 1 to all units!@Destroy the newly appeared enemies!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 797,
+   "en": "All enemy signals in the combat area are gone!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 798,
+   "en": "Maintain strict all-around vigilance.@All mobile units, return at once. And hurry up@with the ammo resupply.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 799,
+   "en": "So Arieil's hunch@was right after all.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 800,
+   "en": "Duban Org was alive...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 801,
+   "en": "Yes. He responded to my call.@And to the word <Idealand>...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 802,
+   "en": "Did the Ares Geist change shape@because of the Cross Gate?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 803,
+   "en": "Probably... The Ares has a <Jetzt> core built in,@so it may have been activated and be trying@to return to its original form.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 804,
+   "en": "The culmination of evolution that Duban@once spoke of, huh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 805,
+   "en": "But that form is far from the ultimate.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 806,
+   "en": "So it's partway through evolving...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 807,
+   "en": "Even fully restored, the Jetzt is nothing@but a counterfeit of the <Einst>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 808,
+   "en": "Maybe Duban is holding back@the Ares Geist's rampage.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 809,
+   "en": "Maybe so...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 810,
+   "en": "No doubt Skull-face took the Ares Geist for somethin'@to do with the Lamaris. We gotta find some way@to smash whatever they're plannin'.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 811,
+   "en": "For that, it might work best to snatch@what they're collecting out from under them.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 812,
+   "en": "Right. Arieil,@you want to get Duban back, don't you?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 813,
+   "en": ".........Yes.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 814,
+   "en": "But what will you do once you've saved him?@Given what's become of the Ares Geist,@I doubt Duban Org is the same as before.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 815,
+   "en": "After I save him... As for what comes next...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 816,
+   "en": "You'll show Duban Org a new way to live?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 817,
+   "en": "Huh...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 818,
+   "en": "The way Josh once did for me.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 819,
+   "en": "Raki...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 820,
+   "en": "Yes... Maybe so.@I know that what he did@can't be forgiven, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 821,
+   "en": "Honestly, I can't agree with it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 822,
+   "en": "(Can't blame him...@Not after what happened with <AI1> and <Erde Mitte>...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 823,
+   "en": "Lieutenant Hugo...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 824,
+   "en": "But I understand how he feels.@That wish to live, to keep on existing.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 825,
+   "en": "What Duban Org did may be nothing short of a sin...@but there's also the view that only by living on@can he atone for it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 826,
+   "en": "Indeed.@There are things that can only be done@by enduring the shame of living.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 827,
+   "en": "If he's alive, something good might come his way.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 828,
+   "en": "(I'll... show him a new path...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 829,
+   "en": "Gaspar",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 830,
+   "en": "I see. I understand the gist of it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 831,
+   "en": "How shall we proceed?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 832,
+   "en": "Having a Fury VIP in our hands@is extremely important. They're surely@planning to take back the Princess.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 833,
+   "en": "I agree.@We've set up a full interception posture.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 834,
+   "en": "Good.@For now, moving her elsewhere carelessly@would be dangerous.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 835,
+   "en": "Then she'll stay with our unit@for the time being.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 836,
+   "en": "Yes.@And before the President makes his final decision,@there's something I want you to confirm.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 837,
+   "en": "The claim that Granteed Dracodeus@has the power to seal the Cross Gate...@Whether it's true or not.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 838,
+   "en": "You want us to test it for real.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 839,
+   "en": "Exactly. Find out what makes the trump card a trump@card. Head for the Cross Gate under normal cruising.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 840,
+   "en": "Not by space transfer?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 841,
+   "en": "Right. So you can continue serving as the decoy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

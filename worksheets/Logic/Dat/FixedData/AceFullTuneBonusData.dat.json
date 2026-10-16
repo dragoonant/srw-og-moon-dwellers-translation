@@ -1,0 +1,6912 @@
+{
+ "file": "AceFullTuneBonusData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DATA",
+   "header_offset": 16,
+   "payload_offset": 28,
+   "size": 85172,
+   "count": 199
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 85200,
+   "payload_offset": 85208,
+   "size": 1228,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 86436,
+   "payload_offset": 86448,
+   "size": 26364,
+   "count": 307
+  }
+ ],
+ "records": {
+  "count": 199,
+  "size": 428
+ },
+ "dofs": null,
+ "string_fields": [
+  {
+   "offset": 2,
+   "width": 2,
+   "label": "name",
+   "kind": "display"
+  },
+  {
+   "offset": 424,
+   "width": 2,
+   "label": "desc",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 86448,
+   "text_offset": 86454,
+   "role": "display",
+   "refs": [
+    "rec0.name",
+    "rec0.desc"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Dummy",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 86464,
+   "text_offset": 86470,
+   "role": "display",
+   "refs": [
+    "rec1.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max HP +10%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 86495,
+   "text_offset": 86501,
+   "role": "display",
+   "refs": [
+    "rec1.desc"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises max HP by 10%.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 86547,
+   "text_offset": 86553,
+   "role": "display",
+   "refs": [
+    "rec2.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max EN +10%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 86578,
+   "text_offset": 86584,
+   "role": "display",
+   "refs": [
+    "rec2.desc"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises max EN by 10%.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 86630,
+   "text_offset": 86636,
+   "role": "display",
+   "refs": [
+    "rec3.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Armor +10%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 86658,
+   "text_offset": 86664,
+   "role": "display",
+   "refs": [
+    "rec3.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Armor by 10%.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 86707,
+   "text_offset": 86713,
+   "role": "display",
+   "refs": [
+    "rec4.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 86735,
+   "text_offset": 86741,
+   "role": "display",
+   "refs": [
+    "rec4.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10%.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 86784,
+   "text_offset": 86790,
+   "role": "display",
+   "refs": [
+    "rec5.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Aim +10%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 86812,
+   "text_offset": 86818,
+   "role": "display",
+   "refs": [
+    "rec5.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Aim by 10%.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 86861,
+   "text_offset": 86867,
+   "role": "display",
+   "refs": [
+    "rec6.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Movement +1",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 86883,
+   "text_offset": 86889,
+   "role": "display",
+   "refs": [
+    "rec6.desc"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Move by 1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 86926,
+   "text_offset": 86932,
+   "role": "display",
+   "refs": [
+    "rec7.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unit's Air terrain rating to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 86978,
+   "text_offset": 86984,
+   "role": "display",
+   "refs": [
+    "rec7.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets Air Terrain Ability to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 87045,
+   "text_offset": 87051,
+   "role": "display",
+   "refs": [
+    "rec8.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unit's Land terrain rating to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 87097,
+   "text_offset": 87103,
+   "role": "display",
+   "refs": [
+    "rec8.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets Land Terrain Ability to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 87164,
+   "text_offset": 87170,
+   "role": "display",
+   "refs": [
+    "rec9.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unit's Sea terrain rating to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 87216,
+   "text_offset": 87222,
+   "role": "display",
+   "refs": [
+    "rec9.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets Sea Terrain Ability to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 87283,
+   "text_offset": 87289,
+   "role": "display",
+   "refs": [
+    "rec10.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unit's Space terrain rating to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 87335,
+   "text_offset": 87341,
+   "role": "display",
+   "refs": [
+    "rec10.desc"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets Space Terrain Ability to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 87405,
+   "text_offset": 87411,
+   "role": "display",
+   "refs": [
+    "rec11.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Cannot earn an Ace Bonus",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 87457,
+   "text_offset": 87463,
+   "role": "display",
+   "refs": [
+    "rec11.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "No Ace Bonus can be earned.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 87512,
+   "text_offset": 87518,
+   "role": "display",
+   "refs": [
+    "rec12.name",
+    "rec12.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, range +1 (except range-1 and MAP weapons)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 87606,
+   "text_offset": 87612,
+   "role": "display",
+   "refs": [
+    "rec13.name",
+    "rec13.desc"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons' power +200, critical rate +10",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 87688,
+   "text_offset": 87694,
+   "role": "display",
+   "refs": [
+    "rec14.name",
+    "rec14.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Movement +1, Armor +300",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 87734,
+   "text_offset": 87740,
+   "role": "display",
+   "refs": [
+    "rec15.name",
+    "rec15.desc"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Command effect +15%, max SP of all pilots aboard +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 87816,
+   "text_offset": 87822,
+   "role": "display",
+   "refs": [
+    "rec16.name",
+    "rec16.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Command effect +10%, max SP of all pilots aboard +10",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 87901,
+   "text_offset": 87907,
+   "role": "display",
+   "refs": [
+    "rec17.name",
+    "rec17.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At player phase start, all pilots of carried units gain 5 Will",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 87998,
+   "text_offset": 88004,
+   "role": "display",
+   "refs": [
+    "rec18.name",
+    "rec18.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Telekinetic weapons' final damage +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 88062,
+   "text_offset": 88068,
+   "role": "display",
+   "refs": [
+    "rec19.name",
+    "rec19.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's final evasion +10%, critical rate +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 88150,
+   "text_offset": 88156,
+   "role": "display",
+   "refs": [
+    "rec20.name"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "In Maximum Breaks you start, participating pilots lose no Will",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 88268,
+   "text_offset": 88278,
+   "role": "display",
+   "refs": [
+    "rec20.desc"
+   ],
+   "orig_chars": [
+    28,
+    9
+   ],
+   "orig_bytes": 113,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "In Maximum Breaks you start, participating pilots\nlose no Will",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 88391,
+   "text_offset": 88397,
+   "role": "display",
+   "refs": [
+    "rec21.name",
+    "rec21.desc"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "SP reduction of the skill Concentrate +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 88461,
+   "text_offset": 88467,
+   "role": "display",
+   "refs": [
+    "rec22.name",
+    "rec22.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 150 Will or more, SP restored by SP Regen +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 88549,
+   "text_offset": 88555,
+   "role": "display",
+   "refs": [
+    "rec23.name",
+    "rec23.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "When a Counter occurs, final damage dealt +20%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 88634,
+   "text_offset": 88640,
+   "role": "display",
+   "refs": [
+    "rec24.name",
+    "rec24.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Support Attack damage +10%, Support Defense damage -20%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 88734,
+   "text_offset": 88740,
+   "role": "display",
+   "refs": [
+    "rec25.name",
+    "rec25.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Spirit Command Wall becomes Belief",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 88795,
+   "text_offset": 88801,
+   "role": "display",
+   "refs": [
+    "rec26.name",
+    "rec26.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Drive activates once at HP 30% or less",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 88874,
+   "text_offset": 88880,
+   "role": "display",
+   "refs": [
+    "rec27.name",
+    "rec27.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's Support Attack final dmg +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 88938,
+   "text_offset": 88944,
+   "role": "display",
+   "refs": [
+    "rec28.name",
+    "rec28.desc"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If the squad partner is Arieil, gains Valor at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 89056,
+   "text_offset": 89062,
+   "role": "display",
+   "refs": [
+    "rec29.name",
+    "rec29.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Spirit Command Love: 45 SP",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 89111,
+   "text_offset": 89117,
+   "role": "display",
+   "refs": [
+    "rec30.name",
+    "rec30.desc"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "No Repeat Penalty",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 89151,
+   "text_offset": 89157,
+   "role": "display",
+   "refs": [
+    "rec31.name"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's final hit rate +10%, range +1 (except range-1 and MAP weapons)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 89266,
+   "text_offset": 89276,
+   "role": "display",
+   "refs": [
+    "rec31.desc"
+   ],
+   "orig_chars": [
+    32,
+    4
+   ],
+   "orig_bytes": 110,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's final hit rate +10%, range +1 for weapons except\nrange-1 and MAP weapons",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 89386,
+   "text_offset": 89392,
+   "role": "display",
+   "refs": [
+    "rec32.name",
+    "rec32.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Training costs 25 SP",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 89444,
+   "text_offset": 89450,
+   "role": "display",
+   "refs": [
+    "rec33.name"
+   ],
+   "orig_chars": [
+    44
+   ],
+   "orig_bytes": 133,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Units named Gespenst in your command range (incl. this one): final damage +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 89583,
+   "text_offset": 89593,
+   "role": "display",
+   "refs": [
+    "rec33.desc"
+   ],
+   "orig_chars": [
+    32,
+    12
+   ],
+   "orig_bytes": 134,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Units named Gespenst in your command range (incl. this\none): final damage +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 89727,
+   "text_offset": 89733,
+   "role": "display",
+   "refs": [
+    "rec34.name",
+    "rec34.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Pilot's terrain ratings other than Sea become S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 89800,
+   "text_offset": 89806,
+   "role": "display",
+   "refs": [
+    "rec35.name",
+    "rec35.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 50% HP or less, gains Persist at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 89897,
+   "text_offset": 89903,
+   "role": "display",
+   "refs": [
+    "rec36.name",
+    "rec36.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 50% HP or less, gains Focus at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 89994,
+   "text_offset": 90000,
+   "role": "display",
+   "refs": [
+    "rec37.name",
+    "rec37.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Seolla is in the squad, starting Will +15",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 90067,
+   "text_offset": 90073,
+   "role": "display",
+   "refs": [
+    "rec38.name",
+    "rec38.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Arado is in the squad, Will +5 at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 90161,
+   "text_offset": 90167,
+   "role": "display",
+   "refs": [
+    "rec39.name",
+    "rec39.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's final hit rate +10%, EXP earned +20%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 90237,
+   "text_offset": 90243,
+   "role": "display",
+   "refs": [
+    "rec40.name",
+    "rec40.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's final evasion +10%, funds earned +20%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 90310,
+   "text_offset": 90316,
+   "role": "display",
+   "refs": [
+    "rec41.name"
+   ],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Red units in the squad (incl. this one): Movement +1, final damage +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 90419,
+   "text_offset": 90429,
+   "role": "display",
+   "refs": [
+    "rec41.desc"
+   ],
+   "orig_chars": [
+    22,
+    12
+   ],
+   "orig_bytes": 104,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's red units (incl. this one): Movement +1,\nfinal damage dealt +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 90533,
+   "text_offset": 90539,
+   "role": "display",
+   "refs": [
+    "rec42.name",
+    "rec42.desc"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Support Defense damage -30%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 90585,
+   "text_offset": 90591,
+   "role": "display",
+   "refs": [
+    "rec43.name"
+   ],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Leona is within 1 square, Lucky activation +25%, final damage taken -10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 90721,
+   "text_offset": 90731,
+   "role": "display",
+   "refs": [
+    "rec43.desc"
+   ],
+   "orig_chars": [
+    30,
+    13
+   ],
+   "orig_bytes": 131,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Leona is within 1 square, Lucky activation +25%,\nfinal damage taken -10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 90862,
+   "text_offset": 90868,
+   "role": "display",
+   "refs": [
+    "rec44.name",
+    "rec44.desc"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Telekinesis level +1",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 90893,
+   "text_offset": 90899,
+   "role": "display",
+   "refs": [
+    "rec45.name",
+    "rec45.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Will 130+: gains Pierce at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 90981,
+   "text_offset": 90987,
+   "role": "display",
+   "refs": [
+    "rec46.name"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If a black unit is within 1 square, gains Focus at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 91096,
+   "text_offset": 91106,
+   "role": "display",
+   "refs": [
+    "rec46.desc"
+   ],
+   "orig_chars": [
+    28,
+    8
+   ],
+   "orig_bytes": 110,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If a black unit is within 1 square, gains Focus at\nplayer phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 91216,
+   "text_offset": 91222,
+   "role": "display",
+   "refs": [
+    "rec47.name",
+    "rec47.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 20% HP or less, gains Mettle at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 91313,
+   "text_offset": 91319,
+   "role": "display",
+   "refs": [
+    "rec48.name",
+    "rec48.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squad's range +2 (except range-1 and MAP weapons)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 91398,
+   "text_offset": 91404,
+   "role": "display",
+   "refs": [
+    "rec49.name",
+    "rec49.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Starting Will of all squad pilots +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 91456,
+   "text_offset": 91462,
+   "role": "display",
+   "refs": [
+    "rec50.name",
+    "rec50.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final hit +20%, final damage taken -10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 91532,
+   "text_offset": 91538,
+   "role": "display",
+   "refs": [
+    "rec51.name",
+    "rec51.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final damage to L-size or larger enemies +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 91605,
+   "text_offset": 91611,
+   "role": "display",
+   "refs": [
+    "rec52.name",
+    "rec52.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If not yet acted, gains Luck at player phase end",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 91702,
+   "text_offset": 91708,
+   "role": "display",
+   "refs": [
+    "rec53.name",
+    "rec53.desc"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Target pilot loses no Will from Resupply",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 91784,
+   "text_offset": 91790,
+   "role": "display",
+   "refs": [
+    "rec54.name",
+    "rec54.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "In the air or Space, squad's Accel effect +2",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 91869,
+   "text_offset": 91875,
+   "role": "display",
+   "refs": [
+    "rec55.name",
+    "rec55.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If not yet acted, gains Accel at player phase end",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 91966,
+   "text_offset": 91972,
+   "role": "display",
+   "refs": [
+    "rec56.name"
+   ],
+   "orig_chars": [
+    35
+   ],
+   "orig_bytes": 106,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At player phase start, allies within 1 square (not self) recover 20% HP",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 92078,
+   "text_offset": 92088,
+   "role": "display",
+   "refs": [
+    "rec56.desc"
+   ],
+   "orig_chars": [
+    28,
+    7
+   ],
+   "orig_bytes": 107,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At player phase start, allies within 1 square (not self)\nrecover 20% HP",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 92195,
+   "text_offset": 92201,
+   "role": "display",
+   "refs": [
+    "rec57.name"
+   ],
+   "orig_chars": [
+    39
+   ],
+   "orig_bytes": 118,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If the squad partner is Raul, gains Training once at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 92319,
+   "text_offset": 92329,
+   "role": "display",
+   "refs": [
+    "rec57.desc"
+   ],
+   "orig_chars": [
+    31,
+    8
+   ],
+   "orig_bytes": 119,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If the squad partner is Raul, gains Training once at\nplayer phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 92448,
+   "text_offset": 92454,
+   "role": "display",
+   "refs": [
+    "rec58.name",
+    "rec58.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Assault becomes Violent Assault",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 92509,
+   "text_offset": 92515,
+   "role": "display",
+   "refs": [
+    "rec59.name",
+    "rec59.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Bullseye becomes Sense",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 92570,
+   "text_offset": 92576,
+   "role": "display",
+   "refs": [
+    "rec60.name",
+    "rec60.desc"
+   ],
+   "orig_chars": [
+    35
+   ],
+   "orig_bytes": 106,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Josh is within 1 square, SP cost of all Spirit Commands -10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 92682,
+   "text_offset": 92688,
+   "role": "display",
+   "refs": [
+    "rec61.name",
+    "rec61.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee attacks on adjacent enemies always land criticals",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 92779,
+   "text_offset": 92785,
+   "role": "display",
+   "refs": [
+    "rec62.name",
+    "rec62.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At player phase start, Scans foes within 10 squares",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 92858,
+   "text_offset": 92864,
+   "role": "display",
+   "refs": [
+    "rec63.name",
+    "rec63.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "SP cost of all Spirit Commands for pilots aboard -10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 92943,
+   "text_offset": 92949,
+   "role": "display",
+   "refs": [
+    "rec64.name",
+    "rec64.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final hit rate +10% and final damage +10% when countering",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 93043,
+   "text_offset": 93049,
+   "role": "display",
+   "refs": [
+    "rec65.name"
+   ],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Against Zovorg units, squad's final hit rate +10%, final damage dealt +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 93170,
+   "text_offset": 93180,
+   "role": "display",
+   "refs": [
+    "rec65.desc"
+   ],
+   "orig_chars": [
+    27,
+    13
+   ],
+   "orig_bytes": 122,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Against Zovorg units, squad's final hit rate +10%,\nfinal damage dealt +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 93302,
+   "text_offset": 93308,
+   "role": "display",
+   "refs": [
+    "rec66.name",
+    "rec66.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 140+ Will, gains Violent Assault at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 93390,
+   "text_offset": 93396,
+   "role": "display",
+   "refs": [
+    "rec67.name",
+    "rec67.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Movement +1, critical rate +30% against enemies in the air",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 93493,
+   "text_offset": 93499,
+   "role": "display",
+   "refs": [
+    "rec68.name",
+    "rec68.desc"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Support Attack Fin. Dmg +15%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 93545,
+   "text_offset": 93551,
+   "role": "display",
+   "refs": [
+    "rec69.name",
+    "rec69.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final dmg taken from non-range-1 weapons -20%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 93621,
+   "text_offset": 93627,
+   "role": "display",
+   "refs": [
+    "rec70.name"
+   ],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Shu is within 1 square, gains Spirit and Focus once at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 93757,
+   "text_offset": 93767,
+   "role": "display",
+   "refs": [
+    "rec70.desc"
+   ],
+   "orig_chars": [
+    31,
+    12
+   ],
+   "orig_bytes": 131,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Shu is within 1 square, gains Spirit and Focus once at\nplayer phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 93898,
+   "text_offset": 93904,
+   "role": "display",
+   "refs": [
+    "rec71.name",
+    "rec71.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 140 Will or more, final hit rate +10%, final damage taken -10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 94001,
+   "text_offset": 94007,
+   "role": "display",
+   "refs": [
+    "rec72.name",
+    "rec72.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 140 Will or more, final evasion +10%, critical rate +30%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 94104,
+   "text_offset": 94110,
+   "role": "display",
+   "refs": [
+    "rec73.name",
+    "rec73.desc"
+   ],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final damage dealt +5% per female pilot in the squad",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 94210,
+   "text_offset": 94216,
+   "role": "display",
+   "refs": [
+    "rec74.name",
+    "rec74.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All pilots aboard: starting Will +10, max SP +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 94289,
+   "text_offset": 94295,
+   "role": "display",
+   "refs": [
+    "rec75.name",
+    "rec75.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All pilots aboard: starting Will +5, max SP +10",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 94368,
+   "text_offset": 94374,
+   "role": "display",
+   "refs": [
+    "rec76.name",
+    "rec76.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Uses Huge Encour. at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 94435,
+   "text_offset": 94441,
+   "role": "display",
+   "refs": [
+    "rec77.name",
+    "rec77.desc"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Always lands criticals against foes with lower Skill",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 94526,
+   "text_offset": 94532,
+   "role": "display",
+   "refs": [
+    "rec78.name",
+    "rec78.desc"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Reggiane is on the map, gains Spirit at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 94641,
+   "text_offset": 94647,
+   "role": "display",
+   "refs": [
+    "rec79.name",
+    "rec79.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All Gadisword Soldiers and Royal Guards on the map: all stats +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 94741,
+   "text_offset": 94747,
+   "role": "display",
+   "refs": [
+    "rec80.name",
+    "rec80.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gains Mettle at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 94802,
+   "text_offset": 94808,
+   "role": "display",
+   "refs": [
+    "rec81.name",
+    "rec81.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 140+ Will, gains Flash at player phase end",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 94896,
+   "text_offset": 94902,
+   "role": "display",
+   "refs": [
+    "rec82.name",
+    "rec82.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 140+ Will, gains Persist at player phase end",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 94984,
+   "text_offset": 94990,
+   "role": "display",
+   "refs": [
+    "rec83.name",
+    "rec83.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All allied pilots: all stats +5",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 95033,
+   "text_offset": 95039,
+   "role": "display",
+   "refs": [
+    "rec84.name",
+    "rec84.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At player phase start, all allied pilots gain 3 Will",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 95109,
+   "text_offset": 95115,
+   "role": "display",
+   "refs": [
+    "rec85.name",
+    "rec85.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Will cap +20, max SP of all pilots aboard +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 95188,
+   "text_offset": 95194,
+   "role": "display",
+   "refs": [
+    "rec86.name"
+   ],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max SP of all pilots aboard +5; final damage to Fury units +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 95324,
+   "text_offset": 95334,
+   "role": "display",
+   "refs": [
+    "rec86.desc"
+   ],
+   "orig_chars": [
+    30,
+    13
+   ],
+   "orig_bytes": 131,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max SP of all pilots aboard +5; against Fury units,\nfinal damage dealt +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 95465,
+   "text_offset": 95471,
+   "role": "display",
+   "refs": [
+    "rec87.name",
+    "rec87.desc"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Counter always activates",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 95508,
+   "text_offset": 95514,
+   "role": "display",
+   "refs": [
+    "rec88.name",
+    "rec88.desc"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Al-Van is on the map, gains Mettle at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 95626,
+   "text_offset": 95632,
+   "role": "display",
+   "refs": [
+    "rec89.name",
+    "rec89.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Always lands criticals",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 95672,
+   "text_offset": 95678,
+   "role": "display",
+   "refs": [
+    "rec90.name",
+    "rec90.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Squires, Junior Knights on map: stats +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 95739,
+   "text_offset": 95745,
+   "role": "display",
+   "refs": [
+    "rec91.name"
+   ],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If the squad partner is Calvina, gains Love once at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 95866,
+   "text_offset": 95876,
+   "role": "display",
+   "refs": [
+    "rec91.desc"
+   ],
+   "orig_chars": [
+    33,
+    7
+   ],
+   "orig_bytes": 122,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If the squad partner is Calvina, gains Love once at player\nphase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 95998,
+   "text_offset": 96004,
+   "role": "display",
+   "refs": [
+    "rec92.name",
+    "rec92.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final damage when countering +20%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 96056,
+   "text_offset": 96062,
+   "role": "display",
+   "refs": [
+    "rec93.name",
+    "rec93.desc"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 150+ Will, uses Bond once",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 96126,
+   "text_offset": 96132,
+   "role": "display",
+   "refs": [
+    "rec94.name",
+    "rec94.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final damage to lower-level foes +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 96211,
+   "text_offset": 96217,
+   "role": "display",
+   "refs": [
+    "rec95.name",
+    "rec95.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 70% HP or less, gains Valor at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 96308,
+   "text_offset": 96314,
+   "role": "display",
+   "refs": [
+    "rec96.name",
+    "rec96.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 30% HP or less, uses Disrupt at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 96411,
+   "text_offset": 96417,
+   "role": "display",
+   "refs": [
+    "rec97.name",
+    "rec97.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At 50% HP or less, gains Bullseye at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 96508,
+   "text_offset": 96514,
+   "role": "display",
+   "refs": [
+    "rec98.name",
+    "rec98.desc"
+   ],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 136,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Inflicts Spirit Seal (P) on targets it damages (Block-type abilities etc. still work)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 96650,
+   "text_offset": 96656,
+   "role": "display",
+   "refs": [
+    "rec99.name",
+    "rec99.desc"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final Acc +5%, Final Eva +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 96708,
+   "text_offset": 96714,
+   "role": "display",
+   "refs": [
+    "rec100.name",
+    "rec100.desc"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final Hit Rate +10%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 96742,
+   "text_offset": 96748,
+   "role": "display",
+   "refs": [
+    "rec101.name",
+    "rec101.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final hit rate +5%, final evasion +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 96803,
+   "text_offset": 96809,
+   "role": "display",
+   "refs": [
+    "rec102.name",
+    "rec102.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final hit rate +10%, critical rate +20%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 96879,
+   "text_offset": 96885,
+   "role": "display",
+   "refs": [
+    "rec103.name",
+    "rec103.desc"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final hit rate +5%, critical rate +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 96949,
+   "text_offset": 96955,
+   "role": "display",
+   "refs": [
+    "rec104.name",
+    "rec104.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final hit rate +10%, critical rate +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 97022,
+   "text_offset": 97028,
+   "role": "display",
+   "refs": [
+    "rec105.name",
+    "rec105.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Final evasion +10%, critical rate +5%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 97095,
+   "text_offset": 97101,
+   "role": "display",
+   "refs": [
+    "rec106.name",
+    "rec106.desc"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At player phase start, Will +1 per ally within 1 square (incl. self)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 97210,
+   "text_offset": 97216,
+   "role": "display",
+   "refs": [
+    "rec107.name",
+    "rec107.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All Lamaris: all stats +1",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 97256,
+   "text_offset": 97262,
+   "role": "display",
+   "refs": [
+    "rec108.name",
+    "rec108.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All Lamaris and Lamaris Kaana: all stats +1",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 97329,
+   "text_offset": 97335,
+   "role": "display",
+   "refs": [
+    "rec109.name",
+    "rec109.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "When adjacent to Madnet, final evasion +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 97405,
+   "text_offset": 97411,
+   "role": "display",
+   "refs": [
+    "rec110.name",
+    "rec110.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Arieil is on the map, final damage dealt +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 97505,
+   "text_offset": 97511,
+   "role": "display",
+   "refs": [
+    "rec111.name",
+    "rec111.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All Bioroid Soldiers on the map: all stats +10%",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 97581,
+   "text_offset": 97587,
+   "role": "display",
+   "refs": [
+    "rec112.name",
+    "rec112.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "At player phase end, adjacent enemy pilots lose 10 Will",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 97669,
+   "text_offset": 97675,
+   "role": "display",
+   "refs": [
+    "rec113.name",
+    "rec113.desc"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If Calvina is on the map, gains Mettle at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 97784,
+   "text_offset": 97790,
+   "role": "display",
+   "refs": [
+    "rec114.name"
+   ],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If the squad partner is Fiona, gains Awaken once at player phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 97911,
+   "text_offset": 97921,
+   "role": "display",
+   "refs": [
+    "rec114.desc"
+   ],
+   "orig_chars": [
+    32,
+    8
+   ],
+   "orig_bytes": 122,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "If the squad partner is Fiona, gains Awaken once at\nplayer phase start",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 98043,
+   "text_offset": 98049,
+   "role": "display",
+   "refs": [
+    "rec115.name"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "TK weapons' power +100, Will needed -5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 98110,
+   "text_offset": 98116,
+   "role": "display",
+   "refs": [
+    "rec115.desc"
+   ],
+   "orig_chars": [
+    39
+   ],
+   "orig_bytes": 118,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the unit's telekinetic weapons' power by 100 and lowers their Will needed by 5.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 98234,
+   "text_offset": 98240,
+   "role": "display",
+   "refs": [
+    "rec116.name"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, ranged weapons +100",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 98298,
+   "text_offset": 98304,
+   "role": "display",
+   "refs": [
+    "rec116.desc"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10 and the power of the unit's ranged weapons by 100.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 98413,
+   "text_offset": 98419,
+   "role": "display",
+   "refs": [
+    "rec117.name"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Equips the ability TK Field S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 98468,
+   "text_offset": 98474,
+   "role": "display",
+   "refs": [
+    "rec117.desc"
+   ],
+   "orig_chars": [
+    53
+   ],
+   "orig_bytes": 159,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gains an ability that nullifies damage up to Telekinesis skill level x 250 (needs 5 EN, 110 Will).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 98633,
+   "text_offset": 98639,
+   "role": "display",
+   "refs": [
+    "rec118.name"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max EN +50, Will needed for Hi-Twin Launcher -10",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 98733,
+   "text_offset": 98739,
+   "role": "display",
+   "refs": [
+    "rec118.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises max EN by 50; lowers the Will needed for the fixed weapon Hi-Twin Launcher by 10.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 98866,
+   "text_offset": 98872,
+   "role": "display",
+   "refs": [
+    "rec119.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max Parts slots +1",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 148,
+   "section": "STRI",
+   "offset": 98909,
+   "text_offset": 98915,
+   "role": "display",
+   "refs": [
+    "rec119.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds 1 to the unit's Part Slots.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 149,
+   "section": "STRI",
+   "offset": 98988,
+   "text_offset": 98994,
+   "role": "display",
+   "refs": [
+    "rec120.name"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "TK weapons' power +100, hit modifier +20",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 150,
+   "section": "STRI",
+   "offset": 99064,
+   "text_offset": 99070,
+   "role": "display",
+   "refs": [
+    "rec120.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's telekinetic weapons by 100 and their hit modifier by 20.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 151,
+   "section": "STRI",
+   "offset": 99197,
+   "text_offset": 99203,
+   "role": "display",
+   "refs": [
+    "rec121.name"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee weapons' power +100, Claymore Avalanche can Double Attack",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 152,
+   "section": "STRI",
+   "offset": 99330,
+   "text_offset": 99336,
+   "role": "display",
+   "refs": [
+    "rec121.desc"
+   ],
+   "orig_chars": [
+    59
+   ],
+   "orig_bytes": 178,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's melee weapons by 100 and lets the fixed weapon Claymore Avalanche Double Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 153,
+   "section": "STRI",
+   "offset": 99514,
+   "text_offset": 99520,
+   "role": "display",
+   "refs": [
+    "rec122.name"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, beam weapons' power +200",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 154,
+   "section": "STRI",
+   "offset": 99581,
+   "text_offset": 99587,
+   "role": "display",
+   "refs": [
+    "rec122.desc"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10 and the power of the unit's beam weapons by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 155,
+   "section": "STRI",
+   "offset": 99699,
+   "text_offset": 99705,
+   "role": "display",
+   "refs": [
+    "rec123.name"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ammo fixed weapons' power +100, ammo +2",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 156,
+   "section": "STRI",
+   "offset": 99772,
+   "text_offset": 99778,
+   "role": "display",
+   "refs": [
+    "rec123.desc"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the unit's ammo-based fixed weapons' power by 100 and their ammo by 2.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 157,
+   "section": "STRI",
+   "offset": 99890,
+   "text_offset": 99896,
+   "role": "display",
+   "refs": [
+    "rec124.name"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Grants the Afterimage effect to squad units too",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 158,
+   "section": "STRI",
+   "offset": 99966,
+   "text_offset": 99972,
+   "role": "display",
+   "refs": [
+    "rec124.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Also grants the Afterimage ability's effect to the partner's unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 159,
+   "section": "STRI",
+   "offset": 100066,
+   "text_offset": 100072,
+   "role": "display",
+   "refs": [
+    "rec125.name"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons' power +200, range +1 (not range-1)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 160,
+   "section": "STRI",
+   "offset": 100148,
+   "text_offset": 100154,
+   "role": "display",
+   "refs": [
+    "rec125.desc"
+   ],
+   "orig_chars": [
+    41
+   ],
+   "orig_bytes": 124,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the unit's weapons' power by 200 and the range of non-range-1 weapons by 1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 161,
+   "section": "STRI",
+   "offset": 100278,
+   "text_offset": 100284,
+   "role": "display",
+   "refs": [
+    "rec126.name"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons' Will needed -10, range +1 (not range-1)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 162,
+   "section": "STRI",
+   "offset": 100360,
+   "text_offset": 100366,
+   "role": "display",
+   "refs": [
+    "rec126.desc"
+   ],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Lowers the unit's weapons' Will needed by 10 and raises non-range-1 weapons' range by 1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 163,
+   "section": "STRI",
+   "offset": 100496,
+   "text_offset": 100502,
+   "role": "display",
+   "refs": [
+    "rec127.name"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, Aim +10, range +1 (except range-1 and MAP weapons)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 164,
+   "section": "STRI",
+   "offset": 100611,
+   "text_offset": 100617,
+   "role": "display",
+   "refs": [
+    "rec127.desc"
+   ],
+   "orig_chars": [
+    53
+   ],
+   "orig_bytes": 160,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10, Aim by 10, and the range of the unit's weapons (except range-1 and MAP weapons) by 1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 165,
+   "section": "STRI",
+   "offset": 100777,
+   "text_offset": 100783,
+   "role": "display",
+   "refs": [
+    "rec128.name"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 90,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Telekinetic weapons' power rises with skill level (level x 30)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 166,
+   "section": "STRI",
+   "offset": 100873,
+   "text_offset": 100879,
+   "role": "display",
+   "refs": [
+    "rec128.desc"
+   ],
+   "orig_chars": [
+    44
+   ],
+   "orig_bytes": 132,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's telekinetic weapons by Telekinesis skill level x 30.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 167,
+   "section": "STRI",
+   "offset": 101011,
+   "text_offset": 101017,
+   "role": "display",
+   "refs": [
+    "rec129.name"
+   ],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons' critical modifier +30, all terrain ratings to A",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 168,
+   "section": "STRI",
+   "offset": 101117,
+   "text_offset": 101123,
+   "role": "display",
+   "refs": [
+    "rec129.desc"
+   ],
+   "orig_chars": [
+    48
+   ],
+   "orig_bytes": 145,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the critical modifier of the unit's weapons by 30 and sets all its terrain ratings to A.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 169,
+   "section": "STRI",
+   "offset": 101268,
+   "text_offset": 101274,
+   "role": "display",
+   "refs": [
+    "rec130.name"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons +100",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 170,
+   "section": "STRI",
+   "offset": 101308,
+   "text_offset": 101314,
+   "role": "display",
+   "refs": [
+    "rec130.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of all the unit's weapons by 100.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "section": "STRI",
+   "offset": 101396,
+   "text_offset": 101402,
+   "role": "display",
+   "refs": [
+    "rec131.name"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Transform command usable after Move",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 172,
+   "section": "STRI",
+   "offset": 101472,
+   "text_offset": 101478,
+   "role": "display",
+   "refs": [
+    "rec131.desc"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Makes the Transform command usable after Move.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 173,
+   "section": "STRI",
+   "offset": 101563,
+   "text_offset": 101569,
+   "role": "display",
+   "refs": [
+    "rec132.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee weapons +200",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 174,
+   "section": "STRI",
+   "offset": 101606,
+   "text_offset": 101612,
+   "role": "display",
+   "refs": [
+    "rec132.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's melee weapons by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "section": "STRI",
+   "offset": 101700,
+   "text_offset": 101706,
+   "role": "display",
+   "refs": [
+    "rec133.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds Ability: EN Regen (M)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "section": "STRI",
+   "offset": 101752,
+   "text_offset": 101758,
+   "role": "display",
+   "refs": [
+    "rec133.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Recovers 20% of EN every turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 177,
+   "section": "STRI",
+   "offset": 101825,
+   "text_offset": 101831,
+   "role": "display",
+   "refs": [
+    "rec134.name"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Non-range-1 fixed weapons' range +1, unit's Air rating to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 178,
+   "section": "STRI",
+   "offset": 101940,
+   "text_offset": 101946,
+   "role": "display",
+   "refs": [
+    "rec134.desc"
+   ],
+   "orig_chars": [
+    48
+   ],
+   "orig_bytes": 145,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the range of the unit's non-range-1 fixed weapons by 1 and sets its Air terrain rating to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 179,
+   "section": "STRI",
+   "offset": 102091,
+   "text_offset": 102097,
+   "role": "display",
+   "refs": [
+    "rec135.name"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Fixed weapons' max ammo +1, unit's Air rating to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 180,
+   "section": "STRI",
+   "offset": 102185,
+   "text_offset": 102191,
+   "role": "display",
+   "refs": [
+    "rec135.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the ammo of the unit's fixed weapons by 1 and sets its Air terrain rating to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 181,
+   "section": "STRI",
+   "offset": 102318,
+   "text_offset": 102324,
+   "role": "display",
+   "refs": [
+    "rec136.name"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Fixed weapons' power +100, adds P",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 182,
+   "section": "STRI",
+   "offset": 102382,
+   "text_offset": 102388,
+   "role": "display",
+   "refs": [
+    "rec136.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's fixed weapons by 100 and makes them usable after Move.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 183,
+   "section": "STRI",
+   "offset": 102515,
+   "text_offset": 102521,
+   "role": "display",
+   "refs": [
+    "rec137.name"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons +200",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 184,
+   "section": "STRI",
+   "offset": 102555,
+   "text_offset": 102561,
+   "role": "display",
+   "refs": [
+    "rec137.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of all the unit's weapons by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "section": "STRI",
+   "offset": 102643,
+   "text_offset": 102649,
+   "role": "display",
+   "refs": [
+    "rec138.name"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Replaceable weapons' power +100, terrain ratings except Air to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 186,
+   "section": "STRI",
+   "offset": 102746,
+   "text_offset": 102752,
+   "role": "display",
+   "refs": [
+    "rec138.desc"
+   ],
+   "orig_chars": [
+    47
+   ],
+   "orig_bytes": 142,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's Replaceable Weapons by 100 and sets its terrain ratings except Air to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 187,
+   "section": "STRI",
+   "offset": 102894,
+   "text_offset": 102900,
+   "role": "display",
+   "refs": [
+    "rec139.name"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Carver Tempest's power +200, Will needed -10",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 188,
+   "section": "STRI",
+   "offset": 102991,
+   "text_offset": 102997,
+   "role": "display",
+   "refs": [
+    "rec139.desc"
+   ],
+   "orig_chars": [
+    41
+   ],
+   "orig_bytes": 124,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the fixed weapon Carver Tempest's power by 200 and lowers its Will needed by 10.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 189,
+   "section": "STRI",
+   "offset": 103121,
+   "text_offset": 103127,
+   "role": "display",
+   "refs": [
+    "rec140.name"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Fixed wpn ammo +4",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 190,
+   "section": "STRI",
+   "offset": 103161,
+   "text_offset": 103167,
+   "role": "display",
+   "refs": [
+    "rec140.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds 4 ammo to the unit's fixed weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "section": "STRI",
+   "offset": 103246,
+   "text_offset": 103252,
+   "role": "display",
+   "refs": [
+    "rec141.name"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 90,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee weapon attack rises with Aschen's level (Level x 5)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 192,
+   "section": "STRI",
+   "offset": 103342,
+   "text_offset": 103348,
+   "role": "display",
+   "refs": [
+    "rec141.desc"
+   ],
+   "orig_chars": [
+    47
+   ],
+   "orig_bytes": 141,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the unit's melee weapons by sub-pilot Aschen's Level x 5.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 193,
+   "section": "STRI",
+   "offset": 103489,
+   "text_offset": 103495,
+   "role": "display",
+   "refs": [
+    "rec142.name"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Armor +200, G Territory EN cost -10",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 194,
+   "section": "STRI",
+   "offset": 103583,
+   "text_offset": 103589,
+   "role": "display",
+   "refs": [
+    "rec142.desc"
+   ],
+   "orig_chars": [
+    38
+   ],
+   "orig_bytes": 115,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Armor by 200 and lowers the EN cost of the G Territory ability by 10.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 195,
+   "section": "STRI",
+   "offset": 103704,
+   "text_offset": 103710,
+   "role": "display",
+   "refs": [
+    "rec143.name"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Armor +200, melee weapon Atk +200",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 196,
+   "section": "STRI",
+   "offset": 103771,
+   "text_offset": 103777,
+   "role": "display",
+   "refs": [
+    "rec143.desc"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Armor and the attack of the unit's melee weapons by 200 each.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 197,
+   "section": "STRI",
+   "offset": 103889,
+   "text_offset": 103895,
+   "role": "display",
+   "refs": [
+    "rec144.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Move +1, Mobility +10",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 198,
+   "section": "STRI",
+   "offset": 103932,
+   "text_offset": 103938,
+   "role": "display",
+   "refs": [
+    "rec144.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Move by 1, Mobility by 10.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "section": "STRI",
+   "offset": 103996,
+   "text_offset": 104002,
+   "role": "display",
+   "refs": [
+    "rec145.name"
+   ],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +25, Vostok Laser can Double Attack",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 200,
+   "section": "STRI",
+   "offset": 104105,
+   "text_offset": 104111,
+   "role": "display",
+   "refs": [
+    "rec145.desc"
+   ],
+   "orig_chars": [
+    41
+   ],
+   "orig_bytes": 124,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 25 and lets the built-in Vostok Laser Double Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 201,
+   "section": "STRI",
+   "offset": 104235,
+   "text_offset": 104241,
+   "role": "display",
+   "refs": [
+    "rec146.name"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Move +1, unit/weapon Air and Space terrain: S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 202,
+   "section": "STRI",
+   "offset": 104332,
+   "text_offset": 104338,
+   "role": "display",
+   "refs": [
+    "rec146.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Move by 1 and sets the Air and Space Terrain Ability of the unit and its weapons to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 203,
+   "section": "STRI",
+   "offset": 104465,
+   "text_offset": 104471,
+   "role": "display",
+   "refs": [
+    "rec147.name"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapon terrain: S, adds P attribute",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 204,
+   "section": "STRI",
+   "offset": 104541,
+   "text_offset": 104547,
+   "role": "display",
+   "refs": [
+    "rec147.desc"
+   ],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets the Terrain Ability of the unit's weapons to S and lets them attack after moving.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 205,
+   "section": "STRI",
+   "offset": 104668,
+   "text_offset": 104674,
+   "role": "display",
+   "refs": [
+    "rec148.name"
+   ],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee weapon Atk +100, General Blaster can Double Attack",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 206,
+   "section": "STRI",
+   "offset": 104795,
+   "text_offset": 104801,
+   "role": "display",
+   "refs": [
+    "rec148.desc"
+   ],
+   "orig_chars": [
+    57
+   ],
+   "orig_bytes": 172,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the unit's melee weapons by 100 and lets the built-in General Blaster Double Attack.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 207,
+   "section": "STRI",
+   "offset": 104973,
+   "text_offset": 104979,
+   "role": "display",
+   "refs": [
+    "rec149.name"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ranged weapon Atk +100, all unit terrain: A",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 208,
+   "section": "STRI",
+   "offset": 105064,
+   "text_offset": 105070,
+   "role": "display",
+   "refs": [
+    "rec149.desc"
+   ],
+   "orig_chars": [
+    46
+   ],
+   "orig_bytes": 139,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the unit's ranged weapons by 100 and sets all the unit's Terrain Abilities to A.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 209,
+   "section": "STRI",
+   "offset": 105209,
+   "text_offset": 105215,
+   "role": "display",
+   "refs": [
+    "rec150.name"
+   ],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "8710 Dragon Tiger Atk +200, terrain set to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 210,
+   "section": "STRI",
+   "offset": 105318,
+   "text_offset": 105324,
+   "role": "display",
+   "refs": [
+    "rec150.desc"
+   ],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 136,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises 8710 Dragon and Tiger Barrage's power by 200 and sets all its Terrain Abilities to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "section": "STRI",
+   "offset": 105460,
+   "text_offset": 105466,
+   "role": "display",
+   "refs": [
+    "rec151.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Afterimage rate +20%",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 212,
+   "section": "STRI",
+   "offset": 105494,
+   "text_offset": 105500,
+   "role": "display",
+   "refs": [
+    "rec151.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Afterimage activation rate by 20%.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 213,
+   "section": "STRI",
+   "offset": 105579,
+   "text_offset": 105585,
+   "role": "display",
+   "refs": [
+    "rec152.name"
+   ],
+   "orig_chars": [
+    41
+   ],
+   "orig_bytes": 124,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ranged weapon Atk +200, Jammer always works on missiles",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 214,
+   "section": "STRI",
+   "offset": 105709,
+   "text_offset": 105715,
+   "role": "display",
+   "refs": [
+    "rec152.desc"
+   ],
+   "orig_chars": [
+    57
+   ],
+   "orig_bytes": 172,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the unit's ranged weapons by 200, and the Jammer ability always activates against missile weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 215,
+   "section": "STRI",
+   "offset": 105887,
+   "text_offset": 105893,
+   "role": "display",
+   "refs": [
+    "rec153.name"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, built-in weapon Atk +100",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 216,
+   "section": "STRI",
+   "offset": 105951,
+   "text_offset": 105957,
+   "role": "display",
+   "refs": [
+    "rec153.desc"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10 and the attack of the unit's built-in weapons by 100.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 217,
+   "section": "STRI",
+   "offset": 106066,
+   "text_offset": 106072,
+   "role": "display",
+   "refs": [
+    "rec154.name"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Aim +10, built-in weapon Atk +100",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 218,
+   "section": "STRI",
+   "offset": 106130,
+   "text_offset": 106136,
+   "role": "display",
+   "refs": [
+    "rec154.desc"
+   ],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Aim by 10 and the attack of the unit's built-in weapons by 100.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 219,
+   "section": "STRI",
+   "offset": 106245,
+   "text_offset": 106251,
+   "role": "display",
+   "refs": [
+    "rec155.name"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, Cosmo Nova ammo +1",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 220,
+   "section": "STRI",
+   "offset": 106318,
+   "text_offset": 106324,
+   "role": "display",
+   "refs": [
+    "rec155.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10 and Cosmo Nova's ammo by 1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "section": "STRI",
+   "offset": 106418,
+   "text_offset": 106424,
+   "role": "display",
+   "refs": [
+    "rec156.name"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds Beam Absorption",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "section": "STRI",
+   "offset": 106464,
+   "text_offset": 106470,
+   "role": "display",
+   "refs": [
+    "rec156.desc"
+   ],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Restores HP equal to the damage beam attacks would deal.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "section": "STRI",
+   "offset": 106570,
+   "text_offset": 106576,
+   "role": "display",
+   "refs": [
+    "rec157.name"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Built-in Max Ammo +2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 224,
+   "section": "STRI",
+   "offset": 106610,
+   "text_offset": 106616,
+   "role": "display",
+   "refs": [
+    "rec157.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds 2 ammo to the unit's fixed weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 225,
+   "section": "STRI",
+   "offset": 106695,
+   "text_offset": 106701,
+   "role": "display",
+   "refs": [
+    "rec158.name"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unit Land and Sea terrain: S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 226,
+   "section": "STRI",
+   "offset": 106762,
+   "text_offset": 106768,
+   "role": "display",
+   "refs": [
+    "rec158.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets the unit's Land and Sea Terrain Ability to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 227,
+   "section": "STRI",
+   "offset": 106838,
+   "text_offset": 106844,
+   "role": "display",
+   "refs": [
+    "rec159.name"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unit Air and Space terrain: S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 228,
+   "section": "STRI",
+   "offset": 106905,
+   "text_offset": 106911,
+   "role": "display",
+   "refs": [
+    "rec159.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets the unit's Air and Space Terrain Ability to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 229,
+   "section": "STRI",
+   "offset": 106984,
+   "text_offset": 106990,
+   "role": "display",
+   "refs": [
+    "rec160.name"
+   ],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 135,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons' hit and crit bonuses rise with the sub-pilot's level (Level x 1)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 230,
+   "section": "STRI",
+   "offset": 107125,
+   "text_offset": 107131,
+   "role": "display",
+   "refs": [
+    "rec160.desc"
+   ],
+   "orig_chars": [
+    49
+   ],
+   "orig_bytes": 147,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the hit and critical rate bonuses of the unit's weapons by the sub-pilot's Level x 1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 231,
+   "section": "STRI",
+   "offset": 107278,
+   "text_offset": 107284,
+   "role": "display",
+   "refs": [
+    "rec161.name"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Move +1, negates target's Larseilam",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 232,
+   "section": "STRI",
+   "offset": 107363,
+   "text_offset": 107369,
+   "role": "display",
+   "refs": [
+    "rec161.desc"
+   ],
+   "orig_chars": [
+    39
+   ],
+   "orig_bytes": 118,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Move by 1 and keeps the target's Larseilam ability from activating.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 233,
+   "section": "STRI",
+   "offset": 107487,
+   "text_offset": 107493,
+   "role": "display",
+   "refs": [
+    "rec162.name"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Repair restores 2x HP and cures status ailments",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 234,
+   "section": "STRI",
+   "offset": 107575,
+   "text_offset": 107581,
+   "role": "display",
+   "refs": [
+    "rec162.desc"
+   ],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Doubles the HP that Repair restores to the target, and also cures status ailments.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 235,
+   "section": "STRI",
+   "offset": 107702,
+   "text_offset": 107708,
+   "role": "display",
+   "refs": [
+    "rec163.name"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Carried units' Will no longer drops",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 236,
+   "section": "STRI",
+   "offset": 107760,
+   "text_offset": 107766,
+   "role": "display",
+   "refs": [
+    "rec163.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Units carried aboard this unit no longer lose Will.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 237,
+   "section": "STRI",
+   "offset": 107836,
+   "text_offset": 107842,
+   "role": "display",
+   "refs": [
+    "rec164.name"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Carried units fully restore HP/EN in 1 turn",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 238,
+   "section": "STRI",
+   "offset": 107918,
+   "text_offset": 107924,
+   "role": "display",
+   "refs": [
+    "rec164.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Fully restores the HP and EN of carried units in 1 turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 239,
+   "section": "STRI",
+   "offset": 108015,
+   "text_offset": 108021,
+   "role": "display",
+   "refs": [
+    "rec165.name"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Rotating Ram Atk +200, terrain set to S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 240,
+   "section": "STRI",
+   "offset": 108115,
+   "text_offset": 108121,
+   "role": "display",
+   "refs": [
+    "rec165.desc"
+   ],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the built-in Rotating Ram by 200 and sets all its Terrain Abilities to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 241,
+   "section": "STRI",
+   "offset": 108248,
+   "text_offset": 108254,
+   "role": "display",
+   "refs": [
+    "rec166.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Armor +200",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 242,
+   "section": "STRI",
+   "offset": 108276,
+   "text_offset": 108282,
+   "role": "display",
+   "refs": [
+    "rec166.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Armor by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 243,
+   "section": "STRI",
+   "offset": 108325,
+   "text_offset": 108331,
+   "role": "display",
+   "refs": [
+    "rec167.name"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons gain Negate Barrier",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 244,
+   "section": "STRI",
+   "offset": 108383,
+   "text_offset": 108389,
+   "role": "display",
+   "refs": [
+    "rec167.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gives the unit's weapons the Negate Barrier effect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 245,
+   "section": "STRI",
+   "offset": 108483,
+   "text_offset": 108489,
+   "role": "display",
+   "refs": [
+    "rec168.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +25",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 246,
+   "section": "STRI",
+   "offset": 108508,
+   "text_offset": 108514,
+   "role": "display",
+   "refs": [
+    "rec168.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 25.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 247,
+   "section": "STRI",
+   "offset": 108554,
+   "text_offset": 108560,
+   "role": "display",
+   "refs": [
+    "rec169.name"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, Max EN +25",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 248,
+   "section": "STRI",
+   "offset": 108603,
+   "text_offset": 108609,
+   "role": "display",
+   "refs": [
+    "rec169.desc"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10 and max EN by 25.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 249,
+   "section": "STRI",
+   "offset": 108673,
+   "text_offset": 108679,
+   "role": "display",
+   "refs": [
+    "rec170.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "W-Gauge +30",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 250,
+   "section": "STRI",
+   "offset": 108701,
+   "text_offset": 108707,
+   "role": "display",
+   "refs": [
+    "rec170.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises max Weapon Gauge by 30.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 251,
+   "section": "STRI",
+   "offset": 108765,
+   "text_offset": 108771,
+   "role": "display",
+   "refs": [
+    "rec171.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 252,
+   "section": "STRI",
+   "offset": 108790,
+   "text_offset": 108796,
+   "role": "display",
+   "refs": [
+    "rec171.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 253,
+   "section": "STRI",
+   "offset": 108836,
+   "text_offset": 108842,
+   "role": "display",
+   "refs": [
+    "rec172.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max HP +2000",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 254,
+   "section": "STRI",
+   "offset": 108870,
+   "text_offset": 108876,
+   "role": "display",
+   "refs": [
+    "rec172.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises max HP by 2000.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 255,
+   "section": "STRI",
+   "offset": 108925,
+   "text_offset": 108931,
+   "role": "display",
+   "refs": [
+    "rec173.name"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, all weapon Atk +200",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 256,
+   "section": "STRI",
+   "offset": 108986,
+   "text_offset": 108992,
+   "role": "display",
+   "refs": [
+    "rec173.desc"
+   ],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10 and the attack of the unit's weapons by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 257,
+   "section": "STRI",
+   "offset": 109095,
+   "text_offset": 109101,
+   "role": "display",
+   "refs": [
+    "rec174.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ranged weapon Atk +300",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 258,
+   "section": "STRI",
+   "offset": 109138,
+   "text_offset": 109144,
+   "role": "display",
+   "refs": [
+    "rec174.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Increases power of the unit's ranged weapons by 300.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 259,
+   "section": "STRI",
+   "offset": 109232,
+   "text_offset": 109238,
+   "role": "display",
+   "refs": [
+    "rec175.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Max HP +5000",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 260,
+   "section": "STRI",
+   "offset": 109266,
+   "text_offset": 109272,
+   "role": "display",
+   "refs": [
+    "rec175.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises max HP by 5000.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 261,
+   "section": "STRI",
+   "offset": 109321,
+   "text_offset": 109327,
+   "role": "display",
+   "refs": [
+    "rec176.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Aim +20",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 262,
+   "section": "STRI",
+   "offset": 109346,
+   "text_offset": 109352,
+   "role": "display",
+   "refs": [
+    "rec176.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Aim by 20.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 263,
+   "section": "STRI",
+   "offset": 109392,
+   "text_offset": 109398,
+   "role": "display",
+   "refs": [
+    "rec177.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Aim +10",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 264,
+   "section": "STRI",
+   "offset": 109417,
+   "text_offset": 109423,
+   "role": "display",
+   "refs": [
+    "rec177.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Aim by 10.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 265,
+   "section": "STRI",
+   "offset": 109463,
+   "text_offset": 109469,
+   "role": "display",
+   "refs": [
+    "rec178.name"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Armor +200, all weapon Atk +100",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 266,
+   "section": "STRI",
+   "offset": 109527,
+   "text_offset": 109533,
+   "role": "display",
+   "refs": [
+    "rec178.desc"
+   ],
+   "orig_chars": [
+    35
+   ],
+   "orig_bytes": 106,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Armor by 200 and the attack of the unit's weapons by 100.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 267,
+   "section": "STRI",
+   "offset": 109639,
+   "text_offset": 109645,
+   "role": "display",
+   "refs": [
+    "rec179.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Immune to Ranged Attacks",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 268,
+   "section": "STRI",
+   "offset": 109667,
+   "text_offset": 109673,
+   "role": "display",
+   "refs": [
+    "rec179.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gains immunity to ranged weapon attacks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 269,
+   "section": "STRI",
+   "offset": 109740,
+   "text_offset": 109746,
+   "role": "display",
+   "refs": [
+    "rec180.name"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Lightning Assault Atk +200, adds Pierce Barrier",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 270,
+   "section": "STRI",
+   "offset": 109858,
+   "text_offset": 109864,
+   "role": "display",
+   "refs": [
+    "rec180.desc"
+   ],
+   "orig_chars": [
+    48
+   ],
+   "orig_bytes": 145,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the built-in Lightning Assault by 200 and gives it the Pierce Barrier effect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 271,
+   "section": "STRI",
+   "offset": 110009,
+   "text_offset": 110015,
+   "role": "display",
+   "refs": [
+    "rec181.name"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Flashing Assault Atk +200, adds Pierce Barrier",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 272,
+   "section": "STRI",
+   "offset": 110127,
+   "text_offset": 110133,
+   "role": "display",
+   "refs": [
+    "rec181.desc"
+   ],
+   "orig_chars": [
+    48
+   ],
+   "orig_bytes": 145,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the built-in Flashing Assault by 200 and gives it the Pierce Barrier effect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 273,
+   "section": "STRI",
+   "offset": 110278,
+   "text_offset": 110284,
+   "role": "display",
+   "refs": [
+    "rec182.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Mobility +10, Aim +5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 274,
+   "section": "STRI",
+   "offset": 110321,
+   "text_offset": 110327,
+   "role": "display",
+   "refs": [
+    "rec182.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Mobility by 10 and Aim by 5.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 275,
+   "section": "STRI",
+   "offset": 110385,
+   "text_offset": 110391,
+   "role": "display",
+   "refs": [
+    "rec183.name"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unit/weapon Space terrain: S",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 276,
+   "section": "STRI",
+   "offset": 110455,
+   "text_offset": 110461,
+   "role": "display",
+   "refs": [
+    "rec183.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sets the Space Terrain Ability of the unit and its weapons to S.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 277,
+   "section": "STRI",
+   "offset": 110555,
+   "text_offset": 110561,
+   "role": "display",
+   "refs": [
+    "rec184.name"
+   ],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee weapon Atk +200, negates target's Larseilam",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 278,
+   "section": "STRI",
+   "offset": 110661,
+   "text_offset": 110667,
+   "role": "display",
+   "refs": [
+    "rec184.desc"
+   ],
+   "orig_chars": [
+    56
+   ],
+   "orig_bytes": 169,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the unit's melee weapons by 200 and keeps the target's Larseilam ability from activating.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 279,
+   "section": "STRI",
+   "offset": 110836,
+   "text_offset": 110842,
+   "role": "display",
+   "refs": [
+    "rec185.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ranged weapon Atk +200",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 280,
+   "section": "STRI",
+   "offset": 110879,
+   "text_offset": 110885,
+   "role": "display",
+   "refs": [
+    "rec185.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's ranged weapons by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 281,
+   "section": "STRI",
+   "offset": 110973,
+   "text_offset": 110979,
+   "role": "display",
+   "refs": [
+    "rec186.name"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ranged weapon Atk +200, adds EN Recovery (Medium)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 282,
+   "section": "STRI",
+   "offset": 111064,
+   "text_offset": 111070,
+   "role": "display",
+   "refs": [
+    "rec186.desc"
+   ],
+   "orig_chars": [
+    49
+   ],
+   "orig_bytes": 148,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the unit's ranged weapons by 200 and grants the ability to recover 20% EN each turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 283,
+   "section": "STRI",
+   "offset": 111218,
+   "text_offset": 111224,
+   "role": "display",
+   "refs": [
+    "rec187.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds Ability: HP Regen (L)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 284,
+   "section": "STRI",
+   "offset": 111270,
+   "text_offset": 111276,
+   "role": "display",
+   "refs": [
+    "rec187.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Recovers 30% of HP every turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 285,
+   "section": "STRI",
+   "offset": 111343,
+   "text_offset": 111349,
+   "role": "display",
+   "refs": [
+    "rec188.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee weapon Atk +300",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 286,
+   "section": "STRI",
+   "offset": 111386,
+   "text_offset": 111392,
+   "role": "display",
+   "refs": [
+    "rec188.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's melee weapons by 300.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 287,
+   "section": "STRI",
+   "offset": 111480,
+   "text_offset": 111486,
+   "role": "display",
+   "refs": [
+    "rec189.name"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Beam weapon Atk +200",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 288,
+   "section": "STRI",
+   "offset": 111526,
+   "text_offset": 111532,
+   "role": "display",
+   "refs": [
+    "rec189.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the attack of the unit's beam weapons by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 289,
+   "section": "STRI",
+   "offset": 111623,
+   "text_offset": 111629,
+   "role": "display",
+   "refs": [
+    "rec190.name"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Armor +300, adds HP Recovery (Medium)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 290,
+   "section": "STRI",
+   "offset": 111699,
+   "text_offset": 111705,
+   "role": "display",
+   "refs": [
+    "rec190.desc"
+   ],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Armor by 300 and grants the ability to recover 20% HP each turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 291,
+   "section": "STRI",
+   "offset": 111808,
+   "text_offset": 111814,
+   "role": "display",
+   "refs": [
+    "rec191.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds the Full Block ability",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 292,
+   "section": "STRI",
+   "offset": 111860,
+   "text_offset": 111866,
+   "role": "display",
+   "refs": [
+    "rec191.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Nullifies all special effects.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 293,
+   "section": "STRI",
+   "offset": 111927,
+   "text_offset": 111933,
+   "role": "display",
+   "refs": [
+    "rec192.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Adds EN Recovery (Large)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 294,
+   "section": "STRI",
+   "offset": 111979,
+   "text_offset": 111985,
+   "role": "display",
+   "refs": [
+    "rec192.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Grants the ability to recover 30% EN each turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 295,
+   "section": "STRI",
+   "offset": 112052,
+   "text_offset": 112058,
+   "role": "display",
+   "refs": [
+    "rec193.name"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ability: HP Recovery (M)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 296,
+   "section": "STRI",
+   "offset": 112104,
+   "text_offset": 112110,
+   "role": "display",
+   "refs": [
+    "rec193.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Restores 20% of HP every turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 297,
+   "section": "STRI",
+   "offset": 112177,
+   "text_offset": 112183,
+   "role": "display",
+   "refs": [
+    "rec194.name"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All weapons gain Incapacitate",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 298,
+   "section": "STRI",
+   "offset": 112232,
+   "text_offset": 112238,
+   "role": "display",
+   "refs": [
+    "rec194.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Gives the unit's weapons the Incapacitate effect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 299,
+   "section": "STRI",
+   "offset": 112329,
+   "text_offset": 112335,
+   "role": "display",
+   "refs": [
+    "rec195.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Replace Weapon Atk+200",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 300,
+   "section": "STRI",
+   "offset": 112372,
+   "text_offset": 112378,
+   "role": "display",
+   "refs": [
+    "rec195.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of equipped Replace weapons by 200.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 301,
+   "section": "STRI",
+   "offset": 112466,
+   "text_offset": 112472,
+   "role": "display",
+   "refs": [
+    "rec196.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Aim +30",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 302,
+   "section": "STRI",
+   "offset": 112491,
+   "text_offset": 112497,
+   "role": "display",
+   "refs": [
+    "rec196.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Aim by 30.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 303,
+   "section": "STRI",
+   "offset": 112537,
+   "text_offset": 112543,
+   "role": "display",
+   "refs": [
+    "rec197.name"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Melee weapon Atk +100",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 304,
+   "section": "STRI",
+   "offset": 112580,
+   "text_offset": 112586,
+   "role": "display",
+   "refs": [
+    "rec197.desc"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises the power of the unit's melee weapons by 100.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 305,
+   "section": "STRI",
+   "offset": 112674,
+   "text_offset": 112680,
+   "role": "display",
+   "refs": [
+    "rec198.name"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Armor +200, Max HP +2000",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 306,
+   "section": "STRI",
+   "offset": 112732,
+   "text_offset": 112738,
+   "role": "display",
+   "refs": [
+    "rec198.desc"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raises Armor by 200 and max HP by 2000.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  }
+ ],
+ "inline_strings": []
+}

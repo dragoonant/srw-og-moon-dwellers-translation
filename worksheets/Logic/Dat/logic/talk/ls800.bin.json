@@ -1,0 +1,1752 @@
+{
+ "file": "ls800.bin",
+ "format": "LDBI",
+ "strings": [
+  {
+   "id": 0,
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 2,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 6,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 9,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 10,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 12,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 13,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 14,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 15,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 16,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 17,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 18,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 19,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 20,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 21,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 22,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 23,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 24,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 25,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 26,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 27,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 28,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 29,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 30,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 31,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 32,
+   "en": "Ryusei",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 33,
+   "en": "Hey, good work.@Thanks for playing this far.@Now, let's do the preview like always.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 34,
+   "en": "Rai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 35,
+   "en": "...Same old routine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "en": "Aya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 37,
+   "en": "True. Maybe we should put on a different act?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 38,
+   "en": "Mai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 39,
+   "en": "(An act...? So that's what this place was...?!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "en": "Rai's the one who brought it up.@Take responsibility and say something funny.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "en": "What... did you say?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "en": "A genius like you can pull it off.@Okay, here we go! 3, 2, 1!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "en": "Uh... Looking for the R-1?@R you sure? It's right over there.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "en": "...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 45,
+   "en": "R-Rai...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "en": "Viletta",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 47,
+   "en": "Fu, fufufu... Ahahahahaha! That's hilarious, Rai!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "en": "Huh?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 49,
+   "en": "(The Captain's actually kind of...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "en": "Kai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 51,
+   "en": "The Special Tactics Instructor Unit I lead has grown@to a decent size. Today I'll introduce our unit's@lone flower among the thorns.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "en": "Hugo",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 53,
+   "en": "Major, doesn't \"lone flower among the thorns\" mean@one woman among many men? The Instructors@have more women than men now...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "en": "Hugo, you're a serious one.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "en": "Huh...!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 56,
+   "en": "Radha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 57,
+   "en": "Now, why is Lieutenant Hugo the lone flower...?@You think about it too, okay?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "en": "Gilliam",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 59,
+   "en": "Hm? I've been called here again?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "en": "Say a few words?@I'm running out of material, but it can't be helped.@Well then...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "en": "Please support Battle Dodgeball II as well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 62,
+   "en": "...Incidentally, I was the final boss of the@Dodgeball King Tournament, on Roa's team.@Just so you know, it has nothing to do with this story.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "en": "Akemi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 64,
+   "en": "Honestly, Akimi...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "en": "Shoko",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 66,
+   "en": "What's wrong, Akemi?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 67,
+   "en": "Just because it's break time,@all he does is play games.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 68,
+   "en": "Shoko's big brother is kind of the same.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "en": "Really?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "en": "And Grandpa does nothing but research,@so he can't do anything around the house...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "en": "Cooking, laundry, cleaning, shopping...@Shoko has to do every-thing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "en": "Sh-Shoko, you've really got it rough...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "en": "Touya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 74,
+   "en": "Um...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "en": "Melua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 76,
+   "en": "What's wrong, Touya?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "en": "Well, they told me to say hello here...@and I'm not sure what to do.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 78,
+   "en": "Tenia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 79,
+   "en": "Just wing it.@Thanks for playing!@Get some rest, and play again soon!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "en": "That's all, the end! Good work! Good night!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "en": "You really did just wing it...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "en": "Calvina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 83,
+   "en": "Quitting already?@Well, I guess it can't be helped.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "en": "Come play again when you feel like it.@And when you do, make sure you sortie me.@Got it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "en": "Seolla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 86,
+   "en": "Finally, a breather.@Hey, Arado! Where are you going?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 87,
+   "en": "Arado",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 88,
+   "en": "The mess hall, duh! It's Friday,@which means Steel Dragon Curry Day!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "en": "Latune",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 90,
+   "en": "No need to rush. I'm sure there's enough@for everyone...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "en": "No, no, I wanna be first in line@so they give me extra meat!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 92,
+   "en": "Honestly... He's not a kid anymore.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "en": "Bullet",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 94,
+   "en": "The endlessly expanding universe...@The comrades who fight alongside us.@And you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "en": "There's something I want to tell you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "en": "Get some sleep once in a while.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "en": "Azuki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 98,
+   "en": "Fufufufu.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 99,
+   "en": "Go hit the restroom, then get some rest.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 100,
+   "en": "The night is still young.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "en": "Josh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 102,
+   "en": "I have no intention of taking a bad bet...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 103,
+   "en": "Kyosuke",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 104,
+   "en": "I don't mind a bad bet...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 105,
+   "en": "Damn it! If you want me to do it, I'll do it!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "en": "Ah!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 107,
+   "en": "Urk...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 108,
+   "en": "Katia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 109,
+   "en": "Looks like you drew the Joker.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "en": "Akimi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 111,
+   "en": "Ugh, I lost again...@I'm no match for Lieutenant Ryoto...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "en": "Ryoto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 113,
+   "en": "I played a lot of Burning PT, so...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 114,
+   "en": "Then let's do a team battle next!@I'll go get Touya!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 115,
+   "en": "No, let's stop here.@Managing your health is an important part@of a pilot's job.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 116,
+   "en": "Understood.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "en": "...Players, please get some rest too.@See you later.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "en": "Katina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 119,
+   "en": "All right, you lugs. Break time.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 120,
+   "en": "Tasuku",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 121,
+   "en": "Haah... I'm beat...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 122,
+   "en": "Russel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 123,
+   "en": "With sortie after sortie like this,@it really takes a toll.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 124,
+   "en": "Here, an energy drink.@Relax, it ain't one of Kusuha's concoctions.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "en": "N-No way...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 126,
+   "en": "What?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 127,
+   "en": "L-Lieutenant...!@Don't tell me Madnet's controlling you...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 128,
+   "en": "What the hell do you take me for?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 129,
+   "en": "Sean",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 130,
+   "en": "Why, Captain.@Won't you be showing us that outfit of yours@this time?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 131,
+   "en": "Lefina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "en": "No... Emergency or not,@I can't wear something like that...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "en": "Then what about your feet?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "en": "Huh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "en": "Eun",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "en": "Those are slippers, Captain.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "en": "Ah!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 138,
+   "en": "Haken",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 139,
+   "en": "Hey there, Gamble Wolf.@How about another round of cards tonight?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "en": "Very well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "OK, tonight I'm taking the win!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "en": "Right back at you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 143,
+   "en": "Excellen",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 144,
+   "en": "Hello? Sorry to interrupt while you're all fired up,@but what exactly are you planning to bet, Kyosuke?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "en": "Aschen",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 146,
+   "en": "Captain, didn't you also fall for that bandana@brat's cheating last night and get bled dry,@you sucker, if I may say so?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 147,
+   "en": "Man, being broke is the enemy...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 148,
+   "en": "I've lost interest...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 149,
+   "en": "OK, penniless gambler.@Kindly hurry up and hit the sack,@you bum, if you please.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 150,
+   "en": "Alchemie",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "Time for a break.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 152,
+   "en": "Axel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 153,
+   "en": "I hardly think we have time to rest@in this situation.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 154,
+   "en": "You've gotten awfully cool, Flaky Seaweed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 155,
+   "en": "Kota",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "en": "Oh, right, back over there...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 157,
+   "en": "Is something the matter with me?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 158,
+   "en": "A bold image change, you dork.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 159,
+   "en": "This is the real Axel. Probably.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 160,
+   "en": "Good work, everyone!@Want some chocolate? It'll perk you up.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 161,
+   "en": "Melua...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "I've got candy too. It'll help with the fatigue.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 163,
+   "en": "Melua!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 164,
+   "en": "Yes, what is it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 165,
+   "en": "You... You hid that stuff in the cockpit again?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 166,
+   "en": "...You said it was okay, Touya.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 167,
+   "en": "W-Well, yeah, but...@I'm the one who gets chewed out by Katia and Tenia!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 168,
+   "en": "But you said it was okay, Touya,@so you have to take responsibility.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 169,
+   "en": "Ugh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "Now, everyone, the moment you've waited for!@The Code DTD Show is about to begin!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 171,
+   "en": "Lamia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 172,
+   "en": "Sister Aschen, what on earth are you...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 173,
+   "en": "Oh-ho, my dear little sister!@If you don't throw in some fan service in places@like this, you'll get buried under the other characters~!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 174,
+   "en": "B-But...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "en": "No buts, no nothing-ing!@Strip first! Bring out the steam!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 176,
+   "en": "No, if I end up like that too, I fear my character@would overlap with yours, Sister Aschen...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 177,
+   "en": "No worries there, Sister 17.@That's an everyday thing in Endless Frontier.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 178,
+   "en": "Yuuki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 179,
+   "en": "Lamaris, the Crystal Dragoon,@Debudedabide, Skull Knight...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 180,
+   "en": "The absurd ones just keep piling up.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 181,
+   "en": "Or would it be more absurd at this point@to deny they exist...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 182,
+   "en": "Michiru",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "Oi, Touma.@You ever work a part-time job in Osaka?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 184,
+   "en": "Touma",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "en": "Yeah. I sold pork buns and stuff.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 186,
+   "en": "When you've got 876~!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 187,
+   "en": "Huh!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "Skull Knight",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 189,
+   "en": "Wahahahahaha!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 190,
+   "en": "Yup, that's the standard comeback.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 191,
+   "en": "(How does Skull Knight even know that...?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 192,
+   "en": "Phew, all done!@Hey, Calvina. Let's go eat, let's eat!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 193,
+   "en": "...Once in a while couldn't hurt.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 194,
+   "en": "What do you want?@We can have whatever you like, Calvina!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 195,
+   "en": "I guess so...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "en": "Want me to guess your favorite?@It's yakiniku, right! And not the loin, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 197,
+   "en": "Now, who can say?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "en": "Ugh! A direct hit!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 199,
+   "en": "DCS, red alert! At this rate,@the Orgon Extractor's gonna shut down!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 200,
+   "en": "Ngh, do something!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 201,
+   "en": "F-Fine, then!@In that case, Hi-ORu particles!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 202,
+   "en": "Huh... What's that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 203,
+   "en": "All done, all done. Food, food~",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 204,
+   "en": "...Didn't you just eat a little while ago?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 205,
+   "en": "You got a problem with that?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 206,
+   "en": "No, not really, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 207,
+   "en": "Then don't butt in.@Don't spoil my fun.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": "I don't mean it like that... But are you sure@it's okay to always eat that much?@You know, in various ways...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 209,
+   "en": "Tenia?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "en": "Don't aaaaask!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 211,
+   "en": "Ow!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": "This is your fault, Touya!@And you're treating me to dinner, got it?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 213,
+   "en": "...Okay, okay.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "en": "Thank you all for your hard work.@I am Katia Grineal, and I fight alongside@Mr. Touya, Ms. Calvina, and the others.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 215,
+   "en": "Please rest a while. I shall look forward@to you resuming play afterward.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 216,
+   "en": "Katia, the way you're talking...@And \"Mr. Touya\"...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 217,
+   "en": "Oh dear, how careless of me... What a blunder.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 218,
+   "en": "Yep, that's weird...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 219,
+   "en": "Oh, Fairy!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 220,
+   "en": "Taking a break?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 221,
+   "en": "Fairy",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 222,
+   "en": "Yes, Master Akimi.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 223,
+   "en": "Huh? \"Master\"...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 224,
+   "en": "Oh, I'm sorry.@I was just talking with Princess Shine...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 225,
+   "en": "Oh, that explains it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 226,
+   "en": "Hmm...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 227,
+   "en": "What is it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "en": "No, I just wonder why it doesn't feel@like the first time I've been called@\"Master Akimi\"...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 229,
+   "en": "Amala",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 230,
+   "en": "Yon Gebana, I need a word.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 231,
+   "en": "Yon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 232,
+   "en": "What is it, Amala?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 233,
+   "en": "I hear you were once keeping watch on Shu.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 234,
+   "en": "Y-Yes, on my master's orders...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 235,
+   "en": "Master...@I see. So you too work for your lord.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 236,
+   "en": "Yes. For my master's sake,@I intend to carry out any mission at all.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 237,
+   "en": "Very well. Don't forget that resolve.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 238,
+   "en": "What on earth did Amala@want to ask, I wonder?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 239,
+   "en": "Thank you for your hard work, everyone!@Thank you so much for taking time out of your busy@lives to play Super Robot Wars OG.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 240,
+   "en": "Eita",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 241,
+   "en": "You're so stiff, Azuki.@This is a rare chance. Take a page from your senior@here and talk about your dreams or something.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 242,
+   "en": "My dreams...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 243,
+   "en": "Yeah. Like wanting to be the captain@of a Space Noah-class ship.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 244,
+   "en": "Let's see...@I want to ride the Cybuster and squish@Kuro and Shiro's paw pads!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 245,
+   "en": "...Couldn't you make that happen right now?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 246,
+   "en": "Chika",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 247,
+   "en": "You there! Yes, you!@Don't tell me you're seizing the chance@to work the Granzon to the bone?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 248,
+   "en": "You are? Then be careful! He may not look it, but@my master's frail. If he so much as coughs, I've got@to fly over and nurse him, or he'll soon...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 249,
+   "en": "Shu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 250,
+   "en": "Soon... what?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 251,
+   "en": "Whoa, Master!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 252,
+   "en": "...You just want a break yourself, don't you?@Stop using me as an excuse.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 253,
+   "en": "Huh? That's not it, you say?@Then use us once in a while, will you?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

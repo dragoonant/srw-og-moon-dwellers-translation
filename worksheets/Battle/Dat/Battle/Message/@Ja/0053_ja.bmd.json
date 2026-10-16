@@ -1,0 +1,11350 @@
+{
+ "file": "0053_ja.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 31,
+  "entries": 395,
+  "lines": 437,
+  "strings": 248
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "The name's Michiru Hanaten!",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5712
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 1,
+   "offset": 46,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Feast yer eyes on the G-Bankaran's power!",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5713
+     ]
+    },
+    {
+     "line": 359,
+     "field": "text",
+     "entry": 359,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5713
+     ]
+    },
+    {
+     "line": 361,
+     "field": "text",
+     "entry": 361,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5713
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 2,
+   "offset": 101,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Oi! Glad ya made it, punk!",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5714
+     ]
+    },
+    {
+     "line": 355,
+     "field": "text",
+     "entry": 355,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5714
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 3,
+   "offset": 150,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Brace yerself!",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5715
+     ]
+    },
+    {
+     "line": 344,
+     "field": "text",
+     "entry": 344,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5715
+     ]
+    },
+    {
+     "line": 348,
+     "field": "text",
+     "entry": 348,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5715
+     ]
+    },
+    {
+     "line": 356,
+     "field": "text",
+     "entry": 356,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5715
+     ]
+    },
+    {
+     "line": 362,
+     "field": "text",
+     "entry": 362,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5715
+     ]
+    },
+    {
+     "line": 367,
+     "field": "text",
+     "entry": 367,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5715
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 4,
+   "offset": 175,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "In a brawl, ya strike first!",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5716
+     ]
+    },
+    {
+     "line": 345,
+     "field": "text",
+     "entry": 345,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5716
+     ]
+    },
+    {
+     "line": 354,
+     "field": "text",
+     "entry": 354,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5716
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 5,
+   "offset": 209,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Here we go, G-Bankaran!",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5717
+     ]
+    },
+    {
+     "line": 358,
+     "field": "text",
+     "entry": 358,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5717
+     ]
+    },
+    {
+     "line": 366,
+     "field": "text",
+     "entry": 366,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5717
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 6,
+   "offset": 252,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Right, let's go in swingin'!",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5718
+     ]
+    },
+    {
+     "line": 346,
+     "field": "text",
+     "entry": 346,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5718
+     ]
+    },
+    {
+     "line": 349,
+     "field": "text",
+     "entry": 349,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5718
+     ]
+    },
+    {
+     "line": 357,
+     "field": "text",
+     "entry": 357,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5718
+     ]
+    },
+    {
+     "line": 365,
+     "field": "text",
+     "entry": 365,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5718
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 7,
+   "offset": 292,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'm gonna tear right through ya!",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5719
+     ]
+    },
+    {
+     "line": 347,
+     "field": "text",
+     "entry": 347,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5719
+     ]
+    },
+    {
+     "line": 350,
+     "field": "text",
+     "entry": 350,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5719
+     ]
+    },
+    {
+     "line": 363,
+     "field": "text",
+     "entry": 363,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5719
+     ]
+    },
+    {
+     "line": 364,
+     "field": "text",
+     "entry": 364,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5719
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 8,
+   "offset": 329,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Leave it to me an' the G-Bankaran!",
+   "refs": [
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5936
+     ]
+    },
+    {
+     "line": 360,
+     "field": "text",
+     "entry": 360,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5936
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "offset": 384,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "The G-Bankaran has arrived!",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5937
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "offset": 424,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "The G-Bankaran'll take ya on!",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5938
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "offset": 476,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Keep mouthin' off an' I'll pound ya!",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 125,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5947
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 12,
+   "offset": 540,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll beat some Vigor into ya with my fists!",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 125,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5948
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "offset": 601,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Quit showin' off, Jua-Mu!",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 119,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5949
+     ]
+    },
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5949
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "offset": 647,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "A real man's pride speaks through his fists!",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 119,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5950
+     ]
+    },
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5950
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "offset": 702,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "A Raftclans? What's that to me?!",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 121,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5951
+     ]
+    },
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5951
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "offset": 760,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I can see right through yer black heart, Karo-Ran!",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5952
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "offset": 821,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ya don't look like ya got a shred of honor!",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 70,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5954
+     ]
+    },
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 246,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5954
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "offset": 882,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Don't get cocky, ya spoiled rich brat!",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 245,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5955
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "offset": 937,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Yer game of emperor's over! Gu-Landon!",
+   "refs": [
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5953
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "offset": 998,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You the boss? I'm takin' ya down!",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5810
+     ]
+    },
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5810
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 21,
+   "offset": 1053,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'm comin' for the top dog's head!",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5811
+     ]
+    },
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5811
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 22,
+   "offset": 1099,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I can't make heads or tails/　of what you're sayin'!",
+   "refs": [
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5812
+     ]
+    },
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5812
+     ]
+    },
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5812
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 23,
+   "offset": 1176,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You? Rule the world? Get real, moron!",
+   "refs": [
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5813
+     ]
+    },
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5813
+     ]
+    },
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5813
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 24,
+   "offset": 1231,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What kinda garbage are ya spoutin'!?",
+   "refs": [
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5814
+     ]
+    },
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5814
+     ]
+    },
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5814
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 25,
+   "offset": 1286,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Vort! In a test of strength, I ain't losin'!",
+   "refs": [
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5957
+     ]
+    },
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5957
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 26,
+   "offset": 1350,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Can't pick a fight if yer scared of bleedin'!",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5958
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "offset": 1417,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Reggiane! I'll suck yer blood instead!",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5959
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 28,
+   "offset": 1475,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Yer reign ends here! Moron!!",
+   "refs": [
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5960
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 29,
+   "offset": 1542,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Clown idiot! Quit showin' off on my home turf!",
+   "refs": [
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5961
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 30,
+   "offset": 1609,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll crack that thick skull of yers!",
+   "refs": [
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5962
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "offset": 1652,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll flatten ya an' stand ya next to the Kuidaore doll!",
+   "refs": [
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5963
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "offset": 1716,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Yer headed for the circus, that's settled!",
+   "refs": [
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5964
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "offset": 1777,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You're one weird dude, seriously!",
+   "refs": [
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5785
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 34,
+   "offset": 1823,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "One on one, Chestnut!",
+   "refs": [
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 128,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5965
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "offset": 1860,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Get lost, Chestnut!",
+   "refs": [
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 128,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5966
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "offset": 1891,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll smash ya an' sell ya to a jeweler!",
+   "refs": [
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 128,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5967
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "offset": 1952,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll rip those wings right off!",
+   "refs": [
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 128,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5801
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 38,
+   "offset": 2001,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll rattle more'n yer back teeth, I'll rattle all of ya!",
+   "refs": [
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5969
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 39,
+   "offset": 2071,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Don't think ya'll get off with broken bones, punk!",
+   "refs": [
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5970
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "offset": 2120,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Skeletons go straight to the graveyard!",
+   "refs": [
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5971
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "offset": 2163,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Strongest in yer army? So what?!/　I'm the head boss of the/　Kansai Todoroki Student Alliance!",
+   "refs": [
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5968
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "offset": 2261,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll sink yer Kashin warship in Dotonbori!",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5981
+     ]
+    },
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5981
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "offset": 2319,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'm sick an' tired of aliens!",
+   "refs": [
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5939
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "offset": 2371,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You punks never learn, do ya!",
+   "refs": [
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5940
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "offset": 2423,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll gift-wrap ya an' ship ya back to the edge of space!",
+   "refs": [
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5941
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "offset": 2493,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Like I'd get scared of some alien!",
+   "refs": [
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5790
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 47,
+   "offset": 2545,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Look down on Earthlings and ya get burned!",
+   "refs": [
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5791
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 48,
+   "offset": 2603,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Get ready, Golaikunru!",
+   "refs": [
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5942
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "offset": 2649,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll wreck yer whole business!",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5943
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "offset": 2701,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Stickin' a weird chimney on yerself!",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 637,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5945
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 51,
+   "offset": 2747,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll kick that walnut of yers!",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 636,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5944
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "offset": 2793,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll snap that horn right off!",
+   "refs": [
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 646,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5946
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "offset": 2836,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Quit flittin' around! It's annoyin'!",
+   "refs": [
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 633,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5800
+     ]
+    },
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 634,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5800
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 54,
+   "offset": 2900,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ya think I'm scared of a scythe like that?!",
+   "refs": [
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 286,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5956
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "offset": 2964,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "A test of strength? Bring it on!",
+   "refs": [
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5807
+     ]
+    },
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 80,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 322,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5807
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 56,
+   "offset": 3004,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I ain't lettin' you punks have yer way with Kita!",
+   "refs": [
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 319,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5972
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "offset": 3065,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What a creepy mug!",
+   "refs": [
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 319,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5973
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "offset": 3111,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll take out these Lamaris in no time!",
+   "refs": [
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 319,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5974
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "offset": 3178,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Lamaris, get lost already!",
+   "refs": [
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 319,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5975
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "offset": 3224,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Lamaris are a pain, dammit!",
+   "refs": [
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 319,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5976
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "offset": 3279,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "So the small fry Combine, so what?!",
+   "refs": [
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 76,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 320,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5977
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 62,
+   "offset": 3343,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What a disgustin' monster!",
+   "refs": [
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 77,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 320,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5978
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "offset": 3392,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll take out whatever that clown idiot left behind!",
+   "refs": [
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 78,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 321,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5979
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "offset": 3468,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ida or Umeda or whatever, I'll beat ya down!",
+   "refs": [
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 79,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 321,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5980
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "offset": 3535,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What the? What a weird bunch!",
+   "refs": [
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 81,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5795
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 66,
+   "offset": 3581,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "So they're monsters. Big deal!",
+   "refs": [
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 82,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5796
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 67,
+   "offset": 3636,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll toss the whole lot of 'em out!",
+   "refs": [
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 83,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5797
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 68,
+   "offset": 3700,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Get outta my way!",
+   "refs": [
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 84,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5720
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 69,
+   "offset": 3734,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Quit fussin'!",
+   "refs": [
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 85,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5721
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 70,
+   "offset": 3759,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Who d'ya think you are, punk!?",
+   "refs": [
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 86,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5722
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 71,
+   "offset": 3802,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Don't get cocky, ya moron!",
+   "refs": [
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 87,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5723
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 72,
+   "offset": 3839,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'm payin' ya back in full!",
+   "refs": [
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5724
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 73,
+   "offset": 3882,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Right then, here I come!",
+   "refs": [
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5725
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 74,
+   "offset": 3916,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ya want a fight, ya got one!",
+   "refs": [
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 90,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5982
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "offset": 3962,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Payback, right now!",
+   "refs": [
+    {
+     "line": 91,
+     "field": "text",
+     "entry": 91,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5983
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 76,
+   "offset": 3993,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hold it right there, punk!",
+   "refs": [
+    {
+     "line": 92,
+     "field": "text",
+     "entry": 92,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5984
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "offset": 4027,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "N-No good! This is it!!",
+   "refs": [
+    {
+     "line": 93,
+     "field": "text",
+     "entry": 93,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5927
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 78,
+   "offset": 4076,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Wh-What the hell?!",
+   "refs": [
+    {
+     "line": 94,
+     "field": "text",
+     "entry": 94,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5928
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 79,
+   "offset": 4110,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "N-No way, that's nuts!!",
+   "refs": [
+    {
+     "line": 95,
+     "field": "text",
+     "entry": 95,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5929
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 80,
+   "offset": 4147,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Wh-Why you! Knock it off already!",
+   "refs": [
+    {
+     "line": 96,
+     "field": "text",
+     "entry": 96,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5903
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 81,
+   "offset": 4193,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Th-This is a total mess now!!",
+   "refs": [
+    {
+     "line": 97,
+     "field": "text",
+     "entry": 97,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5904
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 82,
+   "offset": 4242,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ngh! That's just brutal!!",
+   "refs": [
+    {
+     "line": 98,
+     "field": "text",
+     "entry": 98,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5905
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 83,
+   "offset": 4291,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Pullin' cheap tricks like that,/　I swear!",
+   "refs": [
+    {
+     "line": 99,
+     "field": "text",
+     "entry": 99,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5906
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 84,
+   "offset": 4359,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Like I'm gonna get wiped out in one go!",
+   "refs": [
+    {
+     "line": 100,
+     "field": "text",
+     "entry": 100,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5907
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 85,
+   "offset": 4420,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll show ya some Kansai Guts!!",
+   "refs": [
+    {
+     "line": 101,
+     "field": "text",
+     "entry": 101,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5908
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 86,
+   "offset": 4475,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "It starts now!/　The real fight starts here!!",
+   "refs": [
+    {
+     "line": 102,
+     "field": "text",
+     "entry": 102,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5909
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 87,
+   "offset": 4540,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ngh! I ain't dyin'.../　not while Shoko's around!!",
+   "refs": [
+    {
+     "line": 103,
+     "field": "text",
+     "entry": 103,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5910
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 88,
+   "offset": 4632,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "B-Bring it on!/　I'll show ya the G-Bankaran's Potential!",
+   "refs": [
+    {
+     "line": 104,
+     "field": "text",
+     "entry": 104,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6028
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "offset": 4715,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Sh-Shoko... Give me strength!!",
+   "refs": [
+    {
+     "line": 105,
+     "field": "text",
+     "entry": 105,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6029
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 90,
+   "offset": 4776,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ya got me, Jua-Mu!",
+   "refs": [
+    {
+     "line": 106,
+     "field": "text",
+     "entry": 106,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 119,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6014
+     ]
+    },
+    {
+     "line": 107,
+     "field": "text",
+     "entry": 107,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6014
+     ]
+    },
+    {
+     "line": 147,
+     "field": "text",
+     "entry": 147,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 119,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6014
+     ]
+    },
+    {
+     "line": 148,
+     "field": "text",
+     "entry": 148,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6014
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "offset": 4822,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What d'ya think yer doin', So-Des?!",
+   "refs": [
+    {
+     "line": 108,
+     "field": "text",
+     "entry": 108,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 125,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6013
+     ]
+    },
+    {
+     "line": 149,
+     "field": "text",
+     "entry": 149,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 125,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6013
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 92,
+   "offset": 4868,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Tch, Al-Van/　landed a good one on me!",
+   "refs": [
+    {
+     "line": 109,
+     "field": "text",
+     "entry": 109,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 121,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6015
+     ]
+    },
+    {
+     "line": 150,
+     "field": "text",
+     "entry": 150,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 121,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6015
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "offset": 4948,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You witch! Don't mess with me!",
+   "refs": [
+    {
+     "line": 110,
+     "field": "text",
+     "entry": 110,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 124,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6016
+     ]
+    },
+    {
+     "line": 111,
+     "field": "text",
+     "entry": 111,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 246,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6016
+     ]
+    },
+    {
+     "line": 113,
+     "field": "text",
+     "entry": 113,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6016
+     ]
+    },
+    {
+     "line": 151,
+     "field": "text",
+     "entry": 151,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 124,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6016
+     ]
+    },
+    {
+     "line": 152,
+     "field": "text",
+     "entry": 152,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 246,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6016
+     ]
+    },
+    {
+     "line": 154,
+     "field": "text",
+     "entry": 154,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6016
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 94,
+   "offset": 4994,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Are ya gonna fight or not?!/　Make up yer mind!",
+   "refs": [
+    {
+     "line": 112,
+     "field": "text",
+     "entry": 112,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 246,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6019
+     ]
+    },
+    {
+     "line": 114,
+     "field": "text",
+     "entry": 114,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 245,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6019
+     ]
+    },
+    {
+     "line": 153,
+     "field": "text",
+     "entry": 153,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 246,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6019
+     ]
+    },
+    {
+     "line": 155,
+     "field": "text",
+     "entry": 155,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 245,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6019
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "offset": 5077,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "C-Cut it out, you black creep!",
+   "refs": [
+    {
+     "line": 115,
+     "field": "text",
+     "entry": 115,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5913
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 96,
+   "offset": 5126,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Caught it, Karo-Ran!!",
+   "refs": [
+    {
+     "line": 116,
+     "field": "text",
+     "entry": 116,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6017
+     ]
+    },
+    {
+     "line": 157,
+     "field": "text",
+     "entry": 157,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6017
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "offset": 5178,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Nngh... I ain't lettin' you take the top spot!",
+   "refs": [
+    {
+     "line": 117,
+     "field": "text",
+     "entry": 117,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6018
+     ]
+    },
+    {
+     "line": 158,
+     "field": "text",
+     "entry": 158,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6018
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "offset": 5248,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "If I take any more/　of that weird crap,/　I'm done for!",
+   "refs": [
+    {
+     "line": 118,
+     "field": "text",
+     "entry": 118,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5921
+     ]
+    },
+    {
+     "line": 123,
+     "field": "text",
+     "entry": 123,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5921
+     ]
+    },
+    {
+     "line": 130,
+     "field": "text",
+     "entry": 130,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5921
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 99,
+   "offset": 5341,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Th-This big showdown.../　is gettin' good now...!",
+   "refs": [
+    {
+     "line": 119,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5924
+     ]
+    },
+    {
+     "line": 125,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5924
+     ]
+    },
+    {
+     "line": 132,
+     "field": "text",
+     "entry": 132,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5924
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 100,
+   "offset": 5427,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Tch! Not bad, Vort!",
+   "refs": [
+    {
+     "line": 120,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6020
+     ]
+    },
+    {
+     "line": 121,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6020
+     ]
+    },
+    {
+     "line": 162,
+     "field": "text",
+     "entry": 162,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6020
+     ]
+    },
+    {
+     "line": 163,
+     "field": "text",
+     "entry": 163,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6020
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "offset": 5479,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "That idiot's bottomless!",
+   "refs": [
+    {
+     "line": 122,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6021
+     ]
+    },
+    {
+     "line": 164,
+     "field": "text",
+     "entry": 164,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6021
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "offset": 5519,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Th-That thing looks tough AND hits tough!!",
+   "refs": [
+    {
+     "line": 124,
+     "field": "text",
+     "entry": 124,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5922
+     ]
+    },
+    {
+     "line": 131,
+     "field": "text",
+     "entry": 131,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5922
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 103,
+   "offset": 5583,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I ain't payin' for yer act!",
+   "refs": [
+    {
+     "line": 126,
+     "field": "text",
+     "entry": 126,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6022
+     ]
+    },
+    {
+     "line": 168,
+     "field": "text",
+     "entry": 168,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6022
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 104,
+   "offset": 5629,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Damn Chestnut, makin' a fool of me!",
+   "refs": [
+    {
+     "line": 127,
+     "field": "text",
+     "entry": 127,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 128,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6023
+     ]
+    },
+    {
+     "line": 169,
+     "field": "text",
+     "entry": 169,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 128,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6023
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "offset": 5690,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Just bones, an' what strength!",
+   "refs": [
+    {
+     "line": 128,
+     "field": "text",
+     "entry": 128,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6024
+     ]
+    },
+    {
+     "line": 170,
+     "field": "text",
+     "entry": 170,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6024
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "offset": 5742,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Damn XN-L, that's nasty!",
+   "refs": [
+    {
+     "line": 129,
+     "field": "text",
+     "entry": 129,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6027
+     ]
+    },
+    {
+     "line": 171,
+     "field": "text",
+     "entry": 171,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6027
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 107,
+   "offset": 5800,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I-Is this what they call the mysteries of space?!",
+   "refs": [
+    {
+     "line": 133,
+     "field": "text",
+     "entry": 133,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5917
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 108,
+   "offset": 5858,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Golaikunru! Just you wait!",
+   "refs": [
+    {
+     "line": 134,
+     "field": "text",
+     "entry": 134,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    },
+    {
+     "line": 135,
+     "field": "text",
+     "entry": 135,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 257,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    },
+    {
+     "line": 136,
+     "field": "text",
+     "entry": 136,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    },
+    {
+     "line": 137,
+     "field": "text",
+     "entry": 137,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    },
+    {
+     "line": 177,
+     "field": "text",
+     "entry": 177,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    },
+    {
+     "line": 178,
+     "field": "text",
+     "entry": 178,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 257,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    },
+    {
+     "line": 179,
+     "field": "text",
+     "entry": 179,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    },
+    {
+     "line": 180,
+     "field": "text",
+     "entry": 180,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6011
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 109,
+   "offset": 5910,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "If a thorn's stuck in ya, just pull it out.",
+   "refs": [
+    {
+     "line": 138,
+     "field": "text",
+     "entry": 138,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6012
+     ]
+    },
+    {
+     "line": 181,
+     "field": "text",
+     "entry": 181,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6012
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "offset": 5956,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "It ain't just the looks that're tough...!",
+   "refs": [
+    {
+     "line": 139,
+     "field": "text",
+     "entry": 139,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 321,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6025
+     ]
+    },
+    {
+     "line": 182,
+     "field": "text",
+     "entry": 182,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 321,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6025
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 111,
+   "offset": 6017,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Did that idiot go Training across the Sanzu River?!",
+   "refs": [
+    {
+     "line": 140,
+     "field": "text",
+     "entry": 140,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 322,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6026
+     ]
+    },
+    {
+     "line": 183,
+     "field": "text",
+     "entry": 183,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 322,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      6026
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "offset": 6093,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "If a monster takes me out,/　I'll never rest in peace!!",
+   "refs": [
+    {
+     "line": 141,
+     "field": "text",
+     "entry": 141,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5919
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 113,
+   "offset": 6161,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What the hell, ya moron!",
+   "refs": [
+    {
+     "line": 142,
+     "field": "text",
+     "entry": 142,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5875
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 114,
+   "offset": 6201,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You got me! I won't forget this!",
+   "refs": [
+    {
+     "line": 143,
+     "field": "text",
+     "entry": 143,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5876
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 115,
+   "offset": 6253,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Whoa there,/　that one really landed...!",
+   "refs": [
+    {
+     "line": 144,
+     "field": "text",
+     "entry": 144,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5878
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 116,
+   "offset": 6321,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Heh, that woke me right up!",
+   "refs": [
+    {
+     "line": 145,
+     "field": "text",
+     "entry": 145,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5879
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "offset": 6367,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Not bad, punk!",
+   "refs": [
+    {
+     "line": 146,
+     "field": "text",
+     "entry": 146,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5880
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 118,
+   "offset": 6404,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "That black one got me good!",
+   "refs": [
+    {
+     "line": 156,
+     "field": "text",
+     "entry": 156,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5888
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 119,
+   "offset": 6447,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hmph,/　guess you earned bein' the boss.",
+   "refs": [
+    {
+     "line": 159,
+     "field": "text",
+     "entry": 159,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5895
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 120,
+   "offset": 6518,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Dammit, what is that?!/　That crazy attack!",
+   "refs": [
+    {
+     "line": 160,
+     "field": "text",
+     "entry": 160,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5897
+     ]
+    },
+    {
+     "line": 165,
+     "field": "text",
+     "entry": 165,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5897
+     ]
+    },
+    {
+     "line": 172,
+     "field": "text",
+     "entry": 172,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5897
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 121,
+   "offset": 6595,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Th-The looks, the attacks... it's nuts!",
+   "refs": [
+    {
+     "line": 161,
+     "field": "text",
+     "entry": 161,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5900
+     ]
+    },
+    {
+     "line": 167,
+     "field": "text",
+     "entry": 167,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5900
+     ]
+    },
+    {
+     "line": 174,
+     "field": "text",
+     "entry": 174,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5900
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 122,
+   "offset": 6653,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Tch,/　guess bein' huge ain't just for show!",
+   "refs": [
+    {
+     "line": 166,
+     "field": "text",
+     "entry": 166,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5898
+     ]
+    },
+    {
+     "line": 173,
+     "field": "text",
+     "entry": 173,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5898
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 123,
+   "offset": 6718,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Like I'd lose to some alien!",
+   "refs": [
+    {
+     "line": 175,
+     "field": "text",
+     "entry": 175,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5885
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 124,
+   "offset": 6776,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Don't get cocky, alien!",
+   "refs": [
+    {
+     "line": 176,
+     "field": "text",
+     "entry": 176,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5892
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 125,
+   "offset": 6819,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Dammit, movin' all weird like that!",
+   "refs": [
+    {
+     "line": 184,
+     "field": "text",
+     "entry": 184,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5881
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 126,
+   "offset": 6877,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What's with how that thing moves?!",
+   "refs": [
+    {
+     "line": 185,
+     "field": "text",
+     "entry": 185,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5882
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 127,
+   "offset": 6926,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You're creepin' me out!",
+   "refs": [
+    {
+     "line": 186,
+     "field": "text",
+     "entry": 186,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5883
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 128,
+   "offset": 6972,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Urgh! A monster got me good!",
+   "refs": [
+    {
+     "line": 187,
+     "field": "text",
+     "entry": 187,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5884
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 129,
+   "offset": 7030,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "That didn't even tickle.",
+   "refs": [
+    {
+     "line": 188,
+     "field": "text",
+     "entry": 188,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5848
+     ]
+    },
+    {
+     "line": 273,
+     "field": "text",
+     "entry": 273,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5848
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 130,
+   "offset": 7073,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What a weak-ass attack!",
+   "refs": [
+    {
+     "line": 189,
+     "field": "text",
+     "entry": 189,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5849
+     ]
+    },
+    {
+     "line": 274,
+     "field": "text",
+     "entry": 274,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5849
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 131,
+   "offset": 7116,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What, that's all ya got?",
+   "refs": [
+    {
+     "line": 190,
+     "field": "text",
+     "entry": 190,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5850
+     ]
+    },
+    {
+     "line": 275,
+     "field": "text",
+     "entry": 275,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5850
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "offset": 7159,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Whoa, what d'ya think yer doin'?!",
+   "refs": [
+    {
+     "line": 191,
+     "field": "text",
+     "entry": 191,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5851
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 133,
+   "offset": 7217,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "That ain't enough to stop the G-Bankaran!",
+   "refs": [
+    {
+     "line": 192,
+     "field": "text",
+     "entry": 192,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5852
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 134,
+   "offset": 7269,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hah, quit with the cheap tricks!",
+   "refs": [
+    {
+     "line": 193,
+     "field": "text",
+     "entry": 193,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5853
+     ]
+    },
+    {
+     "line": 276,
+     "field": "text",
+     "entry": 276,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5853
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "offset": 7315,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Well, not bad, I guess.",
+   "refs": [
+    {
+     "line": 194,
+     "field": "text",
+     "entry": 194,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5854
+     ]
+    },
+    {
+     "line": 277,
+     "field": "text",
+     "entry": 277,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5854
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "offset": 7346,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Heh, that tickles.",
+   "refs": [
+    {
+     "line": 195,
+     "field": "text",
+     "entry": 195,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5995
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "offset": 7383,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ya got the guts, at least, Jua-Mu!",
+   "refs": [
+    {
+     "line": 196,
+     "field": "text",
+     "entry": 196,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 119,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5998
+     ]
+    },
+    {
+     "line": 197,
+     "field": "text",
+     "entry": 197,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5998
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 138,
+   "offset": 7441,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Are ya a wimp?! So-Des!",
+   "refs": [
+    {
+     "line": 198,
+     "field": "text",
+     "entry": 198,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 125,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5999
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 139,
+   "offset": 7493,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Al-Van!/　Ya can't beat the G-Bankaran!",
+   "refs": [
+    {
+     "line": 199,
+     "field": "text",
+     "entry": 199,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 121,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6000
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "offset": 7576,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Well, you're a woman, so I'll go easy on ya.",
+   "refs": [
+    {
+     "line": 200,
+     "field": "text",
+     "entry": 200,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 124,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5860
+     ]
+    },
+    {
+     "line": 209,
+     "field": "text",
+     "entry": 209,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5860
+     ]
+    },
+    {
+     "line": 213,
+     "field": "text",
+     "entry": 213,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 246,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5860
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "offset": 7634,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Tch! That black one's fast!",
+   "refs": [
+    {
+     "line": 201,
+     "field": "text",
+     "entry": 201,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5859
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 142,
+   "offset": 7689,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What a lousy move, Karo-Ran!",
+   "refs": [
+    {
+     "line": 202,
+     "field": "text",
+     "entry": 202,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      6001
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 143,
+   "offset": 7738,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Yer punches got no heart!/　Ya think people'll follow that?!",
+   "refs": [
+    {
+     "line": 203,
+     "field": "text",
+     "entry": 203,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      6002
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 144,
+   "offset": 7833,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "How d'ya lead anybody like that?",
+   "refs": [
+    {
+     "line": 204,
+     "field": "text",
+     "entry": 204,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5867
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "offset": 7885,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "All that yappin' is why/　ya can't close the deal!",
+   "refs": [
+    {
+     "line": 205,
+     "field": "text",
+     "entry": 205,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5872
+     ]
+    },
+    {
+     "line": 212,
+     "field": "text",
+     "entry": 212,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5872
+     ]
+    },
+    {
+     "line": 219,
+     "field": "text",
+     "entry": 219,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5872
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "offset": 7968,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ain't got time for a scythe!",
+   "refs": [
+    {
+     "line": 206,
+     "field": "text",
+     "entry": 206,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      6003
+     ]
+    },
+    {
+     "line": 207,
+     "field": "text",
+     "entry": 207,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      6003
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 147,
+   "offset": 8011,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Huh? Weren't ya gonna suck my blood?",
+   "refs": [
+    {
+     "line": 208,
+     "field": "text",
+     "entry": 208,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 101,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      6004
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 148,
+   "offset": 8069,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "So that's all the Cross Gate's power amounts to?!",
+   "refs": [
+    {
+     "line": 210,
+     "field": "text",
+     "entry": 210,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      6005
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 149,
+   "offset": 8136,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What, all bark and no bite.",
+   "refs": [
+    {
+     "line": 211,
+     "field": "text",
+     "entry": 211,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 100,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5870
+     ]
+    },
+    {
+     "line": 218,
+     "field": "text",
+     "entry": 218,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5870
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 150,
+   "offset": 8173,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Outta magic tricks already?!",
+   "refs": [
+    {
+     "line": 214,
+     "field": "text",
+     "entry": 214,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      6006
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 151,
+   "offset": 8216,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Is that freaky body of yours just papier-mache?!",
+   "refs": [
+    {
+     "line": 215,
+     "field": "text",
+     "entry": 215,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 128,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      6007
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 152,
+   "offset": 8271,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Well, ya are a skeleton. No wonder it's light.",
+   "refs": [
+    {
+     "line": 216,
+     "field": "text",
+     "entry": 216,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      6008
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 153,
+   "offset": 8314,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "XN-L! That ain't gonna be enough to take my life!",
+   "refs": [
+    {
+     "line": 217,
+     "field": "text",
+     "entry": 217,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      6010
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 154,
+   "offset": 8387,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Can't ya see it's pointless, spaceman?!",
+   "refs": [
+    {
+     "line": 220,
+     "field": "text",
+     "entry": 220,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5996
+     ]
+    },
+    {
+     "line": 223,
+     "field": "text",
+     "entry": 223,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5996
+     ]
+    },
+    {
+     "line": 224,
+     "field": "text",
+     "entry": 224,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 257,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5996
+     ]
+    },
+    {
+     "line": 225,
+     "field": "text",
+     "entry": 225,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5996
+     ]
+    },
+    {
+     "line": 226,
+     "field": "text",
+     "entry": 226,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5996
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 155,
+   "offset": 8448,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Aliens? They're nothin'!",
+   "refs": [
+    {
+     "line": 221,
+     "field": "text",
+     "entry": 221,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5857
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "offset": 8497,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Call it a handicap, alien!",
+   "refs": [
+    {
+     "line": 222,
+     "field": "text",
+     "entry": 222,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5864
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "offset": 8549,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hmph, what soft little thorns!",
+   "refs": [
+    {
+     "line": 227,
+     "field": "text",
+     "entry": 227,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5997
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 158,
+   "offset": 8586,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Weird trick, but it ain't workin'.",
+   "refs": [
+    {
+     "line": 228,
+     "field": "text",
+     "entry": 228,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      6009
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 159,
+   "offset": 8638,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What a wimpy monster.",
+   "refs": [
+    {
+     "line": 229,
+     "field": "text",
+     "entry": 229,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5855
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 160,
+   "offset": 8681,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hmph, funny attack ya got there!",
+   "refs": [
+    {
+     "line": 230,
+     "field": "text",
+     "entry": 230,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5868
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 161,
+   "offset": 8736,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Like that'd hit me!",
+   "refs": [
+    {
+     "line": 231,
+     "field": "text",
+     "entry": 231,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5842
+     ]
+    },
+    {
+     "line": 284,
+     "field": "text",
+     "entry": 284,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5842
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "offset": 8764,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Where ya lookin'?!",
+   "refs": [
+    {
+     "line": 232,
+     "field": "text",
+     "entry": 232,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5843
+     ]
+    },
+    {
+     "line": 285,
+     "field": "text",
+     "entry": 285,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5843
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 163,
+   "offset": 8795,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Wimp! Go back and try again!",
+   "refs": [
+    {
+     "line": 233,
+     "field": "text",
+     "entry": 233,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5844
+     ]
+    },
+    {
+     "line": 278,
+     "field": "text",
+     "entry": 278,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5844
+     ]
+    },
+    {
+     "line": 286,
+     "field": "text",
+     "entry": 286,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5844
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "offset": 8844,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Idiot! Moron!",
+   "refs": [
+    {
+     "line": 234,
+     "field": "text",
+     "entry": 234,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5845
+     ]
+    },
+    {
+     "line": 279,
+     "field": "text",
+     "entry": 279,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5845
+     ]
+    },
+    {
+     "line": 283,
+     "field": "text",
+     "entry": 283,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5845
+     ]
+    },
+    {
+     "line": 287,
+     "field": "text",
+     "entry": 287,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5845
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "offset": 8881,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You gutless wonder!",
+   "refs": [
+    {
+     "line": 235,
+     "field": "text",
+     "entry": 235,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5847
+     ]
+    },
+    {
+     "line": 280,
+     "field": "text",
+     "entry": 280,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5847
+     ]
+    },
+    {
+     "line": 288,
+     "field": "text",
+     "entry": 288,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5847
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "offset": 8915,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Rushin' won't get ya anywhere!",
+   "refs": [
+    {
+     "line": 236,
+     "field": "text",
+     "entry": 236,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5987
+     ]
+    },
+    {
+     "line": 255,
+     "field": "text",
+     "entry": 255,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5987
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 167,
+   "offset": 8961,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Like I'd let a spaceman beat me!",
+   "refs": [
+    {
+     "line": 237,
+     "field": "text",
+     "entry": 237,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 238,
+     "field": "text",
+     "entry": 238,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 239,
+     "field": "text",
+     "entry": 239,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 257,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 240,
+     "field": "text",
+     "entry": 240,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 50,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 241,
+     "field": "text",
+     "entry": 241,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 242,
+     "field": "text",
+     "entry": 242,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 256,
+     "field": "text",
+     "entry": 256,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 257,
+     "field": "text",
+     "entry": 257,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 258,
+     "field": "text",
+     "entry": 258,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 257,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 259,
+     "field": "text",
+     "entry": 259,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 50,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 260,
+     "field": "text",
+     "entry": 260,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    },
+    {
+     "line": 261,
+     "field": "text",
+     "entry": 261,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5988
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 168,
+   "offset": 9016,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Fancy toys don't mean squat if ya can't hit!",
+   "refs": [
+    {
+     "line": 243,
+     "field": "text",
+     "entry": 243,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5989
+     ]
+    },
+    {
+     "line": 244,
+     "field": "text",
+     "entry": 244,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5989
+     ]
+    },
+    {
+     "line": 245,
+     "field": "text",
+     "entry": 245,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 286,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5989
+     ]
+    },
+    {
+     "line": 262,
+     "field": "text",
+     "entry": 262,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5989
+     ]
+    },
+    {
+     "line": 263,
+     "field": "text",
+     "entry": 263,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 52,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5989
+     ]
+    },
+    {
+     "line": 264,
+     "field": "text",
+     "entry": 264,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 286,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5989
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 169,
+   "offset": 9083,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Don't underestimate Earthlings, ya moron!",
+   "refs": [
+    {
+     "line": 246,
+     "field": "text",
+     "entry": 246,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 119,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    },
+    {
+     "line": 247,
+     "field": "text",
+     "entry": 247,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    },
+    {
+     "line": 248,
+     "field": "text",
+     "entry": 248,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 125,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    },
+    {
+     "line": 249,
+     "field": "text",
+     "entry": 249,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    },
+    {
+     "line": 265,
+     "field": "text",
+     "entry": 265,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 119,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    },
+    {
+     "line": 266,
+     "field": "text",
+     "entry": 266,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    },
+    {
+     "line": 267,
+     "field": "text",
+     "entry": 267,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 125,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    },
+    {
+     "line": 268,
+     "field": "text",
+     "entry": 268,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 102,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5990
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 170,
+   "offset": 9129,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "As if you could ever make it to the top!",
+   "refs": [
+    {
+     "line": 250,
+     "field": "text",
+     "entry": 250,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5991
+     ]
+    },
+    {
+     "line": 269,
+     "field": "text",
+     "entry": 269,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 120,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5991
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 171,
+   "offset": 9190,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Save that stuff for the circus, would ya!",
+   "refs": [
+    {
+     "line": 251,
+     "field": "text",
+     "entry": 251,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5992
+     ]
+    },
+    {
+     "line": 270,
+     "field": "text",
+     "entry": 270,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5992
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 172,
+   "offset": 9254,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You must be blind!",
+   "refs": [
+    {
+     "line": 252,
+     "field": "text",
+     "entry": 252,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5993
+     ]
+    },
+    {
+     "line": 271,
+     "field": "text",
+     "entry": 271,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 126,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5993
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 173,
+   "offset": 9294,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Is your size the only big thing about ya, XN-L?!",
+   "refs": [
+    {
+     "line": 253,
+     "field": "text",
+     "entry": 253,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5994
+     ]
+    },
+    {
+     "line": 272,
+     "field": "text",
+     "entry": 272,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5994
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 174,
+   "offset": 9355,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "That's what ya get for showin' off!",
+   "refs": [
+    {
+     "line": 254,
+     "field": "text",
+     "entry": 254,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5846
+     ]
+    },
+    {
+     "line": 281,
+     "field": "text",
+     "entry": 281,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5846
+     ]
+    },
+    {
+     "line": 282,
+     "field": "text",
+     "entry": 282,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5846
+     ]
+    },
+    {
+     "line": 289,
+     "field": "text",
+     "entry": 289,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5846
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "offset": 9410,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Tch, I screwed up!",
+   "refs": [
+    {
+     "line": 290,
+     "field": "text",
+     "entry": 290,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5877
+     ]
+    },
+    {
+     "line": 291,
+     "field": "text",
+     "entry": 291,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5877
+     ]
+    },
+    {
+     "line": 292,
+     "field": "text",
+     "entry": 292,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5877
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "offset": 9444,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "All right! My turn!",
+   "refs": [
+    {
+     "line": 293,
+     "field": "text",
+     "entry": 293,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5817
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 177,
+   "offset": 9490,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll hit 'em from this side too!",
+   "refs": [
+    {
+     "line": 294,
+     "field": "text",
+     "entry": 294,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5818
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 178,
+   "offset": 9533,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Don't forget about me!",
+   "refs": [
+    {
+     "line": 295,
+     "field": "text",
+     "entry": 295,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5819
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 179,
+   "offset": 9564,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Chargin' in, G-Bankaran!",
+   "refs": [
+    {
+     "line": 296,
+     "field": "text",
+     "entry": 296,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5820
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "offset": 9613,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "This one's on the house!",
+   "refs": [
+    {
+     "line": 297,
+     "field": "text",
+     "entry": 297,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5821
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 181,
+   "offset": 9653,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Shoko, lemme give ya a hand!",
+   "refs": [
+    {
+     "line": 298,
+     "field": "text",
+     "entry": 298,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 51,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5822
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "offset": 9711,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I've got your back,/　Shoko!",
+   "refs": [
+    {
+     "line": 299,
+     "field": "text",
+     "entry": 299,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 51,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5823
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "offset": 9782,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Kota! You owe me one!",
+   "refs": [
+    {
+     "line": 300,
+     "field": "text",
+     "entry": 300,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5824
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 184,
+   "offset": 9837,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Fine, I'll help ya out!",
+   "refs": [
+    {
+     "line": 301,
+     "field": "text",
+     "entry": 301,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5825
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "offset": 9883,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Boss lady, I'm lendin' a hand!",
+   "refs": [
+    {
+     "line": 302,
+     "field": "text",
+     "entry": 302,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 37,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5826
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 186,
+   "offset": 9923,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Never thought I'd end up lendin' YOU a hand!",
+   "refs": [
+    {
+     "line": 303,
+     "field": "text",
+     "entry": 303,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 256,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5985
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 187,
+   "offset": 9996,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Not on my watch!",
+   "refs": [
+    {
+     "line": 304,
+     "field": "text",
+     "entry": 304,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    },
+    {
+     "line": 316,
+     "field": "text",
+     "entry": 316,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 29,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    },
+    {
+     "line": 320,
+     "field": "text",
+     "entry": 320,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 41,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    },
+    {
+     "line": 324,
+     "field": "text",
+     "entry": 324,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 42,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    },
+    {
+     "line": 328,
+     "field": "text",
+     "entry": 328,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 65,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    },
+    {
+     "line": 332,
+     "field": "text",
+     "entry": 332,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 66,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    },
+    {
+     "line": 336,
+     "field": "text",
+     "entry": 336,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 2,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    },
+    {
+     "line": 340,
+     "field": "text",
+     "entry": 340,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 11,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5827
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "offset": 10027,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Comin' through!",
+   "refs": [
+    {
+     "line": 305,
+     "field": "text",
+     "entry": 305,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    },
+    {
+     "line": 317,
+     "field": "text",
+     "entry": 317,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 29,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    },
+    {
+     "line": 321,
+     "field": "text",
+     "entry": 321,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 41,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    },
+    {
+     "line": 325,
+     "field": "text",
+     "entry": 325,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 42,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    },
+    {
+     "line": 329,
+     "field": "text",
+     "entry": 329,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 65,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    },
+    {
+     "line": 333,
+     "field": "text",
+     "entry": 333,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 66,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    },
+    {
+     "line": 337,
+     "field": "text",
+     "entry": 337,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 2,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    },
+    {
+     "line": 341,
+     "field": "text",
+     "entry": 341,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 11,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5828
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 189,
+   "offset": 10055,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I can take a beatin'!",
+   "refs": [
+    {
+     "line": 306,
+     "field": "text",
+     "entry": 306,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    },
+    {
+     "line": 318,
+     "field": "text",
+     "entry": 318,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 29,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    },
+    {
+     "line": 322,
+     "field": "text",
+     "entry": 322,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 41,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    },
+    {
+     "line": 326,
+     "field": "text",
+     "entry": 326,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 42,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    },
+    {
+     "line": 330,
+     "field": "text",
+     "entry": 330,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 65,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    },
+    {
+     "line": 334,
+     "field": "text",
+     "entry": 334,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 66,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    },
+    {
+     "line": 338,
+     "field": "text",
+     "entry": 338,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 2,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    },
+    {
+     "line": 342,
+     "field": "text",
+     "entry": 342,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 11,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5829
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 190,
+   "offset": 10107,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Leave this to me!",
+   "refs": [
+    {
+     "line": 307,
+     "field": "text",
+     "entry": 307,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5830
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "offset": 10147,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "It ain't gonna go that easy!",
+   "refs": [
+    {
+     "line": 308,
+     "field": "text",
+     "entry": 308,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    },
+    {
+     "line": 319,
+     "field": "text",
+     "entry": 319,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 29,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    },
+    {
+     "line": 323,
+     "field": "text",
+     "entry": 323,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 41,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    },
+    {
+     "line": 327,
+     "field": "text",
+     "entry": 327,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 42,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    },
+    {
+     "line": 331,
+     "field": "text",
+     "entry": 331,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 65,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    },
+    {
+     "line": 335,
+     "field": "text",
+     "entry": 335,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 66,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    },
+    {
+     "line": 339,
+     "field": "text",
+     "entry": 339,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 2,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    },
+    {
+     "line": 343,
+     "field": "text",
+     "entry": 343,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 11,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5831
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "offset": 10193,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Keep your hands off my pals!",
+   "refs": [
+    {
+     "line": 309,
+     "field": "text",
+     "entry": 309,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5832
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 193,
+   "offset": 10245,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Shoko, look out!",
+   "refs": [
+    {
+     "line": 310,
+     "field": "text",
+     "entry": 310,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 51,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5833
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 194,
+   "offset": 10285,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "For Shoko, I'll...!",
+   "refs": [
+    {
+     "line": 311,
+     "field": "text",
+     "entry": 311,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 51,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5834
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 195,
+   "offset": 10340,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "This ain't for you,/　it's for Shoko!",
+   "refs": [
+    {
+     "line": 312,
+     "field": "text",
+     "entry": 312,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5835
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "offset": 10411,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "If somethin' happens to you,/　Shoko's gonna be sad!",
+   "refs": [
+    {
+     "line": 313,
+     "field": "text",
+     "entry": 313,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 48,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5836
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 197,
+   "offset": 10491,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Boss lady, I'll handle this!",
+   "refs": [
+    {
+     "line": 314,
+     "field": "text",
+     "entry": 314,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 37,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5837
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "offset": 10540,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'm savin' ya, so ya better be grateful till ya die!",
+   "refs": [
+    {
+     "line": 315,
+     "field": "text",
+     "entry": 315,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 256,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5986
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 199,
+   "offset": 10601,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Here's another one!",
+   "refs": [
+    {
+     "line": 351,
+     "field": "text",
+     "entry": 351,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5726
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 200,
+   "offset": 10638,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll smack ya, punk!",
+   "refs": [
+    {
+     "line": 352,
+     "field": "text",
+     "entry": 352,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5727
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "offset": 10672,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll pound ya one more time!",
+   "refs": [
+    {
+     "line": 353,
+     "field": "text",
+     "entry": 353,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5728
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 202,
+   "offset": 10715,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Whatcha lookin' at, punk?!",
+   "refs": [
+    {
+     "line": 368,
+     "field": "text",
+     "entry": 368,
+     "group": [
+      3,
+      29392
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5729
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "offset": 10752,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll stare ya down!",
+   "refs": [
+    {
+     "line": 369,
+     "field": "text",
+     "entry": 369,
+     "group": [
+      3,
+      29392
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5730
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 204,
+   "offset": 10783,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I ain't good at aimin'!",
+   "refs": [
+    {
+     "line": 370,
+     "field": "text",
+     "entry": 370,
+     "group": [
+      3,
+      29392
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 3,
+     "voice": [
+      8,
+      5731
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 205,
+   "offset": 10826,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Take this kick!",
+   "refs": [
+    {
+     "line": 371,
+     "field": "text",
+     "entry": 371,
+     "group": [
+      3,
+      29402
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5732
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 206,
+   "offset": 10851,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Kick first!",
+   "refs": [
+    {
+     "line": 372,
+     "field": "text",
+     "entry": 372,
+     "group": [
+      3,
+      29402
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5736
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 207,
+   "offset": 10885,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll pound ya!",
+   "refs": [
+    {
+     "line": 373,
+     "field": "text",
+     "entry": 373,
+     "group": [
+      3,
+      29403
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5733
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "offset": 10910,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ora-ora-ora-ora-oraaaah!!",
+   "refs": [
+    {
+     "line": 374,
+     "field": "text",
+     "entry": 373,
+     "group": [
+      3,
+      29403
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5734
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 209,
+   "offset": 10962,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll finish ya!!",
+   "refs": [
+    {
+     "line": 375,
+     "field": "text",
+     "entry": 373,
+     "group": [
+      3,
+      29403
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5735
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "offset": 10999,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Next, my iron fist!",
+   "refs": [
+    {
+     "line": 376,
+     "field": "text",
+     "entry": 374,
+     "group": [
+      3,
+      29403
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5737
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "offset": 11024,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll pound ya till ya drop dead!!",
+   "refs": [
+    {
+     "line": 377,
+     "field": "text",
+     "entry": 374,
+     "group": [
+      3,
+      29403
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5738
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "offset": 11076,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Off ya go!!",
+   "refs": [
+    {
+     "line": 378,
+     "field": "text",
+     "entry": 374,
+     "group": [
+      3,
+      29403
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5739
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 213,
+   "offset": 11113,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Aw, crap!",
+   "refs": [
+    {
+     "line": 379,
+     "field": "text",
+     "entry": 375,
+     "group": [
+      3,
+      29404
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5934
+     ]
+    },
+    {
+     "line": 380,
+     "field": "text",
+     "entry": 376,
+     "group": [
+      3,
+      29404
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5934
+     ]
+    },
+    {
+     "line": 429,
+     "field": "text",
+     "entry": 391,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5934
+     ]
+    },
+    {
+     "line": 431,
+     "field": "text",
+     "entry": 392,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5934
+     ]
+    },
+    {
+     "line": 433,
+     "field": "text",
+     "entry": 393,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5934
+     ]
+    },
+    {
+     "line": 435,
+     "field": "text",
+     "entry": 394,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5934
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "offset": 11132,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Here I come!!",
+   "refs": [
+    {
+     "line": 381,
+     "field": "text",
+     "entry": 377,
+     "group": [
+      3,
+      29412
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5740
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "offset": 11166,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Nnngraaah!!",
+   "refs": [
+    {
+     "line": 382,
+     "field": "text",
+     "entry": 377,
+     "group": [
+      3,
+      29412
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5741
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "offset": 11194,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Yer a pushover!",
+   "refs": [
+    {
+     "line": 383,
+     "field": "text",
+     "entry": 378,
+     "group": [
+      3,
+      29412
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5747
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 217,
+   "offset": 11243,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Stay right there!",
+   "refs": [
+    {
+     "line": 384,
+     "field": "text",
+     "entry": 378,
+     "group": [
+      3,
+      29412
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5748
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 218,
+   "offset": 11271,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hraah!",
+   "refs": [
+    {
+     "line": 385,
+     "field": "text",
+     "entry": 379,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5742
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 219,
+   "offset": 11290,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Wooraah!",
+   "refs": [
+    {
+     "line": 386,
+     "field": "text",
+     "entry": 379,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5743
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 220,
+   "offset": 11312,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Too late to cry and beg now!!",
+   "refs": [
+    {
+     "line": 387,
+     "field": "text",
+     "entry": 379,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5744
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "offset": 11367,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Doryaaah!!",
+   "refs": [
+    {
+     "line": 388,
+     "field": "text",
+     "entry": 379,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5745
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "offset": 11398,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Go meet yer maker!!",
+   "refs": [
+    {
+     "line": 389,
+     "field": "text",
+     "entry": 379,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5746
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "offset": 11438,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Move and...!",
+   "refs": [
+    {
+     "line": 390,
+     "field": "text",
+     "entry": 380,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5749
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 224,
+   "offset": 11460,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'll blow ya away!!",
+   "refs": [
+    {
+     "line": 391,
+     "field": "text",
+     "entry": 380,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5750
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 225,
+   "offset": 11494,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I told ya not to move,/　ya moron!!",
+   "refs": [
+    {
+     "line": 392,
+     "field": "text",
+     "entry": 380,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5751
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 226,
+   "offset": 11562,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Heave-ho!",
+   "refs": [
+    {
+     "line": 393,
+     "field": "text",
+     "entry": 380,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5752
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 227,
+   "offset": 11584,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Take thiiis!!",
+   "refs": [
+    {
+     "line": 394,
+     "field": "text",
+     "entry": 380,
+     "group": [
+      3,
+      29413
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5753
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "offset": 11630,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What the heck?!",
+   "refs": [
+    {
+     "line": 395,
+     "field": "text",
+     "entry": 381,
+     "group": [
+      3,
+      29414
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5935
+     ]
+    },
+    {
+     "line": 396,
+     "field": "text",
+     "entry": 382,
+     "group": [
+      3,
+      29414
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 2,
+     "voice": [
+      8,
+      5935
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 229,
+   "offset": 11658,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "You lot! Ready to cross the River Styx?!",
+   "refs": [
+    {
+     "line": 397,
+     "field": "text",
+     "entry": 383,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5754
+     ]
+    },
+    {
+     "line": 399,
+     "field": "text",
+     "entry": 384,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5754
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 230,
+   "offset": 11710,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ya better be!!",
+   "refs": [
+    {
+     "line": 398,
+     "field": "text",
+     "entry": 383,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5755
+     ]
+    },
+    {
+     "line": 400,
+     "field": "text",
+     "entry": 384,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5755
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 231,
+   "offset": 11756,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "I'd stake my life on the woman I love!",
+   "refs": [
+    {
+     "line": 401,
+     "field": "text",
+     "entry": 385,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5762
+     ]
+    },
+    {
+     "line": 403,
+     "field": "text",
+     "entry": 386,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 1,
+     "voice": [
+      8,
+      5762
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 232,
+   "offset": 11796,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "That's what bein' a man's all about!",
+   "refs": [
+    {
+     "line": 402,
+     "field": "text",
+     "entry": 385,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5763
+     ]
+    },
+    {
+     "line": 404,
+     "field": "text",
+     "entry": 386,
+     "group": [
+      3,
+      29422
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5763
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 233,
+   "offset": 11830,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hraaah!!",
+   "refs": [
+    {
+     "line": 405,
+     "field": "text",
+     "entry": 387,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5756
+     ]
+    },
+    {
+     "line": 411,
+     "field": "text",
+     "entry": 388,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5756
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 234,
+   "offset": 11855,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Uuuuraa!",
+   "refs": [
+    {
+     "line": 406,
+     "field": "text",
+     "entry": 387,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5757
+     ]
+    },
+    {
+     "line": 412,
+     "field": "text",
+     "entry": 388,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5757
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 235,
+   "offset": 11883,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Smack! Smack! Smaaack!!",
+   "refs": [
+    {
+     "line": 407,
+     "field": "text",
+     "entry": 387,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5758
+     ]
+    },
+    {
+     "line": 413,
+     "field": "text",
+     "entry": 388,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5758
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 236,
+   "offset": 11947,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Smack, smack, smack/　till ya go down!!",
+   "refs": [
+    {
+     "line": 408,
+     "field": "text",
+     "entry": 387,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5759
+     ]
+    },
+    {
+     "line": 414,
+     "field": "text",
+     "entry": 388,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5759
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 237,
+   "offset": 12018,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Get lost, ya moron!!",
+   "refs": [
+    {
+     "line": 409,
+     "field": "text",
+     "entry": 387,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5760
+     ]
+    },
+    {
+     "line": 415,
+     "field": "text",
+     "entry": 388,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5760
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 238,
+   "offset": 12064,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Shoko, did ya see me out there?",
+   "refs": [
+    {
+     "line": 410,
+     "field": "text",
+     "entry": 387,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5761
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 239,
+   "offset": 12122,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Now, let's go grab some grilled squid.",
+   "refs": [
+    {
+     "line": 416,
+     "field": "text",
+     "entry": 388,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5770
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 240,
+   "offset": 12168,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Here I go!!",
+   "refs": [
+    {
+     "line": 417,
+     "field": "text",
+     "entry": 389,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5764
+     ]
+    },
+    {
+     "line": 423,
+     "field": "text",
+     "entry": 390,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5764
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 241,
+   "offset": 12193,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Finishin' moooove!!",
+   "refs": [
+    {
+     "line": 418,
+     "field": "text",
+     "entry": 389,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5765
+     ]
+    },
+    {
+     "line": 424,
+     "field": "text",
+     "entry": 390,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5765
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 242,
+   "offset": 12218,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "8710 Dragon and Tiger Barrage!!",
+   "refs": [
+    {
+     "line": 419,
+     "field": "text",
+     "entry": 389,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5766
+     ]
+    },
+    {
+     "line": 425,
+     "field": "text",
+     "entry": 390,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5766
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 243,
+   "offset": 12261,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Ora-ora-ora-ora-oraaah!!",
+   "refs": [
+    {
+     "line": 420,
+     "field": "text",
+     "entry": 389,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5767
+     ]
+    },
+    {
+     "line": 426,
+     "field": "text",
+     "entry": 390,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5767
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 244,
+   "offset": 12313,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Hraah! Get lost!!",
+   "refs": [
+    {
+     "line": 421,
+     "field": "text",
+     "entry": 389,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5768
+     ]
+    },
+    {
+     "line": 427,
+     "field": "text",
+     "entry": 390,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5768
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 245,
+   "offset": 12359,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "That's the pennant for the Titans!",
+   "refs": [
+    {
+     "line": 422,
+     "field": "text",
+     "entry": 389,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5769
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 246,
+   "offset": 12405,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "Now, let's go grab some tea.",
+   "refs": [
+    {
+     "line": 428,
+     "field": "text",
+     "entry": 390,
+     "group": [
+      3,
+      29423
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 0,
+     "voice": [
+      8,
+      5771
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 247,
+   "offset": 12445,
+   "role": "text",
+   "speakers": [
+    53
+   ],
+   "en": "What're you lookin' at, huh?!",
+   "refs": [
+    {
+     "line": 430,
+     "field": "text",
+     "entry": 391,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5933
+     ]
+    },
+    {
+     "line": 432,
+     "field": "text",
+     "entry": 392,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5933
+     ]
+    },
+    {
+     "line": 434,
+     "field": "text",
+     "entry": 393,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5933
+     ]
+    },
+    {
+     "line": 436,
+     "field": "text",
+     "entry": 394,
+     "group": [
+      3,
+      29424
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 53,
+     "face": 14,
+     "voice": [
+      8,
+      5933
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  }
+ ]
+}

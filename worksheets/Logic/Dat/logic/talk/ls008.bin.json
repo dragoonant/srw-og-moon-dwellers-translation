@@ -1,0 +1,4117 @@
+{
+ "file": "ls008.bin",
+ "format": "LDBI",
+ "strings": [
+  {
+   "id": 0,
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 2,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 6,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 9,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 10,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 12,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 13,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 14,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 15,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 16,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 17,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 18,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 19,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 20,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 21,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 22,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 23,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 24,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 25,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 26,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 27,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 28,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 29,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 30,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 31,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 32,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 33,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 34,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 35,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 36,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 37,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 38,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 39,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 40,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 41,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 42,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 43,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 44,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 45,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 46,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 47,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 48,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 49,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 50,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 51,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 52,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 53,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 54,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 55,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 56,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 57,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 58,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 59,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 60,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 61,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 62,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 63,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 64,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 65,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 66,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 67,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 68,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 69,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 70,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 71,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 72,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 73,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 74,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 75,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 76,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 77,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 78,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 79,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 80,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 81,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 82,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 83,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 84,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 85,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 86,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 87,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 88,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 89,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 90,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 91,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 92,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 93,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 94,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 95,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 96,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 97,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 98,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 99,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 100,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 101,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 102,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 103,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 104,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 105,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 106,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 107,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 108,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 109,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 110,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 111,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 112,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 113,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 114,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 115,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 116,
+   "en": "",
+   "kind": "key",
+   "keep": true
+  },
+  {
+   "id": 117,
+   "en": "Ginto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 118,
+   "en": "All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 119,
+   "en": "Kurt",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 120,
+   "en": "Ngh...! All hands, abandon ship!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 121,
+   "en": "Ryusei",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 122,
+   "en": "D-Dammit!@They got me!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 123,
+   "en": "Rai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 124,
+   "en": "Tch...! It can't hold out any longer...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 125,
+   "en": "Aya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 126,
+   "en": "Ah...! I have to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 127,
+   "en": "Viletta",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 128,
+   "en": "Time to go...! I'm ejecting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 129,
+   "en": "Mai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 130,
+   "en": "I-Is this... the end...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 131,
+   "en": "Kyosuke",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "en": "Blew it...!@Have to bail out...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 133,
+   "en": "Excellen",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 134,
+   "en": "Oh dear...@How uncool of me, honestly!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "en": "Kusuha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "en": "I-I'm sorry...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 137,
+   "en": "Bullet",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 138,
+   "en": "Taken down in a place like this...@I'm still so green...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 139,
+   "en": "Arieil",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 140,
+   "en": "I leave the rest to you...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "Duban",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 142,
+   "en": "To think someone could force me back...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 143,
+   "en": "Irm",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 144,
+   "en": "Tch!! What an early curtain call!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 145,
+   "en": "Ing",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "en": "Th-This is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 147,
+   "en": "Ryoto",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 148,
+   "en": "Ngh...! I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 149,
+   "en": "Rio",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 150,
+   "en": "I-I won't lose next time!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "Kai",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 152,
+   "en": "Ngh! So this is my limit...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 153,
+   "en": "Lamia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 154,
+   "en": "I'm ejecting, I am...@Ngh...! I can't even go out with dignity...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 155,
+   "en": "Hugo",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "en": "Waaaaaaagh!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "en": "Aqua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 158,
+   "en": "Kyaaaaah!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 159,
+   "en": "Arado",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 160,
+   "en": "Damn it!@You won't get me next time!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 161,
+   "en": "Seolla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "N-Next time... for sure!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 163,
+   "en": "Latune",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "en": "So this... is the end...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "en": "Shine",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "en": "Kyah! I leave the rest to you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 167,
+   "en": "Katina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 168,
+   "en": "Me, screwing up in a place like this...?!@This is no fun...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 169,
+   "en": "Russel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "I'm sorry! I'm bailing out!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "en": "Tasuku",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 172,
+   "en": "Dammit! How pathetic...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 173,
+   "en": "Leona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 174,
+   "en": "How... humiliating...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "en": "Sänger",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "en": "Ngh...! So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 177,
+   "en": "Rätsel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 178,
+   "en": "So I, too, still have much to learn...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 179,
+   "en": "Lefina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "en": "A-All hands!@Abandoning ship is top priority...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 181,
+   "en": "Touma",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "en": "Dammit! Is this all I've got...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "Yuuki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 184,
+   "en": "That was careless of me...@I'll pull back for now...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "en": "Carla",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 186,
+   "en": "I've got to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 187,
+   "en": "Axel",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "Ngh!@So this is it...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 189,
+   "en": "Alchemie",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 190,
+   "en": "Is this... as far as I go...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "en": "Kota",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "en": "Dammit...!@Is this it?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 193,
+   "en": "Shoko",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 194,
+   "en": "Big brother... Emi... I'm sorry!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 195,
+   "en": "Michiru",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "en": "Oh, no way! This is as far as I go!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 197,
+   "en": "Ibis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "en": "At my current skill...@this is as far as I go...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "en": "Sleigh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 200,
+   "en": "Ngh... Me, made a shooting star...@I'm ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "en": "Raul",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 202,
+   "en": "This... This can't be happening...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "en": "Fiona",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 204,
+   "en": "I-I'm beaten?! No way!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 205,
+   "en": "Despinis",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 206,
+   "en": "Oh no, it can't be!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 207,
+   "en": "Josh",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": "Th-This is my limit!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 209,
+   "en": "Rim",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "en": "Ngggh! Not in a place like this!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "en": "Glacies",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": "So this is it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 213,
+   "en": "Rishu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "en": "Nngh! Have I blundered...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "en": "Gilliam",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "en": "Ngh! Ejecting!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 217,
+   "en": "Radha",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 218,
+   "en": "N-Not in a place like this...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 219,
+   "en": "Yon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 220,
+   "en": "Aah! M-Master!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "en": "Masaki",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "en": "Sorry!@I'm gonna have to bow out...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "en": "Lüne",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 224,
+   "en": "I'm sorry, Valsione...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 225,
+   "en": "Shu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 226,
+   "en": "For the Granzon... to be shot down...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 227,
+   "en": "Amala",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "en": "It can't be helped... Withdrawing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 229,
+   "en": "Albada",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 230,
+   "en": "Damn it, is this as far as I go?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 231,
+   "en": "Serena",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 232,
+   "en": "N-No way!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 233,
+   "en": "Haken",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 234,
+   "en": "Guess I blew it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 235,
+   "en": "Akimi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 236,
+   "en": "Damn it! It's no good!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 237,
+   "en": "Akemi",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 238,
+   "en": "I-Is this the end?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 239,
+   "en": "Vort",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 240,
+   "en": "I can't keep fighting...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 241,
+   "en": "Sieg",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 242,
+   "en": "Sally",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 243,
+   "en": "I have no choice but to eject...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 244,
+   "en": "Touya",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 245,
+   "en": "N-Not here!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 246,
+   "en": "Calvina",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 247,
+   "en": "How disgraceful...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 248,
+   "en": "E-Selda",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 249,
+   "en": "Curses...!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 250,
+   "en": "Al-Van",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 251,
+   "en": "I let my guard down...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 252,
+   "en": "Skull Knight",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 253,
+   "en": "Aw, man, they got me good!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 254,
+   "en": "Return face to default",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 255,
+   "en": "???",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 256,
+   "en": "Earth Federation Army Far East Command, Izu Base",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 257,
+   "en": "Izu Base Headquarters",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 258,
+   "en": "Laker",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 259,
+   "en": "What's the evacuation status of non-combatants?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 260,
+   "en": "Operator",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 261,
+   "en": "About 80% are in the shelters, but the contractors at@the base's perimeter facilities are evacuating late.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 262,
+   "en": "Lives come first. The ID checks can wait.@Get them into the nearest shelters, fast.@But keep a close watch inside.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 263,
+   "en": "Commander, Major Gilliam Jaeger@is requesting permission to sortie.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 264,
+   "en": "Very well. Permission granted.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 265,
+   "en": "Gravity quake reading overhead intensifying!@No sign of their numbers increasing!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 266,
+   "en": "Sakae",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 267,
+   "en": "Have you identified the <ES Wave Pattern>?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 268,
+   "en": "No, no matching data!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 269,
+   "en": "Then it's not the <Zovorg>...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 270,
+   "en": "Gravity quake reading overhead intensifying further!@10 seconds until projected warp-in!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 271,
+   "en": "If it's not the Zovorg, they'll very likely@strike a decisive blow right away. Only one target@is warping in. Bring it down!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 272,
+   "en": "Target warp-in in 3 seconds! 2! 1!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 273,
+   "en": "Open fire!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 274,
+   "en": "Did we hit it?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 275,
+   "en": "Confirming now...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 276,
+   "en": "Federation Soldier",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 277,
+   "en": "Wha--!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 278,
+   "en": "Wh-When did it...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 279,
+   "en": "That one... hasn't come out, then. In that case...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 280,
+   "en": "Damn, the field generator@and cooling unit...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 281,
+   "en": "That black unit...@It shielded the command tower with itself.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 282,
+   "en": "Over 60 seconds for forced heat venting...@If I cancel it, one action is the limit...@Will that be enough to distract him?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 283,
+   "en": "Can't move, or won't? Either way,@I've secured the space.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 284,
+   "en": "Multiple gravity quake readings above the base!@Something appears to be warping in!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 285,
+   "en": "Enemy reinforcements! What about anti-air weapons?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 286,
+   "en": "That last attack disabled every one of them!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 287,
+   "en": "Ngh, then...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 288,
+   "en": "Multiple unknowns, warping in momentarily!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 289,
+   "en": "There you are. I leave the remaining units to you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 290,
+   "en": "Squire",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 291,
+   "en": "Yes, ma'am!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 292,
+   "en": "Cytron sighting...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 293,
+   "en": "Two reactions... I see, that one is here too...@I should have expected as much.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 294,
+   "en": "But I cannot allow myself to waver.@Even if Lord E-Selda comes out...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 295,
+   "en": "Izu Base - Underground Hangar",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 296,
+   "en": "Tenia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 297,
+   "en": "Kyaaah!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 298,
+   "en": "Katia",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 299,
+   "en": "Tenia!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 300,
+   "en": "Aaaagh!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 301,
+   "en": "Melua",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 302,
+   "en": "Nnngh!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 303,
+   "en": "Everyone, are you okay?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 304,
+   "en": "Y-Yeah... more or less.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 305,
+   "en": "I almost got crushed under that panel...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 306,
+   "en": "What about the others?! Are they safe?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 307,
+   "en": "...Sounds like things up there are going pretty badly.@I'm going out in Bellzelute.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 308,
+   "en": "Huh? Right now...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 309,
+   "en": "That's right. I'm not about to die in this hole.@Let's go, Tenia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 310,
+   "en": "Tenia is... unconscious...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 311,
+   "en": "!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 312,
+   "en": "Katia!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 313,
+   "en": "I-I couldn't cover her all the way... Ugh...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 314,
+   "en": "Katia, hang in there!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 315,
+   "en": "Robert",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 316,
+   "en": "She's passed out...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 317,
+   "en": "Damn! Are they trying to blast through the ceiling?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 318,
+   "en": "Doctor, aren't there any spare Personal Troopers@or Armored Modules?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 319,
+   "en": "Not on short notice!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 320,
+   "en": "Bellzelute and...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 321,
+   "en": "...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 322,
+   "en": "Granteed can't go out, huh?@Akemi, we're sortieing in the Soul Saber!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 323,
+   "en": "Whaaat!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 324,
+   "en": "Right now, we're the only ones who can go out,@the only ones who can protect everyone!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 325,
+   "en": "But Jinpu...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 326,
+   "en": "He should be at the surface facilities right now!@Akemi, we've got no choice but to do this ourselves!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 327,
+   "en": "O-Okay!@Everyone, hurry to the shelter!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 328,
+   "en": "(And I can't sortie at a time like this...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 329,
+   "en": "Anyway, let's get Tenia and Katia out of here!@Give me a hand!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 330,
+   "en": "Y-Yes, ma'am.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 331,
+   "en": "...Um, Calvina?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 332,
+   "en": "What?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 333,
+   "en": "I'll ride in Bellzelute.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 334,
+   "en": "Melua...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 335,
+   "en": "Katia moved Granteed, and Tenia moved@Bellzelute... So I thought maybe@I could do the same thing.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 336,
+   "en": "That's...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 337,
+   "en": "I want to know.@Why Ashurey Kreuzer was attacked...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 338,
+   "en": "That's why I can't die here.@I have to protect Katia, Tenia,@Touya, and everyone.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 339,
+   "en": "...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 340,
+   "en": "If you go out with me, I can't guarantee your life.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 341,
+   "en": "But you don't plan on dying, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 342,
+   "en": "...Fine. Follow me.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 343,
+   "en": "Okay.@Touya, please take care@of Katia and Tenia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 344,
+   "en": "(...I...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 345,
+   "en": "(I thought Lord E-Selda might, but...@it seems he's in no state to come out.@Then I'll pry it open myself.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 346,
+   "en": "It broke the hatch... Is it trying to get down below?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 347,
+   "en": "Since it didn't destroy the base at the outset,@I figured it had another objective...@Could its target be...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 348,
+   "en": "An Orgone Energy reading...!@But this is...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 349,
+   "en": "You bastard, you're not getting past here!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 350,
+   "en": "(Information is flooding my head...@like I'd known it all along...@So this is Cytron Control.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 351,
+   "en": "How is it, Melua?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 352,
+   "en": "Oh, yes. Orgone Extractor...@Cytron Control... Linkage rate...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 353,
+   "en": "I think I can manage.@Though I feel like I'm not myself...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 354,
+   "en": "Good.@Everything displayed as Unknown is an enemy.@Their commander unit is...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 355,
+   "en": "Bellzelute...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 356,
+   "en": "Ngh?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 357,
+   "en": "Calvina?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 358,
+   "en": "It's you! You're the one who attacked Ashurey Kreuzer!@You killed Ally and the others!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 359,
+   "en": "What!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 360,
+   "en": "He was there that day!@He's the one who killed your parents!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 361,
+   "en": "!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 362,
+   "en": "I'll never forgive him!@I'll snuff him out with my own hands!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 363,
+   "en": "Calvina!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 364,
+   "en": "You two stay out of this!@I'm taking him down!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 365,
+   "en": "H-Hey, wait!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 366,
+   "en": "Akimi, we can't just leave her!@Melua's riding in Bellzelute too!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 367,
+   "en": "Yeah, I know!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 368,
+   "en": "Forced heat venting complete... Now I can move.@I must stop the <Thorn>...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 369,
+   "en": "(Bellzelute... If it has come out,@I cannot ignore it.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 370,
+   "en": "...How are things up there?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 371,
+   "en": "Pretty bad, it seems.@Apparently several of the intercepting@Personal Troopers were taken out.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 372,
+   "en": "The Steel Dragons can't get back any time soon either.@How long can Bellzelute and the Soul Saber@hold them off...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 373,
+   "en": "Touya... put me down...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 374,
+   "en": "You're awake!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 375,
+   "en": "Yes... Please, Touya...@come with me... in Granteed...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 376,
+   "en": "B-But you're...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 377,
+   "en": "I'm fine now...@Granteed won't move...@unless I'm aboard...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 378,
+   "en": "Katia...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 379,
+   "en": "I don't want to die... without knowing the truth...@I want to know... what my father and mother...@were trying to do...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 380,
+   "en": "(I want to know that too...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 381,
+   "en": "Granteed and I... will protect you...@So please... protect everyone...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 382,
+   "en": "...Fine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 383,
+   "en": "Wait, this is crazy!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 384,
+   "en": "I know.@Honestly, I'm scared... really scared.@If I could run away, I would.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 385,
+   "en": "Unlike Akimi and the others, I didn't pilot a robot@because I wanted to. The world may have alien wars,@but I was just a normal high school student.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 386,
+   "en": "But the moment Dad brought Granteed,@no, even before that, I was already...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 387,
+   "en": "Touya...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 388,
+   "en": "I didn't want to admit it.@But the city and this base were attacked,@and Akimi and the others went out...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 389,
+   "en": "I moved Granteed. I'm the one who can move it.@I can't just do nothing in this situation.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 390,
+   "en": "I can at least buy some time@until the Steel Dragons get back.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 391,
+   "en": "I see... Then go.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 392,
+   "en": "You're not going to stop me?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 393,
+   "en": "The Steel Dragons have a few people who got there@much like you did... They were students, but they@ended up fighting in Personal Troopers.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 394,
+   "en": "They've all accepted it now,@and they're doing what they need to do.@If that's how you feel too, I won't stop you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 395,
+   "en": "I know it's irresponsible of me,@considering my line of work.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 396,
+   "en": "No...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 397,
+   "en": "But don't throw your life away.@In my position, I'd be in trouble if Granteed,@my research subject, didn't come back.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 398,
+   "en": "...Understood, Doctor. I'm going.@Please take care of Tenia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 399,
+   "en": "Right leg Tesla Drive damaged!@The balancer's malfunctioning too.@Ground combat will be tough!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 400,
+   "en": "This is why units with skinny legs...!@Then I'll take this into the air!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 401,
+   "en": "It'll be tough in this condition!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 402,
+   "en": "The <Thorn> isn't serious yet!@There's still an opening we can exploit!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 403,
+   "en": "Damn, we've gotta do something about him fast!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 404,
+   "en": "The <Thorn> still isn't fighting for real...!@Is he just toying with us?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 405,
+   "en": "What is this?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 406,
+   "en": "It's Granteed!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 407,
+   "en": "It's moving...!@Is it Lord E-Selda after all?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 408,
+   "en": "It's him...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 409,
+   "en": "Wh-What!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 410,
+   "en": "...This is a secure transmission.@Lord E-Selda, are you aboard Granteed?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 411,
+   "en": "E-Selda?! You mean my dad?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 412,
+   "en": "Are you with those people from back then?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 413,
+   "en": "(Is he... the one piloting Granteed...?!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 414,
+   "en": "Answer me! Who are you?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 415,
+   "en": "...Where is Lord E-Selda?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 416,
+   "en": "Dad... Dad is dead!@You're the ones who wounded him so badly, right?!@Or am I wrong?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 417,
+   "en": "Who are you people?!@What are the imperial family and Sentinel Commander@Dad talked about?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 418,
+   "en": "(Could he really be piloting Granteed...?@Bellzelute is one thing,@but how can he move a Throne Unit?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 419,
+   "en": "(Is it the power of Shune blood?)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 420,
+   "en": "You let your guard down!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 421,
+   "en": "Agh... Ugh!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 422,
+   "en": "Calvina!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 423,
+   "en": "He... read my maneuver...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 424,
+   "en": "To the pilot of Granteed.@That unit belongs to us.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 425,
+   "en": "If you surrender quietly and come with me,@I will withdraw. I will also guarantee your life@and that of this unit's pilot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 426,
+   "en": "What...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 427,
+   "en": "I'll say it once more.@If you and Granteed surrender, we will withdraw.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 428,
+   "en": "And if I refuse... everyone but us gets killed?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 429,
+   "en": "That depends on your answer.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 430,
+   "en": "Ngh...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 431,
+   "en": "Touya,@you mustn't listen to him.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 432,
+   "en": "But then what happens@to Melua and Calvina...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 433,
+   "en": "Th-That's...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 434,
+   "en": "(Someone else is aboard? Could it be...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 435,
+   "en": "(Damn... At this range, I might as well...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 436,
+   "en": "U-Um, please don't think about self-destructing, okay?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 437,
+   "en": "Acting like you can see right through me...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 438,
+   "en": "I asked earlier too,@but you don't plan on dying, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 439,
+   "en": "Are you lecturing me?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 440,
+   "en": "No... I have an idea for getting out of this.@May I say it?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 441,
+   "en": "If we cut the balancer and purge both legs,@the unit will tip way back. Then the enemy@won't be able to hold Bellzelute with one hand.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 442,
+   "en": "Then what?@If we lose the legs in this state,@we won't be able to fight.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 443,
+   "en": "All we can do is run.@Let's maneuver with the back verniers@and dive into the underground hangar.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 444,
+   "en": "I made things worse and ended up like this...@I can't even hold my head up...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 445,
+   "en": "But we're getting nowhere like this.@Fine. Do it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 446,
+   "en": "Okay.@Hip joints, locked. Power supply, cut.@Both legs, purged. Balancer, off.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 447,
+   "en": "Bellzelute!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 448,
+   "en": "Now!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 449,
+   "en": "Katia, where's Bellzelute?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 450,
+   "en": "It escaped into the underground hangar!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 451,
+   "en": "All right...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 452,
+   "en": "...So that is your answer.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 453,
+   "en": "I hate fighting without knowing why,@but dying without knowing anything is even worse!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 454,
+   "en": "I said I would guarantee your life.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 455,
+   "en": "My dad is dead!@Why would I trust someone who takes hostages?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 456,
+   "en": "I chose that method to keep the fighting@from spreading any further... But it's true@that it was conduct unbecoming of a knight.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 457,
+   "en": "A knight...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 458,
+   "en": "Then I shall take you and Granteed@by force.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 459,
+   "en": "That light!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 460,
+   "en": "Prepare yourself!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 461,
+   "en": "(...He took it head-on.@As I thought, he hasn't mastered it.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 462,
+   "en": "Ugh... A-Are you okay, Katia...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 463,
+   "en": "I-I'm all right, somehow...@But Granteed...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 464,
+   "en": "You can't move, can you? Give up.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 465,
+   "en": "D-Damn it...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 466,
+   "en": "That bastard's trying to capture Granteed!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 467,
+   "en": "Like hell I'll let you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 468,
+   "en": "I won't let you interfere!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 469,
+   "en": "Nngh!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 470,
+   "en": "Ah!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 471,
+   "en": "Th-That son of a...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 472,
+   "en": "...This is Al-Van Ranks.@I'm sending coordinate data.@Warp the Orgo Transfer Base here.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 473,
+   "en": "Fu-Ruu",
+   "kind": "name",
+   "keep": false,
+   "en_src": "canon"
+  },
+  {
+   "id": 474,
+   "en": "So things went well.@In 60 seconds, then.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 475,
+   "en": "A-At this rate...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 476,
+   "en": "Cease your futile resistance.@That is, if you wish to know the truth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 477,
+   "en": "What...!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 478,
+   "en": "If you come with me and show your submission,@I will answer your questions.@Including those about your father.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 479,
+   "en": "T-Touya...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 480,
+   "en": "If I surrender here and hand over Granteed...@there's no way that'll be the end of it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 481,
+   "en": "You people killed Katia and the others' parents too...@Even if you pull back now, you'll just@do the same thing again, won't you...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 482,
+   "en": "Dad, Granteed,@the reason I can move this unit...@There's so much I don't understand.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 483,
+   "en": "But Dad risked his life to bring this thing here.@Until I find an answer I can accept@about why he did that...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 484,
+   "en": "I'm not handing Granteed over to you!!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 485,
+   "en": "Dad?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 486,
+   "en": "Huh?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 487,
+   "en": "Just now, I thought I heard Dad's voice...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 488,
+   "en": "Th-The Extractor's output is...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 489,
+   "en": "This is... Busker Mode...?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 490,
+   "en": "It can't be...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 491,
+   "en": "I see... You're telling me@to show you what I can do...@Is that it, Granteed?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 492,
+   "en": "Ngh, guh!@Impossible, he shouldn't even...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 493,
+   "en": "Can you do this, Touya?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 494,
+   "en": "Yeah! I won't let them have their way!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 495,
+   "en": "...Fu-Ruu,@cancel the Orgo Transfer Base's transfer.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 496,
+   "en": "Has something gone wrong?@Could it be Lord E-Selda...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 497,
+   "en": "No, he has passed away.@But another Shune has activated@Granteed's Busker Mode.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 498,
+   "en": "What... You can't be serious!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 499,
+   "en": "It's true.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 500,
+   "en": "Reinforcements... No, it'd be better if I went myself.@It'll take a little time, though.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 501,
+   "en": "Please. I'll hold Granteed off until then.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 502,
+   "en": "No, the Orgone Extractor...!@At this rate...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 503,
+   "en": "Ngh, the Orgone Extractor's output...@That blow from Granteed took its toll.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 504,
+   "en": "(But if he can activate@the Throne Unit's Busker Mode...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 505,
+   "en": "(If this situation is what made it possible...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 506,
+   "en": "He stopped moving?!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 507,
+   "en": "...Fu-Ruu, I was careless. I'm withdrawing.@Have Jua-Mu and the others fall back too.@I'll send the Orgo Transfer Base's coordinates later.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 508,
+   "en": "Wait, just a little longer and...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 509,
+   "en": "That is all.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 510,
+   "en": "...We will meet again.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 511,
+   "en": "Did he... run away?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 512,
+   "en": "Either way,@Touya and Katia saved us...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 513,
+   "en": "Touya?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 514,
+   "en": "Yeah, I'm okay... I'm okay.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 515,
+   "en": "I have to hold the Thorn back...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 516,
+   "en": "Shielding the command tower with your own body@was admirable. You seem quite skilled.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 517,
+   "en": "We've gotta hold out here!@To protect everyone!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 518,
+   "en": "However great that new model's power may be,@I won't let it stop me from reclaiming Granteed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 519,
+   "en": "If we get careless and close in, we're done for...!@We're GG-equipped, so we have to keep our distance!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 520,
+   "en": "You seem heavily armed,@but you cannot stop my sword.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 521,
+   "en": "I've been waiting for this moment, gray Thorn!@You're not getting away. I'll finish you myself!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 522,
+   "en": "(Bellzelute is no match for this Raftclans...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 523,
+   "en": "You took Ally and my comrades from me!@I'll never... never forgive you!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 524,
+   "en": "(If only you hadn't come out...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 525,
+   "en": "However many times you come, I won't hand@over Granteed! I've made up my mind!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 526,
+   "en": "(To think I'd end up fighting a Throne Unit@that has manifested Busker Mode...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 527,
+   "en": "Izu Base - Hangar",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 528,
+   "en": "Touya, are you really okay?@After using that Busker Mode...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 529,
+   "en": "It wasn't hard. If anything, it felt like@Granteed was lending me its strength.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 530,
+   "en": "You said you heard@Seldoa's voice, didn't you?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 531,
+   "en": "I thought so, but maybe I imagined it.@It was probably the Cytron System@that told me about Busker Mode...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 532,
+   "en": "And then there's the gray <Thorn>'s pilot...@He talked as if he knew you, Touya.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 533,
+   "en": "I don't remember him... but that man seemed@to know Dad well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 534,
+   "en": "About the Dad I never knew...@the one named E-Selda...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 535,
+   "en": "Touya, you saved us back there.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 536,
+   "en": "Using Granteed like that@was amazing, man.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 537,
+   "en": "I didn't do it alone...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 538,
+   "en": "But you're the one who drove off the gray Thorn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 539,
+   "en": "...We went out even though we were told not to.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 540,
+   "en": "I don't intend to punish you for that.@In the end, the base was saved.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 541,
+   "en": "It's thanks to Granteed's Busker Mode.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 542,
+   "en": "Its shoulders and legs transformed and it pulled out@a spear-like weapon, right? So it's a high-output@mode that lets it use a finishing move?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 543,
+   "en": "I think that's a fair way to put it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 544,
+   "en": "But we can't activate it whenever we want.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 545,
+   "en": "Touya, it seemed like you were talking@with the <Thorn>'s pilot about something...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 546,
+   "en": "It's someone I don't know.@The voice sounded unnatural,@like it was coming through a machine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 547,
+   "en": "Hmm... Anything else?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 548,
+   "en": "The Thorn's pilot seemed to think@my father was aboard Granteed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 549,
+   "en": "So he knew your father.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 550,
+   "en": "Yes. And when he caught Bellzelute, he said@he'd withdraw if I surrendered quietly...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 551,
+   "en": "Oh?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 552,
+   "en": "I don't know if he meant it.@He also used the word \"knight.\"",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 553,
+   "en": "Knight...?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 554,
+   "en": "Yes.@He said taking a hostage was conduct@unbecoming of a knight...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 555,
+   "en": "I see. When we put the report together later,@we may need to hear more from you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 556,
+   "en": "Understood.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 557,
+   "en": "As for what happens next, you no longer need@to put yourselves at risk.@We'll take custody of Granteed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 558,
+   "en": "But I'm the only one who can move it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 559,
+   "en": "I'm aware of that.@We'll likely ask for your cooperation@during the investigation, but...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 560,
+   "en": "No, I... I'll pilot Granteed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 561,
+   "en": "Touya...!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 562,
+   "en": "Do you understand what that means?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 563,
+   "en": "Yes, of course... Fighting scares me.@But if I run, I'll never find the answers...@I have to find them myself. That's what I decided.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 564,
+   "en": "Hold on, are you really okay with that?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 565,
+   "en": "Akimi, Akemi, you went out in the Soul Saber@because you couldn't just stand by and watch, right?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 566,
+   "en": "Yes...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 567,
+   "en": "I have the power that is Granteed...@And I can use it...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 568,
+   "en": "So I started thinking there might be@something I have to do besides@learning the truth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 569,
+   "en": "I'd like to respect that,@but you can't move Granteed alone.@Shouldn't you talk it over with Katia and the others?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 570,
+   "en": "...Yes, you're right.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 571,
+   "en": "If you're satisfied after that,@I'll put a recommendation to Commander Laker.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 572,
+   "en": "(If Touya's made up his mind, then I...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 573,
+   "en": "Izu Base - Interior",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 574,
+   "en": "(...Pathetic. Beaten back, and I let him escape.)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 575,
+   "en": "(But the gray Thorn appeared before me again.@things come in threes.@Next time, I'll definitely...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 576,
+   "en": "(I'll kill him for sure...!)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 577,
+   "en": "Um, Calvina...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 578,
+   "en": "...Stay away. I don't want to talk to anyone right now.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 579,
+   "en": "I... see.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 580,
+   "en": "...I'll say just one thing.@Your quick thinking saved us back there. Thank you.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 581,
+   "en": "Calvina...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 582,
+   "en": "That's enough. Go check on Tenia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 583,
+   "en": "Yes...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 584,
+   "en": "Izu Base - Infirmary",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 585,
+   "en": "...I just had a full checkup,@and they said I'm fine.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 586,
+   "en": "I see... I'm glad.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 587,
+   "en": "I'm tough, you know.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 588,
+   "en": "But you mustn't push yourself, Tenia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 589,
+   "en": "I know. I'll take it easy today.@Still, Touya coming to visit me...@That's kind of a surprise.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 590,
+   "en": "...There's something I want to talk@to you and Melua about.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 591,
+   "en": "Is it about you continuing@to pilot Granteed?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 592,
+   "en": "Yeah... I want to know. Who Dad really was...@why he entrusted Granteed to me... And who@the enemy is and what they're after...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 593,
+   "en": "I have lots of other questions too. To find@the answers, I think I have no choice but@to keep fighting in Granteed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 594,
+   "en": "If I don't pilot it, my life might be safe...@But I feel like then@I'll never reach the truth.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 595,
+   "en": "I can't move Granteed by myself.@So I want the three of you to lend me your strength.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 596,
+   "en": "I'm in.@I've already decided to avenge my mom and dad@and the others with Calvina.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 597,
+   "en": "I... want to know the truth too.@I don't want to stay in the dark.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 598,
+   "en": "Then it's settled.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 599,
+   "en": "...You're sure?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 600,
+   "en": "Right now... it's the only thing I can do.@That's why I got in Granteed earlier, too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 601,
+   "en": "Understood...",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 602,
+   "en": "(Learning the truth won't bring Dad back...@or the parents of Katia, Melua, and Tenia...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 603,
+   "en": "(But I can't just forget and go on living.@Not me, and not any of us...)",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

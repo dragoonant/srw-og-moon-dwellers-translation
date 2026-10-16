@@ -1,0 +1,888 @@
+{
+ "file": "Archive_2OG.csb",
+ "format": "CSB",
+ "pool_strings": 754,
+ "untouched": "strings without non-ASCII characters (numbers, file names, ids)",
+ "strings": [
+  {
+   "id": 6,
+   "en": "In the era known as S.C., the wars against aliens and\nvisitors from a parallel world had ended, and some\ntime had passed...",
+   "cell": "r2c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "en": "Aidoneus Island, off the Marquesas in the South Pacific:\nonce the impact site of Meteor 3, the meteorite sent by\nthe alien Aerogators, and the base of the Divine Crusaders\n(DC), the military society that sparked a civil war...",
+   "cell": "r4c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "en": "The surrounding waters were sealed off, and the\nisland long vanished from history's stage. But behind\nthe scenes, a plan was steadily advancing.",
+   "cell": "r6c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "en": "It was the founding of a special ops unit acting at the sole\nwill of the Earth Federation President, using ISA tactics\n(blitzkrieg by mobile battleships acting as carriers and the\nhumanoid weapons aboard them)... codename: GS.",
+   "cell": "r8c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "en": "GS is a force independent of the Federation Army,\ntasked with the President's special military orders.",
+   "cell": "r10c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "en": "Under the command of two Special Presidential Aides,\nAidoneus Island was being refortified, and the fruits of\nmany projects, along with numerous new weapons, were\nbeing gathered there. But GS's true nature was kept\nsecret; officially, it was a test unit for new weapons.",
+   "cell": "r12c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "en": "Will GS become a new sword to defend the Earth Sphere?\n\nCountless powers and schemes shake space-time...\nand open the gate to another world...",
+   "cell": "r14c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "en": "An amnesiac boy who escaped the sealed Aidoneus Island, seeking the\nanswer to who he is, with only the words \"Steel Dragons\" as a clue. But just\nshort of escape, he runs into an enemy force...",
+   "cell": "r25c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "en": "An unknown enemy force appears before Ibis and Raul during a long-range\ncruise test of the Alterion, the latest Series 77 unit, developed under the\nlate Filio Presty in the interstellar Project TD. After driving off the enemy,\nRaul's group finds a drifting escape pod and contacts the Earth Federation\nArmy's Steel Dragons to take in the unidentified boy aboard.",
+   "cell": "r41c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "en": "Masaki Andoh, pilot of the Wind Masoukishin Cybuster, returns to La Gias, an\nunderground world in another phase space within the Earth. In the Holy\nKingdom of Langran, leaderless after a terror attack and reeling from the\nSchtedonias Union's invasion, he meets Excellen, a Steel Dragons pilot, and\nNeue DC remnants, and learns many Surface Dwellers were summoned here.",
+   "cell": "r56c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "en": "Masaki's group sorties to halt the Schtedonias invasion, joined by Diablo,\npiloted by Mio Sasuga, a girl summoned from the surface. Mid-battle, the\nSteel Dragons' Space Noah-class battleship Hagane appears, pursued by\nLuozorl, an Archbishop of the Volkruss cult, and Masaki joins the Steel\nDragons to search for comrades summoned to La Gias.",
+   "cell": "r67c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "en": "To uncover the truth of the summonings and go home, the Hagane group\nvisits Ibn, a priestess of Langran. But REB, the quantum computer the\nreturn spell needs, has been hacked and possessed by a false personality.\nAfter beating the enemy, the group heads to the capital at Ibn's urging.",
+   "cell": "r78c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 74,
+   "en": "Meanwhile, Lüne Zoldark, who was in Space investigating Neue DC remnants,\nis also summoned to La Gias and meets Huang Yang Long, pilot of the Fire\nMasoukishin Granveil. Under General Kirkus Zan Valhalevia, the Langran\nofficer spearheading its liberation, Yang Long is fighting the invading\nSchtedonias army as a free-roaming force.",
+   "cell": "r89c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 79,
+   "en": "Lüne's group faces the Schtedonias army to rescue their comrades. The\nMasoukishin were born from the Masouki Project, a humanoid weapon plan to\ncounter the Majin foretold by the Langran Royal Academy's Foresight, but\nSchtedonias saw them as a threat, one cause of its invasion.",
+   "cell": "r100c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "en": "Suspicious of General Kirkus, Yang Long learns from an old acquaintance,\nSaphine the Crimson of the Volkruss cult, that Prince Feilord Gran Bilseia,\nLangran's missing first heir, is alive. Lüne's group reunites with the Steel\nDragons' multipurpose battleship Hiryu Custom, and Captain Lefina meets\nKirkus and pledges to help him in order to return to the surface.",
+   "cell": "r111c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "en": "The Hagane sets course for Coral Canyon to join Tutti Norbac, pilot of the\nWater Masoukishin Gaddess. But waiting there is the Steel Dragons' SRX\nTeam, forced to fight the Hagane group by the Schtedonias army, which\nholds hostages...",
+   "cell": "r123c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "en": "After joining Tutti and the others, the Hagane group sets out to rescue\nPrincess Monica Grania Bilseia, Langran's second heir, held in the occupied\ncapital. A lone unknown unit approaches...",
+   "cell": "r134c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 107,
+   "en": "At Prince Feil's request, the Hagane group attacks the Schtedonias army\nsouth of Banan City. The trump card of the cornered General Rodney Jessha\nis the Earth Masoukishin Zamzeed.",
+   "cell": "r148c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "en": "When Yang Long questions Kirkus's slights to Prince Feil, Kirkus suggests\nFeil may be involved in the summonings. With the Harmony Barrier collapsed\nby terrorism and fears of the revival of Volkruss, the God of Destruction,\nthe Hiryu Custom group investigates the Temple of Volkruss and rescues\nLeona, about to be sacrificed to Volkruss by the demon priest Luozorl.",
+   "cell": "r159c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "en": "After retaking Zamzeed from Schtedonias, Masaki's group learns Zamzeed\nhas chosen Mio as its pilot. Joining Prince Feil, the Hagane group stages a\ndiversion against the Schtedonias forces to support Feil's army in retaking\nthe capital. Princess Xenia, rescued from Schtedonias, tells them her sister\nMonica was taken away by Shu.",
+   "cell": "r171c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 123,
+   "en": "Meanwhile, the Hiryu Custom group is escorting Prince Tellius Gran Bilseia,\nLangran's third heir, under Kirkus's protection. Yang Long worries that\nKirkus is scheming to crown Tellius, which would spark new strife in Langran.",
+   "cell": "r182c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 128,
+   "en": "Kirkus tells the Hiryu Custom group that Surface Dwellers are held at a\nSchtedonias base. Yang Long and Lüne infiltrate it and, with the aid of\nex-Instructor Sänger Sombold, who shows up as well, free their hostage\ncomrades. Heading to Kirkus, the group meets Shu Shirakawa and fears he\nplans to revive Volkruss.",
+   "cell": "r193c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "en": "Having retaken Langran's capital, Prince Feil proposes an alliance with General\nKirkus against Schtedonias, and Kirkus names his condition: the coronation of\nPrince Tellius, third in line.",
+   "cell": "r204c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 138,
+   "en": "Yang Long parts ways with Kirkus, who means to sideline Prince Feil, the\nrightful heir, and seize real power by crowning Tellius. In Kirkus, who dreams of\nuniting La Gias by force, Lüne sees her late father, Bian Zoldark.",
+   "cell": "r215c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 144,
+   "en": "Together, Feil's and Kirkus's armies drive Schtedonias out of Langran. But\nPrince Tellius's coronation is held without Feil present, and Feil becomes\nconvinced the Tellius at the ceremony was an impostor. The Hagane picks up\na suspicious Masouki, likely from Kirkus's army, and rushes to the scene.",
+   "cell": "r227c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 153,
+   "en": "The false coronation splits Feil and Kirkus. Kirkus's army marches to seize\nthe capital, but the Hagane group arrives and stops it. The battle is decided,\nand the defeated Kirkus vanishes.",
+   "cell": "r238c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 158,
+   "en": "On request, the Hagane group heads to Mt. Grimold, where the Schtedonias\narmy is hiding. Inside the caves, Masaki's group learns from Luozorl, a demon\npriest aiding Schtedonias, that it is the temple of Sarva Volkruss, the God\nof Destruction...",
+   "cell": "r249c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 167,
+   "en": "After defeating Volkruss's Afterimage, the Hagane group returns to the\ncapital, but the Afterimage regenerates from a fragment of Volkruss stuck\nto Cybuster. Prince Feil sorties in the newly designed super Masouki Duraxyll\nand annihilates it with overwhelming power.",
+   "cell": "r260c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 173,
+   "en": "As peace returns to Langran, Feil suddenly takes the throne as its 288th\nking, founds a new legitimate government, declares war on the Schtedonias\nUnion, and leads his own forces toward Nagor Bay in Baldia Province. Masaki\nvows to stop him, fulfilling his duty as a Masoukishin pilot.",
+   "cell": "r272c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 178,
+   "en": "Meanwhile, the cornered Kirkus's trump cards for uniting La Gias are\nmass-produced Valsion Custom Type CFs summoned from the surface and\nthe secret super Masouki Eulid, said to surpass even the Masoukishin.\nBeaten by the Hiryu Custom group, Kirkus atones with his life.",
+   "cell": "r283c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 183,
+   "en": "Obsessed with pacifying La Gias by force, Feil rejects Masaki's pleas, and\nbattle becomes unavoidable. Feil reveals that the strain of winning the right of\nsuccession and wounds from the terror attack have left him little time, and\nthat the summonings were caused by a spell he cast to save the kingdom from\nruin, which ran out of control...",
+   "cell": "r294c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 192,
+   "en": "The Steel Dragons' Hiryu Custom and Hagane, reunited in La Gias, return to\nthe surface, leaving behind Masaki's group of Masouki pilots and Lüne.",
+   "cell": "r308c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 198,
+   "en": "Two weeks before the Steel Dragons return from La Gias, the Yokijin seen in\nthe Shura Revolt attack the Tesla Reich Institute again. Kukuru, with them,\nsays she has come for the Choukijin RyuOhKi and KoOhKi sleeping in the cage...",
+   "cell": "r320c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 207,
+   "en": "Robert says Grungust parts could save RyuOhKi. Dr. Anzai suspects the unit\nthat took KoOhKi was a Choukijin; her LTR Organization's secret files\ndescribe Baral, a shadowy group that used Choukijin and Yokijin. Facing this\nnew threat, Federation President Grayen Grassman is convinced he needs\nthe Gaia Savers, a unit under his direct command.",
+   "cell": "r331c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 212,
+   "en": "Hugo Medio and Aqua Centrum, pilots of Cerberus, the sixth TE Absorber\nprototype from the Tsentr Project, are attacked by a mysterious force during\na test flight to their new post. After they join the Instructors, the fifth TE\nAbsorber prototype, Medius Locus, appears and attacks. Mitar, receiving the\nreport, says it was stolen by someone.",
+   "cell": "r342c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 217,
+   "en": "Joshua Radcliff is the test pilot of the Aile Chevalier, built by the\nRe-Technologists (Re-Tech) who excavate and study the Antarctic ruins\nFabula Foresse, and is on loan to the Instructors at Izu Base. During a mock\nbattle between the newly rolled-out seventh TE Absorber prototype,\nGarmraid, and the Aile Chevalier, Yokijin launch a surprise attack.",
+   "cell": "r353c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 223,
+   "en": "The Instructors visit Mao Industries' Orleans plant to transport the entire\nHuckebein series to Hickam Base. They repel an unidentified Armored Module\n(AM) force, but its behavior leaves them uneasy...",
+   "cell": "r365c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 232,
+   "en": "The Armored Modules that attacked the plant were piloted by bioroids much\nlike those used by the Inspectors, aliens who recently tried to invade Earth.\nOn the way back to Izu, the Instructors move to meet the Kurogane to hand\nover the Exbein, secretly built for adjusting AM parts...",
+   "cell": "r376c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 241,
+   "en": "A message from the mysterious Jinrai reveals its targets are Dynamic\nGeneral Guardians (DGG), and it aims to destroy DGG Units 1 and 2. On the\nway back, while fighting an enemy AM force, the Kurogane group is\nambushed by teleporting mobile weapons and pushed to the brink...",
+   "cell": "r387c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 250,
+   "en": "The ones who save the Kurogane group are the missing Steel Dragons. Guest\nCommander Zeb hints at raids on key Federation bases...",
+   "cell": "r398c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 260,
+   "en": "Rätsel suspects Earth's response to the surprise attacks was due to a leak.\nThe Steel Dragons, just back from La Gias, are ordered by Far East\nCommand to return to Izu Base.",
+   "cell": "r413c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 265,
+   "en": "Learning the secret of Project Idealands, the truth of the death of its head\nDr. Ozunu, and the truth of the Pfau Kern powering the Ares Geist, Arieil\nOrg decides to desert the Gaia Savers. Meanwhile, Yokijin attack the Tesla\nInstitute, targeting the RyuOhKi under repair...",
+   "cell": "r424c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 274,
+   "en": "After repelling the Yokijin, Raul's group detects an approaching unit: the\nFlickerei Geist and its pilot, Arieil. In pursuit comes the Ares Geist, piloted\nby Duban Org, Beta Saber captain of the Gaia Savers, who demands they\nhand over Arieil and Ing, who happened to be there...",
+   "cell": "r435c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 283,
+   "en": "The mysterious unit codenamed Evil leaves, as if its goal had been to\nawaken Ing. Arieil reveals she is an artificial human, an Idealand, created by\nProject Idealands, and that she fled to warn of the danger of the Pfau Kern,\nthe power source at Jetzt Regisseur's core...",
+   "cell": "r446c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 289,
+   "en": "Josh's group returns to the Antarctic Mother Base. But an anomaly occurs\nat the Fabula Foresse ruins, and an unknown enemy appears when they go to\nthe rescue. As they try to enter with Josh's stepsister Cliana Rimskaya in\nthe Blanche Neige, a new unknown appears and calls itself Ruina, the bringer\nof fear, despair, and ruin.",
+   "cell": "r458c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 294,
+   "en": "Josh's father, Prof. Ferio Radcliff, believed Fabula Foresse was a gate to\nanother world; the Aile Chevalier and Blanche Neige were insurance against\nthe calamity coming from it. Escaping Antarctica, the group joins the Steel\nDragons, but when Ruina's Meliores Esse Aquila appears, Josh and Rim are\nconfused by enemy voices only they can hear.",
+   "cell": "r469c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 299,
+   "en": "The Gaia Savers block the Steel Dragons as they rush to the ruins. Special\nPresidential Aide Arteur Steinbeck, accusing them of ties to anti-Federation\nforces, demands they disarm. Rejecting this absurd ruling, Colonel Lefina,\ncommander of the Steel Dragons, tries to break the encirclement...",
+   "cell": "r480c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 308,
+   "en": "After the President dies in an accident, the Steel Dragons are hunted by\nboth the Gaia Savers and the Federation Army. The crew suspect Arteur\naims to assassinate the President and frame them as traitors...",
+   "cell": "r495c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 317,
+   "en": "The Hiryu Custom group is thrown into confusion by a sudden anomaly. Ignis,\none of the Meliores Esse, says Ruina has shut Earth in darkness. Then\nappears Kota Azuma, missing since being sucked into a dimensional door.",
+   "cell": "r506c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 322,
+   "en": "A dimensional fault around the planet has cut Earth off from Space. The ES\nwave from Antarctica passed between the two ships: the Hiryu Custom was\ntrapped on Earth, the Hagane flung into Space. To learn the truth, the\nHagane group heads for Heaven's Gate, where Ruina went.",
+   "cell": "r517c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 327,
+   "en": "At Rätsel's suggestion, the Hiryu Custom calls at Commodin Island, but Jinrai\nappears targeting the DGGs, and Ibis rescues Irui, a girl terrified by the attack.\nRe-Tech and the Tsentr Project are under Gaia Savers control, and a\ntransmitter planted in the TE Absorbers has been giving away the Hiryu\nCustom's location.",
+   "cell": "r528c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 332,
+   "en": "After leaving Commodin Island, the Hiryu Custom group meets a new\nMeliores Esse, Glacies. Through Sympathia, an unknown man-machine\ninterface in his unit, Josh experiences a psychic link with Glacies and hears\nher inner voice. Using his words as a clue to the dimensional fault's cause,\nthe group heads for the Arctic Ocean.",
+   "cell": "r539c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 337,
+   "en": "Former Federation Lieutenant Colonel Lee Linjun, missing since the\nInspector Incident, closes in on the Steel Dragons as Carly Naumann, captain\nof Air Christmas, the Gaia Savers flagship. And Alpha Saber captain Egretta\nUno reveals he is Egret Uruz, originator of the Machinery Children defeated\nat Earth Cradle.",
+   "cell": "r550c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 343,
+   "en": "Meanwhile, the Hagane group, bound for Heaven's Gate, meets the Guest\narmy, which sees Earth's plight as a chance to seize the Moon and Heaven's\nGate. They drive off Commander Grofis Laclaine, but then run into the Beta\nSaber, in Space to support the Antarctic operation from orbit. Then appears\ntheir old acquaintance, Alchemie...",
+   "cell": "r562c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 352,
+   "en": "Alchemie leaves Axel Almer, former Shadow Mirror captain who came back\nfrom the other world with her, on the Hagane, and departs. As the Hagane\nchanges course for the Moon, Guest Commander Justine Shafrawarth\nsuddenly appears. The Vaisaga, piloted by Axel, saves the Hagane.",
+   "cell": "r573c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 357,
+   "en": "The Hagane group joins Radha, who fled the Guest at Mao Industries, the\nlunar Personal Trooper maker, and learns Moon Cradle has fallen. In Omega\nSaber Armara Burton, who relentlessly hunts Ing in Galilnagant, the unit\ncodenamed Evil, the group senses Arteur's schemes.",
+   "cell": "r584c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 362,
+   "en": "The Hagane heads to Heaven's Gate to capture Ignis, who knows the truth of\nthe barrier, but finds Ruina fighting the Guest, who want the station. The\nHagane group pursues Ignis as she withdraws.",
+   "cell": "r595c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 367,
+   "en": "On Earth, the Hiryu Custom group enters the Arctic Ocean seeking clues to\nthe barrier. Bullet keeps trying to reach the black KoOhKi that appears, but\nhis voice doesn't get through. At the north magnetic pole, they meet the\nGaia Savers attacking the barrier Septemplum; among them Hugo finds the\nsupposedly stolen Medius Locus and senses Mitar's scheme.",
+   "cell": "r606c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 372,
+   "en": "Rim links minds with the Meliores Esse Ventus. Clifford suspects Sympathia\nis the key to breaching Septemplum, and Rim tries to approach it, but the\nMeliores Esse Umbra moves to block her way...",
+   "cell": "r617c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 381,
+   "en": "Chasing Ignis, the Hagane group arrives not at Antarctica, home of Fabula\nForesse, but above the North Pole. As they fight a fierce battle with\nContagio and the other Meliores Esse, a sudden anomaly occurs...",
+   "cell": "r631c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 390,
+   "en": "Rim and Ventus's psychic link dispels Atrum Exterior, the dimensional fault\ncovering Earth, and the Hiryu Custom, joined by the returned Hagane, heads\nfor Itiiti Island, home to a secret underground base under Rätsel's care.",
+   "cell": "r642c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 396,
+   "en": "To show off Delta Saber's Jinrai, Dr. Tomine proposes a Violent Assault on\nthe BF Base of Dr. Kisaburo Azuma, Kota's grandfather. Meanwhile, Kota,\nhome on a visit as the Steel Dragons pass near Japan, faces Michiru\nHanaten, gang boss of Mannamu Academy, who came from Kansai to fight\nhim. Then an enemy appears, and Kota's group sorties to protect Asakusa...",
+   "cell": "r654c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 405,
+   "en": "Compatible Kaiser combines with Shoko's G-Thundergate, and G Compatible\nKaiser lures the Mass-Production Jinrai out of town. Minaki, daughter of Dr.\nTomine, visited Dr. Azuma for hints on better linking Jinrai's AI, System\nZLAI, with the DGG's ABMD (artificial skeletal muscle drive) system, and\ndecides to go with the Steel Dragons to stop her father.",
+   "cell": "r665c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 410,
+   "en": "En route to Itiiti Island, the Steel Dragons are pulled into the closed space of\nGensenkyo. Baral has led the Choukijin since ancient times, guarding Earth\nfrom the Hundred Evils. Its sages Kanan Jun and Taihoku Santayu ask them\nto pioneer the Total Shikai Plan, by which Baral's god grants all mankind\nshikai (shedding the flesh to become sages). Refused, they resort to force...",
+   "cell": "r676c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 419,
+   "en": "Trapped in Gensenkyo at a stalemate, the Steel Dragons are saved by a\nshark-shaped unit that appears as if in step with a change in Irui.",
+   "cell": "r687c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 424,
+   "en": "Medius Locus appears before Hugo and Josh on patrol. Hugo is shaken to learn\nits pilot is Albero Est, captain of his old unit, the Federation's 3rd Special Ops\nPT Unit Crywolves. Arado's group, arriving as backup, sees fellow Boosted\nChildren from the School, Cienne Argent and the others.",
+   "cell": "r698c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 430,
+   "en": "The ATX Team, out to wipe out Ruina, is cornered by TotetsuOh and KyukiOh,\nChoukijin of the Four Fiends. Bullet falls to KoOhKi, and as Kusuha grieves, a\nvoice calls out to her...",
+   "cell": "r710c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 439,
+   "en": "Reclaiming RyuKoOh and KoRyuOh, Kusuha and Bullet repel Baral with Axel,\nRishu, and others who come to help. As Ruina's raids on bases throw the war\ninto chaos, Jinrai, after the DGGs, and Medius Locus, after the TE Absorbers,\nappear before the Steel Dragons.",
+   "cell": "r721c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 444,
+   "en": "At Minaki's wish to give Jinrai a new life, Sänger's group captures it.\nMeanwhile, pursuing Medius Locus alone, Hugo's pair releases the TE Limiter\nand corners Albero. To escape, Erde Mitte, creator of AI1, the AI aboard\nMedius Locus, reveals who she is to Aqua, her former student at the military\nacademy...",
+   "cell": "r732c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 453,
+   "en": "Medius Locus withdraws, leaving Aqua behind. Grieving at losing Hugo through\nher mistake, Aqua learns Hugo's body was mechanized and he had little time\nleft. On patrol for the Steel Dragons heading to Itiiti Island, Ibis meets Sleigh\nPresty, who has left Isurugi Heavy Industries for the Steel Dragons, and Ibis\ntries to accept all that Sleigh is...",
+   "cell": "r743c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 462,
+   "en": "Sleigh defeats the mercenary Araceli and joins the Steel Dragons. The\ninformation she brings from Mitsuko Isurugi, president of Isurugi Heavy\nIndustries, about Shu Shirakawa's actions is startling.",
+   "cell": "r754c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 468,
+   "en": "At Shu Shirakawa's invitation, Guest supreme commander Teiniquet\nZezenan, Gaia Savers commander Arteur Steinbeck, and the Masoukishin\npilots led by Masaki all gather in one place...",
+   "cell": "r766c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 477,
+   "en": "Masaki's group destroys the remaining Guest forces, and Zezenan\nwithdraws. Shu's ploy exposes the Gaia Savers conspiracy, and Federation\nLieutenant General Jacob Moore announces the Steel Dragons' arrest order\nis withdrawn. What the departing Shu entrusts to Masaki is Tronium, the\nTronium Engine's power source, missing since the DC War.",
+   "cell": "r777c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 482,
+   "en": "Testing the Tronium Engine built into the Ash, Ing's group picks up a\ndistress signal and goes to help. Waiting there, Alpha Saber's Egretta\nreveals that Ing is a Machinery Child created by Egret Fehu. To escape the\ncrisis, Ing starts the untested Tronium Engine...",
+   "cell": "r788c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 491,
+   "en": "The Ash, of the ill-omened bird lineage, is reborn as the Exexbein. The Steel\nDragons arrive as reinforcements. Over her grief for Hugo, Aqua boards the\nremaining TE Absorber. Lieutenant General Jacob orders the Steel Dragons to\nattack Tochka 8, a Gaia Savers base where NV Units using Re-Tech\ntechnology are being developed.",
+   "cell": "r799c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 496,
+   "en": "En route, Masaki, on patrol, finds Lüne's group, up from La Gias, fighting\nRuina. Reaching Tochka 8, the Steel Dragons attack, and Josh's group\nsearches for the NV Unit.",
+   "cell": "r810c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 501,
+   "en": "They repel Medius Locus and the Gamma Saber and take Tochka 8, but soon\nGlacies and the other Meliores Esse appear to eliminate Josh and Rim...",
+   "cell": "r821c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 510,
+   "en": "Their Sync deepening, Josh and Rim come to know their hearts deeply. Josh\nis torn by his own wish to save Glacies from her fate.",
+   "cell": "r832c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 516,
+   "en": "Meanwhile, Minaki and the others have remade Jinrai as RaiOh. When\nMass-Production Jinrai attack Itiiti Island while the Steel Dragons are away,\nTouma sorties in RaiOh to save the base and succeeds in luring the enemy\naway as a decoy, but...",
+   "cell": "r844c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 525,
+   "en": "Suddenly, RaiOh's System LIOH activates BSK Mode, and the berserk RaiOh\nattacks the DGGs. It is a system planted by Dr. Tomine to fulfill its purpose\neven if refitted as a manned unit. Judging their location exposed, the Steel\nDragons leave Itiiti Island, but Medius Locus and a new TE Absorber appear\nbefore Aqua's group...",
+   "cell": "r855c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 534,
+   "en": "Hugo is rescued, but Albero is absorbed by AI1 in his place. Albero aided the\nTsentr Project because of Mitar's lies about saving his son, Foglia Est. Vowing\nrevenge, Hugo sorties in TE Absorber Unit 8, Cerberus Ignite, and Unit 9,\nGarmraid Blaze, refitted by Dr. Eric Wan.",
+   "cell": "r866c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 539,
+   "en": "Following Rim, who heard Ventus's call through Sympathia, the Steel\nDragons reach a base seized by Ruina. Josh and Rim enter it, where Ventus\nand Glacies wait. But Contagio's plan is to have Glacies and Ventus\nself-destruct, taking the Steel Dragons with them...",
+   "cell": "r877c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 548,
+   "en": "Touching Sympathia gave Rim two personalities, Chris and Riana. But Chris\nvanished to save Ventus and Riana. Having failed their roles and lost their\nplace, Glacies and Ventus pledge to help the Steel Dragons. Meanwhile,\nExcellen senses Alchemie is in danger and goes to save her with Axel and the\nothers...",
+   "cell": "r888c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 557,
+   "en": "Learning the truth that Idealands live only about three years, Duban deserts\nthe Gaia Savers and absorbs Alchemie to escape his fate. The enemy is\nrepelled, but back aboard, Ibis's group learns Irui has disappeared.",
+   "cell": "r899c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 563,
+   "en": "As Operation Reconquista, to retake the Guest-held Moon, and Operation\nIcebreaker, against Ruina in Antarctica, are readied, Son Koryu, self-styled\nhead of Baral, sends a message hinting at the Total Shikai Plan. Federation\nMarshal Gaspar Gilan orders an H-MAP Weapon strike on the Garden of\nBaral, risen over Arabia's Nafud Desert...",
+   "cell": "r911c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 572,
+   "en": "A barrier from the Garden of Baral covers Earth, cutting it off from Space.\nThe Hiryu Custom, already in Space to join Operation Icebreaker from above\nAntarctica, is attacked by Custos, guardians from the Garden of Baral. Cut\noff from the surface, the Hiryu Custom joins Operation Reconquista under\nColonel Humphrey Innes, commander of the allied space fleet.",
+   "cell": "r925c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 577,
+   "en": "Meanwhile, the Hagane, repairing its Tesla Drive, was left on the surface.\nArteur promises to end the pursuit, but the Gamma Saber breaks it, and\nMarshal Gaspar sends the Hagane to Grand Christmas, the Gaia Savers HQ,\nto settle the President's assassination.",
+   "cell": "r936c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 582,
+   "en": "The Delta Saber blocks the Hagane group's way to Grand Christmas. Minaki\nbreaks with her father, and before the might of Touma and RaiOh, Dr.\nTomine's obsession is crushed.",
+   "cell": "r947c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 587,
+   "en": "Convinced the Steel Dragons are being used for Arteur's aims, Captain\nTetsuya resolves to confront the Gaia Savers. Arado's group defeats the\nArgent-class Boosted Children, and Sänger and Rishu put an end to Murata.",
+   "cell": "r958c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 593,
+   "en": "Meanwhile, the Hiryu Custom storms the Guest-held Heaven's Gate. There\nappears Mekibos, thought killed in the Inspector Incident. He relays Zezenan's\nrecall order and says he was sent as an envoy of the Zovorg Privy Council to\nend the war with Earth. The Inspectors and the Guest, as Earth calls them, are\nZovorg's two great factions, the Wolga and the Zogal.",
+   "cell": "r970c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 598,
+   "en": "At Grand Christmas, as the Hagane group battles Egretta's Gaia Savers,\nGarberus, TE Absorber prototype Unit 10 carrying AI1, appears. After a fierce\nfight, Erde falls, and Ing's Black Hole Buster Cannon ends the originator\nEgretta.",
+   "cell": "r981c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 603,
+   "en": "Creator Fehu dies without revealing Ing's origins, and the Steel Dragons\nface a fight for survival with the remaining Arteur. But the Air Christmas\nscuttles itself under the Hagane's attack, to everyone's bafflement.",
+   "cell": "r992c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 608,
+   "en": "At the same time, Operation Reconquista begins on the Moon. Shu exposes the\nplot to assassinate Rof, the Guest Commanders turn on Zezenan, and the Hiryu\nCustom descends on Moon Cradle as the final battle with the Guest begins...",
+   "cell": "r1003c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 617,
+   "en": "After a ferocious battle, Zezenan falls and the war with the Guest ends. The\nHiryu Custom carries out Shu's plan to return to Earth, sealed by Ruina's\nbarrier Meridemplum and Baral's barrier...",
+   "cell": "r1014c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 627,
+   "en": "The Hiryu Custom and Hagane reunite and, aided by Glacies and Ventus,\nenter Meridemplum, the barrier over Antarctica. Defeating Aquila, Contagio,\nand the others waiting at Mother Base, the Steel Dragons storm the ruins...",
+   "cell": "r1029c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 632,
+   "en": "The Steel Dragons reach the heart of Fabula Foresse, and Ryusei and the\nothers feel deja vu at the structure. It is a gate linking different\nspace-times and worlds: the Cross Gate. Ignis and Umbra, blocking the way,\noffer their own deaths to awaken the King of Ruin...",
+   "cell": "r1040c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 641,
+   "en": "Sympathia: a replica of the \"key\" that opens and closes the gate, made by\nthe ancients who sealed the Cross Gate, and a device that turns those who\ntouch it into Meliores Esse. Riana is shaken to learn Chris was the real\nCliana Rimskaya. Prof. Radcliff, his Sympathia working as a true \"key\" due\nto another factor built into it, was made a vessel for Perfectio...",
+   "cell": "r1051c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 650,
+   "en": "Fed endless energy by the Cross Gate, Perfectio overwhelms the Steel\nDragons though only an Afterimage. As its true body's emergence from the\nCross Gate draws near, the group is pushed to the brink...",
+   "cell": "r1062c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 659,
+   "en": "Through the sacrifice of Ventus and Chris, the threat of Perfectio's true\nbody is averted. Then, seeking the energy from the Cross Gate, the Ares\nGeist and Garberus, thought destroyed at Grand Christmas, appear...",
+   "cell": "r1073c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 668,
+   "en": "True to its name, \"ALL In 1,\" AI1 tries to absorb everything into itself. In his\ndesperate fight with AI1, Hugo hears a voice speaking to him...",
+   "cell": "r1084c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 678,
+   "en": "After the Steel Dragons seal Perfectio, Baral's head Son Koryu summons\nthem to Gensenkyo again to carry out the Total Shikai Plan.",
+   "cell": "r1099c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 687,
+   "en": "Son Koryu likens OryuOh's clash with the Steel Dragons to Baral's ancient\nGreat Mech War with the Hundred Evils. Seeing Kusuha's group's resolve,\nTaihoku accepts fate and leaves with Kanan, and Koryu falls in a fierce fight.",
+   "cell": "r1110c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 692,
+   "en": "Gan Eden: an artificial god that links with a powerful psychic called a Mashiach\nto cover Earth in a mighty barrier, and aims to create a paradise free of\nconflict by imposing the Total Shikai Plan on mankind. Irui says she stays with\nGan Eden of her own will, but...",
+   "cell": "r1121c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 701,
+   "en": "Responding to Ibis's group's voices, Irui's two personalities clash. Rejected by\nIrui, Gan Eden tries to cut her off and erase her. The Steel Dragons, with Irui,\nface Gan Eden...",
+   "cell": "r1132c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 710,
+   "en": "Euzeth Gozzo: of the Ze Balmary Empire's Inspection Army and mastermind of\nthe L5 Campaign. And the Adamatron, built to make false memories real and\nbreak the chains of causality. It is the Cross Gate Paradigm System, which\ncontrols Gan Eden via Ing, a man-made Mashiach, fuses with the Cross Gate\nvia AI1, and bends causality at will via the Akasha variable factor.",
+   "cell": "r1143c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 715,
+   "en": "Seeking to erase the karma of past lives and build a new cycle of rebirth,\nEuzeth tries to wipe out the Steel Dragons himself. Before the cornered Steel\nDragons appears Lee Linjun, set on atoning for his own sins...",
+   "cell": "r1154c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 724,
+   "en": "Everyone's feelings reach Irui, absorbed along with Gan Eden, and through her\nown will the Cross Gate Paradigm System is left incomplete. Freed from his\nshackles, Ing drives Euzeth into a corner...",
+   "cell": "r1165c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 734,
+   "en": "With Arteur revealed as the one behind the L5 Campaign and proof of the\nPresident's assassination found at Grand Christmas, the Gaia Savers are\ndissolved. The Zovorg Privy Council resolves not to interfere with Earth; the\nGuest army leaves the Earth Sphere, with Mekibos staying as liaison. And\nMasaki's Masouki pilots and Lüne return to La Gias.",
+   "cell": "r1180c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 739,
+   "en": "To make RaiOh a true guardian, Touma and Minaki go with Axel and Alchemie\nto stay with Rätsel, returning to Itiiti Island. And Ing accepts Irm's offer to\njoin a newly formed team.",
+   "cell": "r1191c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 744,
+   "en": "Cleared of the charges, the Steel Dragons return to Izu Base, and Dr. Wan sees\nin the technology of Lamia's body a chance to extend the Idealands' lives.\nMeanwhile, knowing Glacies's inescapable fate, Josh vows to stay always by\nher side...",
+   "cell": "r1202c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

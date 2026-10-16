@@ -1,0 +1,7020 @@
+{
+ "file": "windowdataMain.wtd",
+ "format": "WTD",
+ "occurrences": 3334,
+ "untouched": "ASCII-only strings (widget/texture ids, <I=n> tags) and all non-text data",
+ "strings": [
+  {
+   "id": 0,
+   "en": "0000",
+   "count": 12,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 1,
+   "en": "〓〓〓〓〓",
+   "count": 178,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "en": "Select Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 3,
+   "en": "Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "en": "Select Pilot",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "en": "Select Target",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "en": "[Search] Check Owned",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 7,
+   "en": "[Spirit Commands] Select",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 8,
+   "en": "[Other Commands]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 9,
+   "en": "[System] Change Settings",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 10,
+   "en": "[System] Select Option",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 11,
+   "en": "[Options] Select",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 12,
+   "en": "[Options] System Setup",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 13,
+   "en": "[Unit List]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 14,
+   "en": "[Pilot List]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 15,
+   "en": "[Transfer] Select Pilot",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 16,
+   "en": "[Transfer] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 17,
+   "en": "[Parts] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 18,
+   "en": "[Parts] Select Slot",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 19,
+   "en": "[Parts] Select Part",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 20,
+   "en": "[Parts] Select Removal",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 21,
+   "en": "[Sortie] Select Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 22,
+   "en": "[Ability] Select Target",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 23,
+   "en": "[Ability] Select Slot",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 24,
+   "en": "[Ability] Select Ability",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 25,
+   "en": "[Ability] Select Removal",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 26,
+   "en": "[Search] Select Field",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 27,
+   "en": "[Search] Select Filter",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 28,
+   "en": "[Units Shot Down] Review",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 29,
+   "en": "[Kill Counts] Details",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 30,
+   "en": "[Counter Settings] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 31,
+   "en": "[Quick Commands] Settings",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 32,
+   "en": "[BGM] Select Item",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "en": "[BGM Setup] Target",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 34,
+   "en": "[BGM Select] Change",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "en": "[Upgrade] Set Levels",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 36,
+   "en": "[Replace Weapon] Select Weapon",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 37,
+   "en": "[Replace Wpn] Upgrade",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 38,
+   "en": "[Replace Weapon] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 39,
+   "en": "[Replace Unit] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 40,
+   "en": "[Upgrade] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 41,
+   "en": "[Sell Parts] Select Part",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 42,
+   "en": "[Training] Select Pilot",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 43,
+   "en": "[Training] Select Item",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 44,
+   "en": "[Training] Set Increase",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 45,
+   "en": "[Training] Select Skill",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 46,
+   "en": "[Training] Select Slot",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 47,
+   "en": "[Transfer] Confirm",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 48,
+   "en": "[Replacement Weapons] Select Weapon",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 49,
+   "en": "[Replace] Select Part",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 50,
+   "en": "[Robot Guide] Units",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 51,
+   "en": "[Characters] Select Character",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 52,
+   "en": "[Glossary] Select Term",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 53,
+   "en": "[Sound Select] Select BGM",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "en": "[Robot Encyclopedia]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 55,
+   "en": "[Character Encyclopedia]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 56,
+   "en": "[Q&A] Select Topic",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 57,
+   "en": "[Q&A] Select Query",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 58,
+   "en": "[Scenario Chart]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 59,
+   "en": "[Library]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 60,
+   "en": "[System]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 61,
+   "en": "[Parts] Equipped",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 62,
+   "en": "[Options] Library",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 63,
+   "en": "[Buy Abilities] Select Ability",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "en": "[Sell Abilities] Select Ability",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "en": "[Play End Message]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 66,
+   "en": "Allies: Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 67,
+   "en": "[Enemy Roster] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 68,
+   "en": "3rd Army: Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 69,
+   "en": "4th Army: Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 70,
+   "en": "Neutral: Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 71,
+   "en": "Allies: Pick Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 72,
+   "en": "[Enemy Roster] Select Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 73,
+   "en": "3rd Army: Pick Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 74,
+   "en": "4th Army: Pick Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 75,
+   "en": "Neutral: Pick Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 76,
+   "en": ":Switch Faction",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 77,
+   "en": ":Select",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 78,
+   "en": ":Deploy",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 79,
+   "en": "+",
+   "count": 25,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 80,
+   "en": ":Enter Upgrade Level",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 81,
+   "en": ":Confirm Sale",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 82,
+   "en": ":Alphabetical",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 83,
+   "en": ":By Category",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 84,
+   "en": ":Weapon (Join Sub)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 85,
+   "en": ": Buy",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "en": ":Confirm",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 87,
+   "en": ":Mark All",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 88,
+   "en": ":--",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 89,
+   "en": ":Back",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 90,
+   "en": ":Custom Settings",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 91,
+   "en": ":Abilities",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 92,
+   "en": ":Select from List",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 93,
+   "en": ":Weapon (Join Main)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 94,
+   "en": ":Reverse All Squads",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 95,
+   "en": ":Mark",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 96,
+   "en": ":Change Weapon (Sub)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 97,
+   "en": "[Sortie Prep] Prepare to sortie.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 98,
+   "en": "[Sortie] Select a squad to reorder.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 99,
+   "en": "[Sortie] Select a squad/position to swap.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 100,
+   "en": "Select squads to join the Maximum Break.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 101,
+   "en": "MMMMM",
+   "count": 111,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "en": "[Repair] Select ally squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 103,
+   "en": "[Resupply] Select ally squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 104,
+   "en": "[Resupply] Select ally unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 105,
+   "en": "[Retrieve] Select ally squad.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 106,
+   "en": "Replace",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 107,
+   "en": "Combine",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 108,
+   "en": "Disband",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 109,
+   "en": "Persuade",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 110,
+   "en": "Move",
+   "count": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 111,
+   "en": "Attack",
+   "count": 8,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 112,
+   "en": "Air",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 113,
+   "en": "Burrow",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 114,
+   "en": "Transform",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 115,
+   "en": "Separate",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 116,
+   "en": "Parts",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "en": "Repair",
+   "count": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 118,
+   "en": "Resupply",
+   "count": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 119,
+   "en": "Main",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 120,
+   "en": "Spirit",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 121,
+   "en": "Stats",
+   "count": 9,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 122,
+   "en": "SR Points",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 123,
+   "en": "00",
+   "count": 34,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 124,
+   "en": "Turn Count",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 125,
+   "en": "Funds",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 126,
+   "en": "00,000,000",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 127,
+   "en": "Sortie Units",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 128,
+   "en": "%d Sq.",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 129,
+   "en": "End Phase",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 130,
+   "en": "To Sortie Menu",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 131,
+   "en": "Units",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "en": "Sortie",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 133,
+   "en": "Search",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 134,
+   "en": "Pilots",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "en": "Unit List",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "en": "<C=00AAFFFF><W=25><H=25>Allies/</H></W></C><C=AA0033FF><W=19><H=19>Enemies</H></W></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 137,
+   "en": "<C=0099CCFF><W=19><H=19>Allies</H></W></C><C=FF3333FF><W=25><H=25>/Enemies</H></W></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 138,
+   "en": "Unit Setup",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 139,
+   "en": "<C=00AAFFFF>Allied Forces</C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 140,
+   "en": "<C=FF3333FF>Enemies</C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "Objectives",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 142,
+   "en": "Abilities",
+   "count": 18,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 143,
+   "en": "Battle Report",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 144,
+   "en": "Change Map Positions",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 145,
+   "en": "Options",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "en": "View Map",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 147,
+   "en": "System",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 148,
+   "en": "Suspend Save",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 149,
+   "en": "Data Management",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 150,
+   "en": "Next Map",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "Stage %d",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 152,
+   "en": "Final Stage",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 153,
+   "en": "(%5d) Turns",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 154,
+   "en": "EX Hard Mode",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 155,
+   "en": "Special Mode",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "en": "Normal Mode",
+   "count": 10,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "en": "Beginner's Mode",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 158,
+   "en": "%d Laps",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 159,
+   "en": "Cleared to \"*****\"",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 160,
+   "en": "NEXT Sortie Units",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 161,
+   "en": "Unit List",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "Pilot List",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 163,
+   "en": "Save",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "en": "<C=00ffffff>Save<W=15> </W><W=22><H=22>Date/</H></W></C><C=666666ff><W=18><H=18>Stage</W></H></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "en": "<C=00ffffff>Save</C><W=15> </W><C=666666ff><W=18><H=18>Date</H></W></C><C=00ffffff><W=22><H=22>/Stage</H></W></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "en": "Unit Equip",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 167,
+   "en": "Upgrade Units/Weapons",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 168,
+   "en": "Train Pilots",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 169,
+   "en": "Load",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "<C=00ffffff>Load<W=15> </W><W=22><H=22>Date/</H></W><C=666666ff><W=18><H=18>Stage</W></H></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "en": "<C=00ffffff>Load</C><W=15> </W><C=666666ff><W=18><H=18>Date</H></W></C><C=00ffffff><W=22><H=22>/Stage</H></W></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 172,
+   "en": "Pilot Equip",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 173,
+   "en": "Equip Parts",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 174,
+   "en": "Swap Pilots",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "en": "Buy Abilities",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 176,
+   "en": "Sell Parts",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 177,
+   "en": "Replace Parts",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 178,
+   "en": "Sell Abilities",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 179,
+   "en": "Replace Weapon",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "en": "Pilot",
+   "count": 17,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 181,
+   "en": "Unit",
+   "count": 27,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "en": "Squad",
+   "count": 18,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "",
+   "count": 21,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 184,
+   "en": "",
+   "count": 15,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 185,
+   "en": "00000",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 186,
+   "en": "/",
+   "count": 113,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 187,
+   "en": "Conserve EN/Ammo",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "(<X=50>)</X>",
+   "count": 38,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 189,
+   "en": "All Pilots: Default",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 190,
+   "en": "Set All Units to Default BGM",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "en": "♪",
+   "count": 32,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "en": "",
+   "count": 21,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 193,
+   "en": "#",
+   "count": 30,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 194,
+   "en": "M",
+   "count": 9,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 195,
+   "en": "",
+   "count": 20,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 196,
+   "en": "[All Pilot Settings]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 197,
+   "en": "[All Unit Settings]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "en": "HP/EN",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "en": "Pilot Information",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 200,
+   "en": "Abilities/Special Skills",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "en": "Movement Info",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 202,
+   "en": "Max Attack Power",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "en": "Pilot Level",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 204,
+   "en": "Unit Stats 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 205,
+   "en": "Unit Stats 2",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 206,
+   "en": "Unit Abilities",
+   "count": 10,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 207,
+   "en": "Ability 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": "Ability 2",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 209,
+   "en": "Special Skills",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "en": "Unit Stats",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "en": "Spirit Cmds (Main)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": "Spirit Commands (Sub)",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 213,
+   "en": "Unit Info",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "en": "Upgrades",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "en": "Search Field",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "en": "[<X=195>]</X>",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 217,
+   "en": "?",
+   "count": 21,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 218,
+   "en": "x",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 219,
+   "en": "SP",
+   "count": 53,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 220,
+   "en": "Will",
+   "count": 22,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "en": "Kills",
+   "count": 10,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "en": "Level",
+   "count": 56,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "en": "Characters",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 224,
+   "en": "Replace Weapons",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 225,
+   "en": "Replaceable Parts",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 226,
+   "en": "PP",
+   "count": 29,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 227,
+   "en": "Remaining Weapon Gauge",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "en": "Equipped Parts",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 229,
+   "en": "Critical",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 230,
+   "en": "Accuracy",
+   "count": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 231,
+   "en": "Range",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 232,
+   "en": "Attack",
+   "count": 16,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 233,
+   "en": "Attribute",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 234,
+   "en": "Type",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 235,
+   "en": "Weapon Name",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 236,
+   "en": "Negates Barrier",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 237,
+   "en": "Pierces Barrier",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 238,
+   "en": "Weakens Barrier",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 239,
+   "en": "----------",
+   "count": 18,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 240,
+   "en": "--------",
+   "count": 9,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 241,
+   "en": "(<X=60>)</X>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 242,
+   "en": "",
+   "count": 21,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 243,
+   "en": ")",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 244,
+   "en": "Upgrade Level",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 245,
+   "en": "Special Effect 2",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 246,
+   "en": "Type",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 247,
+   "en": "Special Effect 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 248,
+   "en": "Combo Attack",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 249,
+   "en": "Friend/Foe ID",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 250,
+   "en": "Terrain Ability",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 251,
+   "en": "W Gauge",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 252,
+   "en": "Required Skill",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 253,
+   "en": "Required Will",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 254,
+   "en": "EN Cost",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 255,
+   "en": "Name",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 256,
+   "en": "Ammo",
+   "count": 13,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 257,
+   "en": "Category",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 258,
+   "en": "Armor",
+   "count": 25,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 259,
+   "en": "Mobility",
+   "count": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 260,
+   "en": "Targeting",
+   "count": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 261,
+   "en": "Size",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 262,
+   "en": "HP",
+   "count": 30,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 263,
+   "en": "EN",
+   "count": 42,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 264,
+   "en": "Enhancement Parts",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 265,
+   "en": "Next",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 266,
+   "en": "Melee",
+   "count": 15,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 267,
+   "en": "Ranged",
+   "count": 15,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 268,
+   "en": "Skill",
+   "count": 13,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 269,
+   "en": "Defense",
+   "count": 20,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 270,
+   "en": "Evasion",
+   "count": 15,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 271,
+   "en": "Acc",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 272,
+   "en": "Skl",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 273,
+   "en": "Def",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 274,
+   "en": "Eva",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 275,
+   "en": "Mel",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 276,
+   "en": "Rng",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 277,
+   "en": "Not yet learned",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 278,
+   "en": "",
+   "count": 6,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 279,
+   "en": "Twin Commands/SP",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 280,
+   "en": "Ace Bonus",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 281,
+   "en": "Spirit Commands/SP",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 282,
+   "en": "Next-Lv",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 283,
+   "en": "Experience",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 284,
+   "en": "100%",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 285,
+   "en": "Unit Upgrade Level",
+   "count": 8,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 286,
+   "en": "Custom Bonus",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 287,
+   "en": "Type",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 288,
+   "en": "▼Armor Level",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 289,
+   "en": "▼Armor Level 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 290,
+   "en": "▼Mobility Level",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 291,
+   "en": "▼Mobility Level 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 292,
+   "en": "▼Aim Level",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 293,
+   "en": "▼Aim Level 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 294,
+   "en": "▼Movement",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 295,
+   "en": "▼Attack Level",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 296,
+   "en": "▼Attack Level 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 297,
+   "en": "▼Range",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 298,
+   "en": "▼Ability Level",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 299,
+   "en": "▼Ability Level 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 300,
+   "en": "INCAPACITATED",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 301,
+   "en": "SPIRITS SEALED",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 302,
+   "en": "(<X=100>)</X>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 303,
+   "en": "SP Cost",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 304,
+   "en": "<X=15>(</X>%2d more squads)<X=10></X>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 305,
+   "en": "Index",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 306,
+   "en": "Spirit Commands",
+   "count": 22,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 307,
+   "en": "Weapon Stats",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 308,
+   "en": "Unit Abilities",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 309,
+   "en": "Pilot Stats",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 310,
+   "en": "Unit Stats",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 311,
+   "en": "Defense %",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 312,
+   "en": "Evasion %",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 313,
+   "en": "HP Recovery %",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 314,
+   "en": "EN Recovery %",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 315,
+   "en": "+00%",
+   "count": 8,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 316,
+   "en": "No Change",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 317,
+   "en": "±0%",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 318,
+   "en": "[<X=180>]</X>",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 319,
+   "en": ": Command",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 320,
+   "en": ":－－－",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 321,
+   "en": ":Main",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 322,
+   "en": "000",
+   "count": 60,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 323,
+   "en": "???",
+   "count": 47,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 324,
+   "en": "000000",
+   "count": 44,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 325,
+   "en": "??????",
+   "count": 46,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 326,
+   "en": "Mob",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 327,
+   "en": "Aim",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 328,
+   "en": "Combat",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 329,
+   "en": "HP/MAX",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 330,
+   "en": "Ability (Unit)",
+   "count": 6,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 331,
+   "en": "Movement",
+   "count": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 332,
+   "en": "Normal",
+   "count": 24,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 333,
+   "en": "EN/MAX",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 334,
+   "en": "ALL",
+   "count": 20,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 335,
+   "en": "Total",
+   "count": 13,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 336,
+   "en": "Ability (Squad)",
+   "count": 12,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 337,
+   "en": "Support Attack",
+   "count": 18,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 338,
+   "en": "Movement Type",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 339,
+   "en": "Map",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 340,
+   "en": "Support Defense",
+   "count": 18,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 341,
+   "en": "Special",
+   "count": 15,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 342,
+   "en": "Partner",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 343,
+   "en": "Effect",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 344,
+   "en": "Skill Level",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 345,
+   "en": "Repair Cost",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 346,
+   "en": "Kills",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 347,
+   "en": "Counter Setting",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 348,
+   "en": "BGM",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 349,
+   "en": "Number of Uses",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 350,
+   "en": "Potency",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 351,
+   "en": "Ev",
+   "count": 26,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 352,
+   "en": "Single Attack",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 353,
+   "en": "Maximum Break",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 354,
+   "en": "Combination Attack",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 355,
+   "en": "Double Attack",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 356,
+   "en": "Focused Attack",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 357,
+   "en": "Normal Attack",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 358,
+   "en": "[<X=173>]</X>",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 359,
+   "en": "\"〓〓〓〓〓\"",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 360,
+   "en": "\"Resupply\"",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 361,
+   "en": "・Confirm",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 362,
+   "en": "・Change Target",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 363,
+   "en": "・Defend",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 364,
+   "en": "・Change Weapon",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 365,
+   "en": "・Support Defense",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 366,
+   "en": "・Support Attack",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 367,
+   "en": "・Evade",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 368,
+   "en": "・No Support Attack",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 369,
+   "en": "・No Support Defense",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 370,
+   "en": "・Don't Participate",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 371,
+   "en": "Danger Level",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 372,
+   "en": "Deploy with this team?",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 373,
+   "en": "Unavailable for these reasons:",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 374,
+   "en": "Choose a route.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 375,
+   "en": "All right, all units, launch!",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 376,
+   "en": "・Not Enough Ammo",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 377,
+   "en": "Reposition on the map.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 378,
+   "en": "・Not Enough EN",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 379,
+   "en": "No, hold on a second.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 380,
+   "en": "・Not Enough Will",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 381,
+   "en": "Return to the sortie prep screen.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 382,
+   "en": "・Terrain Restriction",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 383,
+   "en": "・Out of Range",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 384,
+   "en": "・Can't Use After Moving",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 385,
+   "en": "- ----------------",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 386,
+   "en": "- *****",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 387,
+   "en": "Yes",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 388,
+   "en": "Ground Route",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 389,
+   "en": "Route A",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 390,
+   "en": "No",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 391,
+   "en": "Space Route",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 392,
+   "en": "Route B",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 393,
+   "en": "Quit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 394,
+   "en": "",
+   "count": 1,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 395,
+   "en": "[Destroyed Unit Repair Costs]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 396,
+   "en": "[Full Upgrade Bonus]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 397,
+   "en": "Current Funds",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 398,
+   "en": "Funds Earned",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 399,
+   "en": "EXP Earned",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 400,
+   "en": "PP Earned",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 401,
+   "en": "Bonuses Earned",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 402,
+   "en": "AP Earned",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 403,
+   "en": "Current AP",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 404,
+   "en": "00000000",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 405,
+   "en": "[Mission Objective]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 406,
+   "en": "[Battle Report]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 407,
+   "en": "Win Condition",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 408,
+   "en": "Loss Condition",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 409,
+   "en": "SR Point Requirements",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 410,
+   "en": "SELECT-ROBOT",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 411,
+   "en": "Action Settings",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 412,
+   "en": "Auto-counter (　　: Manual).",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 413,
+   "en": "Support Settings",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 414,
+   "en": "Animations: OFF",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 415,
+   "en": "Animations: ON",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 416,
+   "en": "Start Battle",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 417,
+   "en": "%",
+   "count": 22,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 418,
+   "en": "Supp. Atk",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 419,
+   "en": "MB",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 420,
+   "en": "Combo",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 421,
+   "en": "Double",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 422,
+   "en": "Standby",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 423,
+   "en": "Supp. Def",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 424,
+   "en": "0",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 425,
+   "en": "＜Select a weapon to use＞",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 426,
+   "en": "Manage units.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 427,
+   "en": "View stats from unit list.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 428,
+   "en": "Upgrade unit stats and weapon power.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 429,
+   "en": "Equip units with Parts.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 430,
+   "en": "Sell Parts.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 431,
+   "en": "Equip unit-only Replace Parts.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 432,
+   "en": "Equip Replace weapons.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 433,
+   "en": "Equip, buy and sell Abilities.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 434,
+   "en": "Search unit abilities/traits.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 435,
+   "en": "Manage pilots.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 436,
+   "en": "View stats from pilot list.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 437,
+   "en": "Upgrade pilot stats and learn skills.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 438,
+   "en": "Move pilots to other units.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 439,
+   "en": "Search Spirit Commands and skills.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 440,
+   "en": "Change squad formation.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 441,
+   "en": "Change various game settings.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 442,
+   "en": "Save or load.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 443,
+   "en": "Save your game progress.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 444,
+   "en": "Load a saved game.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 445,
+   "en": "End the intermission.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 446,
+   "en": "Command unavailable",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 447,
+   "en": "＜Select a unit or location＞",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 448,
+   "en": "＜Select a unit to move＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 449,
+   "en": "＜Select destination (　　: Place)＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 450,
+   "en": "＜Select destination (　　: Swap)＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 451,
+   "en": "＜Select destination＞",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 452,
+   "en": "＜Select a squad or slot to move＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 453,
+   "en": "＜Select a position to move to＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 454,
+   "en": "＜Select a squad or slot to swap＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 455,
+   "en": "＜Select squads to skip in auto-form＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 456,
+   "en": "＜Select squads to skip in compacting＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 457,
+   "en": "＜Select Twin Units to disband＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 458,
+   "en": "＜Select a unit or pilot＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 459,
+   "en": "＜Select Transform mode＞",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 460,
+   "en": "Select a target.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 461,
+   "en": "Select main unit's action.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 462,
+   "en": "Select sub unit's action.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 463,
+   "en": "Select the unit's action.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 464,
+   "en": "<X=47></X>(Use this combination?<X=20></X>Yes<X=14></X>/<X=8></X>No<X=5></X>)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 465,
+   "en": "Equip Abilities on units.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 466,
+   "en": "Equip Abilities on pilots.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 467,
+   "en": "Buy Abilities.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 468,
+   "en": "Sell Abilities.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 469,
+   "en": "・Post-Battle BGM",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 470,
+   "en": "・Cursor Movement Mode",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 471,
+   "en": "・Vibration",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 472,
+   "en": "????????",
+   "count": 10,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 473,
+   "en": "・Battle BGM Type",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 474,
+   "en": "・Toggle Attribute Display",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 475,
+   "en": "・Pilot/Unit BGM Select",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 476,
+   "en": "・Will Display",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 477,
+   "en": "・Global BGM Selection",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 478,
+   "en": "・Piece Movement Speed",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 479,
+   "en": "- Quick Command (<X=30>/</X><X=33>)</X>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 480,
+   "en": "・Cursor Jump",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 481,
+   "en": "・Auto Counterattack",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 482,
+   "en": "・BGM Volume",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 483,
+   "en": "・Default Animations",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 484,
+   "en": "・Remember Sort/Info",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 485,
+   "en": "・Default Support Defense",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 486,
+   "en": "・BGM Replacement",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 487,
+   "en": "・Grid Display",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 488,
+   "en": "- Twin Unit display toggle",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 489,
+   "en": "・Screen Rotation",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 490,
+   "en": "- Split-screen start line",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 491,
+   "en": "[<X=522>]</X>",
+   "count": 9,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 492,
+   "en": "Fixed",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 493,
+   "en": "Map",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 494,
+   "en": "＜Robot Encyclopedia＞",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 495,
+   "en": "ON",
+   "count": 16,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 496,
+   "en": "Switch",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 497,
+   "en": "Screen",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 498,
+   "en": "OFF",
+   "count": 16,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 499,
+   "en": "＜Character Encyclopedia＞",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 500,
+   "en": "Blink",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 501,
+   "en": "All",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 502,
+   "en": "Attribute Color",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 503,
+   "en": "＜Go to Settings＞",
+   "count": 9,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 504,
+   "en": "＜Glossary＞",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 505,
+   "en": "Slow",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 506,
+   "en": "＜Sound Select＞",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 507,
+   "en": "Fast",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 508,
+   "en": "Slide",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 509,
+   "en": "(Play End Message)",
+   "count": 8,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 510,
+   "en": "Direct",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 511,
+   "en": "＜Scenario Chart＞",
+   "count": 8,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 512,
+   "en": "Normal",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 513,
+   "en": "＜Strategy Q&A＞",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 514,
+   "en": "Don't play lower",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 515,
+   "en": "Enter",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 516,
+   "en": "Don't Enter",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 517,
+   "en": "Single",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 518,
+   "en": "90-Degree Steps",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 519,
+   "en": "Single (alternating)",
+   "count": 6,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 520,
+   "en": "Free",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 521,
+   "en": "Two",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 522,
+   "en": "＜Adjust game system settings.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 523,
+   "en": "＜Keep BGM playing after battle animations end.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 524,
+   "en": "＜Revert to map BGM after battle animations.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 525,
+   "en": "＜Play the pilot's assigned BGM in battle animations.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 526,
+   "en": "＜Play the unit's assigned BGM in battle animations.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 527,
+   "en": "＜Play the global BGM in battle animations.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 528,
+   "en": "＜Set battle BGM in detail per pilot and unit.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 529,
+   "en": "＜Set battle BGM for all at once.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 530,
+   "en": "＜Configure Quick Commands.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 531,
+   "en": "＜Set counterattack actions.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 532,
+   "en": "＜Play battle animations.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 533,
+   "en": "＜Skip battle animations.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 534,
+   "en": "＜Use Support Defense when a unit can provide it.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 535,
+   "en": "＜Never use Support Defense, even if a unit can.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 536,
+   "en": "＜Show grid lines on the map.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 537,
+   "en": "＜Hide grid lines on the map.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 538,
+   "en": "＜Rotate the screen in 90-degree steps.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 539,
+   "en": "＜Rotate the screen to any angle.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 540,
+   "en": "＜Cursor moves along the map grid.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 541,
+   "en": "＜Cursor moves by screen direction.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 542,
+   "en": "＜Display units normally.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 543,
+   "en": "＜Units blink between normal and faction color.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 544,
+   "en": "＜Display units in faction color.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 545,
+   "en": "＜Show Will on units.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 546,
+   "en": "＜Hide Will on units.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 547,
+   "en": "＜Set piece movement speed to slow.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 548,
+   "en": "＜Set piece movement speed to fast.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 549,
+   "en": "＜Cursor scrolls to its destination.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 550,
+   "en": "＜Cursor jumps directly to its destination.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 551,
+   "en": "＜Set the in-game BGM volume.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 552,
+   "en": "＜Analog controller vibrates during play.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 553,
+   "en": "＜Analog controller does not vibrate.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 554,
+   "en": "＜Save sort/sub-info positions.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 555,
+   "en": "＜Don't save sort/sub-info positions.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 556,
+   "en": "＜Browse the game data library.＞",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 557,
+   "en": "View data on robots seen in the game.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 558,
+   "en": "View data on characters seen in the game.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 559,
+   "en": "Read explanations of terms used in the game.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 560,
+   "en": "Listen to the BGM used in the game.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 561,
+   "en": "Review the routes you've played.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 562,
+   "en": "Read strategy tips and trivia.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 563,
+   "en": "Adjust game system settings.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 564,
+   "en": "(Shows only the main unit.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 565,
+   "en": "(Shows the main and sub units in turn.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 566,
+   "en": "(Shows both units of the Twin Unit.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 567,
+   "en": "(When the battle animation screen is split top/bottom at the opening line, plays both opening lines.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 568,
+   "en": "(When the battle animation screen is split top/bottom at the opening line, skips the lower one.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 569,
+   "en": "(Sets the BGM to play in place of the default.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 570,
+   "en": "Replay end messages you've already seen in the game.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 571,
+   "en": "Quantity",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 572,
+   "en": "Weapon Gauge",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 573,
+   "en": "Weapon",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 574,
+   "en": "-------------",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 575,
+   "en": "All Parts",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 576,
+   "en": "None",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 577,
+   "en": "None",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 578,
+   "en": "*",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 579,
+   "en": "〓〓〓〓",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 580,
+   "en": "????",
+   "count": 6,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 581,
+   "en": "----",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 582,
+   "en": "000,000,000",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 583,
+   "en": "-----",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 584,
+   "en": "??",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 585,
+   "en": "?????",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 586,
+   "en": "",
+   "count": 3,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 587,
+   "en": "0000000",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 588,
+   "en": "",
+   "count": 1,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 589,
+   "en": "???????",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 590,
+   "en": "",
+   "count": 34,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 591,
+   "en": "000%",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 592,
+   "en": "－－－%",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 593,
+   "en": "???%",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 594,
+   "en": "+000",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 595,
+   "en": "0-00",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 596,
+   "en": "A",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 597,
+   "en": "-",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 598,
+   "en": "〓〓",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 599,
+   "en": "--",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 600,
+   "en": "LL",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 601,
+   "en": "<X=30>+<X=22>=",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 602,
+   "en": "MMMM",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 603,
+   "en": "",
+   "count": 1,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 604,
+   "en": "x",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 605,
+   "en": " 000000",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 606,
+   "en": "MIN",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 607,
+   "en": "MAX",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 608,
+   "en": "\"MMMMMMMMMM\"",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 609,
+   "en": "\"－－\"",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 610,
+   "en": "Info 1",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 611,
+   "en": "Info 2",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 612,
+   "en": "Info 3",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 613,
+   "en": "Find pilots with the selected Spirit Command.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 614,
+   "en": "Find units with the selected feature.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 615,
+   "en": "Find pilots with the selected skill.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 616,
+   "en": "Find units/pilots with the selected ability.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 617,
+   "en": "Opens the End Phase command.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 618,
+   "en": "Opens the Search command.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 619,
+   "en": "Opens the Unit List command.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 620,
+   "en": "Opens the Save command.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 621,
+   "en": "Hold to move the map cursor faster.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 622,
+   "en": "Toggles the unit attribute display.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 623,
+   "en": "Toggles Will display on units.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 624,
+   "en": "Changes the unit display.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 625,
+   "en": "No Quick Command is set.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 626,
+   "en": "Transforms the main unit if able.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 627,
+   "en": "Shows the status window.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 628,
+   "en": "Opens the Spirit unit command.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 629,
+   "en": "Opens the Ability unit command.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 630,
+   "en": "Changes the unit's main machine.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 631,
+   "en": "(Sets the BGM for the chosen pilot.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 632,
+   "en": "(Sets the BGM for the chosen unit.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 633,
+   "en": "Raises the pilot's stats.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 634,
+   "en": "Target",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 635,
+   "en": "Unit BGM",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 636,
+   "en": "Pilot BGM",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 637,
+   "en": "Settings 1",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 638,
+   "en": "System Settings",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 639,
+   "en": "Stat Increase",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 640,
+   "en": "Settings 2",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 641,
+   "en": "Library",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 642,
+   "en": "Learn Skills",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 643,
+   "en": "Remaining W Gauge",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 644,
+   "en": "Fixed Weapons",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 645,
+   "en": "Search 1",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 646,
+   "en": "Weapon Upgrades",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 647,
+   "en": "Replace Weapons",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 648,
+   "en": "Search 2",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 649,
+   "en": "Shield",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 650,
+   "en": "MAP",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 651,
+   "en": "Continuous Atk.",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 652,
+   "en": "Search 3",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 653,
+   "en": "Barrier",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 654,
+   "en": "Search 4",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 655,
+   "en": "Search 5",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 656,
+   "en": "Remaining",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 657,
+   "en": "<X=25>Left</X>",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 658,
+   "en": "Total",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 659,
+   "en": "(Add a weapon)",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 660,
+   "en": "[Remove]",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 661,
+   "en": "[Send to Armory]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 662,
+   "en": "Max Range",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 663,
+   "en": "(Squad)",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 664,
+   "en": "Special Effect",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 665,
+   "en": "Yes",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 666,
+   "en": "(<X=82>)</X>",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 667,
+   "en": "(<X=220>)</X>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 668,
+   "en": "(<X=185>)</X>",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 669,
+   "en": "(<X=46>)</X>",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 670,
+   "en": "Auto-Advance & Speed",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 671,
+   "en": "Select",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 672,
+   "en": "Fast-Forward (Hold)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 673,
+   "en": "Advance (+　　Fast)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 674,
+   "en": "Confirm",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 675,
+   "en": "Exit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 676,
+   "en": "Pause (Hold)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 677,
+   "en": "Backlog",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 678,
+   "en": "Slow Motion (Hold)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 679,
+   "en": "Term Info (<C=00ffffff>Green Text</C>)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 680,
+   "en": "+　　Skip lines",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 681,
+   "en": "Chapter ( Prev/ Next)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 682,
+   "en": "Turns Elapsed",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 683,
+   "en": "Total Turns",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 684,
+   "en": "Total Funds",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 685,
+   "en": "Forces",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 686,
+   "en": "Total AP",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 687,
+   "en": "00,00,000",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 688,
+   "en": "Obtained",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 689,
+   "en": "Not Obtained",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 690,
+   "en": "%d units",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 691,
+   "en": "(<X=34>)</X>",
+   "count": 11,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 692,
+   "en": "Total Kills",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 693,
+   "en": "Times Downed",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 694,
+   "en": "All Abilities",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 695,
+   "en": "Cursor on Map [Global Commands]",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 696,
+   "en": "Cursor on Unit [Unit Commands]",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 697,
+   "en": "<X=00></X>End Phase",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 698,
+   "en": "<X=0></X>Search",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 699,
+   "en": "<X=0></X>Squads",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 700,
+   "en": "<X=0></X>Save",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 701,
+   "en": "<X=0></X>Faster cursor",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 702,
+   "en": "<X=0></X>Affiliation",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 703,
+   "en": "<X=0></X>Show Will",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 704,
+   "en": "<X=0></X>Twin Unit display",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 705,
+   "en": "<X=0></X>None",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 706,
+   "en": "<X=00></X>Trans.",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 707,
+   "en": "<X=0></X>Status",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 708,
+   "en": "<X=0></X>Spirit Cmds",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 709,
+   "en": "<X=0></X>Stats",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 710,
+   "en": "<X=0></X>Change Main Unit",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 711,
+   "en": "・Aggressively",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 712,
+   "en": "・Set by Value",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 713,
+   "en": "・Balanced",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 714,
+   "en": "・Set by Percentage",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 715,
+   "en": "・Cautiously",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 716,
+   "en": "- Save EN/ammo",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 717,
+   "en": "・Efficiently",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 718,
+   "en": "・Do Not Counter",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 719,
+   "en": "・Manual",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 720,
+   "en": "No auto-counters; the player manually",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 721,
+   "en": ": Adjust by 1",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 722,
+   "en": "Only if it may be destroyed",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 723,
+   "en": "Balanced counters.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 724,
+   "en": "Counters while minimizing damage.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 725,
+   "en": "Counters in a balanced way, saving EN and ammo.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 726,
+   "en": "When able to kill a lower-level enemy,",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 727,
+   "en": "evades/guards, no counter.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 728,
+   "en": "The player sets counters in detail.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 729,
+   "en": "Configures counterattack settings.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 730,
+   "en": ": Adjust by 10",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 731,
+   "en": "Evades or defends.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 732,
+   "en": ": Adjust by 100",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 733,
+   "en": ": Adjust by 1000",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 734,
+   "en": "＜Random＞",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 735,
+   "en": "All Types",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 736,
+   "en": "Terrain",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 737,
+   "en": "Cost",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 738,
+   "en": "Earned",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 739,
+   "en": "Base Attack",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 740,
+   "en": "Upgrade Bonus Available",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 741,
+   "en": "Upgrade Bonus Acquired",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 742,
+   "en": "W Gauge Required",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 743,
+   "en": "Maximum W Gauge",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 744,
+   "en": "Current PP",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 745,
+   "en": "Total AP",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 746,
+   "en": "Cost",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 747,
+   "en": "W Gauge Used",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 748,
+   "en": "Required PP",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 749,
+   "en": "AP before buying",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 750,
+   "en": "AP before selling",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 751,
+   "en": "Balance",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 752,
+   "en": "Total",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 753,
+   "en": "Remaining PP",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 754,
+   "en": "AP after buying",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 755,
+   "en": "AP after selling",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 756,
+   "en": "＜Add New＞",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 757,
+   "en": "Sale Price",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 758,
+   "en": "Buy AP",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 759,
+   "en": "Sell AP",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 760,
+   "en": "Unequipped",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 761,
+   "en": "Owned",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 762,
+   "en": "Upgrades",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 763,
+   "en": "Qty to Sell",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 764,
+   "en": "Qty",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 765,
+   "en": "Subtotal",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 766,
+   "en": "Subtotal",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 767,
+   "en": "Terrain Ability [Air]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 768,
+   "en": "Terrain Ability [Land]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 769,
+   "en": "Terrain Ability [Sea]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 770,
+   "en": "Terrain Ability [Space]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 771,
+   "en": "＜Unit Status＞",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 772,
+   "en": "(     /    )",
+   "count": 6,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 773,
+   "en": "Learned Skills",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 774,
+   "en": "Increase",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 775,
+   "en": "Learnable Skills",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 776,
+   "en": "PP Cost",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 777,
+   "en": "HIT",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 778,
+   "en": "(No Support Attack)",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 779,
+   "en": "(No Support Defense)",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 780,
+   "en": "Glossary",
+   "count": 7,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 781,
+   "en": "Details",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 782,
+   "en": "♪　*****",
+   "count": 13,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 783,
+   "en": "Height",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 784,
+   "en": "Nickname",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 785,
+   "en": "Weight",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 786,
+   "en": "Voice",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 787,
+   "en": "Answer",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 788,
+   "en": "Choose an auto-organize method.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 789,
+   "en": "Select a scenario to play.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 790,
+   "en": "Select a mode to play.",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 791,
+   "en": "Select a story to view.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 792,
+   "en": "Basic Order",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 793,
+   "en": "Main Scenario",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 794,
+   "en": "Super Robot Wars OG",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 795,
+   "en": "Moves pilots to preset units and",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 796,
+   "en": "Play the main game.",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 797,
+   "en": "- Standard gameplay.",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 798,
+   "en": "View the story of Episode 1, \"Divine Wars.\"",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 799,
+   "en": "- <C=FF9900FF>Difficulty</C> <C=FF9900FF>changes</C> with SR Points earned.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 800,
+   "en": "- <C=FFCC00FF>Difficulty</C> <C=FFCC00FF>changes</C> with SR Points earned.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 801,
+   "en": "Organize your squads.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 802,
+   "en": "- Earning SR Points <C=FF9900FF>gets</C> you <C=FF9900FF>PP</C>.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 803,
+   "en": "- Earning SR Points <C=FFCC00FF>gets</C> you <C=FFCC00FF>PP</C>.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 804,
+   "en": "- Story branches <C=FF9900FF>don't depend on SR Points</C>.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 805,
+   "en": "- Story branches <C=FFCC00FF>don't depend on SR Points</C>.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 806,
+   "en": "Balance Order",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 807,
+   "en": "Guidance Scenario",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 808,
+   "en": "Super Robot Wars OG2",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 809,
+   "en": "Based on Level, Move, type, etc.,",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 810,
+   "en": "Learn the basics. 1 stage.",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 811,
+   "en": "- The <C=00FF00FF>opening flow</C> is slightly <C=00FF00FF>changed</C>.",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 812,
+   "en": "View the story of Episode 2, \"The Inspector.\"",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 813,
+   "en": "- <C=00FF00FF>Difficulty</C> is always <C=00FF00FF>NORMAL</C>.",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 814,
+   "en": "builds a well-balanced squad.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 815,
+   "en": "- Earning SR Points <C=00FF00FF>gets</C> you extra <C=00FF00FF>funds</C>.",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 816,
+   "en": "- Earning SR Points <C=00FF00FF>gets</C> you <C=00FF00FF>PP and funds</C>.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 817,
+   "en": "- Story branches <C=00FF00FF>don't depend on SR Points</C>.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 818,
+   "en": "Archive",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 819,
+   "en": "Super Robot Wars OG Gaiden",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 820,
+   "en": "View stories from past titles.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 821,
+   "en": "- Mech/weapon <C=FF0000FF>upgrades</C> & pilot <C=FF0000FF>training</C> <C=FF0000FF>disabled</C>.",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 822,
+   "en": "View the story of Episode 2.5, \"Unified Wisdom.\"",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 823,
+   "en": "- Ability <C=FF0000FF>buying</C> is <C=FF0000FF>disabled</C>.",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 824,
+   "en": "- <C=FF0000FF>Enemy units</C> are <C=FF0000FF>stronger</C>; <C=FF0000FF>difficulty</C> is always <C=FF0000FF>HARD</C>.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 825,
+   "en": "2nd Super Robot Wars OG",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 826,
+   "en": "- Units and weapons <C=00FFFFFF>upgradable</C> up to <C=00FFFFFF>15 levels</C>.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 827,
+   "en": "View the story of Episode 3, \"The Gaia Saver.\"",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 828,
+   "en": "- <C=00FFFFFF>Start with</C> <C=00FFFFFF>all Parts</C>.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 829,
+   "en": "- <C=00FFFFFF>Start with</C> <C=00FFFFFF>some Replaceable Weapons</C>.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 830,
+   "en": "Super Robot Wars OG: Dark Prison",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 831,
+   "en": "View the side story of 2nd Super Robot Wars OG.",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 832,
+   "en": "- <C=66FFAAFF>Carries over each pilot's kills & PP</C> from clear data.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 833,
+   "en": "- <C=66FFAAFF>Carries over funds & AP earned</C> in clear data.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 834,
+   "en": "(2nd: <C=66FFAAFF>50%</C>  3rd: <C=66FFAAFF>75%</C>  4th+: <C=66FFAAFF>100%</C>)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 835,
+   "en": "(Check the routes you've played, except Beginner's Mode.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 836,
+   "en": "(Check the routes you've played in Beginner's Mode.)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 837,
+   "en": "[Team Formation]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 838,
+   "en": "[Assign] Select Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 839,
+   "en": "[Sort Squads]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 840,
+   "en": "[Balance Order]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 841,
+   "en": "[Close Gaps]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 842,
+   "en": "[Disband Team]",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 843,
+   "en": "【Basic Order】",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 844,
+   "en": "Move Mode",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 845,
+   "en": "Swap Mode",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 846,
+   "en": "1",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 847,
+   "en": "(NEXT%2d)",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 848,
+   "en": "(EVENT)",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 849,
+   "en": "\"MMMMM\"",
+   "count": 6,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 850,
+   "en": "『　　　　　　』",
+   "count": 7,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 851,
+   "en": "：Support",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 852,
+   "en": "：",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 853,
+   "en": "＜No Filter＞",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 854,
+   "en": "\"MMMMMMM\"",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 855,
+   "en": "Auto Formation",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 856,
+   "en": "Sort Teams",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 857,
+   "en": "Close Gaps",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 858,
+   "en": "Reset All",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 859,
+   "en": "Undo",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 860,
+   "en": "Assign",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 861,
+   "en": "[<X=35><Y=2>/</X></Y><X=128>]</X>",
+   "count": 5,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 862,
+   "en": "+00",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 863,
+   "en": "-00",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 864,
+   "en": "：Toggle Setting",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 865,
+   "en": "：Toggle Priority",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 866,
+   "en": "：Set Search Criteria",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 867,
+   "en": ": Clear settings",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 868,
+   "en": "：Finish Setup",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 869,
+   "en": "Search Priority",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 870,
+   "en": "1:",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 871,
+   "en": "",
+   "count": 5,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 872,
+   "en": "『　　　　　　　』",
+   "count": 5,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 873,
+   "en": "2:",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 874,
+   "en": "3:",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 875,
+   "en": "4:",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 876,
+   "en": "5:",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 877,
+   "en": "Choose a route. Below: members joining the route at the cursor.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  }
+ ]
+}

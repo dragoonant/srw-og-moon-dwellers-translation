@@ -1,0 +1,81 @@
+{
+ "_doc": "fitcheck skips the listed error kinds for these entries (worksheet path relative to the repo, '#', string id). Every waiver needs a reason; recheck in game.",
+ "worksheets/Logic/Dat/FixedData/WeaponData.dat.json#351": {
+  "kinds": [
+   "width"
+  ],
+  "why": "Degeneration Cannon (canon) 304 px; the same field shows 352 px Japanese names. Verify in the weapon list."
+ },
+ "worksheets/Logic/Dat/FixedData/WeaponData.dat.json#623": {
+  "kinds": [
+   "width"
+  ],
+  "why": "Psycho Cranium Summon 359 px vs 352 px; field holds 352 px names. Verify in game."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#231": {
+  "kinds": [
+   "lines"
+  ],
+  "why": "2nd OG shipped two-line dictionary name (TM). Verify in the dictionary list."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#233": {
+  "kinds": [
+   "lines"
+  ],
+  "why": "2nd OG two-line dictionary name (TM)."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#269": {
+  "kinds": [
+   "lines"
+  ],
+  "why": "2nd OG two-line dictionary name (TM)."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#271": {
+  "kinds": [
+   "lines"
+  ],
+  "why": "2nd OG two-line dictionary name (TM)."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#275": {
+  "kinds": [
+   "lines"
+  ],
+  "why": "2nd OG two-line dictionary name (TM)."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#235": {
+  "kinds": [
+   "width"
+  ],
+  "why": "Surface Dweller (canon) 229 vs 211 px heuristic; dictionary list shows wider names. Verify."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#355": {
+  "kinds": [
+   "width"
+  ],
+  "why": "Mogami Heavy Industries 356 vs 352 px. Verify."
+ },
+ "worksheets/Logic/Dat/FixedData/KeyWordData.dat.json#391": {
+  "kinds": [
+   "width"
+  ],
+  "why": "Federation Army (canon) 242 vs 211 px heuristic. Verify."
+ },
+ "worksheets/Common/Dat/Option/QA/2og_Q&A.csb.json#361": {
+  "kinds": [
+   "glossary"
+  ],
+  "why": "false hit: 'Guts' is inside 'Super Guts' (ド根性); Vigor is present."
+ },
+ "worksheets/Common/Dat/Option/QA/2og_Q&A.csb.json#362": {
+  "kinds": [
+   "glossary"
+  ],
+  "why": "false hit: 'Guts' is inside 'Super Guts' (ド根性); Vigor is present."
+ },
+ "worksheets/General2d/Dat/Window/WindowToolData/windowdataMain.wtd.json#601": {
+  "kinds": [
+   "tag"
+  ],
+  "why": "Terrain table operator overlay (pilot + unit = final). <X=n> is a relative advance in unscaled units (x0.6875); the Japanese spacing put both glyphs on column 1 with the proportional font, so the offsets were re-fitted in game (2026-10-16)."
+ }
+}

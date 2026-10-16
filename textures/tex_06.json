@@ -1,0 +1,10 @@
+{
+ "texture": "General2d/Dat/Window/WindowToolData/Texture/tex_06.dds",
+ "tool": "exfont_text.py",
+ "note": "Moon Dwellers window sprite sheet (584x384). Only two sprites are Japanese: the dialogue-log title 對話紀錄 and the orange 合体 badge (2nd OG style: COMBINE, orange italic with black outline).",
+ "font": "bahnschrift.ttf",
+ "labels": [
+  {"box": [116, 81, 188, 100], "jp": "對話紀錄", "en": "Backlog", "fill": [255, 255, 255], "outline": [31, 44, 50], "variation": "Bold"},
+  {"box": [377, 172, 422, 194], "jp": "合体", "en": "COMBINE", "fill": [255, 136, 40], "outline": [0, 0, 0], "italic": true, "variation": "Bold"}
+ ]
+}

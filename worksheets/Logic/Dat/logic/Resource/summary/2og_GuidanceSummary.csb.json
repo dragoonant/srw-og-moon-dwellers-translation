@@ -1,0 +1,210 @@
+{
+ "file": "2og_GuidanceSummary.csb",
+ "format": "CSB",
+ "pool_strings": 62,
+ "untouched": "strings without non-ASCII characters (numbers, file names, ids)",
+ "strings": [
+  {
+   "id": 1,
+   "en": "7 Characters at 28-Dot Size",
+   "cell": "r0c2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 2,
+   "en": "18 chars at 28 dot\n■■■■■■■■■□■■■■■■■■",
+   "cell": "r0c3",
+   "uses": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 3,
+   "en": "＜KeyWords＞\n●Whatever is entered here is displayed as-is.\n●Up to 3 lines fit in the space.\n●Type all text full-width. Break lines with a half-width \\n\n　or Alt+Enter; the breaks are reflected as-is.",
+   "cell": "r0c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 4,
+   "en": "40 chars at 24 dot, 34 chars at 28 dot\n■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□",
+   "cell": "r0c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 5,
+   "en": "ID for Sorting",
+   "cell": "r2c0",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 6,
+   "en": "ID\nFor links. Need not be sequential or sorted if unique.",
+   "cell": "r2c1",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 11,
+   "en": "Answer\nSize up to 2048",
+   "cell": "r2c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 12,
+   "en": "Image\nPath (starting with Dat), X, Y, width, height\nCoordinates are offsets from the top left of the text area.\nThe same image used 2+ times loads only once on hardware,\nso memory use barely rises.",
+   "cell": "r2c7",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 13,
+   "en": "Link Info\nCell link no. (0-29), target Q&A ID, scroll height\nLink nos. need not be in order.\nThe number in an Answer-column Link tag (<LINK=0>text</LINK>) is the link no.\nScroll height = top of screen (0+).\nOut-of-range scroll values are auto-adjusted to fit.\n",
+   "cell": "r2c8",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 15,
+   "en": "Dummy",
+   "cell": "r3c2",
+   "uses": 19,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 18,
+   "en": "1. About SR Points<X=580><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r5c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 21,
+   "en": "2. About Spirit Commands<X=562><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r6c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 24,
+   "en": "3. About Suspend Save<X=581><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r7c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 27,
+   "en": "4. About Abilities<X=599><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r8c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 30,
+   "en": "5. About Twin Spirit Commands<X=504><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r9c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 33,
+   "en": "6. About Twin Units<X=560><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r10c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 36,
+   "en": "7. About Weapon Types<X=564><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r11c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 39,
+   "en": "8. About Will<X=639><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r12c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 42,
+   "en": "9. About ALL Attacks<X=567><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r13c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 45,
+   "en": "10. About Map Weapons<X=566><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r14c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 48,
+   "en": "11. About Normal Attacks<X=583><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r15c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 51,
+   "en": "12. Attack Method Summary<X=490><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r16c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 54,
+   "en": "13. About <I=236><X=544><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r17c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "en": "14. About Retry<X=602><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r18c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 60,
+   "en": "15. About Strategy Q&A<X=566><W=30><H=30><I=43></H></W><S=-6><C=00A0A0FF><Y=4><W=20><H=20>: Back</H></W></Y></C></X>",
+   "cell": "r19c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  }
+ ]
+}

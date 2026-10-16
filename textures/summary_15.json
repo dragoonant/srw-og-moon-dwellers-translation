@@ -1,0 +1,22 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_15.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 15: Strategy Q&A",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● The {o|Strategy Q&A} explains the game's systems and gives tips for playing well, hints and trivia.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 70,
+   "text": "● View it with the {o|\"LIBRARY\"} command on the title screen, or the {o|\"Options\"} command in the Intermission.",
+   "h": 50
+  }
+ ]
+}

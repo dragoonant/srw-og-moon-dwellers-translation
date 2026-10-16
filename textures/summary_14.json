@@ -1,0 +1,27 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_14.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 14: Game Over",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● After a Game Over, you replay the stage from the state before it began.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 70,
+   "text": "● When you replay, you keep the funds and each pilot's PP (Pilot Points), EXP and kill counts earned before the Game Over. This doesn't apply to newly debuting pilots or pilots exclusive to that scenario.",
+   "h": 100
+  },
+  {
+   "x": 5,
+   "y": 182,
+   "text": "● You can't earn the SR Point when you replay a stage."
+  }
+ ]
+}

@@ -1,0 +1,6728 @@
+{
+ "file": "0129_ja.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 26,
+  "entries": 281,
+  "lines": 293,
+  "strings": 103
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I have awakened. To fulfill my mission.",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44816
+     ]
+    },
+    {
+     "line": 239,
+     "field": "text",
+     "entry": 239,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44816
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 1,
+   "offset": 55,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I shall fulfill my mission.",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44817
+     ]
+    },
+    {
+     "line": 240,
+     "field": "text",
+     "entry": 240,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44817
+     ]
+    },
+    {
+     "line": 252,
+     "field": "text",
+     "entry": 252,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44817
+     ]
+    },
+    {
+     "line": 265,
+     "field": "text",
+     "entry": 265,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44817
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "offset": 86,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I shall sever the chain of light and darkness.",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44818
+     ]
+    },
+    {
+     "line": 241,
+     "field": "text",
+     "entry": 241,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44818
+     ]
+    },
+    {
+     "line": 253,
+     "field": "text",
+     "entry": 253,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44818
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 3,
+   "offset": 126,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The great battle... The victor shall be me.",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44819
+     ]
+    },
+    {
+     "line": 242,
+     "field": "text",
+     "entry": 242,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44819
+     ]
+    },
+    {
+     "line": 264,
+     "field": "text",
+     "entry": 264,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44819
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "offset": 172,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "My teaching is, in other words, closing the eyes.",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44820
+     ]
+    },
+    {
+     "line": 243,
+     "field": "text",
+     "entry": 243,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44820
+     ]
+    },
+    {
+     "line": 254,
+     "field": "text",
+     "entry": 254,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44820
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "offset": 218,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "There is no need to govern you./　For you shall vanish here.",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44821
+     ]
+    },
+    {
+     "line": 244,
+     "field": "text",
+     "entry": 244,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44821
+     ]
+    },
+    {
+     "line": 255,
+     "field": "text",
+     "entry": 255,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44821
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "offset": 301,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Death and calamity to the fools/　who break the Seven Precepts.",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44822
+     ]
+    },
+    {
+     "line": 245,
+     "field": "text",
+     "entry": 245,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44822
+     ]
+    },
+    {
+     "line": 256,
+     "field": "text",
+     "entry": 256,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44822
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "offset": 341,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "That great strength and great will/　shall summon a new calamity...",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44823
+     ]
+    },
+    {
+     "line": 246,
+     "field": "text",
+     "entry": 246,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44823
+     ]
+    },
+    {
+     "line": 257,
+     "field": "text",
+     "entry": 257,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44823
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 8,
+   "offset": 403,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "To think you are the seeds of might...",
+   "refs": [
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44903
+     ]
+    },
+    {
+     "line": 247,
+     "field": "text",
+     "entry": 247,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44903
+     ]
+    },
+    {
+     "line": 258,
+     "field": "text",
+     "entry": 258,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44903
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "offset": 452,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The great battle.../　Its outcome shall never change...",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44904
+     ]
+    },
+    {
+     "line": 248,
+     "field": "text",
+     "entry": 248,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44904
+     ]
+    },
+    {
+     "line": 259,
+     "field": "text",
+     "entry": 259,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44904
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "offset": 535,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The chain of light and darkness/　must be severed here...",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44905
+     ]
+    },
+    {
+     "line": 249,
+     "field": "text",
+     "entry": 249,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44905
+     ]
+    },
+    {
+     "line": 260,
+     "field": "text",
+     "entry": 260,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44905
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "offset": 618,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "To bring silence to the universe...",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44906
+     ]
+    },
+    {
+     "line": 250,
+     "field": "text",
+     "entry": 250,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44906
+     ]
+    },
+    {
+     "line": 261,
+     "field": "text",
+     "entry": 261,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44906
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 12,
+   "offset": 670,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The growth of the seven thoughts must be stopped...",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44907
+     ]
+    },
+    {
+     "line": 251,
+     "field": "text",
+     "entry": 251,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44907
+     ]
+    },
+    {
+     "line": 262,
+     "field": "text",
+     "entry": 262,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44907
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "offset": 725,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You shall atone for the sin/　of the ancients who used me.",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 48,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44826
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "offset": 790,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The sin of twisting my teachings/　cannot be forgiven.",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 48,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44827
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "offset": 858,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Holder of the key... One who may hold it... Disperse.",
+   "refs": [
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 12,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44828
+     ]
+    },
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 62,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44828
+     ]
+    },
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 63,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44828
+     ]
+    },
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 112,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44828
+     ]
+    },
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 25,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44828
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "offset": 922,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I will not permit you to take the key.",
+   "refs": [
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 12,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44829
+     ]
+    },
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 62,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44829
+     ]
+    },
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 63,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44829
+     ]
+    },
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 112,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44829
+     ]
+    },
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 25,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44829
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "offset": 965,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You shall not be allowed to reach the Gate of Truth.",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 12,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44830
+     ]
+    },
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 62,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44830
+     ]
+    },
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 63,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44830
+     ]
+    },
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 112,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44830
+     ]
+    },
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 25,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44830
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "offset": 1017,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "A karma born again.../　I shall sever the chain of causality.",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 71,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44831
+     ]
+    },
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 87,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44831
+     ]
+    },
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 66,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44831
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "offset": 1070,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I shall sever the bonds of a past life.",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 71,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44833
+     ]
+    },
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 87,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44833
+     ]
+    },
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 66,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44833
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "offset": 1104,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Those who seek profound wisdom must be annihilated.",
+   "refs": [
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 87,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44832
+     ]
+    },
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 66,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44832
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "offset": 1162,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Servant of the Kaimei Brain, vanish at once.",
+   "refs": [
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 256,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44834
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "offset": 1220,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "A sage who aids fools is the height of folly.",
+   "refs": [
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44824
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "offset": 1278,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Have you forgotten your mission as a Hakam?",
+   "refs": [
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44825
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 24,
+   "offset": 1324,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I will not permit rebellion.",
+   "refs": [
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44858
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 25,
+   "offset": 1349,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The seeds of calamity must be plucked.",
+   "refs": [
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44859
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 26,
+   "offset": 1392,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I shall sever the cycle of negativity.",
+   "refs": [
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44860
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "offset": 1426,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Cast away your defiance and bow your head.",
+   "refs": [
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44861
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 28,
+   "offset": 1466,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I shall sever the chain of negativity.",
+   "refs": [
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44862
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 29,
+   "offset": 1500,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Ignorant fools must die.",
+   "refs": [
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44863
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 30,
+   "offset": 1543,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You have no need of teaching.",
+   "refs": [
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44864
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "offset": 1586,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "My conclusion shall not change...!",
+   "refs": [
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44902
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "offset": 1632,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Daaaaaaarkness...!!",
+   "refs": [
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 16,
+     "voice": [
+      19,
+      44919
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "offset": 1672,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I sense malice... It must be erased swiftly.",
+   "refs": [
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44888
+     ]
+    },
+    {
+     "line": 101,
+     "field": "text",
+     "entry": 101,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44888
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 34,
+   "offset": 1727,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "An empty protest.",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44889
+     ]
+    },
+    {
+     "line": 102,
+     "field": "text",
+     "entry": 102,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44889
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "offset": 1752,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Your fate shall not change.",
+   "refs": [
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44890
+     ]
+    },
+    {
+     "line": 103,
+     "field": "text",
+     "entry": 103,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44890
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "offset": 1804,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Your rebuttal is absurd.",
+   "refs": [
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44891
+     ]
+    },
+    {
+     "line": 104,
+     "field": "text",
+     "entry": 104,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44891
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "offset": 1844,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I must finish this before/　the seven thoughts swell.",
+   "refs": [
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44892
+     ]
+    },
+    {
+     "line": 105,
+     "field": "text",
+     "entry": 105,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44892
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 38,
+   "offset": 1924,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Know your limits.",
+   "refs": [
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44893
+     ]
+    },
+    {
+     "line": 106,
+     "field": "text",
+     "entry": 106,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44893
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 39,
+   "offset": 1961,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Even the power that slew the Kaimei Brain/　has no effect on me.",
+   "refs": [
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44894
+     ]
+    },
+    {
+     "line": 107,
+     "field": "text",
+     "entry": 107,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44894
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "offset": 2025,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I should be on the righteous path...!",
+   "refs": [
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44908
+     ]
+    },
+    {
+     "line": 108,
+     "field": "text",
+     "entry": 108,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44908
+     ]
+    },
+    {
+     "line": 158,
+     "field": "text",
+     "entry": 158,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44908
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "offset": 2068,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Am I, too, bound by the law of decline...?",
+   "refs": [
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44909
+     ]
+    },
+    {
+     "line": 109,
+     "field": "text",
+     "entry": 109,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44909
+     ]
+    },
+    {
+     "line": 159,
+     "field": "text",
+     "entry": 159,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44909
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "offset": 2105,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You would defy the law of the heavens...!",
+   "refs": [
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44910
+     ]
+    },
+    {
+     "line": 110,
+     "field": "text",
+     "entry": 110,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44910
+     ]
+    },
+    {
+     "line": 160,
+     "field": "text",
+     "entry": 160,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44910
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "offset": 2148,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Do you mean to fight the darkness for all eternity...?!",
+   "refs": [
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44911
+     ]
+    },
+    {
+     "line": 111,
+     "field": "text",
+     "entry": 111,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44911
+     ]
+    },
+    {
+     "line": 161,
+     "field": "text",
+     "entry": 161,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44911
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "offset": 2209,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "That I should return to darkness...!",
+   "refs": [
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44912
+     ]
+    },
+    {
+     "line": 112,
+     "field": "text",
+     "entry": 112,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44912
+     ]
+    },
+    {
+     "line": 162,
+     "field": "text",
+     "entry": 162,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44912
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "offset": 2255,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Do you intend to revive the Kaimei Brain...?!",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44913
+     ]
+    },
+    {
+     "line": 113,
+     "field": "text",
+     "entry": 113,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44913
+     ]
+    },
+    {
+     "line": 163,
+     "field": "text",
+     "entry": 163,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 120,
+     "target": 0,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44913
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "offset": 2316,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "That power is as good as my gift to you.",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 48,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44897
+     ]
+    },
+    {
+     "line": 114,
+     "field": "text",
+     "entry": 114,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 48,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44897
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 47,
+   "offset": 2362,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Do you understand...?/　You are helping your nemesis return...!",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 48,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44915
+     ]
+    },
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 48,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44915
+     ]
+    },
+    {
+     "line": 115,
+     "field": "text",
+     "entry": 115,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 48,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44915
+     ]
+    },
+    {
+     "line": 116,
+     "field": "text",
+     "entry": 116,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 48,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44915
+     ]
+    },
+    {
+     "line": 165,
+     "field": "text",
+     "entry": 165,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 48,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44915
+     ]
+    },
+    {
+     "line": 166,
+     "field": "text",
+     "entry": 166,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 48,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44915
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "offset": 2466,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You have not awakened the key's power.",
+   "refs": [
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 12,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 62,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 63,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 112,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 25,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 117,
+     "field": "text",
+     "entry": 117,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 12,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 118,
+     "field": "text",
+     "entry": 118,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 62,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 119,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 63,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 120,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 112,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    },
+    {
+     "line": 121,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 25,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44898
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "offset": 2512,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "That cannot be the twelfth key...!",
+   "refs": [
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 12,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 12,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 62,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 62,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 63,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 76,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 63,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 77,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 112,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 78,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 112,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 79,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 25,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 80,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 25,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 122,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 12,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 123,
+     "field": "text",
+     "entry": 123,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 12,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 124,
+     "field": "text",
+     "entry": 124,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 62,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 125,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 62,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 126,
+     "field": "text",
+     "entry": 126,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 63,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 127,
+     "field": "text",
+     "entry": 127,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 63,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 128,
+     "field": "text",
+     "entry": 128,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 112,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 129,
+     "field": "text",
+     "entry": 129,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 112,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 130,
+     "field": "text",
+     "entry": 130,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 25,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 131,
+     "field": "text",
+     "entry": 131,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 25,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 172,
+     "field": "text",
+     "entry": 172,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 12,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 173,
+     "field": "text",
+     "entry": 173,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 12,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 174,
+     "field": "text",
+     "entry": 174,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 62,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 175,
+     "field": "text",
+     "entry": 175,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 62,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 176,
+     "field": "text",
+     "entry": 176,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 63,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 177,
+     "field": "text",
+     "entry": 177,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 63,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 178,
+     "field": "text",
+     "entry": 178,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 112,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 179,
+     "field": "text",
+     "entry": 179,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 112,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 180,
+     "field": "text",
+     "entry": 180,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 25,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    },
+    {
+     "line": 181,
+     "field": "text",
+     "entry": 181,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 25,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44916
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "offset": 2567,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Do not overrate your power. The same thing/　shall not happen twice.",
+   "refs": [
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 81,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 71,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    },
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 82,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 87,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    },
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 83,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 74,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    },
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 84,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 90,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    },
+    {
+     "line": 132,
+     "field": "text",
+     "entry": 132,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 71,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    },
+    {
+     "line": 133,
+     "field": "text",
+     "entry": 133,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 87,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    },
+    {
+     "line": 134,
+     "field": "text",
+     "entry": 134,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 74,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    },
+    {
+     "line": 135,
+     "field": "text",
+     "entry": 135,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 90,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44899
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 51,
+   "offset": 2640,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "This is... the power that slew my kin...?",
+   "refs": [
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 85,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 71,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 86,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 71,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 87,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 87,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 87,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 74,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 90,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 74,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 91,
+     "field": "text",
+     "entry": 91,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 90,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 92,
+     "field": "text",
+     "entry": 92,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 90,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 136,
+     "field": "text",
+     "entry": 136,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 71,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 137,
+     "field": "text",
+     "entry": 137,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 71,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 138,
+     "field": "text",
+     "entry": 138,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 87,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 139,
+     "field": "text",
+     "entry": 139,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 87,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 140,
+     "field": "text",
+     "entry": 140,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 74,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 141,
+     "field": "text",
+     "entry": 141,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 74,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 142,
+     "field": "text",
+     "entry": 142,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 90,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 143,
+     "field": "text",
+     "entry": 143,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 90,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 186,
+     "field": "text",
+     "entry": 186,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 71,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 187,
+     "field": "text",
+     "entry": 187,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 71,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 188,
+     "field": "text",
+     "entry": 188,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 87,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 189,
+     "field": "text",
+     "entry": 189,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 87,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 190,
+     "field": "text",
+     "entry": 190,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 74,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 191,
+     "field": "text",
+     "entry": 191,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 74,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 192,
+     "field": "text",
+     "entry": 192,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 90,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    },
+    {
+     "line": 193,
+     "field": "text",
+     "entry": 193,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 90,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44917
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "offset": 2692,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You who cast away your power cannot slay me.",
+   "refs": [
+    {
+     "line": 93,
+     "field": "text",
+     "entry": 93,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 66,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44900
+     ]
+    },
+    {
+     "line": 144,
+     "field": "text",
+     "entry": 144,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 66,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44900
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "offset": 2753,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You shall never regain your power...!",
+   "refs": [
+    {
+     "line": 94,
+     "field": "text",
+     "entry": 94,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 66,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44918
+     ]
+    },
+    {
+     "line": 95,
+     "field": "text",
+     "entry": 95,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 66,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44918
+     ]
+    },
+    {
+     "line": 145,
+     "field": "text",
+     "entry": 145,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 66,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44918
+     ]
+    },
+    {
+     "line": 146,
+     "field": "text",
+     "entry": 146,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 66,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44918
+     ]
+    },
+    {
+     "line": 195,
+     "field": "text",
+     "entry": 195,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 66,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44918
+     ]
+    },
+    {
+     "line": 196,
+     "field": "text",
+     "entry": 196,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 120,
+     "target": 66,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44918
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "offset": 2811,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "How feeble, servant of darkness.",
+   "refs": [
+    {
+     "line": 96,
+     "field": "text",
+     "entry": 96,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 256,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44901
+     ]
+    },
+    {
+     "line": 147,
+     "field": "text",
+     "entry": 147,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 256,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44901
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "offset": 2851,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "So you would use that power for humanity's sake.",
+   "refs": [
+    {
+     "line": 97,
+     "field": "text",
+     "entry": 97,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44895
+     ]
+    },
+    {
+     "line": 148,
+     "field": "text",
+     "entry": 148,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44895
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 56,
+   "offset": 2906,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Those you have taught shall never reach the Taiji.",
+   "refs": [
+    {
+     "line": 98,
+     "field": "text",
+     "entry": 98,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44896
+     ]
+    },
+    {
+     "line": 149,
+     "field": "text",
+     "entry": 149,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44896
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "offset": 2964,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Not you, who forgot your mission as a Hakam...!",
+   "refs": [
+    {
+     "line": 99,
+     "field": "text",
+     "entry": 99,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 299,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44914
+     ]
+    },
+    {
+     "line": 100,
+     "field": "text",
+     "entry": 100,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 299,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44914
+     ]
+    },
+    {
+     "line": 150,
+     "field": "text",
+     "entry": 150,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 299,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44914
+     ]
+    },
+    {
+     "line": 151,
+     "field": "text",
+     "entry": 151,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 299,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44914
+     ]
+    },
+    {
+     "line": 200,
+     "field": "text",
+     "entry": 200,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 299,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44914
+     ]
+    },
+    {
+     "line": 201,
+     "field": "text",
+     "entry": 201,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 299,
+     "speaker": 129,
+     "face": 3,
+     "voice": [
+      19,
+      44914
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "offset": 3034,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You cannot violate my body.",
+   "refs": [
+    {
+     "line": 152,
+     "field": "text",
+     "entry": 152,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44875
+     ]
+    },
+    {
+     "line": 210,
+     "field": "text",
+     "entry": 210,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44875
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "offset": 3077,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "A foolish move.",
+   "refs": [
+    {
+     "line": 153,
+     "field": "text",
+     "entry": 153,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44876
+     ]
+    },
+    {
+     "line": 211,
+     "field": "text",
+     "entry": 211,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44876
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "offset": 3102,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Do not despair. That feeds the Kaimei Brain.",
+   "refs": [
+    {
+     "line": 154,
+     "field": "text",
+     "entry": 154,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44877
+     ]
+    },
+    {
+     "line": 212,
+     "field": "text",
+     "entry": 212,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44877
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "offset": 3160,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "My conclusion shall not change.",
+   "refs": [
+    {
+     "line": 155,
+     "field": "text",
+     "entry": 155,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44878
+     ]
+    },
+    {
+     "line": 213,
+     "field": "text",
+     "entry": 213,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44878
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 62,
+   "offset": 3194,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The righteous path has already been set.",
+   "refs": [
+    {
+     "line": 156,
+     "field": "text",
+     "entry": 156,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44879
+     ]
+    },
+    {
+     "line": 214,
+     "field": "text",
+     "entry": 214,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44879
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "offset": 3237,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "A feeble resistance.",
+   "refs": [
+    {
+     "line": 157,
+     "field": "text",
+     "entry": 157,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44880
+     ]
+    },
+    {
+     "line": 215,
+     "field": "text",
+     "entry": 215,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44880
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "offset": 3262,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You know the deity ship's power well, surely.",
+   "refs": [
+    {
+     "line": 164,
+     "field": "text",
+     "entry": 164,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 48,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44883
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "offset": 3314,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The key cannot open a way out for you.",
+   "refs": [
+    {
+     "line": 167,
+     "field": "text",
+     "entry": 167,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 12,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44884
+     ]
+    },
+    {
+     "line": 168,
+     "field": "text",
+     "entry": 168,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 62,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44884
+     ]
+    },
+    {
+     "line": 169,
+     "field": "text",
+     "entry": 169,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 63,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44884
+     ]
+    },
+    {
+     "line": 170,
+     "field": "text",
+     "entry": 170,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 112,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44884
+     ]
+    },
+    {
+     "line": 171,
+     "field": "text",
+     "entry": 171,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 25,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44884
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 66,
+   "offset": 3360,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "That such power slew my kin... I cannot believe it.",
+   "refs": [
+    {
+     "line": 182,
+     "field": "text",
+     "entry": 182,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 71,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44885
+     ]
+    },
+    {
+     "line": 183,
+     "field": "text",
+     "entry": 183,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 87,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44885
+     ]
+    },
+    {
+     "line": 184,
+     "field": "text",
+     "entry": 184,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 74,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44885
+     ]
+    },
+    {
+     "line": 185,
+     "field": "text",
+     "entry": 185,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 90,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44885
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 67,
+   "offset": 3430,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You should recognize the deity ship's power.",
+   "refs": [
+    {
+     "line": 194,
+     "field": "text",
+     "entry": 194,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 66,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44886
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 68,
+   "offset": 3491,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "The power of darkness is useless against me.",
+   "refs": [
+    {
+     "line": 197,
+     "field": "text",
+     "entry": 197,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 256,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44887
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "offset": 3537,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Your mission is already over.",
+   "refs": [
+    {
+     "line": 198,
+     "field": "text",
+     "entry": 198,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44881
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "offset": 3592,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You erred in your teaching.",
+   "refs": [
+    {
+     "line": 199,
+     "field": "text",
+     "entry": 199,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44882
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "offset": 3626,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "A foolish plan.",
+   "refs": [
+    {
+     "line": 202,
+     "field": "text",
+     "entry": 202,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44871
+     ]
+    },
+    {
+     "line": 206,
+     "field": "text",
+     "entry": 206,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44871
+     ]
+    },
+    {
+     "line": 216,
+     "field": "text",
+     "entry": 216,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44871
+     ]
+    },
+    {
+     "line": 220,
+     "field": "text",
+     "entry": 220,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44871
+     ]
+    },
+    {
+     "line": 224,
+     "field": "text",
+     "entry": 224,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44871
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "offset": 3645,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You cannot touch me.",
+   "refs": [
+    {
+     "line": 203,
+     "field": "text",
+     "entry": 203,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44872
+     ]
+    },
+    {
+     "line": 207,
+     "field": "text",
+     "entry": 207,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44872
+     ]
+    },
+    {
+     "line": 217,
+     "field": "text",
+     "entry": 217,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44872
+     ]
+    },
+    {
+     "line": 221,
+     "field": "text",
+     "entry": 221,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44872
+     ]
+    },
+    {
+     "line": 225,
+     "field": "text",
+     "entry": 225,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44872
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "offset": 3685,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "That great strength is useless.",
+   "refs": [
+    {
+     "line": 204,
+     "field": "text",
+     "entry": 204,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44873
+     ]
+    },
+    {
+     "line": 208,
+     "field": "text",
+     "entry": 208,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44873
+     ]
+    },
+    {
+     "line": 218,
+     "field": "text",
+     "entry": 218,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44873
+     ]
+    },
+    {
+     "line": 222,
+     "field": "text",
+     "entry": 222,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44873
+     ]
+    },
+    {
+     "line": 226,
+     "field": "text",
+     "entry": 226,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44873
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 74,
+   "offset": 3716,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "How feeble.",
+   "refs": [
+    {
+     "line": 205,
+     "field": "text",
+     "entry": 205,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44874
+     ]
+    },
+    {
+     "line": 209,
+     "field": "text",
+     "entry": 209,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44874
+     ]
+    },
+    {
+     "line": 219,
+     "field": "text",
+     "entry": 219,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44874
+     ]
+    },
+    {
+     "line": 223,
+     "field": "text",
+     "entry": 223,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44874
+     ]
+    },
+    {
+     "line": 227,
+     "field": "text",
+     "entry": 227,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44874
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "offset": 3738,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Scheming is futile.",
+   "refs": [
+    {
+     "line": 228,
+     "field": "text",
+     "entry": 228,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44868
+     ]
+    },
+    {
+     "line": 231,
+     "field": "text",
+     "entry": 231,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44868
+     ]
+    },
+    {
+     "line": 234,
+     "field": "text",
+     "entry": 234,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44868
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 76,
+   "offset": 3772,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Your fate shall not change.",
+   "refs": [
+    {
+     "line": 229,
+     "field": "text",
+     "entry": 229,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44869
+     ]
+    },
+    {
+     "line": 232,
+     "field": "text",
+     "entry": 232,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44869
+     ]
+    },
+    {
+     "line": 235,
+     "field": "text",
+     "entry": 235,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44869
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "offset": 3812,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Surely you do not cling to life now.",
+   "refs": [
+    {
+     "line": 230,
+     "field": "text",
+     "entry": 230,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44870
+     ]
+    },
+    {
+     "line": 233,
+     "field": "text",
+     "entry": 233,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44870
+     ]
+    },
+    {
+     "line": 236,
+     "field": "text",
+     "entry": 236,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44870
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 78,
+   "offset": 3867,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Certain death...",
+   "refs": [
+    {
+     "line": 237,
+     "field": "text",
+     "entry": 237,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44866
+     ]
+    },
+    {
+     "line": 263,
+     "field": "text",
+     "entry": 263,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44865
+     ]
+    },
+    {
+     "line": 266,
+     "field": "text",
+     "entry": 266,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44865
+     ]
+    },
+    {
+     "line": 267,
+     "field": "text",
+     "entry": 267,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44865
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 79,
+   "offset": 3886,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "...",
+   "refs": [
+    {
+     "line": 238,
+     "field": "text",
+     "entry": 238,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44867
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 80,
+   "offset": 3902,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Receive my power.",
+   "refs": [
+    {
+     "line": 268,
+     "field": "text",
+     "entry": 268,
+     "group": [
+      4,
+      60856
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44835
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "offset": 3930,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Scatter like petals.",
+   "refs": [
+    {
+     "line": 269,
+     "field": "text",
+     "entry": 269,
+     "group": [
+      4,
+      60856
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44836
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "offset": 3958,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Be lost.",
+   "refs": [
+    {
+     "line": 270,
+     "field": "text",
+     "entry": 270,
+     "group": [
+      4,
+      60856
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44837
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 83,
+   "offset": 3977,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Breathe your last.",
+   "refs": [
+    {
+     "line": 271,
+     "field": "text",
+     "entry": 271,
+     "group": [
+      4,
+      60856
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44838
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "offset": 3996,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I pass judgment on you.",
+   "refs": [
+    {
+     "line": 272,
+     "field": "text",
+     "entry": 272,
+     "group": [
+      4,
+      60866
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44839
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "offset": 4027,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Perish without ever reaching the truth.",
+   "refs": [
+    {
+     "line": 273,
+     "field": "text",
+     "entry": 273,
+     "group": [
+      4,
+      60866
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44840
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "offset": 4070,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Disperse.",
+   "refs": [
+    {
+     "line": 274,
+     "field": "text",
+     "entry": 274,
+     "group": [
+      4,
+      60866
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44841
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 87,
+   "offset": 4098,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Be obliterated by the light that vanquishes evil.",
+   "refs": [
+    {
+     "line": 275,
+     "field": "text",
+     "entry": 275,
+     "group": [
+      4,
+      60876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44842
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 88,
+   "offset": 4147,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Fire, Grandred Fenossa.",
+   "refs": [
+    {
+     "line": 276,
+     "field": "text",
+     "entry": 275,
+     "group": [
+      4,
+      60876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44843
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "offset": 4205,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You shall not pass through this pure light.",
+   "refs": [
+    {
+     "line": 277,
+     "field": "text",
+     "entry": 276,
+     "group": [
+      4,
+      60876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44844
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 90,
+   "offset": 4260,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Be destroyed. Die. Cease to be.",
+   "refs": [
+    {
+     "line": 278,
+     "field": "text",
+     "entry": 276,
+     "group": [
+      4,
+      60876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44845
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "offset": 4300,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "It is time for judgment.",
+   "refs": [
+    {
+     "line": 279,
+     "field": "text",
+     "entry": 277,
+     "group": [
+      4,
+      60896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44846
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 92,
+   "offset": 4322,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Behold, the most sacred punishment.",
+   "refs": [
+    {
+     "line": 280,
+     "field": "text",
+     "entry": 277,
+     "group": [
+      4,
+      60896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44847
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "offset": 4362,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Light Blade.",
+   "refs": [
+    {
+     "line": 281,
+     "field": "text",
+     "entry": 277,
+     "group": [
+      4,
+      60896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44848
+     ]
+    },
+    {
+     "line": 284,
+     "field": "text",
+     "entry": 278,
+     "group": [
+      4,
+      60896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44848
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 94,
+   "offset": 4375,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "It is time to close the coffin.",
+   "refs": [
+    {
+     "line": 282,
+     "field": "text",
+     "entry": 278,
+     "group": [
+      4,
+      60896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44853
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "offset": 4397,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "I shall exterminate the transgressors.",
+   "refs": [
+    {
+     "line": 283,
+     "field": "text",
+     "entry": 278,
+     "group": [
+      4,
+      60896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44854
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "offset": 4428,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Resistance is not permitted.",
+   "refs": [
+    {
+     "line": 285,
+     "field": "text",
+     "entry": 279,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44849
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "offset": 4453,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "You are but the temporary form/　of an aggregate of dark thoughts...",
+   "refs": [
+    {
+     "line": 286,
+     "field": "text",
+     "entry": 279,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44850
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "offset": 4542,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Thus, I shall first eradicate/　the source that births the seven malices.",
+   "refs": [
+    {
+     "line": 287,
+     "field": "text",
+     "entry": 279,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44851
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 99,
+   "offset": 4619,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "This is my conclusion.",
+   "refs": [
+    {
+     "line": 288,
+     "field": "text",
+     "entry": 279,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44852
+     ]
+    },
+    {
+     "line": 292,
+     "field": "text",
+     "entry": 280,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44852
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 100,
+   "offset": 4659,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Severing Strike.",
+   "refs": [
+    {
+     "line": 289,
+     "field": "text",
+     "entry": 280,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44855
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "offset": 4672,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "Where there is light, there is darkness./　Where there is intelligent life, there is malice.",
+   "refs": [
+    {
+     "line": 290,
+     "field": "text",
+     "entry": 280,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44856
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "offset": 4749,
+   "role": "text",
+   "speakers": [
+    129
+   ],
+   "en": "That which feeds the Kaimei Brain.../　I shall cut it off at its root.",
+   "refs": [
+    {
+     "line": 291,
+     "field": "text",
+     "entry": 280,
+     "group": [
+      4,
+      60897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 129,
+     "face": 0,
+     "voice": [
+      19,
+      44857
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

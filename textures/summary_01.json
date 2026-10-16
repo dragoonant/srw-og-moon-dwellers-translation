@@ -1,0 +1,81 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_01.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 1: SR Points and difficulty",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   777,
+   108,
+   957,
+   328
+  ],
+  [
+   5,
+   305,
+   39,
+   339
+  ]
+ ],
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● Meet the condition set for each stage to earn +1 {o|SR Point}. Check the conditions with the {o|\"Objectives\"} general command.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 66,
+   "text": "● Earning an SR Point gives +10 PP to every allied pilot on the map."
+  },
+  {
+   "x": 5,
+   "y": 104,
+   "text": "● Your SR Point rate sets the next stage's difficulty. There are 2 ranks, {r|HARD} and {b|NORMAL}, and the current one is shown in the general commands.",
+   "w": 760,
+   "h": 75
+  },
+  {
+   "x": 28,
+   "y": 182,
+   "text": "{R|HARD} (80% or more)"
+  },
+  {
+   "x": 28,
+   "y": 207,
+   "text": "• More enemies than on NORMAL, and stronger enemies may appear.",
+   "w": 740
+  },
+  {
+   "x": 28,
+   "y": 230,
+   "text": "• Enemy machines and weapons get +3 upgrade levels.",
+   "w": 740
+  },
+  {
+   "x": 28,
+   "y": 255,
+   "text": "{B|NORMAL} (under 80%)"
+  },
+  {
+   "x": 28,
+   "y": 280,
+   "text": "• Battles pay 1.2x the funds of HARD.",
+   "w": 740
+  },
+  {
+   "x": 45,
+   "y": 311,
+   "text": "{y|Beginner's Mode}"
+  },
+  {
+   "x": 45,
+   "y": 341,
+   "text": "Choose {o|\"Beginner's Mode\"} when you start the game to fix the difficulty at {b|NORMAL}. You also get an extra 20000 funds whenever you earn an SR Point.",
+   "h": 50
+  }
+ ]
+}

@@ -1,0 +1,5150 @@
+{
+ "file": "UnitDictionaryData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 692,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 716,
+   "payload_offset": 728,
+   "size": 692,
+   "count": 173
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 1420,
+   "payload_offset": 1428,
+   "size": 692,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 2120,
+   "payload_offset": 2132,
+   "size": 117200,
+   "count": 173
+  }
+ ],
+ "records": {
+  "count": 173,
+  "size": 4
+ },
+ "dofs": {
+  "entries": 173,
+  "unused_ids": 0
+ },
+ "string_fields": [
+  {
+   "offset": 2,
+   "width": 1,
+   "label": "text",
+   "kind": "display"
+  }
+ ],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 2132,
+   "text_offset": 2138,
+   "role": "display",
+   "refs": [
+    "rec0.text",
+    "rec172.text"
+   ],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "ascii",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 2139,
+   "text_offset": 2205,
+   "role": "display",
+   "refs": [
+    "rec1.text"
+   ],
+   "orig_chars": [
+    31,
+    25,
+    16,
+    27,
+    27,
+    25,
+    27,
+    9,
+    27,
+    27,
+    27,
+    6,
+    27,
+    29,
+    27,
+    16
+   ],
+   "orig_bytes": 1123,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The first unit of the <Personal Trooper> R Series, developed\nunder the <SRX Project>. Its official name is REAL\nPERSONAL TROOPER TYPE-1.\nA close-combat and melee unit with high mobility and\nattack power. Its predecessors were the RTX-009\nHückebein 009 (plasma generator model) and the\nPTX-006 Wildraubtier, and it inherits the strengths of\nboth.\nLike the Wildraubtier, it can transform into a flight mode\n(R-Wing). Thanks to that mobility, it often plays the\nvanguard within the R Series, carrying out surprise\nattacks, reconnaissance in force and the like.\nTo deal reliable damage, it carries solid-ammo weapons\nfor short to mid range. It also carries the <T-LINK System>,\nletting it attack with the special force field the system\ngenerates, the TK Field.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 3328,
+   "text_offset": 3334,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 3344,
+   "text_offset": 3358,
+   "role": "display",
+   "refs": [
+    "rec2.text"
+   ],
+   "orig_chars": [
+    10,
+    27,
+    28
+   ],
+   "orig_bytes": 194,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The R-1's flight mode, used mainly for travel and\nrecon in force. The nose is the shield the R-1\nuses in <Personal Trooper> mode.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 3552,
+   "text_offset": 3618,
+   "role": "display",
+   "refs": [
+    "rec3.text"
+   ],
+   "orig_chars": [
+    31,
+    26,
+    24,
+    28,
+    29,
+    27,
+    27,
+    18,
+    26,
+    27,
+    13,
+    27,
+    27,
+    27,
+    29,
+    19
+   ],
+   "orig_bytes": 1211,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The second unit of the <Personal Trooper> R Series, developed\nunder the <SRX Project>. Its official name is REAL PERSONAL\nTROOPER TYPE-2 POWERED.\nA heavy Personal Trooper built for beam-based artillery\ncombat, it carries the <Tronium> Engine that powers the SRX.\nIts firepower is high and its armor thick, but its unstable\nengine output and low mobility are weaknesses. Within the R\nSeries, it handles suppressive fire and artillery support for\nallies.\nFitted with plus parts such as the Hi-Zol Launcher heavy\nmetal particle cannon and shoulder armor, it becomes the\nR-2 Powered.\nWhen the SRX combines, the R-2's pilot adjusts the Tronium\nEngine's output, handles damage control, and runs medical\nchecks on the R-1 and R-3 pilots. The R-2 has no\n<T-LINK System>, so its pilot need not be a <Telekinetic>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 4829,
+   "text_offset": 4871,
+   "role": "display",
+   "refs": [
+    "rec4.text"
+   ],
+   "orig_chars": [
+    31,
+    26,
+    24,
+    29,
+    28,
+    29,
+    29,
+    27,
+    27,
+    8
+   ],
+   "orig_bytes": 764,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The third unit of the <Personal Trooper> R Series, developed\nunder the <SRX Project>. Its official name is REAL PERSONAL\nTROOPER TYPE-3 POWERED.\nA light Personal Trooper for command and long-range\ncombat, it features remote attack weapons based on the\n<T-LINK System> and excellent target acquisition and data\ngathering. Its pilot must be a <Telekinetic>, making it\neffectively the personal unit of Captain Aya Kobayashi of the\n<SRX Team>. Fitted with plus parts carrying the T-LINK Flight\nSystem, it becomes the R-3 Powered, a heavy bomber form.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 5635,
+   "text_offset": 5705,
+   "role": "display",
+   "refs": [
+    "rec5.text"
+   ],
+   "orig_chars": [
+    32,
+    26,
+    26,
+    27,
+    27,
+    24,
+    29,
+    27,
+    15,
+    27,
+    27,
+    27,
+    10,
+    27,
+    29,
+    27,
+    19
+   ],
+   "orig_bytes": 1271,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The first unit of the <Personal Trooper> RW Series, developed\nunder the <SRX Project>. Its official name is REAL PERSONAL\nTROOPER TYPE-GUN POWERED.\nOriginally a high-output heavy metal particle cannon, it was\nminiaturized for a certain purpose and given the ability to\ntransform into a Personal Trooper so it could move and fight\non its own.\nIt carries a new <Tronium> Engine with more output than the\nR-2's, outdoing the other R Series units in output and\nfirepower, but its output is extremely unstable.\nIt is effectively the fourth R Series unit, but it was never\nnamed R-4. Instead, it was developed in secret at\n<Mao Industries> on the Moon under the code name ARGAN.\nWith plus parts such as the Hi-Twin Launcher mounted on its\nback, it is called the R-GUN Powered. After the\n<L5 Campaign>, the <T-LINK System> was improved, enabling\nT-LINK Twin Contact with the R-3.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 6976,
+   "text_offset": 7078,
+   "role": "display",
+   "refs": [
+    "rec6.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    11,
+    27,
+    29,
+    27,
+    27,
+    14,
+    27,
+    28,
+    27,
+    4,
+    27,
+    27,
+    27,
+    27,
+    27,
+    13,
+    28,
+    28,
+    29,
+    27,
+    27,
+    27,
+    12
+   ],
+   "orig_bytes": 1820,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A prototype general-purpose, one-hit-kill <Personal Trooper>\ndeveloped under the <SRX Project>, made up of three units:\nthe R-1, R-2 Powered and R-3 Powered.\nIts official name is SUPER ROBOT X-TYPE.\n\"A humanoid mobile weapon combining the traits of Super\nRobots (special humanoid mobile weapons) and Personal\nTroopers, able to change the course of a battle as one unit\nor as three separate ones\"... That was the development\nconcept given to the SRX.\nIn the SRX Project, the SRX was positioned as a separating\nand combining mobile weapon: three standard-size\n(20-meter class) Personal Troopers combine into a\n50-meter-class Super Robot.\nThis let the SRX's combat power be used flexibly and\neffectively by separating or combining as the situation\ndemands. Against many weak enemies, or when it must\ncoordinate with other Personal Troopers, it acts separated;\nagainst a few strong enemies, it combines into the SRX to\nconcentrate the combat power of the R Series.\nIts attack power is outstanding, but it has drawbacks: the\noutput of its <Tronium> Engine power source is hard to\nregulate, and in combat the <T-LINK System> must constantly\nproject a TK Field to help hold the combination together\n(placing a heavy strain on the T-LINK System's user). For\nnow, the number of combinations per sortie and its combat\ntime are limited.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 8898,
+   "text_offset": 8952,
+   "role": "display",
+   "refs": [
+    "rec7.text"
+   ],
+   "orig_chars": [
+    25,
+    27,
+    10,
+    31,
+    27,
+    16,
+    27,
+    27,
+    27,
+    17,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 916,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "ART-1 (Art One) stands for ADVANCED REAL PERSONAL\nTROOPER TEST TYPE-1.\nA new <Personal Trooper> built under the RXR Project, a\nnext-generation R Series development plan that is part of\nthe <ReEOTH Plan> to make <EOT> more reliable and stable.\nIt was developed experimentally from R-1 and Hückebein\nMk-III data to prepare for next-generation development\n(being a prototype of a prototype, it wears test colors\nrather than the R-1's tricolor scheme).\nOnly one exists. It can transform into a flight mode\n(ART-Wing), but cannot combine with the other R Series\nunits. Even so, its performance surpasses the R-1.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 9868,
+   "text_offset": 9878,
+   "role": "display",
+   "refs": [
+    "rec8.text"
+   ],
+   "orig_chars": [
+    27,
+    24
+   ],
+   "orig_bytes": 155,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "ART-1's flight mode (Flyer Mode). In this form,\nit can raise a TK Field and charge the enemy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 10033,
+   "text_offset": 10087,
+   "role": "display",
+   "refs": [
+    "rec9.text"
+   ],
+   "orig_chars": [
+    31,
+    19,
+    28,
+    28,
+    27,
+    27,
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 1015,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A heavily upgraded version of the <Personal Trooper> Alteisen,\ndeveloped under the <ATX Project>.\nDr. Marion Radom built it based on input from its pilot,\nKyosuke Nanbu. It uses spare Weissritter parts and is armed\nwith the Revolver Bunker, which had been rejected for badly\nupsetting the unit's balance; its other weapons were also\nswapped for larger ones. It carries a <Tesla Drive> too, but this\nis used for balance and charging power, so extended flight is\nimpossible. As a result, the Alteisen Riese gained firepower\nand charging power unheard of for a Personal Trooper, but\nbecame even harder to handle than the Alteisen. Even so,\nKyosuke has mastered it and achieved great results in many\nbattles.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 11102,
+   "text_offset": 11152,
+   "role": "display",
+   "refs": [
+    "rec10.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    18
+   ],
+   "orig_bytes": 959,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Rein Weissritter is the Weissritter transformed by the\nmysterious bioweapons known as the <Einst>. Later analysis\nsuggests that Einst parts were not built in directly;\nrather, the original parts were somehow altered. Its\nmobility and artillery combat ability leapt dramatically, and\nit can still fly alone under gravity as before. Its frame and\narmor not only changed shape; the flexibility and elasticity\nof their materials improved greatly, and they even gained\nthe ability to repair themselves. The biggest change is the\ngenerator: the original plasma generator has become\nsomething different, a kind of perpetual motion engine.\nMany other parts have also become black boxes.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 12111,
+   "text_offset": 12149,
+   "role": "display",
+   "refs": [
+    "rec11.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    10,
+    27,
+    27,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 624,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A rush job built from a Project Idealands\nprototype mobile weapon that had been slated for\nscrapping as a failure, using Alteisen parts and\nRapiecage spare parts.\nIt has a high-output generator called the \"Vau\nKern,\" but as a failed design, it can never\nfully deliver on that power. It excels at close\nto mid-range combat using the Alteisen Revolving\nStake and Machine Cannon mounted on its arms.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 12773,
+   "text_offset": 12807,
+   "role": "display",
+   "refs": [
+    "rec12.text"
+   ],
+   "orig_chars": [
+    30,
+    7,
+    29,
+    27,
+    27,
+    27,
+    27,
+    26
+   ],
+   "orig_bytes": 600,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A bioweapon of the type called the <Einst> series, piloted by\nAlchemie.\nAn Einst optimized for fighting <Personal Trooper> units, with\nhigh mobility, strong defense, and the ability to warp\nthrough space on its own. Its body consists of a skeleton and\nskin that are both hard and flexible, plus soft,\nmuscle-fiber-like parts. Its main weapons are the Onirenge\n(sword) for close combat and the Onibosatsu (demon-face\ncannon) for long range, and it excels at tricky attacks\ncombining the two.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 13407,
+   "text_offset": 13445,
+   "role": "display",
+   "refs": [
+    "rec13.text"
+   ],
+   "orig_chars": [
+    28,
+    8,
+    29,
+    29,
+    29,
+    27,
+    28,
+    27,
+    22
+   ],
+   "orig_bytes": 674,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Personal Trooper> developed from the\nHückebein Mk-II.\nIt was formally adopted as a new mainstay unit under the\nAegis Plan, the Earth Federation Army's arms buildup\nprogram. It comes standard with a <Tesla Drive> and can fly\nalone under gravity. It carries no <EOT> or EOT-based\nweapons, but its basic performance nearly equals the\nmass-production prototype's. It also uses an improved\nversion of the prototype's frame, the Gespenst-line GII\nFrame, rather than the Hückebein-line H Frame, so its\nproduction cost is low.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 14119,
+   "text_offset": 14185,
+   "role": "display",
+   "refs": [
+    "rec14.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    28,
+    28,
+    27,
+    27,
+    29,
+    26,
+    27,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 1285,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An MP Hückebein Mk-II modified by the 3rd Humanoid Mobile\nWeapon Development Test Unit of the Earth Federation\nArmy Development Test Corps. Pfeil III (Drei) is a nickname;\nits official name is MP Hückebein Mk-II MHRDT3 Custom. The\ntest unit uses it to build and try out update and future\nmodernization plans for the units used across Earth\nFederation Army forces, then submits the ideas and data to\nthe manufacturer. Its <Tesla Drive> was strengthened and\nvernier thrusters were added. Its head sensors were also\nimproved, giving it superior command and control capability.\nAt the wish of its pilot, Yon Gebana, technology from the\nalien civilization <Zovorg> was cleverly camouflaged and built\nin. In particular, its hand weapon, the Gun Stabblader\n(combining the Switchblade Gun, a high-output energy\ncannon for mid to long range, with the Sword Launcher, a\nreal-blade launcher for close combat), was modeled on the\nweapons of a humanoid mobile weapon called the Greytarkin.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 15470,
+   "text_offset": 15524,
+   "role": "display",
+   "refs": [
+    "rec15.text"
+   ],
+   "orig_chars": [
+    30,
+    29,
+    27,
+    28,
+    31,
+    27,
+    27,
+    26,
+    28,
+    20,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 1025,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A super <Personal Trooper> developed under the EXH Project\nof <Mao Industries>. A unit that delivers the greatest possible\nattack power and versatility on its own... in other words, the\nculmination of the standalone Hückebein line. It carries\nultra-high-output <EOT>-based generators, a Black Hole\nEngine and a <Tronium> Engine, and incorporates a mechanism\n(EXPS) for attaching weapon modules, extra armor,\nboosters and other expansion and enhancement parts all over\nthe unit. It also carries the <T-LINK System> (a telekinesis\nsensing and amplifying device), letting it use telekinetic\nweapons for many purposes.\nThe name Exexbein comes from EX Exbein, but as the sixth\nunit of the series, it also carries the meaning of Sechs\n(German for \"six\").",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 16549,
+   "text_offset": 16611,
+   "role": "display",
+   "refs": [
+    "rec16.text"
+   ],
+   "orig_chars": [
+    29,
+    21,
+    27,
+    27,
+    21,
+    29,
+    27,
+    27,
+    23,
+    27,
+    27,
+    27,
+    27,
+    29,
+    17
+   ],
+   "orig_bytes": 1158,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A special humanoid mobile weapon for anti-alien combat,\ndeveloped by the <Tesla Reich Institute> at the request of\nthe Earth Sphere Defense Committee.\nIts basic concept is physical attack through sheer mass,\nand its size and shape were designed with psychological\neffects on intelligent enemies (such as intimidation) in\nmind.\nBuilt to fight powerful enemy units that <Personal Trooper>\nunits cannot handle, it has extraordinary output and\nattack power. Its dedicated weapon, the giant Type 0\nColossal Blade, is a ship-slaying sword that can cut\nbattleship-class objects in two.\nIts back carries high-thrust boosters and trim balancers\nfor sword strikes, allowing free-ranging swordplay with\nthe Colossal Blade. Its joints use TGC Joints, which\ncontrol inertial mass with gravity control technology to\nreduce load. After the <Inspector Incident>, it was refitted\nand its power source changed to a plasma reactor.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 17769,
+   "text_offset": 17867,
+   "role": "display",
+   "refs": [
+    "rec17.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    27,
+    25,
+    27,
+    27,
+    13,
+    27,
+    27,
+    17,
+    27,
+    27,
+    27,
+    6,
+    27,
+    20,
+    27,
+    27,
+    27,
+    27,
+    27,
+    10
+   ],
+   "orig_bytes": 1757,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Grungust is a special humanoid mobile weapon\ndeveloped at the <Tesla Reich Institute> based on data from\nthe Grungust Type 0 and the PTX-007-02 Gespenst Mk-II\n(Type S).\nTo perform well in many environments, it can transform\ninto a flight mode (Wing Gust) and a heavy tank mode\n(Gust Lander). Its armor uses VG Alloy (Variable\nGeometric Alloys), a type of active metal, allowing\ntransformations that largely ignore the structural and\nshape limits of armor.\nIts power source is a plasma reactor, and its joints use\nTGC Joints, which control inertial mass with gravity\ncontrol technology to reduce load.\nIt also has built-in weapons such as the Boost Knuckle and\nFinal Beam, and excels in close combat. As piloting aids, it\ncarries a brainwave control device and a voice-activated\nweapon selector.\nOf the Grungust series, known for choosing their pilots, it\nhas the best overall balance, earning it the title of \"Super\nFighter.\"\nThe Grungust Kai is an upgraded Grungust fitted with the\nRoundel Wing booster and a Beam Cannon, improving its\nmobility and attack power. Even with the Roundel Wing\nattached, it can still transform into the Wing Gust (flight\nmode) and Gust Lander (heavy tank mode).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 19624,
+   "text_offset": 19634,
+   "role": "display",
+   "refs": [
+    "rec18.text"
+   ],
+   "orig_chars": [
+    27,
+    17
+   ],
+   "orig_bytes": 134,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Grungust Kai's flight mode. The Roundel Wing extends\nits cruising range.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 19768,
+   "text_offset": 19778,
+   "role": "display",
+   "refs": [
+    "rec19.text"
+   ],
+   "orig_chars": [
+    27,
+    8
+   ],
+   "orig_bytes": 107,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Grungust Kai's heavy tank mode. As in its Super\nFighter form, its firepower is improved.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 19885,
+   "text_offset": 19931,
+   "role": "display",
+   "refs": [
+    "rec20.text"
+   ],
+   "orig_chars": [
+    31,
+    8,
+    27,
+    27,
+    27,
+    27,
+    28,
+    12,
+    27,
+    27,
+    4
+   ],
+   "orig_bytes": 738,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A special humanoid mobile weapon for anti-alien combat\ndeveloped under the Earth Federation Army's <SRX Project>.\nThe successor to the Grungust (Type 1) and a\nmass-production prototype, with some of its transformation\nmechanisms and weapons omitted. So while its overall attack\npower falls short of the original, it is easier to handle than\nthe rest of the Grungust series. Like the Grungust (Type 1),\nit is powered by a plasma reactor, and it also uses VG Alloy\nand TGC Joints.\nThis unit is the second one built. At the request of the Earth\nFederation Army Development Test Corps' 3rd Humanoid\nMobile Weapon Development Test Unit, it was entrusted to\nthat unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 20669,
+   "text_offset": 20683,
+   "role": "display",
+   "refs": [
+    "rec21.text",
+    "rec121.text"
+   ],
+   "orig_chars": [
+    15,
+    27,
+    21
+   ],
+   "orig_bytes": 192,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Grungust Type 2's flight mode.\nApplying the transformation mechanisms built for the R\nSeries, it can transform more than twice as fast as the\nGrungust (Type 1).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 20875,
+   "text_offset": 20921,
+   "role": "display",
+   "refs": [
+    "rec22.text"
+   ],
+   "orig_chars": [
+    31,
+    29,
+    19,
+    27,
+    27,
+    27,
+    27,
+    16,
+    30,
+    30,
+    27
+   ],
+   "orig_bytes": 853,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The newest of the Grungust series, built by the\n<Tesla Reich Institute> under the <SRX Project> after its freeze\nwas lifted following the <L5 Campaign>: unit No. 3\n(SRG-03-3).\nBased on the Grungust (Type 1) with its close and melee\ncombat abilities further specialized, its output and attack\npower are the highest in the Grungust series. It can split into\nthe G-Raptor, a large fighter (upper body), and the G-Bison,\na heavy tank (lower body), each carrying one pilot.\nUnit No. 3 was refitted after the <Inspector Incident>, gaining\nthe <T-LINK System> and a <Tesla Drive>, and is armed with the\nType 3 Shishioh Blade (a large Shishioh Blade for Super\nRobots).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 21774,
+   "text_offset": 21784,
+   "role": "display",
+   "refs": [
+    "rec23.text"
+   ],
+   "orig_chars": [
+    27,
+    5
+   ],
+   "orig_bytes": 98,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Grungust Type 3 separation mode: a large fighter\ntransformed from the upper body.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 21882,
+   "text_offset": 21892,
+   "role": "display",
+   "refs": [
+    "rec24.text"
+   ],
+   "orig_chars": [
+    27,
+    3
+   ],
+   "orig_bytes": 92,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Grungust Type 3 separation mode: a heavy tank\ntransformed from the lower body.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 21984,
+   "text_offset": 22022,
+   "role": "display",
+   "refs": [
+    "rec25.text"
+   ],
+   "orig_chars": [
+    27,
+    10,
+    27,
+    20,
+    27,
+    29,
+    14,
+    27,
+    22
+   ],
+   "orig_bytes": 610,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Choukijin> excavated from the ruins of Shiyuzuka (the\nMound of Chiyou) in China's Shandong region.\nIt is said to be a semi-biological weapon created by the\nancients to fight the devils and monsters called the\nHyakuja (Hundred Evils).\nIt has an autonomous thinking circuit and can act alone,\nbut it won't show its true power unless a <Telekinetic>\n(strong psychic) it has accepted as its pilot is aboard.\nCompared to its other form, KoRyuOh, it excels at aerial,\nunderwater and long-range sorcery combat, and has\ntremendous attack power.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 22632,
+   "text_offset": 22666,
+   "role": "display",
+   "refs": [
+    "rec26.text"
+   ],
+   "orig_chars": [
+    27,
+    10,
+    27,
+    27,
+    8,
+    27,
+    27,
+    11
+   ],
+   "orig_bytes": 496,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Choukijin> excavated from the ruins of Shiyuzuka (the\nMound of Chiyou) in China's Shandong region.\nRyuKoOh is made up of two Choukijin, RyuOhKi and\nKoOhKi; when they combine with KoOhKi on top and\nRyuOhKi below, they become KoRyuOh.\nCompared to RyuKoOh, it excels at ground and close\ncombat and at wielding weapons. It cannot fly, but it\nmoves superbly on the ground and can create doubles with\nthe Body Double Art.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 23162,
+   "text_offset": 23172,
+   "role": "display",
+   "refs": [
+    "rec27.text"
+   ],
+   "orig_chars": [
+    30,
+    14
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Four Gods' Azure Dragon <Choukijin>. Strong\neven solo, it excels in the air and underwater.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 23302,
+   "text_offset": 23312,
+   "role": "display",
+   "refs": [
+    "rec28.text"
+   ],
+   "orig_chars": [
+    30,
+    15
+   ],
+   "orig_bytes": 133,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Four Gods' White Tiger <Choukijin>. Strong\neven solo, it excels at fast ground combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 23445,
+   "text_offset": 23495,
+   "role": "display",
+   "refs": [
+    "rec29.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    5,
+    29,
+    27,
+    27,
+    30,
+    13,
+    27,
+    27,
+    24
+   ],
+   "orig_bytes": 878,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Personal Trooper> developed by <Mao Industries>.\nA close-combat and melee unit inheriting the Alteisen's\nconcept, normally deployed together with the artillery-type\nWildfalken.\nIt uses no <EOT> and carries solid-ammo weapons for short to\nmid range. Its body uses the GII Frame rather than the H\nFrame of the R-1 and Hückebein series. A high-performance\n<Tesla Drive> on its back lets it fly alone under gravity.\nPurging its armor, called Jacket Armor, shifts it into\nhigh-mobility mode. It was designed and developed by Dr.\nMarion Radom. One other unit of the same type exists.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 24373,
+   "text_offset": 24431,
+   "role": "display",
+   "refs": [
+    "rec30.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    29,
+    18,
+    28,
+    28,
+    15,
+    27,
+    27,
+    27,
+    23,
+    24,
+    27,
+    22
+   ],
+   "orig_bytes": 1061,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Personal Trooper> developed by <Mao Industries>.\nAn artillery unit inheriting the Weissritter's concept. It\ncarries a high-performance <Tesla Drive>, giving it mobility\namong the best of all Personal Troopers.\nIt is normally deployed with the close-combat Wildwürger,\nand its combination attack with that unit in high-mobility\nmode, the Twin Bird Strike, is especially powerful.\nIts main weapon is the Oxtongue Rifle, which switches\nbetween live rounds and energy shots. Unlike the Wildwürger,\nit uses the Hückebein-line H Frame, making it more rigid and\nlighter. It was developed by Dr. Kirk Hamill.\nThe name Wildfalken comes from the German words WILD\n(wild) and WANDERFALKE (peregrine falcon). One other unit\nof the same type exists.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 25492,
+   "text_offset": 25514,
+   "role": "display",
+   "refs": [
+    "rec31.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    27,
+    28,
+    19
+   ],
+   "orig_bytes": 393,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An upgraded version of the transformable <Personal Trooper>\nWildraubtier. Fitted with a <Tesla Drive>, it has improved\nmobility and maneuverability. It also gains powerful built-in\nfirearms (rail cannons) that the original Wildraubtier lacked,\nplus the Blade Rhino melee weapon, boosting its attack\npower.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 25907,
+   "text_offset": 25921,
+   "role": "display",
+   "refs": [
+    "rec32.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 207,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "　The flight form (Flyer Mode) of the Wildraubtier\nSchnabel. With the rail cannon now positioned at\nthe front, its balance is better than before the\nupgrade.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 26128,
+   "text_offset": 26162,
+   "role": "display",
+   "refs": [
+    "rec33.text"
+   ],
+   "orig_chars": [
+    29,
+    30,
+    29,
+    26,
+    27,
+    29,
+    28,
+    22
+   ],
+   "orig_bytes": 652,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The R-Blade is a simplified mass-production prototype\n<Personal Trooper> of the R-1, developed by <Mao Industries>. It\nomits the R-1's flight-mode transformation and the\n<T-LINK System> (a telekinesis sensing and amplifying device),\nbut its basic performance is high.\nThe R-Blade Custom is a special model: prototype unit No. 3,\ntuned for close combat, fitted with a <Tesla Drive> and Split\nBeam Cannon, and wearing the Jacket Armor also used on the\nWildwürger.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 26814,
+   "text_offset": 26852,
+   "role": "display",
+   "refs": [
+    "rec34.text",
+    "rec37.text",
+    "rec40.text",
+    "rec43.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    22
+   ],
+   "orig_bytes": 729,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A unit developed under the Halloween Plan, an upgrade plan\nfor the Gespenst series. It refines the traits of its base, the\nMP Gespenst Mk-II, into a field-oriented upgrade with better\nversatility and ease of maintenance. Mounting various parts\non some of its external armor and hardpoints lets it adapt\nflexibly to a wide range of missions.\nType N is the most versatile of the three option part sets. It\ncarries an F2W Cannon, with a Plasma Buckler on the left\narm only.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 27581,
+   "text_offset": 27619,
+   "role": "display",
+   "refs": [
+    "rec35.text",
+    "rec38.text",
+    "rec41.text",
+    "rec44.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 714,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A unit developed under the Halloween Plan, an upgrade plan\nfor the Gespenst series. It refines the traits of its base, the\nMP Gespenst Mk-II, into a field-oriented upgrade with better\nversatility and ease of maintenance. Mounting various parts\non some of its external armor and hardpoints lets it adapt\nflexibly to a wide range of missions.\nType G has the best mobility and acceleration of the three\noption part sets, and excels at melee combat with the\nPlasma Stakes on both arms and knees.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 28333,
+   "text_offset": 28371,
+   "role": "display",
+   "refs": [
+    "rec36.text",
+    "rec39.text",
+    "rec42.text",
+    "rec45.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    21
+   ],
+   "orig_bytes": 726,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A unit developed under the Halloween Plan, an upgrade plan\nfor the Gespenst series. It refines the traits of its base, the\nMP Gespenst Mk-II, into a field-oriented upgrade with better\nversatility and ease of maintenance. Mounting various parts\non some of its external armor and hardpoints lets it adapt\nflexibly to a wide range of missions.\nType C has the highest defense of the three option part\nsets, and excels at mid to long-range combat with Fanout\nMissiles and Twin Beam Cannons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 29097,
+   "text_offset": 29147,
+   "role": "display",
+   "refs": [
+    "rec46.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    3,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 888,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A unit developed under the Halloween Plan, an upgrade plan\nfor the Gespenst series. It refines the traits of its base, the\nMP Gespenst Mk-II, into a field-oriented upgrade with better\nversatility and ease of maintenance. Mounting various parts\non some of its external armor and hardpoints lets it adapt\nflexibly to a wide range of missions. The unit piloted by\nAlbada Bairarin has enhanced active and passive optical\nsensors in its head, suiting it to reconnaissance.\nType G has the best mobility and acceleration of the three\noption part sets, and excels at melee combat with the\nPlasma Stakes on both arms and knees.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 30035,
+   "text_offset": 30121,
+   "role": "display",
+   "refs": [
+    "rec47.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    29,
+    27,
+    27,
+    11,
+    27,
+    27,
+    27,
+    29,
+    27,
+    27,
+    13,
+    28,
+    27,
+    27,
+    27,
+    27,
+    28,
+    28,
+    8
+   ],
+   "orig_bytes": 1587,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The MP Gespenst Mk-II Sterben, nicknamed the Gestorben, is\na custom MP Gespenst Mk-II and a testbed for\n<Daniel Instruments> to evaluate its own weapons and\nexpansion and enhancement parts. Refitted with versatility\nin mind, it has hardpoints all over its body.\nSerena Recital's unit is Gestorben No. 5 with further\nimprovements, called the Gestorben Custom. A major\nchange is the addition of a <Tesla Drive>, a high-efficiency\nreactive propulsion device, which lets the Gestorben Custom\nfly on its own, raising its versatility and mobility. Its joint\nranges were also reworked, allowing more flexible movement\nthan before.\nBesides those refits, No. 5, given to Serena, has a melee\nweapon suited to her fighting style (the Kylie Cleaver), and\nits head sensors were enhanced for her main missions. Its\ncockpit differs a little from other Gestorben Customs, with\na cradle for an autonomous <Sabot> (support robot) that\naccompanies Serena and serves as her copilot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 31708,
+   "text_offset": 31750,
+   "role": "display",
+   "refs": [
+    "rec48.text"
+   ],
+   "orig_chars": [
+    27,
+    13,
+    28,
+    28,
+    29,
+    27,
+    29,
+    27,
+    27,
+    18
+   ],
+   "orig_bytes": 757,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Personal Trooper> created by heavily upgrading the\nPTX-001 Gespenst.\nIt is the first unit produced by the Halloween Plan, a\nGespenst series upgrade plan devised by Gilliam Jaeger, Kai\nKitamura and others. Using the latest technology of\n<Mao Industries>, it was modified from the frame up, with\nalmost all its armor replaced. A large flight unit with a\n<Tesla Drive> on its back gives it mobility on par with the\nnewest units. It also carries a powerful beam weapon, the\nMega Buster Cannon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 32507,
+   "text_offset": 32545,
+   "role": "display",
+   "refs": [
+    "rec49.text"
+   ],
+   "orig_chars": [
+    15,
+    27,
+    27,
+    28,
+    27,
+    28,
+    27,
+    28,
+    16
+   ],
+   "orig_bytes": 678,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An upgraded Giganscudo.\nIts joints adopt the TGC Joints used in the Grungust series,\nand its Seeds Shield units were replaced with Seeds Anchor\nunits, improving its melee ability. An improved Gravicon\nSystem also lets it deploy a G Territory, raising its defense\neven further. The plan to rebuild it into the Duro (Italian for\n\"hard\") was drawn up by Dr. Marion Radom. Its nickname is\nthe Gandoro.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 33223,
+   "text_offset": 33269,
+   "role": "display",
+   "refs": [
+    "rec50.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    3,
+    31,
+    28,
+    13,
+    27,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 725,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Based on Dr. Marion Radom's plan, this is the Guarlion\nCustom once piloted by Leona Garstein, lovingly upgraded\nby her boyfriend, Tasuku Shinguji.\nWith the latest <Personal Trooper> technology and a\n<Tesla Drive>, its mobility and attack power improved. It also\nhas the <T-LINK System> built in.\nLike the Guarlion, it has extra force field inductors on both\nshoulders. It fixes electromagnetically heated metal\nparticles at a point in front of the unit, wraps them in a TK\nField and extends them to strike the enemy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 33994,
+   "text_offset": 34032,
+   "role": "display",
+   "refs": [
+    "rec51.text"
+   ],
+   "orig_chars": [
+    32,
+    13,
+    27,
+    29,
+    27,
+    28,
+    27,
+    27,
+    21
+   ],
+   "orig_bytes": 690,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A unit made by capturing the <DC>'s mass-produced\n<Armored Module> Lion and strengthening its weapons and\narmor.\nSpare parts from <Personal Trooper> units such as the\nHückebein, Gespenst and Alteisen are used throughout. Its\narms in particular were swapped wholesale for Personal\nTrooper arms, and folding slashing blades were fitted to its\nlegs, so it can handle the close and melee combat the Lion\nwas poor at. A makeshift conversion halfway between a\nPersonal Trooper and an Armored Module, but its potential is\nhigh.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 34722,
+   "text_offset": 34740,
+   "role": "display",
+   "refs": [
+    "rec52.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    29,
+    16
+   ],
+   "orig_bytes": 302,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The combined form of the Altalion and Vegalion, the newest\nof the Series 77 developed under the interstellar voyage plan\n<Project TD>. Its mobility and maneuverability are the peak\namong all <Armored Module> units, and it has tremendous\nfirepower.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 35042,
+   "text_offset": 35088,
+   "role": "display",
+   "refs": [
+    "rec53.text",
+    "rec54.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    27,
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    28,
+    10
+   ],
+   "orig_bytes": 860,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An <Armored Module> for space travel and space-environment\nwork, developed under the interstellar voyage plan\n<Project TD>. The newest of the Series 77, it was designed\nusing data from its forerunner, the Astelion AX. With two\nhigh-performance <Tesla Drive> units on its sides, its mobility\nand maneuverability are unrivaled by other Armored Modules.\nIt can transform into the Cruise Figure (CF) for travel and\nthe Doll Figure (DF) for work, handling all sorts of situations.\nAnticipating contact with hostile intelligent life in deep\nspace, it carries the gravity-controlled accelerator cannon\nG-Axel Driver as its main weapon and the CTM series of\ncombined tactical missiles as secondary weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 35948,
+   "text_offset": 35970,
+   "role": "display",
+   "refs": [
+    "rec55.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    27,
+    29,
+    17
+   ],
+   "orig_bytes": 386,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A high-mobility <Armored Module> developed under the\ninterstellar voyage plan <Project TD>. The newest of the\nSeries 77, it was designed using data from its forerunner,\nthe Calion. With two compact, high-performance\n<Tesla Drive> units, it boasts even greater mobility and\nacceleration than its sister unit, the Altalion.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 36356,
+   "text_offset": 36430,
+   "role": "display",
+   "refs": [
+    "rec56.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    8,
+    29,
+    27,
+    27,
+    29,
+    27,
+    19,
+    27,
+    27,
+    27,
+    3,
+    27,
+    27,
+    26,
+    27,
+    22
+   ],
+   "orig_bytes": 1313,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An <Armored Module> developed by the <Tesla Reich Institute> at\nthe request and with the funding of the Principality of\nRiksent. Shine Hausen's personal unit.\nBuilt by modifying and miniaturizing the Astelion's test\nframe and <Tesla Drive>, it is lightened to the limit. As a result,\nits mobility and maneuverability rival the Astelion's. It also\ncarries an <Energy Field> generator to make up for its fragile\narmor, and a special man-machine interface called the\nW-LINK System.\nType G's cockpit is specially built for Shine, who has\nprecognition, with a brainwave control device like the one in\nthe Grungust and a high-performance G Canceller.\nThe W-LINK System synchronizes the movements of the two\nFairlions to make up for the gap in piloting skill between\nLatune and Shine. With it, Latune, in the Type S, can control\nthe Type G to a degree and perform combination attacks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 37743,
+   "text_offset": 37801,
+   "role": "display",
+   "refs": [
+    "rec57.text"
+   ],
+   "orig_chars": [
+    28,
+    30,
+    10,
+    29,
+    27,
+    27,
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 1033,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An <Armored Module> developed by the <Tesla Reich Institute> at\nthe request and with the funding of the Principality of\nRiksent. Latune Subota's personal unit.\nBuilt by modifying and miniaturizing the Astelion's test\nframe and <Tesla Drive>, it is lightened to the limit. As a result,\nits mobility and maneuverability rival the Astelion's. It also\ncarries an <Energy Field> generator to make up for its fragile\narmor, and a special man-machine interface called the\nW-LINK System. This synchronizes the movements of the\ntwo Fairlions to make up for the gap in piloting skill between\nLatune and Shine. With it, Latune, in the Type S, can control\nthe Type G to a degree and perform combination attacks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 38834,
+   "text_offset": 38872,
+   "role": "display",
+   "refs": [
+    "rec58.text"
+   ],
+   "orig_chars": [
+    31,
+    29,
+    27,
+    27,
+    29,
+    27,
+    27,
+    27,
+    21
+   ],
+   "orig_bytes": 728,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A high-mobility <Armored Module> developed by\n<Isurugi Heavy Industries>, designed using data from the\nCalion and Vegalion of the interstellar voyage plan\n<Project TD>. Its performance rivals the Vegalion's, and the\nFlexible Weapon Operators on both wings let it use the\nfirearms of Armored Module and <Personal Trooper> units. It\nalso has a large weapon bay with MTD guided missiles and a\nfolding TDA nose. It is easy to produce and maintain, and\nwhile less versatile than the Relion, it is faster and has a\nlonger range.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 39600,
+   "text_offset": 39622,
+   "role": "display",
+   "refs": [
+    "rec59.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 406,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An updated model of the general-purpose air combat\nfighter developed by <Isurugi Heavy Industries>.\nAs a next-generation unit for any battlefield, it offers\nseamless air combat ability from low to high altitude and a\nlarge payload. With flexible wings made of special\nmaterials, a fully embedded cockpit, and a modular\nstructure with an extremely long TBO, it stands apart\nfrom current units.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 40028,
+   "text_offset": 40070,
+   "role": "display",
+   "refs": [
+    "rec60.text"
+   ],
+   "orig_chars": [
+    32,
+    30,
+    27,
+    27,
+    26,
+    27,
+    27,
+    27,
+    27,
+    2
+   ],
+   "orig_bytes": 750,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The first unit of the Dynamic General Guardian series,\nnicknamed Double G: special humanoid mobile weapons for\ndefending the <Earth Cradle>, whose basic design was done by\n<Dr. Bian Zoldark>, leader of the <DC> (<Divine Crusaders>). Built\nfor sword and melee combat, its controls use the DML\nSystem and the dedicated OS JINKI-1, letting man and\nmachine move as one. Because it uses the ABMD (Artificial\nBone Muscle Drive) System to transmit power throughout its\nbody, it moves far more flexibly and dynamically than\nhumanoid mobile weapons of the same size.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 40820,
+   "text_offset": 40858,
+   "role": "display",
+   "refs": [
+    "rec61.text"
+   ],
+   "orig_chars": [
+    32,
+    28,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    19
+   ],
+   "orig_bytes": 723,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The second unit of the Dynamic General Guardian series,\nnicknamed Double G, whose basic design was done by\n<Bian Zoldark>, leader of the <DC> (<Divine Crusaders>). Matched\nto Rätsel's hit-and-run fighting style, it carries a\nlong-barreled beam cannon, high-output vernier thrusters,\nand wheels for high-speed ground travel (Felse Rad). It can\nalso transform into Pferd Mode and carry the Dygenguar on\nits back. Together, the two look like a mounted warrior,\noverwhelming all who see them.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 41581,
+   "text_offset": 41639,
+   "role": "display",
+   "refs": [
+    "rec62.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    14,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    23,
+    27,
+    28,
+    27,
+    11
+   ],
+   "orig_bytes": 1054,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A captured and refitted Jinrai, the third Dynamic General\nGuardian, developed from the blueprints of <Dr. Bian Zoldark>.\nIts control AI, System ZLAI, was removed, making it a\nmanned unit with a DML (Direct Motion Link) System like Unit\n1, the Dygenguar. It also incorporates System LIOH, a\ngroundbreaking man-machine interface. LIOH learns the\npilot's traits to draw out their latent ability, serving both as\nthe unit's control OS and as a pilot training system.\nIts legs carry boosters developed as extra equipment for the\nDygenguar and Aussenseiter, and since its pilot, Touma, is\nskilled in martial arts, it attacks mainly with kicks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 42693,
+   "text_offset": 42759,
+   "role": "display",
+   "refs": [
+    "rec63.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    3,
+    27,
+    27,
+    27,
+    26,
+    27,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 1186,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Prototype No. 9 of the TE Absorbers developed by the\nTsentr Project. It consists of a main body built from data\ngathered with prototype No. 7, the Garmraid, and unmanned\nmobile weapons called Machine Animalitos. It also carries a\nnew TE Engine, with better output and stability than the\nGarmraid's. It can use an energy field called the TE Sphere as\nwell, raising its defense.\nThere are two kinds of Machine Animalitos: the Hiou, a\nbird-type unmanned fighter, and the Louga, a wolf-type\nunmanned mobile weapon. Each can operate alone, but they\nare usually split into parts and attached to the Garmraid\nBlaze's arms, legs, shoulders, back and so on.\nThe form with the Louga's head transformed into a striking\nweapon on the right arm and the Hiou transformed into wing\nboosters on the back is called Form G. Like the Garmraid, it\nexcels at melee combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 43945,
+   "text_offset": 44015,
+   "role": "display",
+   "refs": [
+    "rec64.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    3,
+    27,
+    27,
+    27,
+    26,
+    27,
+    27,
+    28,
+    27,
+    11
+   ],
+   "orig_bytes": 1277,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Prototype No. 9 of the TE Absorbers developed by the\nTsentr Project. It consists of a main body built from data\ngathered with prototype No. 7, the Garmraid, and unmanned\nmobile weapons called Machine Animalitos. It also carries a\nnew TE Engine, with better output and stability than the\nGarmraid's. It can use an energy field called the TE Sphere as\nwell, raising its defense.\nThere are two kinds of Machine Animalitos: the Hiou, a\nbird-type unmanned fighter, and the Louga, a wolf-type\nunmanned mobile weapon. Each can operate alone, but they\nare usually split into parts and attached to the Garmraid\nBlaze's arms, legs, shoulders, back and so on.\nThe form with the Louga's head transformed into a shield on\nthe left arm and the Hiou transformed into a cannon on the\nback is called Form S, and it excels at mid to long-range\ncombat. Using the shield together with the TE Sphere also\ngives it slightly higher defense than Form G.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 45292,
+   "text_offset": 45354,
+   "role": "display",
+   "refs": [
+    "rec65.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    27,
+    26,
+    25,
+    27,
+    27,
+    9,
+    28,
+    27,
+    27,
+    27,
+    20
+   ],
+   "orig_bytes": 1152,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Prototype No. 8 of the TE Absorbers developed by the\nTsentr Project. It consists of a main body built from data\ngathered with the Cerberus and an additional weapon unit\ncalled the Ignite Parts. It also carries a new TE Engine, with\nbetter output and stability than the Cerberus's. It can use an\nenergy field called the TE Sphere as well, raising its defense.\nThe Ignite Parts can operate alone as an unmanned fighter,\nbut are normally used attached to the Cerberus Ignite's main\nbody.\nThe main body transforms between Figure W for close\ncombat and Figure B for artillery combat (its front and back\nreverse), giving it high versatility. Figure W with the Ignite\nParts attached is called Form G, and specializes in close\ncombat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 46506,
+   "text_offset": 46568,
+   "role": "display",
+   "refs": [
+    "rec66.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    27,
+    26,
+    25,
+    27,
+    27,
+    9,
+    28,
+    27,
+    27,
+    27,
+    20
+   ],
+   "orig_bytes": 1152,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Prototype No. 8 of the TE Absorbers developed by the\nTsentr Project. It consists of a main body built from data\ngathered with the Cerberus and an additional weapon unit\ncalled the Ignite Parts. It also carries a new TE Engine, with\nbetter output and stability than the Cerberus's. It can use an\nenergy field called the TE Sphere as well, raising its defense.\nThe Ignite Parts can operate alone as an unmanned fighter,\nbut are normally used attached to the Cerberus Ignite's main\nbody.\nThe main body transforms between Figure W for close\ncombat and Figure B for artillery combat (its front and back\nreverse), giving it high versatility. Figure B with the Ignite\nParts attached is called Form S, and specializes in artillery\ncombat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 47720,
+   "text_offset": 47782,
+   "role": "display",
+   "refs": [
+    "rec67.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    23
+   ],
+   "orig_bytes": 1218,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Compatible Kaiser combined with the large fighter\nG-Thundergate. Its main engine, the OG (Over Gate)\nEngine, was built with otherworldly over-technology: it\nopens a limited hyperdimensional aperture and uses special\nenergy particles found in a weakly linked adjacent\nsubspace to drive the unit and power its attacks. It carries\nsystems similar to the ABMD (Artificial Bone Muscle Drive)\nand DML (Direct Motion Link) Systems, letting man and\nmachine move as one. With the G-Thundergate\ntransformed into large wing boosters on the Compatible\nKaiser's back, its mobility and maneuverability improve,\nand weapons such as the Shoulder Cannon are added.\nLinking the OG Engines of the Compatible Kaiser and\nG-Thundergate amplifies its output, enabling its ultimate\nweapon, the Over Kaiser Sword. Nickname: the G-Compati\nKaiser.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 49000,
+   "text_offset": 49054,
+   "role": "display",
+   "refs": [
+    "rec68.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    13
+   ],
+   "orig_bytes": 1024,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Super Robot piloted by Kota Azuma, a.k.a. Fighter Roar:\na humanoid mobile weapon entrusted to Kota's\ngrandfather Kisaburo by Roa, a warrior from another\nworld, then refitted. Its main engine, the OG (Over Gate)\nEngine, was built with otherworldly over-technology: it\nopens a limited hyperdimensional aperture and uses special\nenergy particles found in a weakly linked adjacent\nsubspace to drive the unit and power its attacks.\nHowever, the OG Engine is not fully repaired, so for now it\ncannot show its true power. It also carries systems similar\nto the ABMD (Artificial Bone Muscle Drive) and DML\n(Direct Motion Link) Systems, letting man and machine\nmove as one. It is also called the Compati Kaiser or the\nBattle Force Robo.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 50078,
+   "text_offset": 50116,
+   "role": "display",
+   "refs": [
+    "rec69.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    26,
+    29,
+    27,
+    27,
+    27,
+    4
+   ],
+   "orig_bytes": 671,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A large fighter that serves as the Compatible Kaiser's\nsupport mecha.\nLike the Kaiser, it carries an OG (Over Gate) Engine and has\nhigh mobility and attack power. Only someone wearing the\nEmmy Armor can pilot it; no one else can.\nIt was thought destroyed in the past battle with <Dark Brain>,\nbut was recovered along with the Emmy Armor and repaired\nas a weapon against the Compatible Kaiser. It was black at\nfirst, but on combining with the Compatible Kaiser, it\nreturned to its original red.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 50787,
+   "text_offset": 50833,
+   "role": "display",
+   "refs": [
+    "rec70.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    28,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 836,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Super Robot that Dr. Kisaburo Azuma had been developing\nat a certain company's request since before he met the\nCompatible Kaiser. Its official name is Bankaran, but Michiru\nHanaten added a G in front, making it the G-Bankaran.\nA power fighter skilled at melee, its heavy armor and sturdy\nframe make it very durable. Know-how gained from the\nCompatible Kaiser improved its joints, so it moves nimbly\ndespite its heavy build. Its looks are modeled on Kisaburo in\nhis youth, and he reportedly meant to climb in and fight\nhimself if it ever came to that.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 51669,
+   "text_offset": 51715,
+   "role": "display",
+   "refs": [
+    "rec71.text"
+   ],
+   "orig_chars": [
+    16,
+    28,
+    27,
+    27,
+    10,
+    27,
+    27,
+    27,
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 782,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A special humanoid mobile weapon for sword combat.\nIt carries the Direct Feedback System, which conveys the\npilot's thoughts straight to the unit, and is armed with\nslashing weapons such as the Godaiken. Its cape is a kind of\nshield that can even deflect beams.\nApparently developed alongside the Soulgain, it shares\ncommon features with it in many parts. However, it lacks the\nDirect Action Link System that lets man and machine move\nas one. Its responsiveness and reaction speed fall a step\nshort of the Soulgain's, but its enhanced thrusters give it a\nhigher top speed.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 52497,
+   "text_offset": 52539,
+   "role": "display",
+   "refs": [
+    "rec72.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    28,
+    27,
+    27,
+    28,
+    27,
+    28,
+    19
+   ],
+   "orig_bytes": 808,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A special humanoid mobile weapon for melee combat, piloted\nby Axel Almer. The Direct Action Link System, which links\nthe pilot's movements to the unit, the Direct Feedback\nSystem and the ABMD (Artificial Bone Muscle Drive) System\ngive it high responsiveness and mobility. Both elbows carry\nmelee blades made of a special liquid metal, used together\nwith its fists for superb melee ability. Most of the Soulgain's\narmor is made of EG Alloy (an active metal specialized for\nshape recovery), letting it repair battle damage to a degree.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 53347,
+   "text_offset": 53385,
+   "role": "display",
+   "refs": [
+    "rec73.text"
+   ],
+   "orig_chars": [
+    27,
+    6,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    26
+   ],
+   "orig_bytes": 675,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid assault weapon in the category called Assault\nDragoons.\nIt carries a system that analyzes and records the pilot's\nbrainwave patterns, then semi-forcibly syncs with them\nthrough feedback from the unit. With this, for patterned\noperations, the pilot's reflexes are turned directly into\naction commands.\nBoth shoulders carry Swordbreakers, remote-controlled\nflying gun turrets, making it strong at mid to long-range\ncombat. This unit is a commander model, and several of the\nsame type exist.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 54060,
+   "text_offset": 54106,
+   "role": "display",
+   "refs": [
+    "rec74.text"
+   ],
+   "orig_chars": [
+    23,
+    27,
+    10,
+    27,
+    27,
+    29,
+    10,
+    31,
+    23,
+    27,
+    20
+   ],
+   "orig_bytes": 761,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A special humanoid mobile weapon piloted by Lamia\nLoveless.\nA mystical unit with almost organic wings on its back and a\ndesign like a woman's suit of armor.\nIts attacks, firing materialized energy shaped into spears\nand arrows, and its slender rapier evoke a Western knight.\nBut much about its materials and power source is\nunknown, and it very likely uses <EOT>.\nIt is said to have been developed by\n<Isurugi Heavy Industries> for the <Federation Army>'s next\nmainstay unit trials, but the truth is unknown.\nDue to the unit's registration system, no one but its\nexclusive pilot, Lamia, can operate it.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 54867,
+   "text_offset": 54917,
+   "role": "display",
+   "refs": [
+    "rec75.text"
+   ],
+   "orig_chars": [
+    27,
+    2,
+    27,
+    27,
+    27,
+    17,
+    27,
+    28,
+    28,
+    2,
+    27,
+    24
+   ],
+   "orig_bytes": 797,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon for ground and artillery combat.\nAlso called the Type 34.\nA custom unit made by transplanting a successor unit's drive\nsystem and generator into the mass-produced RGV-Type 30\nRandgriz, strengthening its artillery ability and armor. It has\nthick armor and a shield, plus a Jammer and Beam Coat.\nThe Razangriff Raven is a modified Razangriff, fitted with a\nflight unit that doubles as an armed base (carrying a\n<Tesla Drive> and plasma generator).\nIt can now fly under gravity, and added weapons such as the\nParticle Beam raise its attack power.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 55714,
+   "text_offset": 55748,
+   "role": "display",
+   "refs": [
+    "rec76.text"
+   ],
+   "orig_chars": [
+    27,
+    2,
+    28,
+    21,
+    27,
+    29,
+    27,
+    8
+   ],
+   "orig_bytes": 511,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon for ground and artillery combat.\nAlso called the Type 30.\nIts mobility is low, but its armor is thick and the unit is very\nstable and reliable. It can also hover, giving it excellent\nrough-terrain ability.\nThe Randgriz Raven is a modified Randgriz fitted with\nbooster pods carrying a <Tesla Drive>. Its linear cannons were\ndoubled to two, also raising its attack power.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 56259,
+   "text_offset": 56373,
+   "role": "display",
+   "refs": [
+    "rec77.text"
+   ],
+   "orig_chars": [
+    31,
+    2,
+    29,
+    28,
+    29,
+    27,
+    28,
+    20,
+    27,
+    28,
+    27,
+    27,
+    10,
+    27,
+    27,
+    11,
+    27,
+    27,
+    24,
+    27,
+    13,
+    29,
+    29,
+    27,
+    27,
+    27,
+    27,
+    9
+   ],
+   "orig_bytes": 2017,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A unit developed in the <Holy Kingdom of Langran> of the\nsubterranean world <La Gias>.\nBlessed by the wind spirit Cyfis, it is known as the\n<Masoukishin> of Wind. Its main power source is a\nFulcanelli-type perpetual motion engine. To raise its power\nefficiency, it needs the <Prana> of its operator (pilot). Prana is\nbasically the same as what is called ki or aura, and the\noperator supplies it. As a result, the unit's power depends\ngreatly on the operator's aptitude.\nThe unit is highly airtight and can operate underwater and in\nspace. An internal self-circulation system protects the\noperator's bodily functions, allowing long operations. It also\nuses ether (a massless energy at rest relative to absolute\ncoordinates) as a magical medium for propulsion.\nIts armor is Orichalconium, with geometric patterns based on\ntalismanic numerology sealed in at the metal-particle level,\nso its magical defense is high as well.\nIts main computer is a Laplace Demon type that can\ncalculate causality and predict all kinds of events. However,\nthis function depends heavily on the operator's own magical\npower.\nCybuster is not its true name, but a guardian name to ward\noff magical attacks.\nAfter the Sealing War, it lost the spirit's blessing in a battle\nwith the giants in La Gias. It now absorbs the malice drifting\nin the boundary space of the <Cross Gate> with an Imitation\nRitual Converter and turns it into power. It performs almost\nas well as before, but malice builds up in the unit, so its\noperating time is greatly limited, and the malice must be\npurified afterward.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 58390,
+   "text_offset": 58404,
+   "role": "display",
+   "refs": [
+    "rec78.text"
+   ],
+   "orig_chars": [
+    13,
+    29,
+    3
+   ],
+   "orig_bytes": 134,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Cybuster's cruise form.\nIt takes the shape of Dishnaz, the sacred bird of the\n<Holy Kingdom of Langran>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 58538,
+   "text_offset": 58564,
+   "role": "display",
+   "refs": [
+    "rec79.text"
+   ],
+   "orig_chars": [
+    28,
+    28,
+    27,
+    27,
+    27,
+    3
+   ],
+   "orig_bytes": 422,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Valsione, second unit of the Valsion series, enhanced\nwith the alchemy of <La Gias>. The ABMD System transmits\npower throughout the unit, and the DML System, which\ntraces the pilot's movements, handles control, allowing far\nmore flexible and human movement than any other humanoid\nmobile weapon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 58986,
+   "text_offset": 59024,
+   "role": "display",
+   "refs": [
+    "rec80.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    29,
+    12
+   ],
+   "orig_bytes": 700,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An anti-alien <Armored Module> piloted by Shu. Its power\nsource is an annihilation engine, and its armor is\nultra-resistant titanium reinforced at the elementary\nparticle level. It favors firepower, armor and defense over\nmobility, and its attack power is fearsome. One of its\ndesigners, Eric Wang, has said, \"If its pilot had superhuman\nabilities, the Granzon could wipe out the whole world's\nmilitary in a single day.\" It is also said that the <Kabbalah>\nprogram Shu installed lets it use astral energy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 59724,
+   "text_offset": 59818,
+   "role": "display",
+   "refs": [
+    "rec81.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    30,
+    21,
+    28,
+    27,
+    27,
+    27,
+    27,
+    28,
+    27,
+    28,
+    28,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    12,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 1777,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The anti-alien <Armored Module> Granzon, transformed after\nunleashing its hidden power. Through the alchemy of the\nsubterranean world <La Gias> and the power of <Volkruss>, an\nancient evil god dwelling there, it has become an incarnation\nof sheer terror.\nThe Granzon had many black boxes, and among them, what\nits designers unanimously called \"baffling\" were the Riddles\nplaced throughout the unit. Shu installed them almost\nsingle-handedly. They varied a little in size but were mostly\nsmall enough to fit in a palm, posing no weight problem; yet\nall were tied into a network, and no one but Shu understood\nthe system. The network was managed by a program Shu\ninstalled called <Kabbalah> (Hebrew for \"oral tradition\"), and\nwas thought to give only small output boosts or strengthen\ncertain weapons during normal operation. Shu himself called\nthe network system Mahakala, and he reportedly mystified\nthose around him by asking whether it wasn't a fitting name\nfor a machine that commands black holes. Mahakala is\nanother name for Shiva, the god of destruction in Hindu\nmyth, and means \"great black.\"\nThe tremendous attack power of its back-mounted Baryon\nCreation Halo and Degeneration Cannon truly calls to mind\nShiva, the god of destruction Shu claimed to be.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 61595,
+   "text_offset": 61621,
+   "role": "display",
+   "refs": [
+    "rec82.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    27,
+    26
+   ],
+   "orig_bytes": 485,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon developed by the\nRe-Technologists. A close-combat unit armed with the\nCypher Sword, which can both shoot and slash. Gravity\nBoards attached to its legs let it move at high speed. It\ncarries the Res Arcana, a power source excavated from\nruins in Antarctica, and a man-machine interface called\nthe <Sympathia>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 62106,
+   "text_offset": 62152,
+   "role": "display",
+   "refs": [
+    "rec83.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    27,
+    27,
+    27,
+    27,
+    28,
+    26,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 868,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Aile Chevalier docked with the weapon box hanger\n<Geant Aile>. This raises the output conversion efficiency of\nthe Aile Chevalier's Res Arcana, as well as its firepower and\nmobility. Each booster unit has a fairly wide range of motion,\nminimizing the loss of agility from the larger size. The Wired\nArm Controller connected to the Aile Chevalier operates the\nNeo Cypher Sword and the Hyper Anchor Arm with its large\nclaw, letting it fight in melee despite its bulk. The Geant Aile\nalso has its own cockpit and can be used alone.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 63020,
+   "text_offset": 63062,
+   "role": "display",
+   "refs": [
+    "rec84.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    13
+   ],
+   "orig_bytes": 777,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon developed by the\nRe-Technologists, emphasizing aerial and ranged combat.\nBesides the Vector Gun and Force Buster built into its\narms, it can have weapons (the Nan series) launched from\nthe Ars Nova, a large fighter that doubles as a weapon box\nhanger, to swap out its arms. Like the Aile Chevalier, it\ncarries the <Sympathia> and the Res Arcana. The Blanche\nNeige can also dock with the Ars Nova to fight, which not\nonly raises its attack power but also extends its range and\nimproves its mobility.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 63839,
+   "text_offset": 63893,
+   "role": "display",
+   "refs": [
+    "rec85.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 1012,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Blanche Neige docked with the large weapon box hanger\nExcelsio Ars Nova. This raises the output conversion\nefficiency of the Blanche Neige's Res Arcana, as well as its\nfirepower and mobility. The Excelsio Ars Nova consists of\nfour weapon boxes, Ars Un, Ars Deux, Ars Trois and Ars\nQuatre; it carries more weapons than the Geant Chevalier\nbut is less agile in close combat. It can fight in melee with the\nlarge blade under its body, but it is basically a long-range\nunit. It also has a launched defensive device called the\nPassive Bit. The Excelsio Ars Nova also has its own cockpit\nand can be used alone.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 64905,
+   "text_offset": 64959,
+   "role": "display",
+   "refs": [
+    "rec86.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    29,
+    27,
+    27,
+    28,
+    28,
+    27,
+    27,
+    27,
+    28,
+    27,
+    5
+   ],
+   "orig_bytes": 1009,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "One of the NV Units, mobile weapons designed by the\nRe-Technologists to fight extremely powerful units (of the\n<Ruina>) and large numbers of enemies. It was meant to be a\nspecial humanoid mobile weapon smaller than the <Geant Aile>\nand Excelsio Ars Nova yet just as powerful, but production\nwas shelved due to cost and other problems. However, the\n<Gaia Savers> obtained the blueprints, and it saw the light of\nday along with the Geant Aile and Excelsio Ars Nova. It is\nformed by two humanoid mobile weapons, the Ganadur and\nStrega, transforming and combining, and running two Race\nArcanas in one unit gives it immense power. It can also\nattack with the Ganadur's two variable multipurpose\nweapons, the Figa.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 65968,
+   "text_offset": 66010,
+   "role": "display",
+   "refs": [
+    "rec87.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    28,
+    29,
+    27,
+    28,
+    27,
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 791,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Ruina> humanoid mobile weapon piloted by Glacies. Made by\ntransmuting materials on Earth with power granted by the\n\"King of Ruin,\" it has a power source similar to the Race\nArcana and a man-machine interface like the <Sympathia>.\nBecause it applies the knowledge of Ferio Radcliffe, who was\nabsorbed by the \"King of Ruin,\" parts of its internal\nstructure resemble the Aile Chevalier and Blanche Neige.\nArmed with the Sagitta Lumen, a ranged weapon, and the\nVirite Gladius, a close-combat weapon that doubles as a\nshield, it excels at freezing attacks.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 66801,
+   "text_offset": 66843,
+   "role": "display",
+   "refs": [
+    "rec88.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    30,
+    27,
+    27,
+    28,
+    28,
+    27,
+    12
+   ],
+   "orig_bytes": 782,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A rescue unit developed from Excellence data. However, it\nlacks the small fighter Argent Fighter that served as the\nExcellence's cockpit, the frame exchange system and the\n<Time Flow Engine>. Its structure is sturdy, and it carries an\neight-person rescue pod and small remote-controlled rescue\nmachines called Ex-Fairies; it can also fight using weapons\nnominally meant for clearing obstacles. It carries a\n<Tesla Drive>, allowing solo flight and high-speed movement in\nhigh-mobility mode. Its comfortable cabin is fitted with\nemergency medical equipment.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 67625,
+   "text_offset": 67731,
+   "role": "display",
+   "refs": [
+    "rec89.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    13,
+    27,
+    27,
+    30,
+    21,
+    27,
+    27,
+    20,
+    27,
+    29,
+    27,
+    27,
+    9,
+    27,
+    27,
+    27,
+    27,
+    2,
+    28,
+    25,
+    27,
+    27,
+    26,
+    7
+   ],
+   "orig_bytes": 1861,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The second ship of the Space Noah-class multipurpose\nbattle carriers, built for anti-alien combat. It floats with a\n<Tesla Drive> and is propelled by eight main rocket engines and\nmore.\nIts hull is made of ultra-resistant metal, so it can not only\ntravel in space but also fly in the atmosphere and dive\nunderwater. It also excels at anti-ship artillery combat and\nat carrying <Personal Trooper> units and fighters of all kinds,\nmaking it the ship that realized the <Federation Army>'s ISA\ntactic (Integrated Synchronizing Attack: a blitzkrieg by a\nmobile battleship serving as a carrier and the humanoid\nmobile weapons aboard it).\nThe Space Noah class was born of two opposite intentions,\nan escort ship for an Earth exodus fleet and a battle carrier\nwith <PT> units for anti-alien warfare; as if to outwit the\noverarching Earth exodus plan, it was given the combat\nability envisioned by the Earth Sphere defense concept.\nTo hide those dual intentions, it adopted a flexible structure\nunheard of for a warship: a system that modularizes the ship,\nusing the hull and main engines as a common core, so that\ncombat modules for different purposes can be swapped in a\nrelatively short time.\nThe swappable part is the bow, and the first, second and\nthird ships each carry a different module.\nThe second ship Hagane's bow module is the Tronium Buster\nCannon, a high-output heavy metal particle cannon, giving it\nattack power among the highest of any Federation Army\nwarship. Its code name is Steel 2.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 69592,
+   "text_offset": 69650,
+   "role": "display",
+   "refs": [
+    "rec90.text"
+   ],
+   "orig_chars": [
+    27,
+    4,
+    30,
+    29,
+    27,
+    16,
+    21,
+    27,
+    27,
+    27,
+    17,
+    29,
+    27,
+    6
+   ],
+   "orig_bytes": 940,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A general-purpose battle carrier converted from the\nHiryu, humanity's first deep-space exploration ship.\nIt is also the first ship ever fitted with a <Tesla Drive>. In\n<S.C.> 179, it was attacked by <Aerogators> mobile weapons\nbeyond Pluto's orbit and moderately damaged. After heavy\nlosses, it returned to Icarus Base in the asteroid belt.\nIt then underwent a major refit based on the ISA tactic\n(Integrated Synchronizing Attack: a blitzkrieg by a mobile\nbattleship serving as a carrier and the humanoid mobile\nweapons aboard it), and was reborn as the\ngeneral-purpose battle carrier Hiryu Custom.\nIts bow carries a super gravity impact cannon based on\n<EOT>, giving it combat ability second only to the Hagane\nand Kurogane. Its code name is Dragon 2.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 70590,
+   "text_offset": 70636,
+   "role": "display",
+   "refs": [
+    "rec91.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    13,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    29,
+    17
+   ],
+   "orig_bytes": 834,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The third ship of the Space Noah-class multipurpose\nbattle carriers, built for anti-alien combat. It floats with a\n<Tesla Drive> and is propelled by eight main rocket engines\nand more.\nThe Kurogane's bow module is a giant Rotating Ram for\ncrushing bedrock (the anti-ship, anti-bedrock Excalibur\nDrill Ram), allowing anti-ship melee and the removal of\nobstacles in its path (masses of rock or ice, etc.). By\ncombining the Rotating Ram with the Break Field, a T-Dot\nArray force field that forms and covers the whole ship\nwhen the Tesla Drive's output passes a certain level, it can\neven break through the wide-area <Energy Field> of an\nenemy fortress. Its code name is Iron 3.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 71470,
+   "text_offset": 71488,
+   "role": "display",
+   "refs": [
+    "rec92.text"
+   ],
+   "orig_chars": [
+    23,
+    30,
+    27,
+    23
+   ],
+   "orig_bytes": 305,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An aerial battle carrier used by the Earth Federation Army\nand others.\nFighters and <Armored Module> units can launch from and land\non it in midair, and it can carry many of them. With excellent\nwide-area air defense and powerful fixed weapons, it is\nvirtually a flying fortress.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 71793,
+   "text_offset": 71819,
+   "role": "display",
+   "refs": [
+    "rec93.text"
+   ],
+   "orig_chars": [
+    23,
+    29,
+    9,
+    27,
+    27,
+    8
+   ],
+   "orig_bytes": 367,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A large strategic and tactical transport used by the Earth\nFederation Army.\nIt can hold up to five <Personal Trooper> units and carry\nthem to the battlefield.\nIts launch catapult lets Personal Troopers sortie while it is\nin flight, allowing rapid deployment.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 72186,
+   "text_offset": 72256,
+   "role": "display",
+   "refs": [
+    "rec94.text"
+   ],
+   "orig_chars": [
+    30,
+    29,
+    4,
+    28,
+    30,
+    29,
+    27,
+    29,
+    27,
+    27,
+    28,
+    27,
+    27,
+    26,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 1274,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Galilnagant is a High Personal Trooper used by the\n<Gaia Savers>, a special unit formed after the <Shura Revolt>\nended.\nBut that is only its public face; it came neither from\n<Mao Industries> nor from the <SRX Project>. It is not even of\nEarth origin: it is one of the Hum Zelem series of mobile\nweapons developed by the alien civilization of the\n<Ze Balmary Empire>. Its power source, the <Tronium> Rev, can be\ncalled the original or superior version of the Tronium Engine\ncarried by the SRX and others; it is highly reliable and stable,\nand its output is easy to control. The Galilnagant also carries\nMerafty Deen, a system that applies a kind of numerology\n(gematria) to open a gate linking this world (the material\nrealm) and a higher realm and draw energy from it. Its ultimate\naim is to draw Or (light) from Ein Sof (the infinite), but it is\nstill at the research prototype stage, and for now it produces\nonly the tiniest fraction of that power.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 73530,
+   "text_offset": 73580,
+   "role": "display",
+   "refs": [
+    "rec95.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    26,
+    27,
+    27,
+    27,
+    29,
+    20,
+    27,
+    29,
+    28,
+    21
+   ],
+   "orig_bytes": 953,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by the Alpha Saber of the\n<Gaia Savers>. It was developed from data on a captured Rest\nGemira, an unmanned general-purpose transformable mobile\nweapon used by the <Inspectors> (Earth code name: Geminira).\nIt makes the most of the Rest Gemira's flexible structure\nand wide-ranging joints, giving it high mobility and\nresponsiveness. It also carries a high-performance\n<Tesla Drive>. To keep production costs down, the\ntransformation mechanism was omitted.\nThe time from the Rest Gemira's first sighting on Earth to\nthe Canis's mass production was short, likely because Arteur\n(<Euzeth>) had somehow obtained the unit's data, or an actual\nunit, in advance and begun development early.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 74533,
+   "text_offset": 74611,
+   "role": "display",
+   "refs": [
+    "rec96.text"
+   ],
+   "orig_chars": [
+    35,
+    30,
+    29,
+    16,
+    28,
+    27,
+    3,
+    27,
+    27,
+    27,
+    29,
+    27,
+    4,
+    27,
+    26,
+    27,
+    27,
+    27,
+    16
+   ],
+   "orig_bytes": 1368,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Armored Module> used by the <DC> and the\n<United Colony Corps> in the <DC War>. After the war,\n<Isurugi Heavy Industries> kept producing it, and it is used not\nonly by DC remnants but also by the Earth Federation Army\n(Federation model number RAM-006).\nDesigned on the premise of fighting humanoid mobile weapons,\nit is a highly versatile, high-performance unit that, together\nwith its improved bullet resistance, can also handle regional\nwarfare.\nUsed as a commander's Armored Module, it serves as a fast\nbattlefield control unit that keeps pace with main formations\nof Lions. It carries the high-efficiency reactive propulsion\ndevice <Tesla Drive>, which can separate gravitational and\ninertial mass, and uses the T-Dot Array as a repulsion and\ninertial mass control field that serves as the unit's \"shield.\"\nIt also fixes a weakness noted in the two earlier models (the\nLion and Barrelion), the lack of weapon options; along with the\nevolution of limb control via the LIEON System, it can use\nmany weapons, starting with melee blades.\nThere is also a cheaper type with some features, such as\ncommand and control functions, omitted.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 75979,
+   "text_offset": 76005,
+   "role": "display",
+   "refs": [
+    "rec97.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    28,
+    16
+   ],
+   "orig_bytes": 457,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The successor to the Lion, developed by\n<Isurugi Heavy Industries>. Relion (ReLION) is short for\n\"Refined Lion.\"\nIts arms are human-type arms, so like the Guarlion it can use\na variety of weapons. Its basic performance exceeds the\nLion's, it is easy to handle, and it is easy to maintain and\nproduce: a multirole <Armored Module>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 76462,
+   "text_offset": 76532,
+   "role": "display",
+   "refs": [
+    "rec98.text"
+   ],
+   "orig_chars": [
+    35,
+    30,
+    29,
+    28,
+    12,
+    29,
+    28,
+    27,
+    28,
+    27,
+    27,
+    27,
+    27,
+    27,
+    28,
+    27,
+    16
+   ],
+   "orig_bytes": 1345,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Armored Module> used by the <DC> and the\n<United Colony Corps> in the <DC War>. After the war,\n<Isurugi Heavy Industries> kept producing it, and it is used not\nonly by DC remnants but also by the Earth Federation Army\n(Federation model number RAM-004V). An improved Lion with\nenhanced mobility.\nThe high-efficiency reactive propulsion device <Tesla Drive>,\nwhich can separate gravitational and inertial mass, reduces\nonly its gravitational mass; small downward jets let it float\neasily, and the lift of its small main wings keeps it flying. Its\nthrust comes from a separate device, however: a large\nconventional engine is built in as the main engine in its unusual\nlower body, which doubles as landing gear. The lower body also\nhas many attitude control thrusters that allow bold terrain\nfollowing, so it can handle surface combat as well. Swapping\nsome parts also lets it operate in space. It has an extremely\nsimple structure for a Tesla Drive unit, and its production\ncost is low.\nEven after the DC War, Isurugi Heavy Industries kept\nproducing it, and the Earth Federation Army uses it as a\nmainstay unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 77877,
+   "text_offset": 77923,
+   "role": "display",
+   "refs": [
+    "rec99.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    3,
+    27,
+    27,
+    27,
+    19,
+    27,
+    27,
+    28,
+    27
+   ],
+   "orig_bytes": 807,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A variant of the <Armored Module> Lion. Its official name is\nLion Type L; Landlion is a nickname.\nSpecialized for ground combat, it has four Stick Movers in\nplace of legs, giving it excellent rough-terrain ability.\nSetting the Stick Movers nearly horizontal also lets it lower\nits profile.\nIts mobility and maneuverability are inferior to the Lion's, so\nit is basically used to attack and defend ground bases. For\nthat role, it carries a large Railgun with better performance\nthan the normal type's. It can fly alone with its <Tesla Drive>,\nbut is ill-suited to aerial combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 78730,
+   "text_offset": 78772,
+   "role": "display",
+   "refs": [
+    "rec100.text"
+   ],
+   "orig_chars": [
+    27,
+    9,
+    27,
+    17,
+    28,
+    29,
+    27,
+    27,
+    27,
+    13
+   ],
+   "orig_bytes": 699,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The top model of the Barrelion line, developed from the\nBarrelion Custom.\nIt has two Bighead Railguns, raising its firepower, and its\narmor and mobility are further strengthened.\nIt looks like a large artillery piece, but it can not only move on\nits own but also fly alone with its <Tesla Drive>. Its external\narmor and other parts are reinforced with the T-Dot Array,\ngiving it a sturdy body with minimal structural material. As a\nresult, everything but the essential modules is fairly simple in\nstructure, making it easy to maintain and keeping its cost\nwithin mass-producible range.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 79471,
+   "text_offset": 79497,
+   "role": "display",
+   "refs": [
+    "rec101.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 434,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Based on the <Zovorg> mass-produced mobile weapon\nGeios-Grude, this is a heavily strengthened unit for senior\nofficers (human commanders). It has excellent command\nand control functions, high firepower and thick armor.\nVernier thrusters all over its body keep its mobility from\ndropping. Being a high-performance unit, it is costly, and\nfew were produced.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 79931,
+   "text_offset": 79953,
+   "role": "display",
+   "refs": [
+    "rec102.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    28,
+    27,
+    21
+   ],
+   "orig_bytes": 397,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Zovorg> mobile weapon. A\nhigh-performance multirole unit excelling in firepower,\nmobility and maneuverability. Depending on the situation,\nvarious option parts can be attached to the hardpoints atop\nits shoulders. Attaching parts to its back also lets it be\noutfitted for aerial combat. Its production cost is high, so\nnot many have been mass-produced.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 80350,
+   "text_offset": 80368,
+   "role": "display",
+   "refs": [
+    "rec103.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    27,
+    11
+   ],
+   "orig_bytes": 285,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Zovorg> mobile weapon. An artillery unit\narmed with a large Driver Cannon. Its simple structure makes\nit easy to produce and maintain, but its mobility is low, so it\nserves more as an automated gun battery.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 80653,
+   "text_offset": 80671,
+   "role": "display",
+   "refs": [
+    "rec104.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    27,
+    11
+   ],
+   "orig_bytes": 285,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Zovorg> mobile weapon, notable for its\ntail-like stabilizer. It was basically designed for use in space\nand low-gravity environments. It is becoming outdated within\nthe Zovorg, but large numbers have been produced.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 80956,
+   "text_offset": 80978,
+   "role": "display",
+   "refs": [
+    "rec105.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    28,
+    27,
+    12
+   ],
+   "orig_bytes": 370,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Zovorg> mobile weapon. A well-balanced\nunit made lighter and higher-performing than the Rest Rail,\nit has succeeded that unit as the mainstay. Stabilizers that\ndouble as vernier thrusters on both shoulders give it high\nmobility. It is basically used in aerial and space combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 81348,
+   "text_offset": 81362,
+   "role": "display",
+   "refs": [
+    "rec106.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    21
+   ],
+   "orig_bytes": 230,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mass-produced <Zovorg> mobile weapon. A stable unit\nthat emphasizes firepower; with many high-thrust vernier\nthrusters, it is suited to assaults in space and on land.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 81592,
+   "text_offset": 81606,
+   "role": "display",
+   "refs": [
+    "rec107.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    10
+   ],
+   "orig_bytes": 193,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An unmanned <Zovorg> mobile weapon. Equipped with\nhigh-performance sensors, it is also used for\nreconnaissance in force and patrols. Earth code name:\n<Urchin>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 81799,
+   "text_offset": 81817,
+   "role": "display",
+   "refs": [
+    "rec108.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    19
+   ],
+   "orig_bytes": 306,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A large battle carrier used by the <Zovorg>. With a space\nwarp function, it can warp not only itself but also the\nmobile weapons it carries to any point. However, unless\nthe conditions of the space at the destination are known\nbeforehand, warping carries great danger.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 82123,
+   "text_offset": 82133,
+   "role": "display",
+   "refs": [
+    "rec109.text"
+   ],
+   "orig_chars": [
+    31,
+    21
+   ],
+   "orig_bytes": 150,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Read \"Teikou.\" A <Yokijin> of the <Baral>. It has no face or\neyes; six legs grow from a yellow sack, and it has four\nwings.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 82283,
+   "text_offset": 82297,
+   "role": "display",
+   "refs": [
+    "rec110.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    2
+   ],
+   "orig_bytes": 175,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Read \"Moukai.\" A <Yokijin> of the <Baral>. It looks like a\nporcupine and attacks with the quills all over its body. It\nhas a violent temper.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 82472,
+   "text_offset": 82482,
+   "role": "display",
+   "refs": [
+    "rec111.text"
+   ],
+   "orig_chars": [
+    31,
+    18
+   ],
+   "orig_bytes": 141,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Read \"Karagyo.\" A <Yokijin> of the <Baral>. It has a giant\nfishlike head attached to ten bodies and a tail fin.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 82623,
+   "text_offset": 82637,
+   "role": "display",
+   "refs": [
+    "rec112.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    9
+   ],
+   "orig_bytes": 196,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Read \"Houkyou.\" A <Yokijin> of the <Baral>. It looks like a\nsheep with a human face on its belly, and has human nails\nand tiger teeth. Its voice is like a baby's.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 82833,
+   "text_offset": 82847,
+   "role": "display",
+   "refs": [
+    "rec113.text"
+   ],
+   "orig_chars": [
+    32,
+    27,
+    4
+   ],
+   "orig_bytes": 184,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Read \"Kushinkoushu.\" A <Yokijin> of the <Baral>, a kind of tree\nspirit. It has a melon-like head (with a human face) and a\nunicycle made of its own curled-up roots.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 83031,
+   "text_offset": 83073,
+   "role": "display",
+   "refs": [
+    "rec114.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    13
+   ],
+   "orig_bytes": 785,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A prototype humanoid mobile weapon developed\nindependently by \"<Golaikunru>,\" the war merchants of the\n<Zovorg>. It carries powerful ranged weapons for mid to\nlong-range combat, with thick armor and a highly durable\nframe. It was originally weak at melee, but its specs were\nchanged to suit the fighting style of a mercenary named\nGrofis Lacrain: vernier thrusters were added to its shoulders\nand rear armor for mobility, its fingertips became claws with\nhigh piercing power, and a melee weapon called the Vanish\nGazer was added. Gomoudokka liked these specs and had a\nnew unit built for himself.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 83858,
+   "text_offset": 83884,
+   "role": "display",
+   "refs": [
+    "rec115.text"
+   ],
+   "orig_chars": [
+    31,
+    29,
+    28,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 441,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A large mobile weapon developed by \"<Golaikunru>,\" the war\nmerchants of the <Zovorg>. It also uses Earth's excellent\nmilitary technology that <Zezenan> took note of (wide-area\nmass preemptive strike weapons), combining gunship-class\nfirepower with mobility greater than the Geios series'. It also\nhas excellent command and control functions and electronic\nwarfare equipment, so a single unit can suppress a wide\nbattle zone.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 84325,
+   "text_offset": 84375,
+   "role": "display",
+   "refs": [
+    "rec116.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    27,
+    27,
+    27,
+    28,
+    28,
+    29,
+    27,
+    27,
+    29,
+    22
+   ],
+   "orig_bytes": 983,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The third Exbein, a <Personal Trooper> newly developed by\n<Mao Industries>, fitted with the AM Boxer, a melee weapon\nmodule. With attitude control thrusters all over, it excels at\nhigh-mobility close melee combat. Its output is lower than the\nold Hückebein Boxer's, but its latest compact plasma reactor\nlets it use the G-Sword Diver. Besides the <T-LINK System>, it\nhas a brain-machine interface called the APT-LINK System,\nwhich lets even people without telekinesis project a weak TK\nField in a simulated, temporary way. Even with this system,\nhowever, it cannot use weapons fully designed for a\n<Telekinetic>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 85358,
+   "text_offset": 85392,
+   "role": "display",
+   "refs": [
+    "rec117.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    27,
+    28,
+    28,
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 660,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The third Exbein, a <Personal Trooper> newly developed by\n<Mao Industries>, fitted with the AM Gunner, an artillery\nweapon module. Its range is extended, and it specializes in\nartillery combat. Its output is lower than the old Hückebein\nGunner's, but its latest compact plasma reactor lets it fire\nfour G-Impact Cannons at once. Even so, it does not reach\nthe power of the Full Impact Cannon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 86052,
+   "text_offset": 86102,
+   "role": "display",
+   "refs": [
+    "rec118.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    27,
+    27,
+    27,
+    28,
+    28,
+    29,
+    27,
+    27,
+    29,
+    22
+   ],
+   "orig_bytes": 983,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The second Exbein, a <Personal Trooper> newly developed by\n<Mao Industries>, fitted with the AM Boxer, a melee weapon\nmodule. With attitude control thrusters all over, it excels at\nhigh-mobility close melee combat. Its output is lower than the\nold Hückebein Boxer's, but its latest compact plasma reactor\nlets it use the G-Sword Diver. Besides the <T-LINK System>, it\nhas a brain-machine interface called the APT-LINK System,\nwhich lets even people without telekinesis project a weak TK\nField in a simulated, temporary way. Even with this system,\nhowever, it cannot use weapons fully designed for a\n<Telekinetic>.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 87085,
+   "text_offset": 87119,
+   "role": "display",
+   "refs": [
+    "rec119.text"
+   ],
+   "orig_chars": [
+    30,
+    28,
+    27,
+    28,
+    28,
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 660,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The second Exbein, a <Personal Trooper> newly developed by\n<Mao Industries>, fitted with the AM Gunner, an artillery\nweapon module. Its range is extended, and it specializes in\nartillery combat. Its output is lower than the old Hückebein\nGunner's, but its latest compact plasma reactor lets it fire\nfour G-Impact Cannons at once. Even so, it does not reach\nthe power of the Full Impact Cannon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 87779,
+   "text_offset": 87813,
+   "role": "display",
+   "refs": [
+    "rec120.text"
+   ],
+   "orig_chars": [
+    31,
+    8,
+    27,
+    27,
+    27,
+    27,
+    28,
+    12
+   ],
+   "orig_bytes": 561,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A special humanoid mobile weapon for anti-alien combat\ndeveloped under the Earth Federation Army's <SRX Project>.\nThe successor to the Grungust (Type 1) and a\nmass-production prototype, with some of its transformation\nmechanisms and weapons omitted. So while its overall attack\npower falls short of the original, it is easier to handle than\nthe rest of the Grungust series. Like the Grungust (Type 1),\nit is powered by a plasma reactor, and it also uses VG Alloy\nand TGC Joints.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 88374,
+   "text_offset": 88424,
+   "role": "display",
+   "refs": [
+    "rec122.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    30,
+    27,
+    28,
+    27,
+    28,
+    27,
+    27,
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 991,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Its official name is Gespenst Type H. Marion Radom built it at\nthe <Tesla Reich Institute> after obtaining data from the\nGespenst development plan of <Shadow Mirror>. Based on the\nType S (a unit emphasizing built-in firepower, melee ability\nand defense), one of the early Gespenst variants, it\nincorporates the strengths of the Type R (a unit emphasizing\nmobility and maneuverability), bringing everything together\nat a high level. As a result, its performance matches the\nnewest units. Shadow Mirror designed the original unit as\nHaken Browning's personal unit, and he too knew how to pilot\nit. Its two-seat cockpit, for Aschen Brodel to ride along, has\nbeen part of the spec since the design stage.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 89415,
+   "text_offset": 89441,
+   "role": "display",
+   "refs": [
+    "rec123.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    27,
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 458,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon for <Zovorg> senior officers (human\ncommanders), and a higher model of the Geios series. An\nartillery unit, it is slim yet heavily armed, with Missiles, the\nGiga Blaster, large Driver Cannons on both shoulders, the\nGain Shooter and more. Being versatile, stable and easy to\nhandle, it is favored by many commanders.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 89899,
+   "text_offset": 89953,
+   "role": "display",
+   "refs": [
+    "rec124.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    28,
+    28,
+    28,
+    27,
+    29,
+    27,
+    27,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 1010,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Excellence of the past was a humanoid mobile weapon\nthat could adapt to all kinds of battlefields by swapping\nbetween multiple frames. This Gunstriker combines the first\nframe, the Striker, with the Gunner, an artillery frame that\nMizuho had only designed. Its power source is a newly built\n<Time Flow Engine>. Besides superb artillery ability, it can also\nfight in melee with the Crusher Arm inherited from the\nStriker. It carries a <Tesla Drive> as well, allowing solo flight.\nIts backpack, the Gun Fairy, armed with the Long-Range\nPlasma Cannon, can be detached and transformed into\nFloating Tank Mode for use as a remote attack weapon. This\nGunstriker is piloted by Raul.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 90963,
+   "text_offset": 91017,
+   "role": "display",
+   "refs": [
+    "rec125.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    28,
+    28,
+    28,
+    27,
+    29,
+    27,
+    27,
+    27,
+    27,
+    6
+   ],
+   "orig_bytes": 1013,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Excellence of the past was a humanoid mobile weapon\nthat could adapt to all kinds of battlefields by swapping\nbetween multiple frames. This Gunstriker combines the first\nframe, the Striker, with the Gunner, an artillery frame that\nMizuho had only designed. Its power source is a newly built\n<Time Flow Engine>. Besides superb artillery ability, it can also\nfight in melee with the Crusher Arm inherited from the\nStriker. It carries a <Tesla Drive> as well, allowing solo flight.\nIts backpack, the Gun Fairy, armed with the Long-Range\nPlasma Cannon, can be detached and transformed into\nFloating Tank Mode for use as a remote attack weapon. This\nGunstriker is piloted by Fiona.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 92030,
+   "text_offset": 92056,
+   "role": "display",
+   "refs": [
+    "rec126.text"
+   ],
+   "orig_chars": [
+    30,
+    29,
+    28,
+    27,
+    28,
+    29
+   ],
+   "orig_bytes": 507,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A standard model, in effect, of the Cerberion Passe, an\n<Armored Module> developed from the YAM-014 Garelion\nPrototype (the Guarlion's successor) under development at\n<Isurugi Heavy Industries>. A small number were produced to\nexplore the Garelion's expandability. Though heavily armored,\nits high-performance <Tesla Drive> and high-thrust back\nthrusters let it handle high-mobility combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 92563,
+   "text_offset": 92605,
+   "role": "display",
+   "refs": [
+    "rec127.text"
+   ],
+   "orig_chars": [
+    31,
+    26,
+    27,
+    27,
+    27,
+    27,
+    4,
+    27,
+    28,
+    22
+   ],
+   "orig_bytes": 740,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Mighty Walker> developed by <Mogami Heavy Industries>:\nprototype No. 1 of a Super Robot meant for mass\nproduction. FF stands for Fighter First, meaning\nhigh-mobility close melee equipment. To cut costs, its\nstructure is simplified throughout, and complex\ntransformation mechanisms were deliberately omitted.\nInstead, its parts can be swapped in a short time, changing\nthe unit's characteristics.\nIt was originally a one-seater, but prototype No. 1 has two\nseats for monitoring the unit and gathering data, with a\nsub-pilot aboard. Akimi pilots the FF.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 93345,
+   "text_offset": 93367,
+   "role": "display",
+   "refs": [
+    "rec128.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    27,
+    23
+   ],
+   "orig_bytes": 402,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Mighty Walker> developed by <Mogami Heavy Industries>:\nprototype No. 1 of a Super Robot meant for mass\nproduction. GG stands for Gunner Guard, meaning heavily\narmored long-range equipment. Compared to the FF\nequipment, its mobility is lower but its durability is higher,\nand it excels at shooting and long-range combat. Akemi\npilots the GG.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 93769,
+   "text_offset": 93819,
+   "role": "display",
+   "refs": [
+    "rec129.text"
+   ],
+   "orig_chars": [
+    31,
+    26,
+    27,
+    27,
+    27,
+    27,
+    4,
+    27,
+    27,
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 877,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Mighty Walker> developed by <Mogami Heavy Industries>:\nprototype No. 1 of a Super Robot meant for mass\nproduction. FF stands for Fighter First, meaning\nhigh-mobility close melee equipment. To cut costs, its\nstructure is simplified throughout, and complex\ntransformation mechanisms were deliberately omitted.\nInstead, its parts can be swapped in a short time, changing\nthe unit's characteristics.\nThe Super Soul Saber FF is fitted with the Saber Booster,\na large booster for flight, improving its mobility and\nmaneuverability. A Twin Long Cannon was also added,\nenabling powerful long-range attacks, and its other\nweapons were powered up as well.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 94696,
+   "text_offset": 94758,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    31,
+    26,
+    27,
+    27,
+    27,
+    27,
+    4,
+    27,
+    27,
+    27,
+    27,
+    14,
+    29,
+    27,
+    23
+   ],
+   "orig_bytes": 1113,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 95871,
+   "text_offset": 95909,
+   "role": "display",
+   "refs": [
+    "rec130.text"
+   ],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    27,
+    8,
+    28,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 658,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A <Mighty Walker> developed by <Mogami Heavy Industries>:\nprototype No. 1 of a Super Robot meant for mass\nproduction. GG stands for Gunner Guard, meaning heavily\narmored long-range equipment. Compared to the FF\nequipment, its mobility is lower but its durability is higher,\nand it excels at shooting and long-range combat.\nThe Super Soul Saber GG is fitted with the Saber Booster, a\nlarge booster for flight, improving its mobility and\nmaneuverability. The added Twin Long Cannon also raises its\nartillery ability.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 96567,
+   "text_offset": 96617,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    31,
+    27,
+    27,
+    27,
+    8,
+    28,
+    27,
+    27,
+    17,
+    29,
+    27,
+    23
+   ],
+   "orig_bytes": 894,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 97511,
+   "text_offset": 97557,
+   "role": "display",
+   "refs": [
+    "rec131.text"
+   ],
+   "orig_chars": [
+    27,
+    31,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    18
+   ],
+   "orig_bytes": 879,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The newest model of the Arounzer, the large wide-area\nattack mobile weapons designed by Herluga Izberga. It\ncarries the Siebe Drive, a power source that absorbs and\nefficiently converts the energy released by the <Zemon>\n(<Cross Gate>). So as long as it stays near the Zemon (Cross\nGate), it can keep up its high combat ability without losing\noutput. However, it still needs heat dispersal and other\nmeasures, and its pilot's body has limits, so it cannot\noperate forever. It also carries power sources besides the\nSiebe Drive, so it can operate away from the Zemon (Cross\nGate) too. In that case its overall attack power drops, but\nit is still stronger than the Gyanonia.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 98436,
+   "text_offset": 98490,
+   "role": "display",
+   "refs": [
+    "rec132.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    19,
+    27,
+    28,
+    27,
+    18,
+    27,
+    27,
+    27,
+    27,
+    27,
+    11
+   ],
+   "orig_bytes": 973,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A variant of the Gyanonia, a type of Arounzer, the wide-area\nattack mobile weapons designed by Herluga Izberga. Its pilot\nis Reggiane Josephine.\nTo explore the Gyanonia's expandability, it was tuned for\nhigh-mobility melee rather than one-against-many shooting.\nThat matched Reggiane's fighting style, making the Braga\neffectively her personal unit.\nIt is basically a space combat unit, but its many high-thrust\nthrusters let it fight in the air under gravity too. Shifting to\nhigh-mobility mode unfolds its folded legs, raising its\nmobility even further. Mastering this mode takes skill on par\nwith top aces like Reggiane and Vort.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 99463,
+   "text_offset": 99505,
+   "role": "display",
+   "refs": [
+    "rec133.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    27,
+    27,
+    29,
+    8,
+    27,
+    27,
+    27,
+    17
+   ],
+   "orig_bytes": 738,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An early mass-production Gyanonia, a type of Arounzer, the\nwide-area attack mobile weapons designed by Herluga\nIzberga. The plan was to run operational tests with this unit,\nthen equip it with a powerful wide-area preemptive strike\nweapon and move to full mass production, but that never\ncame to pass, because the space fortress <Rabulpaila> warped\ninto the solar system.\nIt is basically a space combat unit, but its many high-thrust\nthrusters let it fight in the air under gravity too. It cannot\nserve as a wide-area attack weapon, but it is still undeniably\na powerful, highly mobile unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 100243,
+   "text_offset": 100285,
+   "role": "display",
+   "refs": [
+    "rec134.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    29,
+    22,
+    27,
+    25,
+    27,
+    28,
+    27,
+    14
+   ],
+   "orig_bytes": 768,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A variant of the Gyanonia, a type of Arounzer, the wide-area\nattack mobile weapons designed by Herluga Izberga. It was\nbeing tested at the space fortress <Rabulpaila> and was given\nto Vort Nikolaus as a special measure.\nTo explore the Gyanonia's expandability, it was tuned for\nhigh-mobility melee rather than one-against-many shooting.\nIt is basically a space combat unit, but its many high-thrust\nthrusters let it fight in the air under gravity too. However,\nhandling this unit, with its high mobility and explosive\nacceleration, takes considerable skill.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 101053,
+   "text_offset": 101087,
+   "role": "display",
+   "refs": [
+    "rec135.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    28,
+    28,
+    27,
+    27,
+    2
+   ],
+   "orig_bytes": 587,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An enhanced Leonysis, a humanoid mobile weapon designed by\nHerluga Izberga and used by the military of planet Gadisword.\nIts back booster unit was enlarged to increase thrust.\nThruster modules on its legs also improve its mobility, and\nadded wings raise its aerial combat ability under gravity. The\nHarga carries Slicer Hakens on both arms and excels at\nhigh-mobility melee.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 101674,
+   "text_offset": 101708,
+   "role": "display",
+   "refs": [
+    "rec136.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    28,
+    28,
+    27,
+    27,
+    4
+   ],
+   "orig_bytes": 593,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An enhanced Leonysis, a humanoid mobile weapon designed by\nHerluga Izberga and used by the military of planet Gadisword.\nIts back booster unit was enlarged to increase thrust.\nThruster modules on its legs also improve its mobility, and\nadded wings raise its aerial combat ability under gravity. The\nVarga carries a Heavy Shock Shooter and excels at\nhigh-mobility shooting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 102301,
+   "text_offset": 102315,
+   "role": "display",
+   "refs": [
+    "rec137.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 240,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon designed by Herluga Izberga and\nused by the military of planet Gadisword. A versatile,\neasy-to-handle unit. It carries a large rifle and excels at\nshooting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 102555,
+   "text_offset": 102577,
+   "role": "display",
+   "refs": [
+    "rec138.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    4
+   ],
+   "orig_bytes": 344,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon designed by Herluga Izberga and\nused by the military of planet Gadisword. A versatile,\neasy-to-handle unit. It carries a large rifle and excels at\nshooting. This unit is the type used by the Royal Guard and\nhas been upgraded.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 102921,
+   "text_offset": 102943,
+   "role": "display",
+   "refs": [
+    "rec139.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    7
+   ],
+   "orig_bytes": 353,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mobile weapon designed by Herluga Izberga. It is basically a\nspace combat unit, but it can also fight in the air under\ngravity using its high-thrust thrusters (though its operating\ntime gets shorter). Partly because Cupid is poor at melee, it\nis armed with a large claw.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 103296,
+   "text_offset": 103322,
+   "role": "display",
+   "refs": [
+    "rec140.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    27,
+    14
+   ],
+   "orig_bytes": 456,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mobile weapon designed by Herluga Izberga. It is basically a\nspace combat unit, but it can also fight in the air under\ngravity using its high-thrust thrusters (though its operating\ntime gets shorter). Partly because Cupid is poor at melee, it\nis armed with a large claw. This unit is the type used by the\nRoyal Guard and has been upgraded.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 103778,
+   "text_offset": 103800,
+   "role": "display",
+   "refs": [
+    "rec141.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    6
+   ],
+   "orig_bytes": 350,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mobile weapon used by the military of planet Gadisword. Its\nproduction and operating costs are low and it is easy to\nmaintain, so it is produced in large numbers. It is basically a\nspace combat unit, but it can also fight in the air under\ngravity using its high-thrust thrusters (though its operating\ntime gets shorter).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 104150,
+   "text_offset": 104176,
+   "role": "display",
+   "refs": [
+    "rec142.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    28,
+    27,
+    28,
+    12
+   ],
+   "orig_bytes": 453,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A mobile weapon used by the military of planet Gadisword. Its\nproduction and operating costs are low and it is easy to\nmaintain, so it is produced in large numbers. It is basically a\nspace combat unit, but it can also fight in the air under\ngravity using its high-thrust thrusters (though its operating\ntime gets shorter). This unit is the type used by the Royal\nGuard and has been upgraded.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 104629,
+   "text_offset": 104643,
+   "role": "display",
+   "refs": [
+    "rec143.text",
+    "rec144.text",
+    "rec145.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    18
+   ],
+   "orig_bytes": 221,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by the Golar Golem Squad,\na special unit of the alien civilization \"<Ze Balmary Empire>.\"\nIt has special equipment for missions such as forced\nreconnaissance and covert approaches.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 104864,
+   "text_offset": 104870,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 104895,
+   "text_offset": 104901,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 104926,
+   "text_offset": 104932,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 104957,
+   "text_offset": 104983,
+   "role": "display",
+   "refs": [
+    "rec146.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    27,
+    27,
+    27,
+    8
+   ],
+   "orig_bytes": 438,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon that E-Selda Shune took from a\ngroup called the Fury. It is also called a Throne Unit. It\ncarries a power source called the Orgone Extractor and a\nman-machine interface called the Cytron Control System. It\nexcels at melee, but also has powerful long-range weapons.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 105421,
+   "text_offset": 105427,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 105452,
+   "text_offset": 105506,
+   "role": "display",
+   "refs": [
+    "rec147.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    27,
+    27,
+    11,
+    27,
+    31,
+    2
+   ],
+   "orig_bytes": 950,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Granteed god-combined (combined) with Basileus, a\nmobile weapon modeled on the divine dragon of Fury myth:\nthe true form of the Throne Unit. The unit grows larger, but\nBasileus's wings and thrusters raise its mobility and thrust.\nThe Orgone Extractor's output also rises sharply, giving it\ntremendous attack power. However, to activate Busker\nMode (high-output mode), it must be piloted by one\ndescended from the first Fury emperor, called the child of\nthe Fury creator god Fureim (that is, the head of the\nimperial family), together with one of the Shune bloodline,\nwho serve as their guards.\nThe Granteed Dracodeus is, in name and in fact, the Fury's\nmightiest guardian deity, and their ultimate weapon against\nthe <Vaula> (<Ruina>).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 106456,
+   "text_offset": 106498,
+   "role": "display",
+   "refs": [
+    "rec148.text"
+   ],
+   "orig_chars": [
+    29,
+    28,
+    29,
+    27,
+    28,
+    28,
+    27,
+    27,
+    27,
+    7
+   ],
+   "orig_bytes": 773,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon developed by the lunar heavy\nmachinery maker \"<Ashurey Kreuzer>,\" basically for aerial and\nspace combat. Its thin legs combine a <Tesla Drive>, a Missile\nLauncher and landing gear, and are not for walking. It carries\na power source called the Orgone Extractor and a\nman-machine interface called the Cytron Control System.\nHowever, using the latter requires a second person adapted\nto the system aboard. Its defense is low, but its mobility is\nhigh, and it excels at high-mobility shooting with the Orgone\nRifle.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 107271,
+   "text_offset": 107313,
+   "role": "display",
+   "refs": [
+    "rec149.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    27,
+    25
+   ],
+   "orig_bytes": 816,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A new Bellzelute developed in secret at the German branch\nof <Ashurey Kreuzer>. It consists of unit No. 2, refitted\nbased on No. 1's data, and a weapon module called the\nBuster Armor. As a result, the unit is larger than No. 1,\nbut its Orgone Extractor output, firepower, mobility and\ndurability are all improved. Its greatest feature is the\nBrigandi System, the coordinated operation of the\nBellzelute body and the Buster Armor: the latter can be\ndetached and transformed into Double B Form, letting the\nunit flexibly change its method of attack to suit all kinds\nof situations and targets.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 108129,
+   "text_offset": 108147,
+   "role": "display",
+   "refs": [
+    "rec150.text"
+   ],
+   "orig_chars": [
+    29,
+    29,
+    27,
+    22
+   ],
+   "orig_bytes": 317,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Like the Knight Unit Raftclans, a unit developed as an\nultimate weapon against the <Vaula>. It is placed under the\n<Sentinel> Corps and also serves as an escort for the Throne\nUnit. It excels at high-mobility close combat with powerful\nmelee weapons. It also carries Larseilam.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 108464,
+   "text_offset": 108518,
+   "role": "display",
+   "refs": [
+    "rec151.text",
+    "rec152.text"
+   ],
+   "orig_chars": [
+    30,
+    27,
+    27,
+    28,
+    27,
+    27,
+    27,
+    27,
+    27,
+    26,
+    3,
+    27,
+    23
+   ],
+   "orig_bytes": 987,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A large mobile battle weapon whose development began\nseveral years ago on Gu-Landon Gortz's orders, in\npreparation for the coming rematch with the <Vaula>. It\ndelivers attack power rivaling the Throne Unit Granteed\nDracodeus, and the very best of Fury technology went into it\nto stop the \"King of Ruin\" from manifesting. High-output\nOrgone Extractors are mounted one each in its torso and\nfour limbs, and it carries a great sword called the Orgo-La\nVodo. Its cockpit, including the Cytron System, and its\nLarseilam were transplanted from Gu-Landon's Raftclans\n(that unit was dismantled, and most of its parts were built\ninto the Zee-Gadin).\nGu-Landon, resolved to become the Fury's new emperor,\ngave this unit another name: the Emperor Unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 109505,
+   "text_offset": 109563,
+   "role": "display",
+   "refs": [
+    "rec153.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    5,
+    27,
+    28,
+    27,
+    24,
+    27,
+    27,
+    27,
+    28,
+    4
+   ],
+   "orig_bytes": 1010,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A high-performance humanoid mobile weapon used by a\ngroup called the Fury: an enhanced version of the standard\nmodel of the ultimate weapons deployed in a past great war.\nThe Raftclans are also called Knight Units, and only a\nhandful, this one included, exist today.\nIt carries a power source called the Orgone Extractor and a\nman-machine interface called the Cytron Control System. Its\nhand weapon, the Orgone Sword Rifle, can be used as both a\nsword and a gun.\nThe Aurun is tuned as Al-Van Ranks's personal unit, and no\none else can handle it. Matched to his fighting style, it excels\nat close combat with the Orgone Sword. Several units of the\nsame type existed, but all were lost in the past great war.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 110573,
+   "text_offset": 110579,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 148,
+   "section": "STRI",
+   "offset": 110604,
+   "text_offset": 110634,
+   "role": "display",
+   "refs": [
+    "rec154.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    28,
+    28,
+    29,
+    22
+   ],
+   "orig_bytes": 569,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Raftclans customized as the personal unit of Karo-Ran\nVui, chief of the <Agent> corps. For that reason, it is not\ncalled a Knight Unit. It carries no Orgone Sword Rifle; instead\nit has a shield on its right arm as well, and excels at close\ncombat with the Orgone Claw. To carry out forced and\narmed reconnaissance missions, a Scouting Sensor Module\nwas added to its head, and it also has so-called <EA>\n(electronic attack) and EP (electronic protection) functions.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 149,
+   "section": "STRI",
+   "offset": 111203,
+   "text_offset": 111253,
+   "role": "display",
+   "refs": [
+    "rec155.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    27,
+    27,
+    5,
+    27,
+    28,
+    27,
+    24,
+    27,
+    27,
+    15
+   ],
+   "orig_bytes": 876,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A high-performance humanoid mobile weapon used by a\ngroup called the Fury: an enhanced version of the standard\nmodel of the ultimate weapons deployed in a past great war.\nThe Raftclans are also called Knight Units, and only a\nhandful, this one included, exist today.\nIt carries a power source called the Orgone Extractor and a\nman-machine interface called the Cytron Control System. Its\nhand weapon, the Orgone Sword Rifle, can be used as both a\nsword and a gun.\nThe Fauneia is tuned as Fu-Ruu Muru's personal unit, and no\none else can handle it. Matched to her fighting style, it\nexcels at shooting.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 150,
+   "section": "STRI",
+   "offset": 112129,
+   "text_offset": 112135,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 151,
+   "section": "STRI",
+   "offset": 112160,
+   "text_offset": 112206,
+   "role": "display",
+   "refs": [
+    "rec156.text"
+   ],
+   "orig_chars": [
+    28,
+    27,
+    18,
+    27,
+    28,
+    27,
+    24,
+    27,
+    27,
+    28,
+    27
+   ],
+   "orig_bytes": 875,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The standard model of the Fury's Knight Unit Raftclans, and\nthe most widely produced type. However, almost all of them\nhave since been lost.\nIt carries a power source called the Orgone Extractor and a\nman-machine interface called the Cytron Control System. Its\nhand weapon, the Orgone Sword Rifle, can be used as both a\nsword and a gun.\nThis unit is tuned for riders not yet used to Knight Units; to\nfavor stability, its Busker Mode (the Orgone Extractor's\nhigh-output mode) is sealed. It can still use Larseilam,\nhowever.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 152,
+   "section": "STRI",
+   "offset": 113081,
+   "text_offset": 113099,
+   "role": "display",
+   "refs": [
+    "rec157.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    30,
+    16
+   ],
+   "orig_bytes": 300,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by a group called the Fury.\nIts overall abilities exceed those of the Donna Lumpy and\nGanjar, and it has powerful firearms. It is mainly piloted by\nsquad leaders. Earth Federation Army code name: White\nHorn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 153,
+   "section": "STRI",
+   "offset": 113399,
+   "text_offset": 113405,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 154,
+   "section": "STRI",
+   "offset": 113430,
+   "text_offset": 113444,
+   "role": "display",
+   "refs": [
+    "rec158.text",
+    "rec159.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    19
+   ],
+   "orig_bytes": 222,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by a group called the Fury.\nIts overall abilities exceed those of the Donna Lumpy and\nGanjar, and it has powerful firearms. It is mainly piloted by\nsquad leaders.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 155,
+   "section": "STRI",
+   "offset": 113666,
+   "text_offset": 113672,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 156,
+   "section": "STRI",
+   "offset": 113697,
+   "text_offset": 113703,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 157,
+   "section": "STRI",
+   "offset": 113728,
+   "text_offset": 113750,
+   "role": "display",
+   "refs": [
+    "rec160.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    29,
+    27,
+    2
+   ],
+   "orig_bytes": 337,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by a group called the Fury.\nA modified version of the mass-produced Lumpy, it excels\nat melee. After its first contact with this unit, the Earth\nFederation Army gave it the code name Big Shoulder.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 158,
+   "section": "STRI",
+   "offset": 114087,
+   "text_offset": 114093,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 159,
+   "section": "STRI",
+   "offset": 114118,
+   "text_offset": 114136,
+   "role": "display",
+   "refs": [
+    "rec161.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    29,
+    15
+   ],
+   "orig_bytes": 294,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by a group called the Fury.\nA modified version of the mass-produced Lumpy, it excels\nat melee. This unit is the <Agent> type, with enhanced\nsensors for reconnaissance missions.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 160,
+   "section": "STRI",
+   "offset": 114430,
+   "text_offset": 114436,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 161,
+   "section": "STRI",
+   "offset": 114461,
+   "text_offset": 114483,
+   "role": "display",
+   "refs": [
+    "rec162.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    29,
+    27,
+    2
+   ],
+   "orig_bytes": 337,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by a group called the Fury.\nA modified version of the mass-produced Lumpy, it excels\nat shooting. After its first contact with this unit, the\nEarth Federation Army gave it the code name Thick\nCylinder.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 162,
+   "section": "STRI",
+   "offset": 114820,
+   "text_offset": 114826,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 163,
+   "section": "STRI",
+   "offset": 114851,
+   "text_offset": 114869,
+   "role": "display",
+   "refs": [
+    "rec163.text"
+   ],
+   "orig_chars": [
+    27,
+    27,
+    29,
+    15
+   ],
+   "orig_bytes": 294,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A humanoid mobile weapon used by a group called the Fury.\nA modified version of the mass-produced Lumpy, it excels\nat shooting. This unit is the <Agent> type, with enhanced\nsensors for reconnaissance missions.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 164,
+   "section": "STRI",
+   "offset": 115163,
+   "text_offset": 115169,
+   "role": "orphan",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "orphan",
+   "keep": true
+  },
+  {
+   "id": 165,
+   "section": "STRI",
+   "offset": 115194,
+   "text_offset": 115248,
+   "role": "display",
+   "refs": [
+    "rec164.text"
+   ],
+   "orig_chars": [
+    26,
+    29,
+    27,
+    26,
+    27,
+    29,
+    27,
+    27,
+    27,
+    6,
+    31,
+    29,
+    27
+   ],
+   "orig_bytes": 1007,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A heavy mobile weapon developed under Project Idealants. It\ncarries a high-output generator called the Fau Kern, which\nreuses the core of the <Jetzt> Regisseia, and is a power fighter\nskilled at both close and ranged combat. Parts of Jetzt\nmuscle, epithelial and nerve tissue are built into the unit. It is\nalso a test and data-gathering unit for using Jetzt, a\npseudo-body of the <Einst>, as a semi-biological weapon fully\ncontrollable by human hands -- in other words, for artificially\ncreating a unit like the Rein Weissritter, and one that\nsurpasses it.\nNear the end of the Sealing War, it fought the <Steel Dragons>\nand was defeated, but it has returned powered up. Sprouting\nlarge wings gives it more mobility than the <Ares Geist>, and its\nattack power has risen too.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 166,
+   "section": "STRI",
+   "offset": 116255,
+   "text_offset": 116273,
+   "role": "display",
+   "refs": [
+    "rec165.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    5
+   ],
+   "orig_bytes": 264,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Leader of the <Dark Brain> Army. Calm yet bold, and\ncalculating. It races freely over land and through the air on\nfour legs, and excels at melee with the Skull Lancer. For\nsome reason, it speaks in a Kansai dialect.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 167,
+   "section": "STRI",
+   "offset": 116537,
+   "text_offset": 116551,
+   "role": "display",
+   "refs": [
+    "rec166.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    21
+   ],
+   "orig_bytes": 230,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A servant of <Dark Brain>. It attacks with dubious sorcery.\nIts attitude and speech are flippant, but it is cruel by\nnature. It seems sloppy, but is surprisingly devoted to\nresearch.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 168,
+   "section": "STRI",
+   "offset": 116781,
+   "text_offset": 116795,
+   "role": "display",
+   "refs": [
+    "rec167.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    12
+   ],
+   "orig_bytes": 203,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An executive of the <Dark Brain> Army. It has a special\ncrystalline body, with an eye on its belly as well. It speaks\nlittle and is calm and composed. It excels at aerial and\nlong-range combat.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 169,
+   "section": "STRI",
+   "offset": 116998,
+   "text_offset": 117016,
+   "role": "display",
+   "refs": [
+    "rec168.text"
+   ],
+   "orig_chars": [
+    27,
+    29,
+    29,
+    7
+   ],
+   "orig_bytes": 272,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A being that feeds on people's negative thoughts and the\nmiscellaneous thoughts (lingering thoughts) that stagnate\nin places like big-city entertainment districts. \"<Lamaris>\" is\nthe code name the Earth Federation Army assigned after\nfirst contact.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 170,
+   "section": "STRI",
+   "offset": 117288,
+   "text_offset": 117306,
+   "role": "display",
+   "refs": [
+    "rec169.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    29,
+    2
+   ],
+   "orig_bytes": 257,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Several <Lamaris> combined and fused. It is larger, with\nhigher attack power. \"Lamaris Kaana\" is the code name\nthe Earth Federation Army assigned after first contact.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 171,
+   "section": "STRI",
+   "offset": 117563,
+   "text_offset": 117585,
+   "role": "display",
+   "refs": [
+    "rec170.text"
+   ],
+   "orig_chars": [
+    27,
+    28,
+    29,
+    29,
+    11
+   ],
+   "orig_bytes": 369,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A dozen or more Lamaris Kaana combined and fused. It is\neven larger than a Kaana, with higher attack power and\ndurability. It can also expel <Lamaris>. \"Lamaris Ida\" is the code\nname the Earth Federation Army assigned after first\ncontact.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 172,
+   "section": "STRI",
+   "offset": 117954,
+   "text_offset": 118024,
+   "role": "display",
+   "refs": [
+    "rec171.text"
+   ],
+   "orig_chars": [
+    29,
+    27,
+    27,
+    27,
+    27,
+    27,
+    11,
+    29,
+    27,
+    27,
+    27,
+    26,
+    20,
+    27,
+    27,
+    28,
+    20
+   ],
+   "orig_bytes": 1308,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Transfigured God Ship Grandred Fenossa, which fought\nfierce battles with the <Dark Brain> Army in the past, was said\nto house the soul of the god who gave power and wisdom to\nRoa's race. It was an object called the Divine Body,\nunearthed by Roa's ancestors; because it held powerful\nenergy, it was built into the Grandred Fenossa as the power\nsource of its weapons (which is apparently why it was called\na Transfigured God Ship).\nThe Divine Body was in truth Kadum Hakam, king of the\ngiants, who appeared through the <Cross Gate> in lands\ninhabited by intelligent life, granted them wisdom and then\nruled them. It had long lain dormant, but awoke after the\nGrandred Fenossa was forced into the Cross Gate in its\nfierce battle with Skull Knight and the others. Calling itself\nXN-L, it began to act on its own.\nThe Grandred Fenossa's form differs from before in its\ndetails; it seems XN-L somehow transformed it, its own\nform included, when it awoke (the Divine Body's\ntransformation and XN-L's true body were things even Roa\nhad never seen).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ],
+ "inline_strings": []
+}

@@ -1,0 +1,1852 @@
+{
+ "file": "windowdataFreeBattle.wtd",
+ "format": "WTD",
+ "occurrences": 600,
+ "untouched": "ASCII-only strings (widget/texture ids, <I=n> tags) and all non-text data",
+ "strings": [
+  {
+   "id": 0,
+   "en": "Maximum Break",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 1,
+   "en": "Attack Type",
+   "count": 8,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "en": "Save/Load",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 3,
+   "en": "Unit Setup",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "en": "Global Setup",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "en": "Start Battle",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 6,
+   "en": "Unit/Pilot",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "en": "Weapon",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 8,
+   "en": "HP/Support Wpn/BG",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "en": "Attack Setup",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "en": "BG Name",
+   "count": 10,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "en": "Yes",
+   "count": 10,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 12,
+   "en": "--",
+   "count": 10,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "en": "BG",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "en": "Weapon Name",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 15,
+   "en": "Unit",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 16,
+   "en": "Pilot",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 17,
+   "en": "Air",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 18,
+   "en": "Type",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 19,
+   "en": "Telekinesis",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "en": "Attribute",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 21,
+   "en": "Outfits",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "en": "Sp. Effect 1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "en": "Description",
+   "count": 17,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 24,
+   "en": "Sp. Effect 2",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 25,
+   "en": "Sp. Effect",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 26,
+   "en": "Focused (hit main unit)",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "en": "Focused (hit sub unit)",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 28,
+   "en": "Split (2 vs 2)",
+   "count": 6,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 29,
+   "en": "Combination (first only)",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 30,
+   "en": "Max Break (first only)",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "en": "ALL Attack",
+   "count": 10,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "en": "Double Atk (first only)",
+   "count": 6,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "en": "♪",
+   "count": 22,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 34,
+   "en": "BGM Name",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "en": "Go First",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "en": "Counter",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "en": "Lucky",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 38,
+   "en": "Sets which side attacks, left or right.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 39,
+   "en": "Sets the attacker's attack type.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "en": "Sets the defender's attack type. If the attacker",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "en": "uses a split attack, the defender attacks. If the defender doesn't",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "en": "occur, hit settings, criticals, etc. are changed.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "en": "Sets the Maximum Break's support attacks.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "en": "Sets the background.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "en": "Sets the background music.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "en": "Counters don't occur against Maximum Breaks or Combo Attacks.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 47,
+   "en": "If a Counter occurs, the defender's Lucky doesn't occur.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "en": "(Pilot default song)",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "en": "(Unit default song)",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "en": "Category",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 51,
+   "en": "Ground",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "en": "Fixed",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 53,
+   "en": "Allied",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "en": "Built-in",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 55,
+   "en": "Space",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 56,
+   "en": "Replace",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 57,
+   "en": "Other",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "en": "Add-on",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 59,
+   "en": "External",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 60,
+   "en": "Undergrnd",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "en": "Light",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 62,
+   "en": "Medium",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "en": "Heavy",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 64,
+   "en": "Wreck",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "en": "Leave 10",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 66,
+   "en": "No Damage",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 67,
+   "en": "Default",
+   "count": 5,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 68,
+   "en": "AB Field",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "en": "E. Field",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "en": "G-Wall",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "en": "G Territory",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "en": "Beam Coat",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "en": "Beam Absorption",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 74,
+   "en": "TK Field",
+   "count": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "en": "TK Field S",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 76,
+   "en": "Distortion Field",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "en": "Servant's Shield",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 78,
+   "en": "God's Shield",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 79,
+   "en": "Beast Shield",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "en": "Sp. Effect OFF",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "en": "OFF (can counter)",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "en": "OFF (can't counter)",
+   "count": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 83,
+   "en": "Pilot Block",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "en": "Robot Block",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "en": "Full Block",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "en": "OFF",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 87,
+   "en": "Jammer",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 88,
+   "en": "Afterimg.",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "en": "Hit Setup",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 90,
+   "en": "Critical",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 91,
+   "en": "Damage",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 92,
+   "en": "Barrier",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 93,
+   "en": "Block",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 94,
+   "en": "Sp. Evasion",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "en": "Can't start battle for the reasons below.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "en": "These settings have problems.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "en": "Command Name",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "en": "Message",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 99,
+   "en": "Join",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 100,
+   "en": "Surface",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "en": "Save",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 102,
+   "en": "Outfit Name",
+   "count": 8,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 103,
+   "en": "Movement Down",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 104,
+   "en": "Stats Down L1",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "en": "<C=00ffffff>Save<W=15> </W><W=22><H=22>Date/</H></W><C=666666ff><W=18><H=18>Chapter</W></H></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "en": "<C=00ffffff>Save</C><W=15> </W><C=666666ff><W=18><H=18>Date</H></W></C><C=00ffffff><W=22><H=22>/Stage</H></W></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 107,
+   "en": "On support:",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 108,
+   "en": "Sit Out",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 109,
+   "en": "Load",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 110,
+   "en": "Range Down",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 111,
+   "en": "Stats Down L2",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "en": "Sp. Effect OFF",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 113,
+   "en": "<C=00ffffff>Load<W=15> </W><W=22><H=22>Date/</H></W><C=666666ff><W=18><H=18>Stage</W></H></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 114,
+   "en": "<C=00ffffff>Load</C><W=15> </W><C=666666ff><W=18><H=18>Date</H></W></C><C=00ffffff><W=22><H=22>/Stage</H></W></C>",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 115,
+   "en": "Anti-Beam Field",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 116,
+   "en": "Move",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "en": "G Wall",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "en": "Copy",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 119,
+   "en": "Join/Sit Out",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 120,
+   "en": "Passive Bit",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 121,
+   "en": "TE Sphere",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 122,
+   "en": "Unit",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 123,
+   "en": "Start HP",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 124,
+   "en": "Error Check",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "en": "Delete",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 126,
+   "en": "HP",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 127,
+   "en": "99999",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 128,
+   "en": "999999",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 129,
+   "en": "FB Unit Name",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 130,
+   "en": "FB Nickname",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 131,
+   "en": "FB Weapon Name",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 132,
+   "en": "Defend (Support Defense)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "en": "Do nothing (no support)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "en": "INCAPACITATED",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 135,
+   "en": "Out of Range",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 136,
+   "en": "No Ammo",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "en": "Stedonius Soldier",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 138,
+   "en": "Nickname",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 139,
+   "en": "MP Huckebein Mk-II Type N",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "en": "Unit Name",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "Black Hole Buster Cannon",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "en": "Special Effect Name",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 143,
+   "en": "Special Ability Name",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 144,
+   "en": "Attack",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 145,
+   "en": "Supp. Atk",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "en": "Combo",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 147,
+   "en": "Double",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 148,
+   "en": "Standby",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 149,
+   "en": "Supp. Def",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 150,
+   "en": "Defense",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "",
+   "count": 1,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 152,
+   "en": "",
+   "count": 1,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 153,
+   "en": "/",
+   "count": 6,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 154,
+   "en": "ああああああああああああああああああああああああああああ",
+   "count": 15,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 155,
+   "en": "Deploy with this team?",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 156,
+   "en": "Unavailable for these reasons:",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "en": "All right, all units, launch!",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 158,
+   "en": "・Not Enough Ammo",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 159,
+   "en": "Reposition on the map.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 160,
+   "en": "・Not Enough EN",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 161,
+   "en": "No, hold on a second.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "・Not Enough Will",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 163,
+   "en": "Return to the sortie prep screen.",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "en": "・Terrain Restriction",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "en": "・Out of Range",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "en": "・Can't Use After Moving",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 167,
+   "en": "・----------------",
+   "count": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 168,
+   "en": "・A combo partner doesn't meet the conditions to join",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 169,
+   "en": "・ABCDE",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "Yes",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "en": "No",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 172,
+   "en": "Cancel",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 173,
+   "en": "Glossary",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 174,
+   "en": "",
+   "count": 12,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 175,
+   "en": "Help (Commands)",
+   "count": 5,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "en": "",
+   "count": 23,
+   "kind": "symbol",
+   "keep": true
+  },
+  {
+   "id": 177,
+   "en": "Auto-Advance & Speed",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 178,
+   "en": "Select",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 179,
+   "en": "Fast-Forward (Hold)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "en": "Advance (+　　Fast)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 181,
+   "en": "Confirm",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "en": "Exit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "Pause (Hold)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 184,
+   "en": "Backlog",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 185,
+   "en": "Slow Motion (Hold)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 186,
+   "en": "Term Info (<C=00ffffff>Green Text</C>)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 187,
+   "en": "+　　Skip Dialogue",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "Chapter ( Prev/ Next)",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 189,
+   "en": ":--------",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 190,
+   "en": ":Additional Info",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "en": ":Change Pilot",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "en": ":Switch Field",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 193,
+   "en": ":Toggle Arrows",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 194,
+   "en": ":Switch Category",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 195,
+   "en": ":Change Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "en": ":Sort",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 197,
+   "en": ":Support Settings",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 198,
+   "en": ":------",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "en": ":To Page Top",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 200,
+   "en": ":To Page End",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "en": ":List View",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 202,
+   "en": ":Normal View",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "en": ":Right-Side Info",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 204,
+   "en": ":Sort Ascending",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 205,
+   "en": ":Sort Descending",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 206,
+   "en": ":Left-Side Info",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 207,
+   "en": ":--",
+   "count": 4,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": ":Squad",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 209,
+   "en": ":Mark",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 210,
+   "en": ":Unit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "en": ":Spirit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": ":Revert",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 213,
+   "en": ":Switch",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 214,
+   "en": ":Remove",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "en": ":Check",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "en": ":Main",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 217,
+   "en": ":Display",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 218,
+   "en": ":Abilities",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 219,
+   "en": ":Dictionary",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 220,
+   "en": ":Gallery",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 221,
+   "en": ":Demo",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "en": ":Back",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "en": ":Quit",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 224,
+   "en": ":Confirm",
+   "count": 2,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 225,
+   "en": ":Map",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 226,
+   "en": "#",
+   "count": 12,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 227,
+   "en": "(Clear the set music content)",
+   "count": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 228,
+   "en": "Album Name",
+   "count": 11,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 229,
+   "en": "JAM Project/JAM Project BEST COLLECTION VIII \"GO",
+   "count": 1,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 230,
+   "en": "Album",
+   "count": 1,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

@@ -1,0 +1,87 @@
+{
+ "file": "ScenarioChart.csb",
+ "format": "CSB",
+ "pool_strings": 108,
+ "untouched": "strings without non-ASCII characters (numbers, file names, ids)",
+ "strings": [
+  {
+   "id": 0,
+   "en": "Scenario Chart",
+   "cell": "r0c0",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 2,
+   "en": "│─┌┐└┘┬┴┼┤├",
+   "cell": "r0c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 8,
+   "en": "┌",
+   "cell": "r3c1",
+   "uses": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 9,
+   "en": "┴",
+   "cell": "r3c2",
+   "uses": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 10,
+   "en": "┐",
+   "cell": "r3c3",
+   "uses": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 14,
+   "en": "│",
+   "cell": "r5c1",
+   "uses": 54,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 39,
+   "en": "└",
+   "cell": "r21c1",
+   "uses": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 40,
+   "en": "┬",
+   "cell": "r21c2",
+   "uses": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 41,
+   "en": "┘",
+   "cell": "r21c3",
+   "uses": 3,
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  }
+ ]
+}

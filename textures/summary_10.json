@@ -1,0 +1,55 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_10.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 10: MAP Weapons",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   5,
+   238,
+   39,
+   272
+  ]
+ ],
+ "icons": {
+  "map": [
+   148,
+   8,
+   210,
+   24
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● {o|MAP Weapons} {i:map} damage every unit in their attack area. Even if the attacker is a Twin Unit, only 1 machine attacks.",
+   "h": 72
+  },
+  {
+   "x": 5,
+   "y": 88,
+   "text": "● MAP Weapon attacks can't be met with a Counterattack, Support Attack (Attack Again) or Support Defense.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 150,
+   "text": "● There are 3 types: {o|\"Around Self\"} (the weapon's range is the area), {o|\"Directional\"} (choose 1 of 4 directions around the machine) and {o|\"Target Point\"} (choose the area anywhere in range).",
+   "h": 75
+  },
+  {
+   "x": 45,
+   "y": 241,
+   "text": "{y|Notes on MAP Weapons}"
+  },
+  {
+   "x": 45,
+   "y": 273,
+   "text": "MAP Weapons hit every unit in the area, friend or foe. Exception: if Friend/Foe ID is {o|\"On\"}, only enemy units are hit.",
+   "h": 50
+  }
+ ]
+}

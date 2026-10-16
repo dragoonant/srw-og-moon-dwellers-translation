@@ -1,0 +1,63 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_06.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 6: Twin Units",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   758,
+   70,
+   958,
+   220
+  ],
+  [
+   5,
+   214,
+   39,
+   247
+  ]
+ ],
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● A unit is made up of 1 or 2 machines. A unit of 2 machines is called a {o|Twin Unit}, and a unit of 1 a {o|Single Unit}.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 70,
+   "text": "● On the map, the {o|\"Join\"} unit command forms a Twin Unit and {o|\"Disband\"} forms Single Units. To join, the units must be adjacent within the 8 surrounding squares.",
+   "w": 740,
+   "h": 100
+  },
+  {
+   "x": 5,
+   "y": 178,
+   "text": "● Battleships can't form Twin Units."
+  },
+  {
+   "x": 45,
+   "y": 216,
+   "text": "{y|Twin Unit Advantages}"
+  },
+  {
+   "x": 28,
+   "y": 250,
+   "text": "• Ability effects combine the Abilities equipped on both machines, and both machines get them."
+  },
+  {
+   "x": 28,
+   "y": 275,
+   "text": "• Twin Spirit Commands become available."
+  },
+  {
+   "x": 28,
+   "y": 300,
+   "text": "• Both machines can attack, so you can deal more damage to enemies in a single battle.",
+   "h": 50
+  }
+ ]
+}

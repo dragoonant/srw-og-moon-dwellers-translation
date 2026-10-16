@@ -1,0 +1,3248 @@
+{
+ "file": "TrophyData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DATA",
+   "header_offset": 16,
+   "payload_offset": 28,
+   "size": 444,
+   "count": 37
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 472,
+   "payload_offset": 480,
+   "size": 592,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 1072,
+   "payload_offset": 1084,
+   "size": 5996,
+   "count": 148
+  }
+ ],
+ "records": {
+  "count": 37,
+  "size": 12
+ },
+ "dofs": null,
+ "string_fields": [
+  {
+   "offset": 4,
+   "width": 1,
+   "label": "name",
+   "kind": "display"
+  },
+  {
+   "offset": 5,
+   "width": 1,
+   "label": "desc",
+   "kind": "display"
+  },
+  {
+   "offset": 6,
+   "width": 1,
+   "label": "internal_id",
+   "kind": "internal"
+  },
+  {
+   "offset": 10,
+   "width": 1,
+   "label": "image",
+   "kind": "internal"
+  }
+ ],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 1084,
+   "text_offset": 1090,
+   "role": "display",
+   "refs": [
+    "rec0.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "OGMD Master",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 1115,
+   "text_offset": 1121,
+   "role": "display",
+   "refs": [
+    "rec0.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Obtain all trophies.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 1164,
+   "text_offset": 1170,
+   "role": "internal",
+   "refs": [
+    "rec0.internal_id"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 1187,
+   "text_offset": 1193,
+   "role": "internal",
+   "refs": [
+    "rec0.image"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 29,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 1222,
+   "text_offset": 1228,
+   "role": "display",
+   "refs": [
+    "rec1.name"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "EX Hard Mode Clear",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 1262,
+   "text_offset": 1268,
+   "role": "display",
+   "refs": [
+    "rec1.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Clear the game on EX Hard Mode.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 1326,
+   "text_offset": 1332,
+   "role": "internal",
+   "refs": [
+    "rec1.internal_id"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 21,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 1353,
+   "text_offset": 1359,
+   "role": "internal",
+   "refs": [
+    "rec1.image"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 1387,
+   "text_offset": 1393,
+   "role": "display",
+   "refs": [
+    "rec2.name"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Special Mode Clear",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 1427,
+   "text_offset": 1433,
+   "role": "display",
+   "refs": [
+    "rec2.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Clear the game on Special Mode.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 1491,
+   "text_offset": 1497,
+   "role": "internal",
+   "refs": [
+    "rec2.internal_id"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 21,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 1518,
+   "text_offset": 1524,
+   "role": "internal",
+   "refs": [
+    "rec2.image"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 1552,
+   "text_offset": 1558,
+   "role": "display",
+   "refs": [
+    "rec3.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Completionist",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 1574,
+   "text_offset": 1580,
+   "role": "display",
+   "refs": [
+    "rec3.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Clear the game 3 times on any mode.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 1650,
+   "text_offset": 1656,
+   "role": "internal",
+   "refs": [
+    "rec3.internal_id"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 1672,
+   "text_offset": 1678,
+   "role": "internal",
+   "refs": [
+    "rec3.image"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 1706,
+   "text_offset": 1712,
+   "role": "display",
+   "refs": [
+    "rec4.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "All SR Points Obtained",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 1740,
+   "text_offset": 1746,
+   "role": "display",
+   "refs": [
+    "rec4.desc"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Earn the SR Point on every stage.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 1807,
+   "text_offset": 1813,
+   "role": "internal",
+   "refs": [
+    "rec4.internal_id"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 1841,
+   "text_offset": 1847,
+   "role": "internal",
+   "refs": [
+    "rec4.image"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 1875,
+   "text_offset": 1881,
+   "role": "display",
+   "refs": [
+    "rec5.name"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "1,000 Kills Achieved!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 1912,
+   "text_offset": 1918,
+   "role": "display",
+   "refs": [
+    "rec5.desc"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Allies shoot down 1,000+ enemies.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 1976,
+   "text_offset": 1982,
+   "role": "internal",
+   "refs": [
+    "rec5.internal_id"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 2004,
+   "text_offset": 2010,
+   "role": "internal",
+   "refs": [
+    "rec5.image"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 2038,
+   "text_offset": 2044,
+   "role": "display",
+   "refs": [
+    "rec6.name"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Scenario Complete",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 2075,
+   "text_offset": 2081,
+   "role": "display",
+   "refs": [
+    "rec6.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Reveal every stage on the Scenario Chart.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 2151,
+   "text_offset": 2157,
+   "role": "internal",
+   "refs": [
+    "rec6.internal_id"
+   ],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 2182,
+   "text_offset": 2188,
+   "role": "internal",
+   "refs": [
+    "rec6.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 2218,
+   "text_offset": 2224,
+   "role": "display",
+   "refs": [
+    "rec7.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Game Cleared",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 2243,
+   "text_offset": 2249,
+   "role": "display",
+   "refs": [
+    "rec7.desc"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Clear the game.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 2280,
+   "text_offset": 2286,
+   "role": "internal",
+   "refs": [
+    "rec7.internal_id"
+   ],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 18,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 2304,
+   "text_offset": 2310,
+   "role": "internal",
+   "refs": [
+    "rec7.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 2340,
+   "text_offset": 2346,
+   "role": "display",
+   "refs": [
+    "rec8.name"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Only One Crash",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 2380,
+   "text_offset": 2386,
+   "role": "display",
+   "refs": [
+    "rec8.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Deal 100,000+ damage to an enemy in one battle.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 2465,
+   "text_offset": 2471,
+   "role": "internal",
+   "refs": [
+    "rec8.internal_id"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 2487,
+   "text_offset": 2493,
+   "role": "internal",
+   "refs": [
+    "rec8.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 2523,
+   "text_offset": 2529,
+   "role": "display",
+   "refs": [
+    "rec9.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ace of Aces",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 2539,
+   "text_offset": 2545,
+   "role": "display",
+   "refs": [
+    "rec9.desc"
+   ],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Have any ally pilot reach 200 or more kills.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 2627,
+   "text_offset": 2633,
+   "role": "internal",
+   "refs": [
+    "rec9.internal_id"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 2649,
+   "text_offset": 2655,
+   "role": "internal",
+   "refs": [
+    "rec9.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 2685,
+   "text_offset": 2691,
+   "role": "display",
+   "refs": [
+    "rec10.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "It Happens",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 2710,
+   "text_offset": 2716,
+   "role": "display",
+   "refs": [
+    "rec10.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Bring an enemy to under 10 HP.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 2765,
+   "text_offset": 2771,
+   "role": "internal",
+   "refs": [
+    "rec10.internal_id"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 14,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 2785,
+   "text_offset": 2791,
+   "role": "internal",
+   "refs": [
+    "rec10.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 2821,
+   "text_offset": 2827,
+   "role": "display",
+   "refs": [
+    "rec11.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Relentless Rush",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 2849,
+   "text_offset": 2855,
+   "role": "display",
+   "refs": [
+    "rec11.desc"
+   ],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Use Combination Attacks 10+ times in one turn.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 2925,
+   "text_offset": 2931,
+   "role": "internal",
+   "refs": [
+    "rec11.internal_id"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 12,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 2943,
+   "text_offset": 2949,
+   "role": "internal",
+   "refs": [
+    "rec11.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 2979,
+   "text_offset": 2985,
+   "role": "display",
+   "refs": [
+    "rec12.name"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Replace Weapons Complete",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 3016,
+   "text_offset": 3022,
+   "role": "display",
+   "refs": [
+    "rec12.desc"
+   ],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "View the Replace Weapons list with all 53 weapons filled in.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 3134,
+   "text_offset": 3140,
+   "role": "internal",
+   "refs": [
+    "rec12.internal_id"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 20,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 3160,
+   "text_offset": 3166,
+   "role": "internal",
+   "refs": [
+    "rec12.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 3196,
+   "text_offset": 3202,
+   "role": "display",
+   "refs": [
+    "rec13.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "New PTX Team",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 3227,
+   "text_offset": 3233,
+   "role": "display",
+   "refs": [
+    "rec13.desc"
+   ],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Raise Irm, Ryoto, Rio and Ing all to level 50 or higher.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 3324,
+   "text_offset": 3330,
+   "role": "internal",
+   "refs": [
+    "rec13.internal_id"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 3346,
+   "text_offset": 3352,
+   "role": "internal",
+   "refs": [
+    "rec13.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 3382,
+   "text_offset": 3388,
+   "role": "display",
+   "refs": [
+    "rec14.name"
+   ],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "500 Kills!",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 3410,
+   "text_offset": 3416,
+   "role": "display",
+   "refs": [
+    "rec14.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Allies shoot down 500+ enemies.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 3471,
+   "text_offset": 3477,
+   "role": "internal",
+   "refs": [
+    "rec14.internal_id"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 21,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 3498,
+   "text_offset": 3504,
+   "role": "internal",
+   "refs": [
+    "rec14.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 3534,
+   "text_offset": 3540,
+   "role": "display",
+   "refs": [
+    "rec15.name"
+   ],
+   "orig_chars": [
+    5
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Beginner's Mark",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 3556,
+   "text_offset": 3562,
+   "role": "display",
+   "refs": [
+    "rec15.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Clear the Guidance Scenario.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 3611,
+   "text_offset": 3617,
+   "role": "internal",
+   "refs": [
+    "rec15.internal_id"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 14,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 3631,
+   "text_offset": 3637,
+   "role": "internal",
+   "refs": [
+    "rec15.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 3667,
+   "text_offset": 3673,
+   "role": "display",
+   "refs": [
+    "rec16.name"
+   ],
+   "orig_chars": [
+    2
+   ],
+   "orig_bytes": 7,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Live Fire",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 3680,
+   "text_offset": 3686,
+   "role": "display",
+   "refs": [
+    "rec16.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Clear the scenario's first stage.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 3741,
+   "text_offset": 3747,
+   "role": "internal",
+   "refs": [
+    "rec16.internal_id"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 14,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 3761,
+   "text_offset": 3767,
+   "role": "internal",
+   "refs": [
+    "rec16.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 3797,
+   "text_offset": 3803,
+   "role": "display",
+   "refs": [
+    "rec17.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "SR Point Earned",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 3828,
+   "text_offset": 3834,
+   "role": "display",
+   "refs": [
+    "rec17.desc"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Earn an SR Point.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 3871,
+   "text_offset": 3877,
+   "role": "internal",
+   "refs": [
+    "rec17.internal_id"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 16,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 3893,
+   "text_offset": 3899,
+   "role": "internal",
+   "refs": [
+    "rec17.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 3929,
+   "text_offset": 3935,
+   "role": "display",
+   "refs": [
+    "rec18.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Time to Rest",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 3948,
+   "text_offset": 3954,
+   "role": "display",
+   "refs": [
+    "rec18.desc"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "View exit message.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 3988,
+   "text_offset": 3994,
+   "role": "internal",
+   "refs": [
+    "rec18.internal_id"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 4011,
+   "text_offset": 4017,
+   "role": "internal",
+   "refs": [
+    "rec18.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 4047,
+   "text_offset": 4053,
+   "role": "display",
+   "refs": [
+    "rec19.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Fully Upgraded",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 4066,
+   "text_offset": 4072,
+   "role": "display",
+   "refs": [
+    "rec19.desc"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Fully upgrade any unit.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 4112,
+   "text_offset": 4118,
+   "role": "internal",
+   "refs": [
+    "rec19.internal_id"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 4135,
+   "text_offset": 4141,
+   "role": "internal",
+   "refs": [
+    "rec19.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 4171,
+   "text_offset": 4177,
+   "role": "display",
+   "refs": [
+    "rec20.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ace Pilot",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 4202,
+   "text_offset": 4208,
+   "role": "display",
+   "refs": [
+    "rec20.desc"
+   ],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Make any ally pilot an Ace Pilot (50+ kills).",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 4311,
+   "text_offset": 4317,
+   "role": "internal",
+   "refs": [
+    "rec20.internal_id"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 4334,
+   "text_offset": 4340,
+   "role": "internal",
+   "refs": [
+    "rec20.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 4370,
+   "text_offset": 4376,
+   "role": "display",
+   "refs": [
+    "rec21.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "One-Man Army",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 4389,
+   "text_offset": 4395,
+   "role": "display",
+   "refs": [
+    "rec21.desc"
+   ],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Have one ally pilot destroy 15 or more enemies in one stage.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 4492,
+   "text_offset": 4498,
+   "role": "internal",
+   "refs": [
+    "rec21.internal_id"
+   ],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 4520,
+   "text_offset": 4526,
+   "role": "internal",
+   "refs": [
+    "rec21.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 4556,
+   "text_offset": 4562,
+   "role": "display",
+   "refs": [
+    "rec22.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "In One Fell Swoop!?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 4581,
+   "text_offset": 4587,
+   "role": "display",
+   "refs": [
+    "rec22.desc"
+   ],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Hit 10+ enemies with one MAP weapon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 4654,
+   "text_offset": 4660,
+   "role": "internal",
+   "refs": [
+    "rec22.internal_id"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 20,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 4680,
+   "text_offset": 4686,
+   "role": "internal",
+   "refs": [
+    "rec22.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 4716,
+   "text_offset": 4722,
+   "role": "display",
+   "refs": [
+    "rec23.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Speed Demon",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 4732,
+   "text_offset": 4738,
+   "role": "display",
+   "refs": [
+    "rec23.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Move 16+ squares at once.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 4781,
+   "text_offset": 4787,
+   "role": "internal",
+   "refs": [
+    "rec23.internal_id"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 20,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 4807,
+   "text_offset": 4813,
+   "role": "internal",
+   "refs": [
+    "rec23.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 4843,
+   "text_offset": 4849,
+   "role": "display",
+   "refs": [
+    "rec24.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Demoralized",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 4862,
+   "text_offset": 4868,
+   "role": "display",
+   "refs": [
+    "rec24.desc"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Lower an enemy pilot's Will to 50.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 4917,
+   "text_offset": 4923,
+   "role": "internal",
+   "refs": [
+    "rec24.internal_id"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 20,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 4943,
+   "text_offset": 4949,
+   "role": "internal",
+   "refs": [
+    "rec24.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 4979,
+   "text_offset": 4985,
+   "role": "display",
+   "refs": [
+    "rec25.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Unlucky",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 5004,
+   "text_offset": 5010,
+   "role": "display",
+   "refs": [
+    "rec25.desc"
+   ],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Fight with Spirit Command Luck active and let all enemies survive.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 5104,
+   "text_offset": 5110,
+   "role": "internal",
+   "refs": [
+    "rec25.internal_id"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 15,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 5125,
+   "text_offset": 5131,
+   "role": "internal",
+   "refs": [
+    "rec25.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 5161,
+   "text_offset": 5167,
+   "role": "display",
+   "refs": [
+    "rec26.name"
+   ],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Out of Gas",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 5177,
+   "text_offset": 5183,
+   "role": "display",
+   "refs": [
+    "rec26.desc"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "An ally unit's EN drops to 0.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 5226,
+   "text_offset": 5232,
+   "role": "internal",
+   "refs": [
+    "rec26.internal_id"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 15,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 5247,
+   "text_offset": 5253,
+   "role": "internal",
+   "refs": [
+    "rec26.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 5283,
+   "text_offset": 5289,
+   "role": "display",
+   "refs": [
+    "rec27.name"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Real Twin Unit",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 5329,
+   "text_offset": 5335,
+   "role": "display",
+   "refs": [
+    "rec27.desc"
+   ],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Pair two same-name units as a Twin Unit on the map.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 5414,
+   "text_offset": 5420,
+   "role": "internal",
+   "refs": [
+    "rec27.internal_id"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 5437,
+   "text_offset": 5443,
+   "role": "internal",
+   "refs": [
+    "rec27.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 5473,
+   "text_offset": 5479,
+   "role": "display",
+   "refs": [
+    "rec28.name"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "New York Reload",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 5510,
+   "text_offset": 5516,
+   "role": "display",
+   "refs": [
+    "rec28.desc"
+   ],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 136,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Sortie a unit with 2+ of the same Replace Weapon equipped and fight using that weapon.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 5652,
+   "text_offset": 5658,
+   "role": "internal",
+   "refs": [
+    "rec28.internal_id"
+   ],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 14,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 5672,
+   "text_offset": 5678,
+   "role": "internal",
+   "refs": [
+    "rec28.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 5708,
+   "text_offset": 5714,
+   "role": "display",
+   "refs": [
+    "rec29.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Maximum Break",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 5742,
+   "text_offset": 5748,
+   "role": "display",
+   "refs": [
+    "rec29.desc"
+   ],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Use Maximum Break.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 5794,
+   "text_offset": 5800,
+   "role": "internal",
+   "refs": [
+    "rec29.internal_id"
+   ],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 20,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 5820,
+   "text_offset": 5826,
+   "role": "internal",
+   "refs": [
+    "rec29.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 5856,
+   "text_offset": 5862,
+   "role": "display",
+   "refs": [
+    "rec30.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Pierce Faster Than Him",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 5890,
+   "text_offset": 5896,
+   "role": "display",
+   "refs": [
+    "rec30.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Destroy an enemy unit with a Counter.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 5951,
+   "text_offset": 5957,
+   "role": "internal",
+   "refs": [
+    "rec30.internal_id"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 15,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 5972,
+   "text_offset": 5978,
+   "role": "internal",
+   "refs": [
+    "rec30.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 6008,
+   "text_offset": 6014,
+   "role": "display",
+   "refs": [
+    "rec31.name"
+   ],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "A Veteran Captain's Poise",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 6042,
+   "text_offset": 6048,
+   "role": "display",
+   "refs": [
+    "rec31.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Ginto downs 2+ enemies at once.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 6103,
+   "text_offset": 6109,
+   "role": "internal",
+   "refs": [
+    "rec31.internal_id"
+   ],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 12,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 6121,
+   "text_offset": 6127,
+   "role": "internal",
+   "refs": [
+    "rec31.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 6157,
+   "text_offset": 6163,
+   "role": "display",
+   "refs": [
+    "rec32.name"
+   ],
+   "orig_chars": [
+    10
+   ],
+   "orig_bytes": 31,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "The Akatsuki Siblings Fight On",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 6194,
+   "text_offset": 6200,
+   "role": "display",
+   "refs": [
+    "rec32.desc"
+   ],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Akimi and Akemi shoot down 100+ enemies combined.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 6276,
+   "text_offset": 6282,
+   "role": "internal",
+   "refs": [
+    "rec32.internal_id"
+   ],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 15,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 6297,
+   "text_offset": 6303,
+   "role": "internal",
+   "refs": [
+    "rec32.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 6333,
+   "text_offset": 6339,
+   "role": "display",
+   "refs": [
+    "rec33.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Best Friends",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 6358,
+   "text_offset": 6364,
+   "role": "display",
+   "refs": [
+    "rec33.desc"
+   ],
+   "orig_chars": [
+    53
+   ],
+   "orig_bytes": 160,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Touya and Calvina both clear stages with each of Katia, Tenia and Melua as sub-pilot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 6524,
+   "text_offset": 6530,
+   "role": "internal",
+   "refs": [
+    "rec33.internal_id"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 6547,
+   "text_offset": 6553,
+   "role": "internal",
+   "refs": [
+    "rec33.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 6583,
+   "text_offset": 6589,
+   "role": "display",
+   "refs": [
+    "rec34.name"
+   ],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Don't Fall for Me, Okay?",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 6614,
+   "text_offset": 6620,
+   "role": "display",
+   "refs": [
+    "rec34.desc"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Haken uses Support Defense for a female main pilot.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 6705,
+   "text_offset": 6711,
+   "role": "internal",
+   "refs": [
+    "rec34.internal_id"
+   ],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 6724,
+   "text_offset": 6730,
+   "role": "internal",
+   "refs": [
+    "rec34.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 6760,
+   "text_offset": 6766,
+   "role": "display",
+   "refs": [
+    "rec35.name"
+   ],
+   "orig_chars": [
+    4
+   ],
+   "orig_bytes": 13,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Strongest Sisters",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 6779,
+   "text_offset": 6785,
+   "role": "display",
+   "refs": [
+    "rec35.desc"
+   ],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Lamia sorties in Gespenst Haken and downs an enemy.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 6870,
+   "text_offset": 6876,
+   "role": "internal",
+   "refs": [
+    "rec35.internal_id"
+   ],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 17,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 6893,
+   "text_offset": 6899,
+   "role": "internal",
+   "refs": [
+    "rec35.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 6929,
+   "text_offset": 6935,
+   "role": "display",
+   "refs": [
+    "rec36.name"
+   ],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "100 Kills",
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 6954,
+   "text_offset": 6960,
+   "role": "display",
+   "refs": [
+    "rec36.desc"
+   ],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "Allies shoot down 100+ enemies.",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 7015,
+   "text_offset": 7021,
+   "role": "internal",
+   "refs": [
+    "rec36.internal_id"
+   ],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 21,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 7042,
+   "text_offset": 7048,
+   "role": "internal",
+   "refs": [
+    "rec36.image"
+   ],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 30,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "internal",
+   "keep": true
+  }
+ ],
+ "inline_strings": []
+}

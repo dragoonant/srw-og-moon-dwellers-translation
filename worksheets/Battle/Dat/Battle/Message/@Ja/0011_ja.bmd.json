@@ -1,0 +1,4208 @@
+{
+ "file": "0011_ja.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 26,
+  "entries": 126,
+  "lines": 139,
+  "strings": 121
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "This ship will finish that enemy off.",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44464
+     ]
+    },
+    {
+     "line": 104,
+     "field": "text",
+     "entry": 104,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44464
+     ]
+    },
+    {
+     "line": 107,
+     "field": "text",
+     "entry": 107,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44464
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 1,
+   "offset": 40,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "All hands, I hope to see you fight well.",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44465
+     ]
+    },
+    {
+     "line": 105,
+     "field": "text",
+     "entry": 105,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44465
+     ]
+    },
+    {
+     "line": 108,
+     "field": "text",
+     "entry": 108,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44465
+     ]
+    },
+    {
+     "line": 111,
+     "field": "text",
+     "entry": 111,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44465
+     ]
+    },
+    {
+     "line": 113,
+     "field": "text",
+     "entry": 113,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44465
+     ]
+    },
+    {
+     "line": 115,
+     "field": "text",
+     "entry": 115,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44465
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 2,
+   "offset": 77,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "All hands, live up to Rätsel's hopes!",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44466
+     ]
+    },
+    {
+     "line": 106,
+     "field": "text",
+     "entry": 106,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44466
+     ]
+    },
+    {
+     "line": 109,
+     "field": "text",
+     "entry": 109,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44466
+     ]
+    },
+    {
+     "line": 112,
+     "field": "text",
+     "entry": 112,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44466
+     ]
+    },
+    {
+     "line": 114,
+     "field": "text",
+     "entry": 114,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44466
+     ]
+    },
+    {
+     "line": 116,
+     "field": "text",
+     "entry": 116,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44466
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 3,
+   "offset": 138,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let it get near this ship!",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44577
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "offset": 184,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Shoot it down before it pulls that trick!",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44578
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "offset": 233,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "This ship will cut open our escape route!",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44579
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "offset": 279,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Gadisword's new model...!/　We won't hand over the Ariard!",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44582
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "offset": 374,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Focus fire on the giant!",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44583
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 8,
+   "offset": 409,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Silence that giant!",
+   "refs": [
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44584
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "offset": 446,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "No need to hold back./　There's no human aboard that unit.",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9072,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44585
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "offset": 516,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "No life signs. Shoot it down.",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 9072,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44586
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "offset": 559,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "All hands, prepare for anti-ship combat!",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 49,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44491
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 12,
+   "offset": 596,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Target: Zeranio-class! Prepare for anti-ship combat!",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 49,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44573
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "offset": 660,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We're destroying the Zovorg units ahead!",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44570
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "offset": 712,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We'll whittle down Golaikunru's forces!",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44571
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "offset": 758,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We're destroying the Golaikunru units ahead!",
+   "refs": [
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44572
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "offset": 813,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let the Fury units approach!",
+   "refs": [
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 603,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44574
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "offset": 862,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We're engaging the Fury units ahead!",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 603,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44575
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "offset": 914,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Target: White Horn!",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 310,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44576
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "offset": 963,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We're engaging the Gadisword units ahead!",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 605,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44580
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "offset": 1018,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Scatter the Gadisword units!",
+   "refs": [
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 605,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44581
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "offset": 1064,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "This ship will destroy the commander unit!",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44516
+     ]
+    },
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 286,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44516
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 22,
+   "offset": 1110,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Target: Demon!",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44506
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 23,
+   "offset": 1144,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "This ship will wipe out the Demons!",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44507
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 24,
+   "offset": 1187,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Destroying the Demon up ahead!",
+   "refs": [
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44508
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 25,
+   "offset": 1230,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Counterattack at once!",
+   "refs": [
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44467
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 26,
+   "offset": 1258,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let the target escape!",
+   "refs": [
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44468
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 27,
+   "offset": 1289,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Pursue the target!",
+   "refs": [
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44469
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 28,
+   "offset": 1320,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Damn...! All hands, abandon ship!",
+   "refs": [
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44564
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 29,
+   "offset": 1366,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Rätsel, I'm so sorry...!!",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44565
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 30,
+   "offset": 1430,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Report the damage! Hurry with damage control!",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44559
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 31,
+   "offset": 1488,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "If we sink here,/　how will we ever face Rätsel?!",
+   "refs": [
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44560
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 32,
+   "offset": 1568,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Gah! A direct hit?!",
+   "refs": [
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 3,
+     "voice": [
+      1,
+      44561
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 33,
+   "offset": 1602,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Thicken the barrage! Keep them back!",
+   "refs": [
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44562
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 34,
+   "offset": 1660,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We can't end here!/　Not until our duty is done!",
+   "refs": [
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44563
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 35,
+   "offset": 1734,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let up! A half-hearted defense will only backfire!",
+   "refs": [
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44613
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "offset": 1807,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Drive off the Raftclans!",
+   "refs": [
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 604,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44614
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "offset": 1850,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Report the damage!",
+   "refs": [
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44550
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 38,
+   "offset": 1887,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "That won't be enough to sink the Kurogane.",
+   "refs": [
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44551
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 39,
+   "offset": 1939,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "So they're concentrating on this ship...!",
+   "refs": [
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44552
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 40,
+   "offset": 1994,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We've been through hell/　more times than we can count.",
+   "refs": [
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44553
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 41,
+   "offset": 2077,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't waste the time Raul and the others bought us!",
+   "refs": [
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 253,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44610
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "offset": 2141,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We can't withdraw from here unless we drive it off!",
+   "refs": [
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44611
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "offset": 2202,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Put up a barrage! Keep the commander unit in check!",
+   "refs": [
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44612
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "offset": 2275,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "I have no interest in hearing you laugh!",
+   "refs": [
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44606
+     ]
+    },
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 127,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44606
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "offset": 2324,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Make sure you destroy the Zovorg units!",
+   "refs": [
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44607
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "offset": 2376,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "This ship isn't so soft that one unit can sink it!",
+   "refs": [
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 602,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44608
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 47,
+   "offset": 2443,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let the Zeranio-class have its way!",
+   "refs": [
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 49,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44609
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "offset": 2495,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let the Demons get any closer!",
+   "refs": [
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44555
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 49,
+   "offset": 2544,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Hmph, what a bizarre bunch...!",
+   "refs": [
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44556
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 50,
+   "offset": 2587,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Take evasive action and return fire!",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44541
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 51,
+   "offset": 2639,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Never mind. Focus on attacking.",
+   "refs": [
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44542
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 52,
+   "offset": 2679,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "All turrets, keep the enemy at bay.",
+   "refs": [
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44543
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 53,
+   "offset": 2725,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Resistance is light, but stay alert.",
+   "refs": [
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44544
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 54,
+   "offset": 2777,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Damn that black Raftclans.../　Does it mean to sink this ship first...?!",
+   "refs": [
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 123,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44603
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "offset": 2866,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let the Gadisword commander unit approach!",
+   "refs": [
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 103,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44605
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 56,
+   "offset": 2930,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Keep the Zovorg units away.",
+   "refs": [
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 600,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44601
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "offset": 2979,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't fall behind the Zeranio-class in a ship battle!",
+   "refs": [
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 49,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44602
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "offset": 3037,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let the Gadisword units approach.",
+   "refs": [
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 605,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44604
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "offset": 3086,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "To think the Demons got their teeth in us...!",
+   "refs": [
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44546
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 60,
+   "offset": 3141,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "So the Demons are after this ship.",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44547
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 61,
+   "offset": 3190,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Once we finish evading, counterattack.",
+   "refs": [
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44531
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 62,
+   "offset": 3239,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Targeting this ship is pointless.",
+   "refs": [
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44530
+     ]
+    },
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44530
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 63,
+   "offset": 3276,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "I won't let a ship entrusted to us/　by Rätsel come to harm.",
+   "refs": [
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44532
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 64,
+   "offset": 3362,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Keep the Demon away just like that.",
+   "refs": [
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 612,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44535
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "offset": 3411,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "That won't work on me!",
+   "refs": [
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44537
+     ]
+    },
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44537
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 66,
+   "offset": 3451,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "The field went up just in time.",
+   "refs": [
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44538
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 67,
+   "offset": 3503,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Deploy EP!",
+   "refs": [
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44539
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 68,
+   "offset": 3525,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "You'd better think of another move.",
+   "refs": [
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 0,
+     "voice": [
+      1,
+      44540
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 69,
+   "offset": 3562,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "All we can do is defend...!",
+   "refs": [
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44527
+     ]
+    },
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 77,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44527
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 70,
+   "offset": 3620,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Hurry and reload the guns!",
+   "refs": [
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 4,
+     "weight": 100,
+     "target": 800,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44526
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 71,
+   "offset": 3657,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "No choice. Tighten anti-air watch!",
+   "refs": [
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 2,
+     "voice": [
+      1,
+      44528
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 72,
+   "offset": 3712,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Reacquire the target!",
+   "refs": [
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 76,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44529
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 73,
+   "offset": 3749,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Supporting our allies!",
+   "refs": [
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 78,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44518
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 74,
+   "offset": 3783,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Keep attacking!",
+   "refs": [
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 79,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44519
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 75,
+   "offset": 3814,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Support Rätsel!",
+   "refs": [
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 80,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 42,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44522
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 76,
+   "offset": 3863,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Support Major Sänger!",
+   "refs": [
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 81,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 41,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44523
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 77,
+   "offset": 3906,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Follow the Hagane!",
+   "refs": [
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 82,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 139,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44520
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 78,
+   "offset": 3934,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Support the Hiryu Custom!",
+   "refs": [
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 83,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 148,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44521
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 79,
+   "offset": 3977,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We'll support the Granteed!",
+   "refs": [
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 84,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 298,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44587
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "offset": 4023,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "That Granteed is...!",
+   "refs": [
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 85,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 11,
+     "face": 3,
+     "voice": [
+      1,
+      44588
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "offset": 4069,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Follow the Bellzelute!",
+   "refs": [
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 86,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 300,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44589
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "offset": 4112,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Support the Bellzelute Brigandi!",
+   "refs": [
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 87,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 301,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44590
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 83,
+   "offset": 4176,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Support the Super Soul Saber!",
+   "refs": [
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 88,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 626,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44591
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "offset": 4234,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We'll support the Gespenst Haken!",
+   "refs": [
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 89,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 171,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44592
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "offset": 4295,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Support the Soulgain!",
+   "refs": [
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 90,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 135,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44593
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "offset": 4338,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Full speed ahead! Cover our units!",
+   "refs": [
+    {
+     "line": 91,
+     "field": "text",
+     "entry": 91,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44524
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 87,
+   "offset": 4384,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Use this ship as a shield!",
+   "refs": [
+    {
+     "line": 92,
+     "field": "text",
+     "entry": 92,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44525
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 88,
+   "offset": 4421,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Rätsel, please fall back!",
+   "refs": [
+    {
+     "line": 93,
+     "field": "text",
+     "entry": 93,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 42,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44568
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 89,
+   "offset": 4476,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Major Sänger, fall back!",
+   "refs": [
+    {
+     "line": 94,
+     "field": "text",
+     "entry": 94,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 41,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44569
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 90,
+   "offset": 4516,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Protect the Hagane!",
+   "refs": [
+    {
+     "line": 95,
+     "field": "text",
+     "entry": 95,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 139,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44566
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 91,
+   "offset": 4544,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Protect the Hiryu Custom!",
+   "refs": [
+    {
+     "line": 96,
+     "field": "text",
+     "entry": 96,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 120,
+     "target": 148,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44567
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 92,
+   "offset": 4578,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't let the Granteed fall!",
+   "refs": [
+    {
+     "line": 97,
+     "field": "text",
+     "entry": 97,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 298,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44594
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "offset": 4630,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "We've come this far./　We can't lose the Granteed now!",
+   "refs": [
+    {
+     "line": 98,
+     "field": "text",
+     "entry": 98,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 299,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44595
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 94,
+   "offset": 4716,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Be a shield for the Bellzelute!",
+   "refs": [
+    {
+     "line": 99,
+     "field": "text",
+     "entry": 99,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 300,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44596
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 95,
+   "offset": 4759,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Protect the Bellzelute Brigandi!",
+   "refs": [
+    {
+     "line": 100,
+     "field": "text",
+     "entry": 100,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 301,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44597
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 96,
+   "offset": 4817,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Protect the Super Soul Saber!",
+   "refs": [
+    {
+     "line": 101,
+     "field": "text",
+     "entry": 101,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 626,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44598
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "offset": 4869,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Protect the Gespenst Haken!",
+   "refs": [
+    {
+     "line": 102,
+     "field": "text",
+     "entry": 102,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 171,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44599
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 98,
+   "offset": 4924,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Protect the Soulgain!",
+   "refs": [
+    {
+     "line": 103,
+     "field": "text",
+     "entry": 103,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 135,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44600
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 99,
+   "offset": 4961,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Attack the target again!",
+   "refs": [
+    {
+     "line": 110,
+     "field": "text",
+     "entry": 110,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44470
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 100,
+   "offset": 4998,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "AA Machine Gun, open fire!",
+   "refs": [
+    {
+     "line": 117,
+     "field": "text",
+     "entry": 117,
+     "group": [
+      1,
+      61464
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44471
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 101,
+   "offset": 5038,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "AAW auto, open fire!",
+   "refs": [
+    {
+     "line": 118,
+     "field": "text",
+     "entry": 118,
+     "group": [
+      1,
+      61464
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44472
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 102,
+   "offset": 5084,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "STF torpedoes, stand by!",
+   "refs": [
+    {
+     "line": 119,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44473
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 103,
+   "offset": 5127,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Tubes 1 and 3, fire!",
+   "refs": [
+    {
+     "line": 120,
+     "field": "text",
+     "entry": 119,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44474
+     ]
+    },
+    {
+     "line": 122,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44476
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 104,
+   "offset": 5167,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Torpedoes, stand by!",
+   "refs": [
+    {
+     "line": 121,
+     "field": "text",
+     "entry": 120,
+     "group": [
+      1,
+      61484
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44475
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 105,
+   "offset": 5207,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Full barrage on the target!",
+   "refs": [
+    {
+     "line": 123,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44477
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 106,
+   "offset": 5238,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Secondary guns 1 through 4, fire!",
+   "refs": [
+    {
+     "line": 124,
+     "field": "text",
+     "entry": 121,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44478
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 107,
+   "offset": 5290,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Secondary guns 1 through 4, stand by!",
+   "refs": [
+    {
+     "line": 125,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44479
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 108,
+   "offset": 5342,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Fire!",
+   "refs": [
+    {
+     "line": 126,
+     "field": "text",
+     "entry": 122,
+     "group": [
+      1,
+      61494
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44480
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 109,
+   "offset": 5364,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Upper shock cannons 1 and 2! Stand by!",
+   "refs": [
+    {
+     "line": 127,
+     "field": "text",
+     "entry": 123,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44481
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 110,
+   "offset": 5425,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Don't miss! Fire!",
+   "refs": [
+    {
+     "line": 128,
+     "field": "text",
+     "entry": 123,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44482
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 111,
+   "offset": 5465,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Upper shock cannons, prepare to fire!",
+   "refs": [
+    {
+     "line": 129,
+     "field": "text",
+     "entry": 124,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44483
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 112,
+   "offset": 5505,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Guns 1 and 2! Fire!",
+   "refs": [
+    {
+     "line": 130,
+     "field": "text",
+     "entry": 124,
+     "group": [
+      1,
+      61504
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44484
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 113,
+   "offset": 5548,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Fire a full barrage ahead, then use/　the bow's Giant Rotating Ram!",
+   "refs": [
+    {
+     "line": 131,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44485
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 114,
+   "offset": 5634,
+   "role": "text",
+   "speakers": [
+    223
+   ],
+   "en": "Relative distance to target confirmed!",
+   "refs": [
+    {
+     "line": 132,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 223,
+     "face": 0,
+     "voice": [
+      34,
+      2016
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 115,
+   "offset": 5677,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Elevation error corrected!/　All forward guns, stand by!",
+   "refs": [
+    {
+     "line": 133,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44486
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 116,
+   "offset": 5738,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Giant Rotating Ram, activate!!",
+   "refs": [
+    {
+     "line": 134,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44487
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "offset": 5781,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Tesla Drive to maximum output!/　Overboost!!",
+   "refs": [
+    {
+     "line": 135,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44488
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 118,
+   "offset": 5864,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "All forward guns, open fire!!",
+   "refs": [
+    {
+     "line": 136,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44489
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 119,
+   "offset": 5907,
+   "role": "text",
+   "speakers": [
+    223
+   ],
+   "en": "All hands, brace for impact!",
+   "refs": [
+    {
+     "line": 137,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 223,
+     "face": 0,
+     "voice": [
+      34,
+      1824
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 120,
+   "offset": 5944,
+   "role": "text",
+   "speakers": [
+    11
+   ],
+   "en": "Kurogane, begin the assault!!",
+   "refs": [
+    {
+     "line": 138,
+     "field": "text",
+     "entry": 125,
+     "group": [
+      1,
+      61514
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 11,
+     "face": 1,
+     "voice": [
+      1,
+      44490
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  }
+ ]
+}

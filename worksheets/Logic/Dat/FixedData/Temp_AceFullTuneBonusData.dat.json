@@ -1,0 +1,3613 @@
+{
+ "file": "Temp_AceFullTuneBonusData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DATA",
+   "header_offset": 16,
+   "payload_offset": 28,
+   "size": 80036,
+   "count": 187
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 80064,
+   "payload_offset": 80072,
+   "size": 752,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 80824,
+   "payload_offset": 80836,
+   "size": 14684,
+   "count": 188
+  }
+ ],
+ "records": {
+  "count": 187,
+  "size": 428
+ },
+ "dofs": null,
+ "string_fields": [],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [
+  {
+   "id": 0,
+   "section": "STRI",
+   "offset": 80836,
+   "text_offset": 80842,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    3
+   ],
+   "orig_bytes": 10,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 1,
+   "section": "STRI",
+   "offset": 80852,
+   "text_offset": 80858,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    0
+   ],
+   "orig_bytes": 1,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 2,
+   "section": "STRI",
+   "offset": 80859,
+   "text_offset": 80865,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 3,
+   "section": "STRI",
+   "offset": 80941,
+   "text_offset": 80947,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 4,
+   "section": "STRI",
+   "offset": 81026,
+   "text_offset": 81032,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 5,
+   "section": "STRI",
+   "offset": 81123,
+   "text_offset": 81129,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 6,
+   "section": "STRI",
+   "offset": 81187,
+   "text_offset": 81193,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 7,
+   "section": "STRI",
+   "offset": 81275,
+   "text_offset": 81281,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 8,
+   "section": "STRI",
+   "offset": 81393,
+   "text_offset": 81399,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 9,
+   "section": "STRI",
+   "offset": 81463,
+   "text_offset": 81469,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 10,
+   "section": "STRI",
+   "offset": 81551,
+   "text_offset": 81557,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 11,
+   "section": "STRI",
+   "offset": 81636,
+   "text_offset": 81642,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 12,
+   "section": "STRI",
+   "offset": 81736,
+   "text_offset": 81742,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 13,
+   "section": "STRI",
+   "offset": 81797,
+   "text_offset": 81803,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 14,
+   "section": "STRI",
+   "offset": 81876,
+   "text_offset": 81882,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 15,
+   "section": "STRI",
+   "offset": 81940,
+   "text_offset": 81946,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 16,
+   "section": "STRI",
+   "offset": 82058,
+   "text_offset": 82064,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 17,
+   "section": "STRI",
+   "offset": 82113,
+   "text_offset": 82119,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 18,
+   "section": "STRI",
+   "offset": 82153,
+   "text_offset": 82159,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 19,
+   "section": "STRI",
+   "offset": 82223,
+   "text_offset": 82229,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 20,
+   "section": "STRI",
+   "offset": 82281,
+   "text_offset": 82287,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 21,
+   "section": "STRI",
+   "offset": 82417,
+   "text_offset": 82423,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 22,
+   "section": "STRI",
+   "offset": 82490,
+   "text_offset": 82496,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 23,
+   "section": "STRI",
+   "offset": 82587,
+   "text_offset": 82593,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 24,
+   "section": "STRI",
+   "offset": 82684,
+   "text_offset": 82690,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 25,
+   "section": "STRI",
+   "offset": 82757,
+   "text_offset": 82763,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 26,
+   "section": "STRI",
+   "offset": 82851,
+   "text_offset": 82857,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 27,
+   "section": "STRI",
+   "offset": 82927,
+   "text_offset": 82933,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 28,
+   "section": "STRI",
+   "offset": 83000,
+   "text_offset": 83006,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 29,
+   "section": "STRI",
+   "offset": 83109,
+   "text_offset": 83115,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 30,
+   "section": "STRI",
+   "offset": 83161,
+   "text_offset": 83167,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 31,
+   "section": "STRI",
+   "offset": 83297,
+   "text_offset": 83303,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    8
+   ],
+   "orig_bytes": 25,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 32,
+   "section": "STRI",
+   "offset": 83328,
+   "text_offset": 83334,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 33,
+   "section": "STRI",
+   "offset": 83416,
+   "text_offset": 83422,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 34,
+   "section": "STRI",
+   "offset": 83519,
+   "text_offset": 83525,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 35,
+   "section": "STRI",
+   "offset": 83616,
+   "text_offset": 83622,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 36,
+   "section": "STRI",
+   "offset": 83701,
+   "text_offset": 83707,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 37,
+   "section": "STRI",
+   "offset": 83759,
+   "text_offset": 83765,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 38,
+   "section": "STRI",
+   "offset": 83835,
+   "text_offset": 83841,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 39,
+   "section": "STRI",
+   "offset": 83908,
+   "text_offset": 83914,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 40,
+   "section": "STRI",
+   "offset": 84005,
+   "text_offset": 84011,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 41,
+   "section": "STRI",
+   "offset": 84087,
+   "text_offset": 84093,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 42,
+   "section": "STRI",
+   "offset": 84160,
+   "text_offset": 84166,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 43,
+   "section": "STRI",
+   "offset": 84257,
+   "text_offset": 84263,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    35
+   ],
+   "orig_bytes": 106,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 44,
+   "section": "STRI",
+   "offset": 84369,
+   "text_offset": 84375,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    39
+   ],
+   "orig_bytes": 118,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 45,
+   "section": "STRI",
+   "offset": 84493,
+   "text_offset": 84499,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 46,
+   "section": "STRI",
+   "offset": 84554,
+   "text_offset": 84560,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 47,
+   "section": "STRI",
+   "offset": 84615,
+   "text_offset": 84621,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    35
+   ],
+   "orig_bytes": 106,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 48,
+   "section": "STRI",
+   "offset": 84727,
+   "text_offset": 84733,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 49,
+   "section": "STRI",
+   "offset": 84830,
+   "text_offset": 84836,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 50,
+   "section": "STRI",
+   "offset": 84909,
+   "text_offset": 84915,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 51,
+   "section": "STRI",
+   "offset": 84994,
+   "text_offset": 85000,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 52,
+   "section": "STRI",
+   "offset": 85082,
+   "text_offset": 85088,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 53,
+   "section": "STRI",
+   "offset": 85209,
+   "text_offset": 85215,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 54,
+   "section": "STRI",
+   "offset": 85297,
+   "text_offset": 85303,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 55,
+   "section": "STRI",
+   "offset": 85400,
+   "text_offset": 85406,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 56,
+   "section": "STRI",
+   "offset": 85506,
+   "text_offset": 85512,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 57,
+   "section": "STRI",
+   "offset": 85597,
+   "text_offset": 85603,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 58,
+   "section": "STRI",
+   "offset": 85733,
+   "text_offset": 85739,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 59,
+   "section": "STRI",
+   "offset": 85836,
+   "text_offset": 85842,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 60,
+   "section": "STRI",
+   "offset": 85939,
+   "text_offset": 85945,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 61,
+   "section": "STRI",
+   "offset": 86045,
+   "text_offset": 86051,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 62,
+   "section": "STRI",
+   "offset": 86124,
+   "text_offset": 86130,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 63,
+   "section": "STRI",
+   "offset": 86203,
+   "text_offset": 86209,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 64,
+   "section": "STRI",
+   "offset": 86270,
+   "text_offset": 86276,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 65,
+   "section": "STRI",
+   "offset": 86361,
+   "text_offset": 86367,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 66,
+   "section": "STRI",
+   "offset": 86476,
+   "text_offset": 86482,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 67,
+   "section": "STRI",
+   "offset": 86576,
+   "text_offset": 86582,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 68,
+   "section": "STRI",
+   "offset": 86637,
+   "text_offset": 86643,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 69,
+   "section": "STRI",
+   "offset": 86731,
+   "text_offset": 86737,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 70,
+   "section": "STRI",
+   "offset": 86819,
+   "text_offset": 86825,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 71,
+   "section": "STRI",
+   "offset": 86883,
+   "text_offset": 86889,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 72,
+   "section": "STRI",
+   "offset": 86959,
+   "text_offset": 86965,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 73,
+   "section": "STRI",
+   "offset": 87038,
+   "text_offset": 87044,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    43
+   ],
+   "orig_bytes": 130,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 74,
+   "section": "STRI",
+   "offset": 87174,
+   "text_offset": 87180,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 75,
+   "section": "STRI",
+   "offset": 87220,
+   "text_offset": 87226,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 76,
+   "section": "STRI",
+   "offset": 87338,
+   "text_offset": 87344,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 77,
+   "section": "STRI",
+   "offset": 87387,
+   "text_offset": 87393,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 78,
+   "section": "STRI",
+   "offset": 87454,
+   "text_offset": 87460,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 79,
+   "section": "STRI",
+   "offset": 87581,
+   "text_offset": 87587,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 80,
+   "section": "STRI",
+   "offset": 87639,
+   "text_offset": 87645,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 81,
+   "section": "STRI",
+   "offset": 87709,
+   "text_offset": 87715,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 82,
+   "section": "STRI",
+   "offset": 87794,
+   "text_offset": 87800,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 83,
+   "section": "STRI",
+   "offset": 87891,
+   "text_offset": 87897,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 84,
+   "section": "STRI",
+   "offset": 87994,
+   "text_offset": 88000,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 85,
+   "section": "STRI",
+   "offset": 88091,
+   "text_offset": 88097,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    45
+   ],
+   "orig_bytes": 136,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 86,
+   "section": "STRI",
+   "offset": 88233,
+   "text_offset": 88239,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 87,
+   "section": "STRI",
+   "offset": 88291,
+   "text_offset": 88297,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 88,
+   "section": "STRI",
+   "offset": 88325,
+   "text_offset": 88331,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 89,
+   "section": "STRI",
+   "offset": 88386,
+   "text_offset": 88392,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 90,
+   "section": "STRI",
+   "offset": 88459,
+   "text_offset": 88465,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 91,
+   "section": "STRI",
+   "offset": 88529,
+   "text_offset": 88535,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 92,
+   "section": "STRI",
+   "offset": 88602,
+   "text_offset": 88608,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 93,
+   "section": "STRI",
+   "offset": 88675,
+   "text_offset": 88681,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 94,
+   "section": "STRI",
+   "offset": 88775,
+   "text_offset": 88781,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 95,
+   "section": "STRI",
+   "offset": 88821,
+   "text_offset": 88827,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 96,
+   "section": "STRI",
+   "offset": 88894,
+   "text_offset": 88900,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 97,
+   "section": "STRI",
+   "offset": 88961,
+   "text_offset": 88967,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 98,
+   "section": "STRI",
+   "offset": 89013,
+   "text_offset": 89019,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 99,
+   "section": "STRI",
+   "offset": 89113,
+   "text_offset": 89119,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 100,
+   "section": "STRI",
+   "offset": 89189,
+   "text_offset": 89195,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 101,
+   "section": "STRI",
+   "offset": 89292,
+   "text_offset": 89298,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 102,
+   "section": "STRI",
+   "offset": 89368,
+   "text_offset": 89374,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    36
+   ],
+   "orig_bytes": 109,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 103,
+   "section": "STRI",
+   "offset": 89483,
+   "text_offset": 89489,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 104,
+   "section": "STRI",
+   "offset": 89610,
+   "text_offset": 89616,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 105,
+   "section": "STRI",
+   "offset": 89692,
+   "text_offset": 89698,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 106,
+   "section": "STRI",
+   "offset": 89756,
+   "text_offset": 89762,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 107,
+   "section": "STRI",
+   "offset": 89856,
+   "text_offset": 89862,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 108,
+   "section": "STRI",
+   "offset": 89956,
+   "text_offset": 89962,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 109,
+   "section": "STRI",
+   "offset": 89999,
+   "text_offset": 90005,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 110,
+   "section": "STRI",
+   "offset": 90069,
+   "text_offset": 90075,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    42
+   ],
+   "orig_bytes": 127,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 111,
+   "section": "STRI",
+   "offset": 90202,
+   "text_offset": 90208,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 112,
+   "section": "STRI",
+   "offset": 90272,
+   "text_offset": 90278,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 113,
+   "section": "STRI",
+   "offset": 90354,
+   "text_offset": 90360,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 114,
+   "section": "STRI",
+   "offset": 90430,
+   "text_offset": 90436,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 115,
+   "section": "STRI",
+   "offset": 90485,
+   "text_offset": 90491,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 116,
+   "section": "STRI",
+   "offset": 90567,
+   "text_offset": 90573,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    27
+   ],
+   "orig_bytes": 82,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 117,
+   "section": "STRI",
+   "offset": 90655,
+   "text_offset": 90661,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 90,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 118,
+   "section": "STRI",
+   "offset": 90751,
+   "text_offset": 90757,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 119,
+   "section": "STRI",
+   "offset": 90857,
+   "text_offset": 90863,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 120,
+   "section": "STRI",
+   "offset": 90897,
+   "text_offset": 90903,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    23
+   ],
+   "orig_bytes": 70,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 121,
+   "section": "STRI",
+   "offset": 90973,
+   "text_offset": 90979,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 122,
+   "section": "STRI",
+   "offset": 91016,
+   "text_offset": 91022,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 123,
+   "section": "STRI",
+   "offset": 91068,
+   "text_offset": 91074,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 124,
+   "section": "STRI",
+   "offset": 91162,
+   "text_offset": 91168,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 125,
+   "section": "STRI",
+   "offset": 91256,
+   "text_offset": 91262,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 126,
+   "section": "STRI",
+   "offset": 91362,
+   "text_offset": 91368,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 127,
+   "section": "STRI",
+   "offset": 91402,
+   "text_offset": 91408,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    32
+   ],
+   "orig_bytes": 97,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 128,
+   "section": "STRI",
+   "offset": 91505,
+   "text_offset": 91511,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 129,
+   "section": "STRI",
+   "offset": 91602,
+   "text_offset": 91608,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 130,
+   "section": "STRI",
+   "offset": 91675,
+   "text_offset": 91681,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 90,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 131,
+   "section": "STRI",
+   "offset": 91771,
+   "text_offset": 91777,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 132,
+   "section": "STRI",
+   "offset": 91862,
+   "text_offset": 91868,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 133,
+   "section": "STRI",
+   "offset": 91929,
+   "text_offset": 91935,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 134,
+   "section": "STRI",
+   "offset": 91972,
+   "text_offset": 91978,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 135,
+   "section": "STRI",
+   "offset": 92081,
+   "text_offset": 92087,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    30
+   ],
+   "orig_bytes": 91,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 136,
+   "section": "STRI",
+   "offset": 92178,
+   "text_offset": 92184,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    41
+   ],
+   "orig_bytes": 124,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 137,
+   "section": "STRI",
+   "offset": 92308,
+   "text_offset": 92314,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    40
+   ],
+   "orig_bytes": 121,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 138,
+   "section": "STRI",
+   "offset": 92435,
+   "text_offset": 92441,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 139,
+   "section": "STRI",
+   "offset": 92526,
+   "text_offset": 92532,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    34
+   ],
+   "orig_bytes": 103,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 140,
+   "section": "STRI",
+   "offset": 92635,
+   "text_offset": 92641,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 141,
+   "section": "STRI",
+   "offset": 92669,
+   "text_offset": 92675,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 142,
+   "section": "STRI",
+   "offset": 92775,
+   "text_offset": 92781,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    24
+   ],
+   "orig_bytes": 73,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 143,
+   "section": "STRI",
+   "offset": 92854,
+   "text_offset": 92860,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    29
+   ],
+   "orig_bytes": 88,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 144,
+   "section": "STRI",
+   "offset": 92948,
+   "text_offset": 92954,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    22
+   ],
+   "orig_bytes": 67,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 145,
+   "section": "STRI",
+   "offset": 93021,
+   "text_offset": 93027,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    13
+   ],
+   "orig_bytes": 40,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 146,
+   "section": "STRI",
+   "offset": 93067,
+   "text_offset": 93073,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    11
+   ],
+   "orig_bytes": 34,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 147,
+   "section": "STRI",
+   "offset": 93107,
+   "text_offset": 93113,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 148,
+   "section": "STRI",
+   "offset": 93174,
+   "text_offset": 93180,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    20
+   ],
+   "orig_bytes": 61,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 149,
+   "section": "STRI",
+   "offset": 93241,
+   "text_offset": 93247,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    47
+   ],
+   "orig_bytes": 141,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 150,
+   "section": "STRI",
+   "offset": 93388,
+   "text_offset": 93394,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    26
+   ],
+   "orig_bytes": 79,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 151,
+   "section": "STRI",
+   "offset": 93473,
+   "text_offset": 93479,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 152,
+   "section": "STRI",
+   "offset": 93555,
+   "text_offset": 93561,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 153,
+   "section": "STRI",
+   "offset": 93613,
+   "text_offset": 93619,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 154,
+   "section": "STRI",
+   "offset": 93695,
+   "text_offset": 93701,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    31
+   ],
+   "orig_bytes": 94,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 155,
+   "section": "STRI",
+   "offset": 93795,
+   "text_offset": 93801,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 156,
+   "section": "STRI",
+   "offset": 93823,
+   "text_offset": 93829,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 157,
+   "section": "STRI",
+   "offset": 93881,
+   "text_offset": 93887,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 158,
+   "section": "STRI",
+   "offset": 93906,
+   "text_offset": 93912,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 159,
+   "section": "STRI",
+   "offset": 93955,
+   "text_offset": 93961,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 160,
+   "section": "STRI",
+   "offset": 93983,
+   "text_offset": 93989,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 161,
+   "section": "STRI",
+   "offset": 94008,
+   "text_offset": 94014,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 162,
+   "section": "STRI",
+   "offset": 94042,
+   "text_offset": 94048,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    18
+   ],
+   "orig_bytes": 55,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 163,
+   "section": "STRI",
+   "offset": 94103,
+   "text_offset": 94109,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 164,
+   "section": "STRI",
+   "offset": 94146,
+   "text_offset": 94152,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    9
+   ],
+   "orig_bytes": 28,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 165,
+   "section": "STRI",
+   "offset": 94180,
+   "text_offset": 94186,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 166,
+   "section": "STRI",
+   "offset": 94205,
+   "text_offset": 94211,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 167,
+   "section": "STRI",
+   "offset": 94230,
+   "text_offset": 94236,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    19
+   ],
+   "orig_bytes": 58,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 168,
+   "section": "STRI",
+   "offset": 94294,
+   "text_offset": 94300,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    7
+   ],
+   "orig_bytes": 22,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 169,
+   "section": "STRI",
+   "offset": 94322,
+   "text_offset": 94328,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 170,
+   "section": "STRI",
+   "offset": 94440,
+   "text_offset": 94446,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    37
+   ],
+   "orig_bytes": 112,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 171,
+   "section": "STRI",
+   "offset": 94558,
+   "text_offset": 94564,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 172,
+   "section": "STRI",
+   "offset": 94601,
+   "text_offset": 94607,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    21
+   ],
+   "orig_bytes": 64,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 173,
+   "section": "STRI",
+   "offset": 94671,
+   "text_offset": 94677,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    33
+   ],
+   "orig_bytes": 100,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 174,
+   "section": "STRI",
+   "offset": 94777,
+   "text_offset": 94783,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 175,
+   "section": "STRI",
+   "offset": 94820,
+   "text_offset": 94826,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    28
+   ],
+   "orig_bytes": 85,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 176,
+   "section": "STRI",
+   "offset": 94911,
+   "text_offset": 94917,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 177,
+   "section": "STRI",
+   "offset": 94963,
+   "text_offset": 94969,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 178,
+   "section": "STRI",
+   "offset": 95006,
+   "text_offset": 95012,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    14
+   ],
+   "orig_bytes": 43,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 179,
+   "section": "STRI",
+   "offset": 95055,
+   "text_offset": 95061,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    25
+   ],
+   "orig_bytes": 76,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 180,
+   "section": "STRI",
+   "offset": 95137,
+   "text_offset": 95143,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 181,
+   "section": "STRI",
+   "offset": 95189,
+   "text_offset": 95195,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 182,
+   "section": "STRI",
+   "offset": 95241,
+   "text_offset": 95247,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    15
+   ],
+   "orig_bytes": 46,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 183,
+   "section": "STRI",
+   "offset": 95293,
+   "text_offset": 95299,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    16
+   ],
+   "orig_bytes": 49,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 184,
+   "section": "STRI",
+   "offset": 95348,
+   "text_offset": 95354,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 185,
+   "section": "STRI",
+   "offset": 95391,
+   "text_offset": 95397,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    6
+   ],
+   "orig_bytes": 19,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 186,
+   "section": "STRI",
+   "offset": 95416,
+   "text_offset": 95422,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    12
+   ],
+   "orig_bytes": 37,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  },
+  {
+   "id": 187,
+   "section": "STRI",
+   "offset": 95459,
+   "text_offset": 95465,
+   "role": "unused",
+   "refs": [],
+   "orig_chars": [
+    17
+   ],
+   "orig_bytes": 52,
+   "budget": {
+    "type": "variable",
+    "note": "Variable-length; offsets are recomputed on build. Limits: 65535 code points per line, 65535 bytes of text per entry. No on-screen width limit is encoded in the file."
+   },
+   "en": "",
+   "kind": "unused",
+   "keep": true
+  }
+ ],
+ "inline_strings": []
+}

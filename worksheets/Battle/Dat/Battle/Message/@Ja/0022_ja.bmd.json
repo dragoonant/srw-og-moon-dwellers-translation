@@ -1,0 +1,2546 @@
+{
+ "file": "0022_ja.bmd",
+ "format": "BMD",
+ "counts": {
+  "groups": 26,
+  "entries": 76,
+  "lines": 91,
+  "strings": 64
+ },
+ "strings": [
+  {
+   "id": 0,
+   "offset": 0,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I'll control you, Endlich Geist!",
+   "refs": [
+    {
+     "line": 0,
+     "field": "text",
+     "entry": 0,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23632
+     ]
+    },
+    {
+     "line": 53,
+     "field": "text",
+     "entry": 53,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23632
+     ]
+    },
+    {
+     "line": 63,
+     "field": "text",
+     "entry": 63,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23632
+     ]
+    },
+    {
+     "line": 65,
+     "field": "text",
+     "entry": 65,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23632
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 1,
+   "offset": 70,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I... will live!",
+   "refs": [
+    {
+     "line": 1,
+     "field": "text",
+     "entry": 1,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23633
+     ]
+    },
+    {
+     "line": 54,
+     "field": "text",
+     "entry": 54,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23633
+     ]
+    },
+    {
+     "line": 58,
+     "field": "text",
+     "entry": 58,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23633
+     ]
+    },
+    {
+     "line": 66,
+     "field": "text",
+     "entry": 66,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23633
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "offset": 104,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Obey me, Endlich Geist!",
+   "refs": [
+    {
+     "line": 2,
+     "field": "text",
+     "entry": 2,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23634
+     ]
+    },
+    {
+     "line": 55,
+     "field": "text",
+     "entry": 55,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23634
+     ]
+    },
+    {
+     "line": 59,
+     "field": "text",
+     "entry": 59,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23634
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 3,
+   "offset": 162,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I'll overcome this cursed fate!",
+   "refs": [
+    {
+     "line": 3,
+     "field": "text",
+     "entry": 3,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23635
+     ]
+    },
+    {
+     "line": 56,
+     "field": "text",
+     "entry": 56,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23635
+     ]
+    },
+    {
+     "line": 60,
+     "field": "text",
+     "entry": 60,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23635
+     ]
+    },
+    {
+     "line": 64,
+     "field": "text",
+     "entry": 64,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23635
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "offset": 214,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I'll eliminate anything that stands in my way!",
+   "refs": [
+    {
+     "line": 4,
+     "field": "text",
+     "entry": 4,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23636
+     ]
+    },
+    {
+     "line": 57,
+     "field": "text",
+     "entry": 57,
+     "group": [
+      0,
+      18
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23636
+     ]
+    },
+    {
+     "line": 61,
+     "field": "text",
+     "entry": 61,
+     "group": [
+      0,
+      19
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23636
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "offset": 275,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "XN-L.../　I have no intention of sitting and waiting to die!",
+   "refs": [
+    {
+     "line": 5,
+     "field": "text",
+     "entry": 5,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23638
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "offset": 352,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I'm the one who has to erase you!",
+   "refs": [
+    {
+     "line": 6,
+     "field": "text",
+     "entry": 6,
+     "group": [
+      0,
+      0
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23637
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "offset": 407,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "You won't escape!",
+   "refs": [
+    {
+     "line": 7,
+     "field": "text",
+     "entry": 7,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23659
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 8,
+   "offset": 429,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "You're still in my range!",
+   "refs": [
+    {
+     "line": 8,
+     "field": "text",
+     "entry": 8,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23660
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 9,
+   "offset": 469,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "You're not getting away!",
+   "refs": [
+    {
+     "line": 9,
+     "field": "text",
+     "entry": 9,
+     "group": [
+      0,
+      1
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23661
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 10,
+   "offset": 503,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Ngh, the Endlich Geist...!!",
+   "refs": [
+    {
+     "line": 10,
+     "field": "text",
+     "entry": 10,
+     "group": [
+      0,
+      2
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23695
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 11,
+   "offset": 561,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I'll change my fate with my own hands!",
+   "refs": [
+    {
+     "line": 11,
+     "field": "text",
+     "entry": 11,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23692
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 12,
+   "offset": 622,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I have no intention of ending here!",
+   "refs": [
+    {
+     "line": 12,
+     "field": "text",
+     "entry": 12,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23693
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 13,
+   "offset": 671,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "What's wrong, Endlich Geist!/　Turn this around!",
+   "refs": [
+    {
+     "line": 13,
+     "field": "text",
+     "entry": 13,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23694
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "offset": 757,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I will live...! By wiping you out!",
+   "refs": [
+    {
+     "line": 14,
+     "field": "text",
+     "entry": 14,
+     "group": [
+      0,
+      3
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23691
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 15,
+   "offset": 827,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "No abnormalities in the Fau Kern... I can control it.",
+   "refs": [
+    {
+     "line": 15,
+     "field": "text",
+     "entry": 15,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23685
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "offset": 894,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "...I can't afford to waste time.",
+   "refs": [
+    {
+     "line": 16,
+     "field": "text",
+     "entry": 16,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23686
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "offset": 952,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "That won't reach my life.",
+   "refs": [
+    {
+     "line": 17,
+     "field": "text",
+     "entry": 17,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23687
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 18,
+   "offset": 992,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "...Everything has an end./　XN-L, you're no exception.",
+   "refs": [
+    {
+     "line": 18,
+     "field": "text",
+     "entry": 18,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23690
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "offset": 1090,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Come at me... I'll erase you all.",
+   "refs": [
+    {
+     "line": 19,
+     "field": "text",
+     "entry": 19,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23688
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "offset": 1163,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Tch, I never meant to activate them...!",
+   "refs": [
+    {
+     "line": 20,
+     "field": "text",
+     "entry": 20,
+     "group": [
+      0,
+      4
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23689
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 21,
+   "offset": 1230,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "A wound like this can be repaired in no time.",
+   "refs": [
+    {
+     "line": 21,
+     "field": "text",
+     "entry": 21,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23679
+     ]
+    },
+    {
+     "line": 34,
+     "field": "text",
+     "entry": 34,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23679
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "offset": 1282,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "You think that'll stop the Endlich Geist?",
+   "refs": [
+    {
+     "line": 22,
+     "field": "text",
+     "entry": 22,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23680
+     ]
+    },
+    {
+     "line": 35,
+     "field": "text",
+     "entry": 35,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23680
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "offset": 1349,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Hmph, feeble.",
+   "refs": [
+    {
+     "line": 23,
+     "field": "text",
+     "entry": 23,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23681
+     ]
+    },
+    {
+     "line": 36,
+     "field": "text",
+     "entry": 36,
+     "group": [
+      0,
+      8
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23681
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 24,
+   "offset": 1377,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "My life is not something you can control.",
+   "refs": [
+    {
+     "line": 24,
+     "field": "text",
+     "entry": 24,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23684
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 25,
+   "offset": 1444,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "That's right, I'm your enemy.",
+   "refs": [
+    {
+     "line": 25,
+     "field": "text",
+     "entry": 25,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23682
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 26,
+   "offset": 1490,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Don't think you can use me.",
+   "refs": [
+    {
+     "line": 26,
+     "field": "text",
+     "entry": 26,
+     "group": [
+      0,
+      5
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23683
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "offset": 1533,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Where are you aiming?",
+   "refs": [
+    {
+     "line": 27,
+     "field": "text",
+     "entry": 27,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23672
+     ]
+    },
+    {
+     "line": 40,
+     "field": "text",
+     "entry": 40,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23672
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 28,
+   "offset": 1567,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "These wings aren't just for show!",
+   "refs": [
+    {
+     "line": 28,
+     "field": "text",
+     "entry": 28,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23673
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 29,
+   "offset": 1607,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "You can't destroy anything!",
+   "refs": [
+    {
+     "line": 29,
+     "field": "text",
+     "entry": 29,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23677
+     ]
+    },
+    {
+     "line": 32,
+     "field": "text",
+     "entry": 32,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 1,
+     "weight": 100,
+     "target": 129,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23677
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 30,
+   "offset": 1656,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Even if malice swarms me...!",
+   "refs": [
+    {
+     "line": 30,
+     "field": "text",
+     "entry": 30,
+     "group": [
+      0,
+      6
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23675
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "offset": 1696,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "You can't catch the Endlich Geist.",
+   "refs": [
+    {
+     "line": 31,
+     "field": "text",
+     "entry": 31,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23674
+     ]
+    },
+    {
+     "line": 41,
+     "field": "text",
+     "entry": 41,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23674
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "offset": 1769,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "You mean to cling to the Endlich Geist?",
+   "refs": [
+    {
+     "line": 33,
+     "field": "text",
+     "entry": 33,
+     "group": [
+      0,
+      7
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 635,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23676
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "offset": 1833,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Useless!",
+   "refs": [
+    {
+     "line": 37,
+     "field": "text",
+     "entry": 37,
+     "group": [
+      0,
+      9
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23678
+     ]
+    },
+    {
+     "line": 38,
+     "field": "text",
+     "entry": 38,
+     "group": [
+      0,
+      10
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23678
+     ]
+    },
+    {
+     "line": 39,
+     "field": "text",
+     "entry": 39,
+     "group": [
+      0,
+      11
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23678
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 34,
+   "offset": 1852,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Tch, I'll have to reposition.",
+   "refs": [
+    {
+     "line": 42,
+     "field": "text",
+     "entry": 42,
+     "group": [
+      0,
+      13
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23671
+     ]
+    },
+    {
+     "line": 43,
+     "field": "text",
+     "entry": 43,
+     "group": [
+      0,
+      14
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23671
+     ]
+    },
+    {
+     "line": 44,
+     "field": "text",
+     "entry": 44,
+     "group": [
+      0,
+      15
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 2,
+     "voice": [
+      3,
+      23671
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 35,
+   "offset": 1901,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "If it's to eliminate the enemy!",
+   "refs": [
+    {
+     "line": 45,
+     "field": "text",
+     "entry": 45,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23663
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "offset": 1944,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "To think I'd end up fighting alongside you...!",
+   "refs": [
+    {
+     "line": 46,
+     "field": "text",
+     "entry": 46,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23664
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "offset": 2008,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Arieil, leave the rest to me!",
+   "refs": [
+    {
+     "line": 47,
+     "field": "text",
+     "entry": 47,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 21,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23665
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 38,
+   "offset": 2060,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Amala, so you're here...!",
+   "refs": [
+    {
+     "line": 48,
+     "field": "text",
+     "entry": 48,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 90,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23666
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 39,
+   "offset": 2127,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I have no intention of laying a hand on you...!",
+   "refs": [
+    {
+     "line": 49,
+     "field": "text",
+     "entry": 49,
+     "group": [
+      0,
+      16
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 47,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23667
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "offset": 2182,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I can't let our numbers be cut down!",
+   "refs": [
+    {
+     "line": 50,
+     "field": "text",
+     "entry": 50,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23668
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "offset": 2246,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "It can't be helped. It's to break this deadlock!",
+   "refs": [
+    {
+     "line": 51,
+     "field": "text",
+     "entry": 51,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 0,
+     "voice": [
+      3,
+      23669
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "offset": 2310,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Fall back, Arieil!",
+   "refs": [
+    {
+     "line": 52,
+     "field": "text",
+     "entry": 52,
+     "group": [
+      0,
+      17
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 21,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23670
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 43,
+   "offset": 2347,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Don't think you can escape my eyes!",
+   "refs": [
+    {
+     "line": 62,
+     "field": "text",
+     "entry": 62,
+     "group": [
+      0,
+      20
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23662
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "offset": 2402,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Got you!",
+   "refs": [
+    {
+     "line": 67,
+     "field": "text",
+     "entry": 67,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23644
+     ]
+    },
+    {
+     "line": 69,
+     "field": "text",
+     "entry": 69,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23644
+     ]
+    },
+    {
+     "line": 76,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      4,
+      59876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23644
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 45,
+   "offset": 2424,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Take this!",
+   "refs": [
+    {
+     "line": 68,
+     "field": "text",
+     "entry": 68,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 2,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23646
+     ]
+    },
+    {
+     "line": 70,
+     "field": "text",
+     "entry": 70,
+     "group": [
+      0,
+      21
+     ],
+     "kind": 3,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23646
+     ]
+    },
+    {
+     "line": 78,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      4,
+      59876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23646
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 46,
+   "offset": 2452,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Take this!",
+   "refs": [
+    {
+     "line": 71,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      4,
+      59857
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23639
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 47,
+   "offset": 2471,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Extend!",
+   "refs": [
+    {
+     "line": 72,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      4,
+      59857
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23640
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 48,
+   "offset": 2490,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I'll crush you!!",
+   "refs": [
+    {
+     "line": 73,
+     "field": "text",
+     "entry": 71,
+     "group": [
+      4,
+      59857
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23641
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 49,
+   "offset": 2515,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Take this!",
+   "refs": [
+    {
+     "line": 74,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      4,
+      59867
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23642
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 50,
+   "offset": 2534,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Red Horn!",
+   "refs": [
+    {
+     "line": 75,
+     "field": "text",
+     "entry": 72,
+     "group": [
+      4,
+      59867
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23643
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 51,
+   "offset": 2565,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Now, Endlich's lightning!",
+   "refs": [
+    {
+     "line": 77,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      4,
+      59876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23645
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "offset": 2611,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Big Lightning!!",
+   "refs": [
+    {
+     "line": 79,
+     "field": "text",
+     "entry": 73,
+     "group": [
+      4,
+      59876
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23647
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "offset": 2654,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Uncanny Ultimatum Arms!",
+   "refs": [
+    {
+     "line": 80,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      4,
+      59896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23648
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 54,
+   "offset": 2724,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Here I come!",
+   "refs": [
+    {
+     "line": 81,
+     "field": "text",
+     "entry": 74,
+     "group": [
+      4,
+      59896
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23649
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 55,
+   "offset": 2743,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Got you!",
+   "refs": [
+    {
+     "line": 82,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23650
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 56,
+   "offset": 2762,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Struggle! Go on, struggle!",
+   "refs": [
+    {
+     "line": 83,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23651
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "offset": 2805,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Now, your lifespan...",
+   "refs": [
+    {
+     "line": 84,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23652
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "offset": 2845,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I'll end it!",
+   "refs": [
+    {
+     "line": 85,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23653
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "offset": 2876,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Take this!!",
+   "refs": [
+    {
+     "line": 86,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23654
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 60,
+   "offset": 2898,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "I see it, I can see it...!",
+   "refs": [
+    {
+     "line": 87,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23655
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "offset": 2938,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Your fate!",
+   "refs": [
+    {
+     "line": 88,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23656
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 62,
+   "offset": 2966,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Crisis Ray!",
+   "refs": [
+    {
+     "line": 89,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23657
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 63,
+   "offset": 3000,
+   "role": "text",
+   "speakers": [
+    22
+   ],
+   "en": "Pierce!!",
+   "refs": [
+    {
+     "line": 90,
+     "field": "text",
+     "entry": 75,
+     "group": [
+      4,
+      59897
+     ],
+     "kind": 0,
+     "weight": 100,
+     "target": 0,
+     "speaker": 22,
+     "face": 1,
+     "voice": [
+      3,
+      23658
+     ]
+    }
+   ],
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

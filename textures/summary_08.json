@@ -1,0 +1,58 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_08.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 8: Will",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   5,
+   290,
+   39,
+   324
+  ]
+ ],
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● {o|Will} ranges from 50 to 150. At the start of a stage, each unit's Will normally starts at 100 when it is placed on the map.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 68,
+   "text": "● Will rises or falls when taking part in battle, or when enemy or allied machines are shot down. The amount varies by pilot.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 130,
+   "text": "● Some weapons can't be used until Will reaches a certain level. Stronger weapons tend to need more Will.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 190,
+   "text": "● Some machine Special Abilities and pilot Special Skills don't take effect until Will reaches a certain level.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 252,
+   "text": "● The higher the Will, the more damage you deal and the less you take."
+  },
+  {
+   "x": 45,
+   "y": 293,
+   "text": "{y|Special Skill \"Will Limit Break\"}"
+  },
+  {
+   "x": 45,
+   "y": 324,
+   "text": "Pilots with the Special Skill {o|\"Will Limit Break\"} have a Will cap of 170.",
+   "h": 50
+  }
+ ]
+}

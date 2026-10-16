@@ -1,0 +1,46 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_05.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 5: Twin Spirit Commands",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   513,
+   4,
+   961,
+   256
+  ]
+ ],
+ "icons": {
+  "twin": [
+   296,
+   160,
+   332,
+   182
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● {o|Twin Spirit Commands} are Spirit Commands that only the main pilots can use, when the unit is a Twin Unit of 2 machines.",
+   "w": 495,
+   "h": 100
+  },
+  {
+   "x": 5,
+   "y": 116,
+   "text": "● Twin Spirit Commands are used with the {o|\"Spirit\"} unit command, and are marked {i:twin}.",
+   "w": 495,
+   "h": 100
+  },
+  {
+   "x": 5,
+   "y": 268,
+   "text": "● Like Spirit Commands they cost SP (Spirit Points), but a Twin Spirit Command needs SP from both main pilots of the Twin Unit. Each pilot holds 1 of the 42 Twin Spirit Commands. The SP cost of the same command differs by pilot.",
+   "h": 120
+  }
+ ]
+}

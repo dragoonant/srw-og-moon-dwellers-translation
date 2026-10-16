@@ -1,0 +1,50 @@
+{
+ "file": "CombineData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DOFS",
+   "header_offset": 16,
+   "payload_offset": 24,
+   "size": 292,
+   "count": null
+  },
+  {
+   "magic": "DATA",
+   "header_offset": 316,
+   "payload_offset": 328,
+   "size": 1168,
+   "count": 73
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 1496,
+   "payload_offset": 1504,
+   "size": 0,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 1504,
+   "payload_offset": 1516,
+   "size": 0,
+   "count": 0
+  }
+ ],
+ "records": {
+  "count": 73,
+  "size": 16
+ },
+ "dofs": {
+  "entries": 73,
+  "unused_ids": 0
+ },
+ "string_fields": [],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [],
+ "inline_strings": []
+}

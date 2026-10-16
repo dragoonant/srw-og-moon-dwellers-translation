@@ -1,0 +1,40 @@
+{
+ "file": "Temp_PilotCategoryData.dat",
+ "format": "FIXH 1.0 big-endian",
+ "sections": [
+  {
+   "magic": "DATA",
+   "header_offset": 16,
+   "payload_offset": 28,
+   "size": 192,
+   "count": 3
+  },
+  {
+   "magic": "SOFS",
+   "header_offset": 220,
+   "payload_offset": 228,
+   "size": 0,
+   "count": null
+  },
+  {
+   "magic": "STRI",
+   "header_offset": 228,
+   "payload_offset": 240,
+   "size": 0,
+   "count": 0
+  }
+ ],
+ "records": {
+  "count": 3,
+  "size": 64
+ },
+ "dofs": null,
+ "string_fields": [],
+ "notes": [
+  "Put the English in 'en' (use a newline between lines). 'text'/'lines' hold the original and are used when 'en' is empty.",
+  "Do not add or remove entries: records reference strings by index.",
+  "role: display = shown in game; comment = developer note (never displayed, safe to leave untranslated); internal = identifier/path; orphan = referenced by no record; unknown = not established."
+ ],
+ "strings": [],
+ "inline_strings": []
+}

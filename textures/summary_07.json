@@ -1,0 +1,68 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_07.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 7: Weapon types",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "icons": {
+  "n": [
+   216,
+   46,
+   278,
+   62
+  ],
+  "all": [
+   216,
+   126,
+   278,
+   142
+  ],
+  "map": [
+   192,
+   228,
+   254,
+   244
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● There are 3 {o|weapon types}:"
+  },
+  {
+   "x": 28,
+   "y": 44,
+   "text": "{G|Normal Attack Weapons} {i:n}"
+  },
+  {
+   "x": 28,
+   "y": 70,
+   "text": "• Mainly used in Normal Attacks. They damage 1 machine in the target unit.",
+   "h": 48
+  },
+  {
+   "x": 28,
+   "y": 122,
+   "text": "{G|ALL Attack Weapons} {i:all}"
+  },
+  {
+   "x": 28,
+   "y": 148,
+   "text": "• Mainly used in ALL Attacks. They damage 1 target unit. If the target is a Twin Unit, both machines take damage at once.",
+   "h": 72
+  },
+  {
+   "x": 28,
+   "y": 226,
+   "text": "{G|MAP Weapons} {i:map}"
+  },
+  {
+   "x": 28,
+   "y": 252,
+   "text": "• MAP Weapons damage every unit in their attack area, allies included. MAP Weapons with Friend/Foe ID hit only enemy units.",
+   "h": 72
+  }
+ ]
+}

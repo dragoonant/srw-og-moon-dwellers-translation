@@ -1,0 +1,60 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_13.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 13: Help (SELECT)",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   8,
+   65,
+   277,
+   217
+  ],
+  [
+   9,
+   236,
+   277,
+   388
+  ]
+ ],
+ "icons": {
+  "sel": [
+   411,
+   6,
+   448,
+   29
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● Press {i:sel} while a window is shown to see help for each item and command.",
+   "h": 50
+  },
+  {
+   "x": 295,
+   "y": 72,
+   "text": "{G|Heading Help}"
+  },
+  {
+   "x": 295,
+   "y": 98,
+   "text": "• In windows that show stats, explains the headings shown there (Mobility, Attack and so on).",
+   "h": 75
+  },
+  {
+   "x": 295,
+   "y": 248,
+   "text": "{G|Command Help}"
+  },
+  {
+   "x": 295,
+   "y": 274,
+   "text": "• For general and unit commands, explains the selected command.",
+   "h": 75
+  }
+ ]
+}

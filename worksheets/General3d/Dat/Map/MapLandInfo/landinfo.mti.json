@@ -1,0 +1,3246 @@
+{
+ "file": "landinfo.mti",
+ "format": "MTI",
+ "strings": [
+  {
+   "id": 0,
+   "en": "OOB@No Go",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 1,
+   "en": "Space@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 2,
+   "en": "Space@Strat.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 3,
+   "en": "Space@Earth 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 4,
+   "en": "Space@Earth 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 5,
+   "en": "Space@Earth 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 6,
+   "en": "Space@Moon 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 7,
+   "en": "Space@Moon 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 8,
+   "en": "Space@Moon 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 10,
+   "en": "Space@Heaven Christmas",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 12,
+   "en": "Space@Cross Gate",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 14,
+   "en": "Space@Final Stage",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 16,
+   "en": "Space@Rabulpaila (Near)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 17,
+   "en": "Space@Rabulpaila (Far)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 19,
+   "en": "Space@Gaw-La Furia (Near)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 20,
+   "en": "Space@Gaw-La Furia (Far)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 22,
+   "en": "Space@Strat., Gaw-La (Near)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 23,
+   "en": "Space@Strat., Gaw-La (Far)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 25,
+   "en": "Space@Execs' Ship (Nr)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 26,
+   "en": "Space@Execs' Ship (Far)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 30,
+   "en": "Junk@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 31,
+   "en": "Debris@Earth 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "en": "Wreckage@Earth 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 33,
+   "en": "Debris@Moon 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 34,
+   "en": "Debris@Moon 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 36,
+   "en": "Wreckage@Heaven Christmas",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 40,
+   "en": "Shoal@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 41,
+   "en": "Shoal@Earth 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 42,
+   "en": "Shoal Zone@Earth 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 43,
+   "en": "Shoal@Moon 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 44,
+   "en": "Shoal@Moon 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 46,
+   "en": "Shoal Zone@Heaven Christmas",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "en": "Cross Gate@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 51,
+   "en": "Cross Gate@Final Stage",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "en": "Cross Gate@No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 53,
+   "en": "Cross Gate@Final Stage. No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 58,
+   "en": "Rabulpaila@Rocky Area",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 59,
+   "en": "Rabulpaila@Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "en": "Rabulpaila@Facility",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 61,
+   "en": "Generator Block@Rabulpaila",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "en": "Mn.@Flat",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 71,
+   "en": "Crater@Moon, In",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "en": "Crater@Lunar, Rim",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 73,
+   "en": "Crevasse@Moon, Fly Only",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "en": "Lunar Surface@Flat, Ashurey Co.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 76,
+   "en": "Ashurey Kreuzer@Wreckage",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "en": "Ashurey Kreuzer@Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 78,
+   "en": "Ashurey Kreuzer@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "en": "Sea@Shlw",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 81,
+   "en": "Sea@Dp.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "en": "Lk.@Shlw",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 83,
+   "en": "River@Town, No Flood",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 84,
+   "en": "River@Town, Euro, Floods",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 86,
+   "en": "Sea@Deep, Sea Plant",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 87,
+   "en": "Sea Plant@Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 88,
+   "en": "Sea Plant@Facility",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 89,
+   "en": "Tower@Sea Plant, Flight Only",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 100,
+   "en": "Flat@Grs.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "en": "Flat@Twn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 102,
+   "en": "Flat@Cst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 103,
+   "en": "Wst.@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 104,
+   "en": "Wst.@Cst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 105,
+   "en": "Cliff@Flat",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "en": "Cliff@Wst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 107,
+   "en": "Snd.@Flat",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 108,
+   "en": "Snd.@Cst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 109,
+   "en": "Dsrt@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "en": "Mtn.@Grs.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 111,
+   "en": "Mtn.@Wst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 112,
+   "en": "Mtn.@Frst",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 113,
+   "en": "Woods@Lt. Forest",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 114,
+   "en": "Frst@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 115,
+   "en": "Frst@Twn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 118,
+   "en": "Rd.@Grs.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 119,
+   "en": "Rd.@Wst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 120,
+   "en": "Road@Urban",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 121,
+   "en": "Road@Bldgs",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 122,
+   "en": "Viaduct@Rail/Hwy",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 123,
+   "en": "Bldg@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 124,
+   "en": "Urban@Bldg/Fac.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "en": "Urban Area@Bldg Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 128,
+   "en": "Plains@EU Town",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 129,
+   "en": "Forest@EU Town",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 130,
+   "en": "Road@Urban, Euro",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 131,
+   "en": "Flat Ground@Urban, Euro",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 132,
+   "en": "Urban Area@Bldgs, Fac., Euro",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 133,
+   "en": "Urban Area@Bldg Grounds, Euro",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 134,
+   "en": "Bridge@EU Town",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 137,
+   "en": "Plains@Grass, Asakusa",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 138,
+   "en": "Forest@Asakusa",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 139,
+   "en": "Road@Senso-ji",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "en": "Rd.@Asa.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 141,
+   "en": "Viaduct@Rail/Hwy, Asakusa",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 142,
+   "en": "Bridge@Asakusa",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 143,
+   "en": "Building@Senso-ji",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 144,
+   "en": "Bldg@Asa.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "en": "Urban Area@Bldgs, Asakusa",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 146,
+   "en": "Urban Area@Bldg Lot, Asakusa",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 147,
+   "en": "Tmpl.@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 148,
+   "en": "Tmpl.@Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 151,
+   "en": "Flat Ground@City, Osaka",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 152,
+   "en": "Road@Osaka",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 153,
+   "en": "Viaduct@Rail/Hwy, Osaka",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 154,
+   "en": "Brdg@Osk.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 155,
+   "en": "High-Rise@Fly only, Osaka",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 156,
+   "en": "Bldg@Osk.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 157,
+   "en": "River@Town, No Flood, Osaka",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 160,
+   "en": "Road@City, Taipei",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 161,
+   "en": "Viaduct@Rail/Hwy, Taipei",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 162,
+   "en": "Urban Area@Bldg/Fac., Taipei",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 163,
+   "en": "Bldg@Tpe.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 164,
+   "en": "Urban Area@Bldg Grounds, Taipei",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 167,
+   "en": "Road@Urban, Karachi, Pakistan",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 168,
+   "en": "Urban Area@Bldgs, Fac., Karachi, Pakistan",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 169,
+   "en": "Urban Area@Building Grounds, Karachi, Pakistan",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 172,
+   "en": "Road@Urban, Jakarta",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 173,
+   "en": "Bridge@Town, Jakarta",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 174,
+   "en": "Building@Jakarta",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 175,
+   "en": "Urban Area@Bldgs, Fac., Jakarta",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 176,
+   "en": "Urban Area@Building Grounds, Jakarta",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 177,
+   "en": "Pond@Town, No Flooding, Jakarta",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 178,
+   "en": "River@Town, No Flooding, Jakarta",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 181,
+   "en": "Road@Urban, India",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 182,
+   "en": "Bldg@India",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 183,
+   "en": "Urban Area@Bldgs, Fac., India",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 184,
+   "en": "Urban Area@Building Grounds, India",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 187,
+   "en": "Road@Urban, Berlin Suburbs",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 188,
+   "en": "Urban Area@Bldgs, Fac., Berlin Suburbs",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 189,
+   "en": "Urban Area@Building Grounds, Berlin Suburbs",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 192,
+   "en": "Road@Urban, Berlin",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 193,
+   "en": "Bridge@Town, Berlin",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 194,
+   "en": "Urban Area@Bldgs, Fac., Berlin",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 195,
+   "en": "Urban Area@Building Grounds, Berlin",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 196,
+   "en": "River@Town, Berlin, Floods",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 199,
+   "en": "Road@Urban, Paris",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 200,
+   "en": "Urban Area@Bldgs, Fac., Paris",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 201,
+   "en": "Urban Area@Bldg Grounds, Paris",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 202,
+   "en": "Arc@Paris",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 205,
+   "en": "Mansion",
+   "budget": 63,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 220,
+   "en": "Tesla Reich Institute@Control Tower",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 221,
+   "en": "Lab@Tesla Inst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 222,
+   "en": "Institute@Tesla, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 224,
+   "en": "Tower@Aviano Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 225,
+   "en": "Base Facility@Aviano Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 226,
+   "en": "Base@Aviano, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 228,
+   "en": "Tower@Izu Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 229,
+   "en": "Facility@Izu Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 230,
+   "en": "Base@Izu, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 232,
+   "en": "Control Tower@Incirlik Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 233,
+   "en": "Base Facility@Incirlik Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 234,
+   "en": "Base@Incirlik Base, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 236,
+   "en": "Control Tower@Stuttgart Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 237,
+   "en": "Base Facility@Stuttgart Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 238,
+   "en": "Base@Stuttgart Base, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 240,
+   "en": "Control Tower@Houston Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 241,
+   "en": "Base Facility@Houston Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 242,
+   "en": "Base@Houston Base, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 244,
+   "en": "Control Tower@Langley Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 245,
+   "en": "Base Facility@Langley Base",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 246,
+   "en": "Base@Langley, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 248,
+   "en": "Tower@Fed. Base 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 249,
+   "en": "Base Facility@Fed. Base 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 250,
+   "en": "Base@Fed Base 1 Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 252,
+   "en": "Tower@Fed. Base 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 253,
+   "en": "Base Facility@Fed. Base 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 254,
+   "en": "Base@Fed Base 2 Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 256,
+   "en": "Tower@Fed. Base 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 257,
+   "en": "Base Facility@Fed. Base 3",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 258,
+   "en": "Base@Fed Base 3 Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 260,
+   "en": "Tower@Fed. Base 4",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 261,
+   "en": "Base Facility@Fed. Base 4",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 262,
+   "en": "Base@Fed Base 4 Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 264,
+   "en": "Tower@Fed. Base 5",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 265,
+   "en": "Base Facility@Fed. Base 5",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 266,
+   "en": "Base@Fed Base 5 Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 268,
+   "en": "Control Tower@Grand Christmas",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 269,
+   "en": "Base Facility@Grand Christmas",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 270,
+   "en": "Base@Grand Christmas, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 271,
+   "en": "Crater@G.Christmas, Rim",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 273,
+   "en": "Factory@Orleans Plant Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 274,
+   "en": "Plant Facility@Orleans Plant",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 276,
+   "en": "Control Tower@Hindan Base, India",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 277,
+   "en": "Base Facility@Hindan Base, India",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 278,
+   "en": "Base@Hindan Base, India, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 280,
+   "en": "Tower@Taoyn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 281,
+   "en": "Facility@Taoyn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 282,
+   "en": "Base@Taoyuan Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 284,
+   "en": "Test Site Facility",
+   "budget": 63,
+   "kind": "name",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 285,
+   "en": "Test@Lot",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 300,
+   "en": "Crater@Impact Site 1 Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 301,
+   "en": "Crater@Impact 1, Rim",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 302,
+   "en": "Wasteland@Impact 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 305,
+   "en": "Wasteland@Lamaris Nest",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 306,
+   "en": "Lamaris Nest@Out, Enterable",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 307,
+   "en": "Lamaris Nest@Out, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 308,
+   "en": "Lamaris Nest@Outer, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 311,
+   "en": "Wall@Lamaris Nest Int., No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 312,
+   "en": "Floor@Lamaris Nest Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 313,
+   "en": "Culture Pod@Lamaris Nest Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 314,
+   "en": "Energy Line@Lamaris Nest Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 315,
+   "en": "Energy Tank@Lamaris Nest Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 316,
+   "en": "Lamp@Lamaris Nest Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 317,
+   "en": "Stairs@Lamaris Nest Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 320,
+   "en": "Wall@Gaw-La Furia, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 321,
+   "en": "Floor@Gaw-La Furia, Core 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 322,
+   "en": "Pillar@Gaw-La Furia, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 323,
+   "en": "Floor@Gaw-La Furia, Core 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 324,
+   "en": "Stairs@Gaw-La Furia, Core 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 325,
+   "en": "Floor@Gaw-La Furia, Catapult",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 326,
+   "en": "Catapult@Gaw-La Furia",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 327,
+   "en": "Energy Tank@Gaw-La Furia",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 328,
+   "en": "Altar@Gaw-La, Core 2.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 329,
+   "en": "Altar@Gaw-La, Core 2. No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 330,
+   "en": "Stairs@Gaw-La, Core 2. No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 400,
+   "en": "Plains@Grass (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 401,
+   "en": "Plains@Cst. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 402,
+   "en": "Plains@Town (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 403,
+   "en": "Wst.@(Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 404,
+   "en": "Wasteland@Cst. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 405,
+   "en": "Cliff@Plains (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 406,
+   "en": "Cliff@Wst. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 407,
+   "en": "Sand@Cst. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 408,
+   "en": "Mountain@Grass (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 409,
+   "en": "Mountain@Wst. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 410,
+   "en": "Mtn.@Wd. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 411,
+   "en": "Frst@(Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 412,
+   "en": "Forest@Town (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 415,
+   "en": "Road@Grass (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 416,
+   "en": "Road@City (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 417,
+   "en": "Viaduct@Rail/Hwy (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 418,
+   "en": "Bldg@(Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 419,
+   "en": "Urban Area@Bldg/Fac. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 420,
+   "en": "Urban Area@Bldg Grounds (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 423,
+   "en": "Sea@Shl.(Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 424,
+   "en": "Sea@Dp. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 427,
+   "en": "Control Tower@Izu Base (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 428,
+   "en": "Base Facility@Izu Base (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 429,
+   "en": "Base@Izu, Grounds (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 431,
+   "en": "Control Tower@Stuttgart Base (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 432,
+   "en": "Base Facility@Stuttgart Base (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 433,
+   "en": "Base@Stuttgart Base, Grounds (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 435,
+   "en": "Control Tower@Langley Base (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 436,
+   "en": "Base Facility@Langley Base (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 437,
+   "en": "Base@Langley Base, Grounds (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 439,
+   "en": "Control Tower@Grand Christmas (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 440,
+   "en": "Base Facility@Grand Christmas (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 441,
+   "en": "Base@Grand Christmas, Grounds (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 442,
+   "en": "Crater@G. Christmas, Rim (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 444,
+   "en": "Tesla Reich Institute@Control Tower (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 445,
+   "en": "Lab Facility@Tesla Inst. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 446,
+   "en": "Institute@Tesla, Grounds (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 449,
+   "en": "Forest@Twn (Nt), Tokyo",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 450,
+   "en": "Road@City (Nt), Tokyo",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 451,
+   "en": "Viaduct@Rail/Hwy (Night), Tokyo",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 452,
+   "en": "Building@(Nt), Tokyo",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 453,
+   "en": "Urban Area@Bldgs, Fac. (Nt), Tokyo",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 454,
+   "en": "Urban Area@Bldg Lot (Night), Tokyo",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 600,
+   "en": "Tomb@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 601,
+   "en": "Chiyou@Stairs",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 602,
+   "en": "Pond@Mound (Low)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 603,
+   "en": "Pond@Mound (Low)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 604,
+   "en": "Fane@Tomb",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 605,
+   "en": "Ice@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 606,
+   "en": "Ice Field@Antarctic Ruins Lab",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 607,
+   "en": "Ruins Lab@Antarctica",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 608,
+   "en": "Earth Cradle@Caved In (Night)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 700,
+   "en": "Moat@Soltis Temple",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 701,
+   "en": "Underground Lake@La Gias Cave, Inside",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 702,
+   "en": "Sea@La Gias, Dp.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 703,
+   "en": "Sea@La Gias, Shl.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 704,
+   "en": "Lake@La Gias, Shl.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 705,
+   "en": "River@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 706,
+   "en": "Temple@La Gias Tmpl. Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 707,
+   "en": "Temple@La Gias Tmpl., Hexagram",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 708,
+   "en": "Abyss@La Gias Tmpl. Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 709,
+   "en": "Limestone Cave@La Gias Cave Interior",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 710,
+   "en": "Wall@La Gias Cave, Inside, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 711,
+   "en": "Temple@Volkruss Temple Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 712,
+   "en": "Abyss@Volkruss Temple Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 713,
+   "en": "Temple@Volkruss Temple, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 714,
+   "en": "Plains@La Gias, Wst. (Grass)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 715,
+   "en": "Plains@La Gias, Grass",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 716,
+   "en": "Plains@La Gias, Coast",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 717,
+   "en": "Waste@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 718,
+   "en": "Wasteland@La Gias, Coast",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 719,
+   "en": "Cliff@La Gias, Waste",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 720,
+   "en": "Sand@La Gias, Coast",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 721,
+   "en": "Forest@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 722,
+   "en": "Mountain@La Gias, Grass",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 723,
+   "en": "Mountain@La Gias Frst",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 724,
+   "en": "Mountain@La Gias, Waste",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 725,
+   "en": "Town@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 726,
+   "en": "Solatis Temple@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 727,
+   "en": "Solatis Temple@La Gias, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 728,
+   "en": "Spores@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 729,
+   "en": "Spore Valley@La Gias, Stairs",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 730,
+   "en": "Palace@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 731,
+   "en": "Town@La Gias, Road & Flat",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 732,
+   "en": "Seb@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 733,
+   "en": "Seb Temple@La Gias, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 734,
+   "en": "Base@La Gias",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 735,
+   "en": "Cliff@La Gias, Grass",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 736,
+   "en": "Spore Valley@La Gias, Waste",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 800,
+   "en": "Space@Strat., Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 801,
+   "en": "Upper Air@Baral Gdn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 802,
+   "en": "Wasteland@Baral Gdn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 803,
+   "en": "Temple@Baral Gdn, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 804,
+   "en": "Plains@Baral Gdn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 805,
+   "en": "Abyss@Desire, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 806,
+   "en": "Ruins@Desire Flr.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 807,
+   "en": "Energy Tank@Desire",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 808,
+   "en": "Wall@Desire, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 809,
+   "en": "Abyss@Desire",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 810,
+   "en": "Ruins@Desire Flr., No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 811,
+   "en": "Cross Gate@Desire, No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 812,
+   "en": "Fault Barrier Gen.@Magic Circle, Arctic",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 813,
+   "en": "Space@Earth 1, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 814,
+   "en": "Space@Earth 2, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 815,
+   "en": "Shoal Zone@Earth 2, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 816,
+   "en": "Wreckage@Earth 2, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 817,
+   "en": "Space@Earth 3, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 818,
+   "en": "Shoal Zone@Earth 3, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 819,
+   "en": "Wreckage@Earth 3, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 820,
+   "en": "Boundary@Final Stage",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 821,
+   "en": "Crystal@Final Stage",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 822,
+   "en": "Flat@(Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 823,
+   "en": "Frst@(Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 824,
+   "en": "Wasteland@Cst. (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 825,
+   "en": "Road@Plains (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 826,
+   "en": "Plains@Cst. (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 827,
+   "en": "Cliff@Plains (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 828,
+   "en": "Sand@Cst. (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 829,
+   "en": "Base@Fed Base 4 Lot (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 830,
+   "en": "Base Facility@Fed. Base 4 (Dark)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 831,
+   "en": "Control Tower@Fed. Base 4 (Dark)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 832,
+   "en": "Mtn.@Wd.(Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 833,
+   "en": "Sea@Dp. (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 834,
+   "en": "Sea@Shl.(Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 835,
+   "en": "Ice@(Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 836,
+   "en": "Lunar Surface@Flat, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 837,
+   "en": "Crater@Lunar, Inside, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 838,
+   "en": "Crater@Lunar, Rim, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 839,
+   "en": "Moon Cradle@Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 840,
+   "en": "Lunar City@Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 841,
+   "en": "Lunar City@Lot, Barrier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 900,
+   "en": "Space@Colony",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 901,
+   "en": "Space@Clmna",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 902,
+   "en": "Colony@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 903,
+   "en": "Clmna@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 904,
+   "en": "Lunar Surface@Moon Cradle",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 905,
+   "en": "City@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 906,
+   "en": "City@Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 907,
+   "en": "Moon Cradle@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 908,
+   "en": "Lake@Baral Gdn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 909,
+   "en": "Wst.@Mar.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 910,
+   "en": "Cliff@Mar., Wst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 911,
+   "en": "Crevasse@Mars, Fly Only",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 912,
+   "en": "Temple@Baral Gdn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 913,
+   "en": "Base Facility@Heaven Christmas Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 914,
+   "en": "Energy Tank@Heaven Chris.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 915,
+   "en": "Wall@H. Christmas Int., No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 916,
+   "en": "Base Facility@Fort A, Floor 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 917,
+   "en": "Base Facility@Fort A, Floor 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 918,
+   "en": "Energy Tank@Fortress A Int.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 919,
+   "en": "Wall@Fort A",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 920,
+   "en": "Base Facility@Fort B, Floor 1",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 921,
+   "en": "Base Facility@Fort B, Floor 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 922,
+   "en": "Energy Tank@Fortress B, Inside",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 923,
+   "en": "Wall@Fort B",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 924,
+   "en": "Cross Gate@Desire",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 925,
+   "en": "Ruins@Desire Flr. 2",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 926,
+   "en": "Sea@Rift",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 927,
+   "en": "Lk.@Dp.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 928,
+   "en": "Pool@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 929,
+   "en": "Rvr.@Grs.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 930,
+   "en": "Rvr.@Wst.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 931,
+   "en": "Lake@La Gias, Dp.",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 932,
+   "en": "Rd.@Port",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 933,
+   "en": "Brdg@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 934,
+   "en": "Brdg@Twn",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 935,
+   "en": "Tower@Fly Only",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 936,
+   "en": "Flat@Urban",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 937,
+   "en": "Flat Ground@Harbor Complex",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 938,
+   "en": "Flat@Pier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 939,
+   "en": "Port Facility@Complex",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 940,
+   "en": "Port@Pier",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 941,
+   "en": "Tower@Town, Fly Only",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 942,
+   "en": "Park@",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 943,
+   "en": "Ricsent Castle@Castle Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 944,
+   "en": "Castle@Flight Only",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 945,
+   "en": "Town@Ricsent",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 946,
+   "en": "Castle Town@Ricsent, Grounds",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 947,
+   "en": "Rampart@Ricsent",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 948,
+   "en": "Crevasse@Fly Only",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 949,
+   "en": "Facility@Harbor",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 950,
+   "en": "Base@Lot, Port",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 951,
+   "en": "Fault Barrier Gen.@No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 952,
+   "en": "Road@Wst. (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 953,
+   "en": "Brdg@(Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 954,
+   "en": "Facility@Port (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 955,
+   "en": "Base@Lot, Port (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 956,
+   "en": "Wall@La Gias Temple Int., No Entry",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 957,
+   "en": "Woods@La Gias, Lt. Forest",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 958,
+   "en": "Sand@Plains (Nt)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 959,
+   "en": "Sand@Plains (Dk)",
+   "budget": 63,
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}

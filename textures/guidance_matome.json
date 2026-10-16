@@ -1,0 +1,30 @@
+{
+ "texture": "Common/Dat/LessonTitle/@Ja/Dds/guidance_matome.dds",
+ "tool": "exfont_text.py",
+ "note": "Tutorial wrap-up panel header (まとめ). The bar is opaque: each row is refilled from its left edge.",
+ "font": "seguisb.ttf",
+ "labels": [
+  {
+   "box": [
+    153,
+    180,
+    303,
+    211
+   ],
+   "jp": "まとめ",
+   "en": "Summary",
+   "inner": true,
+   "fill": [
+    255,
+    255,
+    255
+   ],
+   "outline": [
+    0,
+    40,
+    50
+   ],
+   "align": "left"
+  }
+ ]
+}

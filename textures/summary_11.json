@@ -1,0 +1,55 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_11.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 11: Normal Attacks",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   119,
+   112,
+   352,
+   205
+  ],
+  [
+   119,
+   258,
+   352,
+   345
+  ]
+ ],
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● A {o|Normal Attack} uses Normal Attack Weapons and comes in 2 forms: Focused Attack and Single Attack.",
+   "h": 50
+  },
+  {
+   "x": 28,
+   "y": 62,
+   "text": "{G|Focused Attack}"
+  },
+  {
+   "x": 28,
+   "y": 88,
+   "text": "• Concentrates the attack on 1 machine in the target unit."
+  },
+  {
+   "x": 28,
+   "y": 208,
+   "text": "{G|Single Attack}"
+  },
+  {
+   "x": 28,
+   "y": 234,
+   "text": "• The 2 machines of the attacking Twin Unit each attack a different machine in the target unit."
+  },
+  {
+   "x": 5,
+   "y": 362,
+   "text": "● Normal Attacks can be met with a Support Attack (Attack Again) and Support Defense."
+  }
+ ]
+}

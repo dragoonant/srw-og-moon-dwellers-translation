@@ -1,0 +1,30 @@
+{
+ "texture": "Common/Dat/LessonTitle/@Ja/Dds/guidance_title_2.dds",
+ "note": "Guidance (tutorial) lesson banner: white italic text with a cyan halo.",
+ "fill": [
+  245,
+  250,
+  250
+ ],
+ "glow": [
+  0,
+  240,
+  240
+ ],
+ "font": "bahnschrift.ttf",
+ "italic": 0.22,
+ "glow_px": 7,
+ "glow_blur": 3.0,
+ "labels": [
+  {
+   "box": [
+    40,
+    10,
+    688,
+    70
+   ],
+   "jp": "～精神コマンド編～",
+   "en": "~ Spirit Commands ~"
+  }
+ ]
+}

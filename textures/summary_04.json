@@ -1,0 +1,73 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_04.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 4: Abilities",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "keep": [
+  [
+   5,
+   306,
+   39,
+   340
+  ]
+ ],
+ "icons": {
+  "ex": [
+   5,
+   134,
+   39,
+   168
+  ],
+  "t1": [
+   47,
+   137,
+   145,
+   163
+  ],
+  "t2": [
+   332,
+   135,
+   432,
+   163
+  ]
+ },
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● Machines and pilots can each equip 3 {o|Abilities}. Change them with the Intermission {o|\"Ability\"} command. If 3 or more of the same Ability are among the 6 slots of a machine and its main pilot, you get an Ability effect, such as more damage or a higher hit rate.",
+   "h": 120
+  },
+  {
+   "x": 5,
+   "y": 137,
+   "text": "{i:ex} {i:t1} x 3 gives you {i:t2} (melee weapon damage +5%).",
+   "lh": 34
+  },
+  {
+   "x": 5,
+   "y": 182,
+   "text": "● For a Twin Unit, the 12 slots of both machines and their 2 main pilots count, and both machines get the Ability effect.",
+   "h": 50
+  },
+  {
+   "x": 5,
+   "y": 242,
+   "text": "● Abilities are bought and sold with {o|\"AP\"}, earned in battle, using the Intermission {o|\"Buy Abilities\"} and {o|\"Sell Abilities\"} commands.",
+   "h": 50
+  },
+  {
+   "x": 45,
+   "y": 311,
+   "text": "{y|Notes on Equipping Abilities}"
+  },
+  {
+   "x": 45,
+   "y": 341,
+   "text": "If an Ability totals fewer than 3, it is wasted. If it totals 4 or more, any beyond 3 are wasted.",
+   "h": 50
+  }
+ ]
+}

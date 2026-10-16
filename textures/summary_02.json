@@ -1,0 +1,52 @@
+{
+ "texture": "Logic/Dat/logic/Resource/summary/Img/@Ja/@ps3/guidance_02.dds",
+ "tool": "summary_text.py",
+ "note": "Tutorial summary page 2: Spirit Commands",
+ "font": "seguisb.ttf",
+ "size": 21,
+ "lh": 24,
+ "blocks": [
+  {
+   "x": 5,
+   "y": 6,
+   "text": "● {o|Spirit Commands} are used with the {o|\"Spirit\"} unit command. They can raise hit and evasion rates, restore HP and EN, raise the damage you deal, reduce the damage you take, raise movement or Will, and more. Some examples:",
+   "h": 100
+  },
+  {
+   "x": 28,
+   "y": 113,
+   "text": "{G|Accel}"
+  },
+  {
+   "x": 28,
+   "y": 138,
+   "text": "• Movement +3, once."
+  },
+  {
+   "x": 28,
+   "y": 171,
+   "text": "{G|Vigor}"
+  },
+  {
+   "x": 28,
+   "y": 196,
+   "text": "• Restores 30% of your max HP."
+  },
+  {
+   "x": 28,
+   "y": 229,
+   "text": "{G|Focus}"
+  },
+  {
+   "x": 28,
+   "y": 254,
+   "text": "• Hit and evasion rates +30% for 1 turn."
+  },
+  {
+   "x": 5,
+   "y": 292,
+   "text": "● Each pilot holds up to 5 of the 42 Spirit Commands and learns each one on reaching a set level. The level and SP cost of the same Spirit Command differ by pilot.",
+   "h": 75
+  }
+ ]
+}

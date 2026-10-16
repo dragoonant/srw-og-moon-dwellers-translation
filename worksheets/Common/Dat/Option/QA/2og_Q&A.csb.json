@@ -1,0 +1,3267 @@
+{
+ "file": "2og_Q&A.csb",
+ "format": "CSB",
+ "pool_strings": 625,
+ "untouched": "strings without non-ASCII characters (numbers, file names, ids)",
+ "strings": [
+  {
+   "id": 1,
+   "en": "7 Characters at 28-Dot Size",
+   "cell": "r0c2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 2,
+   "en": "18 chars at 28 dot\n■■■■■■■■■□■■■■■■■■",
+   "cell": "r0c3",
+   "uses": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 3,
+   "en": "＜KeyWords＞\n●Whatever is entered here is displayed as-is.\n●Up to 3 lines fit in the space.\n●Type all text full-width. Break lines with a half-width \\n\n　or Alt+Enter; the breaks are reflected as-is.",
+   "cell": "r0c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 4,
+   "en": "40 chars at 24 dot, 34 chars at 28 dot\n■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□■■■■■■■■■□",
+   "cell": "r0c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 5,
+   "en": "ID for Sorting",
+   "cell": "r2c0",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 6,
+   "en": "ID\nFor links. Need not be sequential or sorted if unique.",
+   "cell": "r2c1",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 11,
+   "en": "Answer\nSize up to 2048",
+   "cell": "r2c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 12,
+   "en": "Image\nPath (starting with Dat), X, Y, width, height\nCoordinates are offsets from the top left of the text area.\nThe same image used 2+ times loads only once on hardware,\nso memory use barely rises.",
+   "cell": "r2c7",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 13,
+   "en": "Link Info\nCell link no. (0-29), target Q&A ID, scroll height\nLink nos. need not be in order.\nThe number in an Answer-column Link tag (<LINK=0>text</LINK>) is the link no.\nScroll height = top of screen (0+).\nOut-of-range scroll values are auto-adjusted to fit.\n",
+   "cell": "r2c8",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 15,
+   "en": "Battle and Abilities",
+   "cell": "r3c2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 16,
+   "en": "Tips for gaining the edge in battle.",
+   "cell": "r3c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 19,
+   "en": "About Movement",
+   "cell": "r4c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 20,
+   "en": "Q&A about movement.",
+   "cell": "r4c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 22,
+   "en": "<W=24>Q</W><W=32>1</W>. What is Movement?",
+   "cell": "r5c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 23,
+   "en": "A. A unit's movement range.",
+   "cell": "r5c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 24,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A unit's movement range.</C></H></W>\n\n　●Use a unit's Move command to move it from its current position\n　　to another.\n\n　●Each map square has a cost (1-2.5) to enter. Each square moved\n　　deducts its cost from Movement, and a unit can keep moving until\n　　its Movement reaches 0.\n\n　●Costs vary by terrain and the unit's movement type. The better\n　　suited the <LINK=0>movement type</LINK> is to the terrain, the lower the cost.\n\n　●A Twin Unit's Movement is the average of its 2 units' (rounded\n　　down). Exception: moving through the air always costs 1 per square.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Moving through the air uses 1 EN per square. Units underground\n　　　can't take part in battle.\n",
+   "cell": "r5c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 27,
+   "en": "<W=24>Q</W><W=32>2</W>. What is Movement Type?",
+   "cell": "r6c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 28,
+   "en": "A. The terrain a unit can move across.",
+   "cell": "r6c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 29,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The terrain a unit can move across.</C></H></W>\n\n　●Shows whether a unit or squad can move in Air, Land, Water and\n　　Underground. Terrain it lacks the ability for is hard or impossible\n　　to enter.\n\n　●A unit that can move everywhere shows ALWU as its movement type;\n　　each missing ability shows <C=808080FF>－</C> instead.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>A unit without Air and Underground shows <C=808080FF>－</C>LW<C=808080FF>－</C>.\n\n　●A <LINK=0>Twin Unit</LINK>'s movement type depends on its 2 units' types. Each\n　　letter is ranked by being shown in normal color or gray. Normal color\n　　means a lower cost to enter that terrain. If A (Air) is gray, however,\n　　the squad can't move through the air.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Changing movement type with Parts and the like lowers terrain costs,\n　　　extending how far a unit can move.\n",
+   "cell": "r6c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 32,
+   "en": "<W=24>Q</W><W=32>3</W>. How do I increase Movement?",
+   "cell": "r7c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 33,
+   "en": "A. Use Spirit Commands, Parts, Special Abilities, Ability Effects.",
+   "cell": "r7c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 34,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Use <LINK=0>Spirit Commands</LINK> such as Accel.\n\n　●Equip Movement-boosting <LINK=1>Parts</LINK> such as a Booster.\n\n　●Equip movement type-changing <LINK=1>Parts</LINK> such as a Tesla Drive.\n\n　●Use <LINK=2>Special Abilities</LINK> such as Transform.\n\n　●Make use of the <LINK=3>Ability Effect</LINK> Movement↑.\n",
+   "cell": "r7c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 37,
+   "en": "About Combat",
+   "cell": "r8c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 38,
+   "en": "Q&A about combat.",
+   "cell": "r8c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 40,
+   "en": "<W=24>Q</W><W=32>1</W>. What happens in combat?",
+   "cell": "r9c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 41,
+   "en": "A. A hit lowers the target's HP based on attack power.",
+   "cell": "r9c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 42,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A hit lowers the target's HP based on attack power.</C></H></W>\n\n　●In combat, units damage targets with their equipped weapons.\n　　Higher attack power means more damage, but a miss deals none.\n　　Attack using a unit's Attack command.\n\n　●A unit whose HP (Hit Points) drops to 0 is shot down and removed\n　　from the map. Shooting down enemies earns <LINK=0>EXP</LINK>, <LINK=1>funds</LINK> and more.\n　　If a player unit is shot down, repair costs are deducted from your\n　　funds at the end of the stage.\n\n　●When attacked, a unit can <LINK=2>counter</LINK> if conditions are met.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>In most stages, you must shoot down enemies to meet the\n　　　victory conditions.\n",
+   "cell": "r9c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 45,
+   "en": "<W=24>Q</W><W=32>2</W>. What can I do when attacked?",
+   "cell": "r10c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 46,
+   "en": "A. When attacked, choose Counter, Defend or Evade.",
+   "cell": "r10c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 47,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>When attacked, choose Counter, Defend or Evade.</C></H></W>\n\n　<T=30>[Counter]</T>\n　- Counterattack with an equipped, usable weapon.\n\n　<T=30>[Defend]</T>\n　- Halves the damage taken.\n\n　<T=30>[Evade]</T>\n　- Halves the enemy's <LINK=0>hit rate</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><LINK=1>Map Weapons</LINK>, <LINK=2>Double Attacks</LINK>, <LINK=3>Combination Attacks</LINK>,\n　　　<LINK=4>Maximum Breaks</LINK> and the like can't be used to counter.\n",
+   "cell": "r10c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 50,
+   "en": "<W=24>Q</W><W=32>3</W>. How do I deal more damage?",
+   "cell": "r11c4",
+   "uses": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 51,
+   "en": "A. Use weapon upgrades, pilot training, Will, Spirit Commands, Special Effects 1 and 2, Ability Effects.",
+   "cell": "r11c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 52,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●<LINK=0>Upgrade weapons</LINK>.\n\n　●Raise Melee, Ranged and more via <LINK=1>Pilot Training</LINK>.\n\n　●Raise the attacking pilot's <LINK=2>Will</LINK>.\n\n　●Lower the target pilot's <LINK=2>Will</LINK>.\n\n　●Use <LINK=3>Spirit Commands</LINK> such as Valor.\n\n　●Make use of the <LINK=4>Special Effect 1</LINK> Armor Down L (R).\n\n　●Make use of the <LINK=5>Special Effect 2</LINK> Barrier Pierce.\n\n　●Make use of <LINK=6>Ability Effects</LINK> such as Melee↑ and Ranged↑.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Attacks from a main unit on a sub unit, or from a sub on a main,\n　　　deal only 65% of the damage of main-vs-main or sub-vs-sub\n　　　combat.\n",
+   "cell": "r11c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 55,
+   "en": "<W=24>Q</W><W=32>4</W>. How do I take less damage?",
+   "cell": "r12c4",
+   "uses": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 56,
+   "en": "A. Use unit upgrades, pilot training, Will, Spirit Commands, Special Effect 1, Parts, Ability Effects,\n　　terrain effects and more.",
+   "cell": "r12c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 57,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Upgrade Armor via <LINK=0>Unit Upgrades</LINK>.\n\n　●Raise Defense and more via <LINK=1>Pilot Training</LINK>.\n\n　●Lower the attacking pilot's <LINK=2>Will</LINK>.\n\n　●Raise the target pilot's <LINK=2>Will</LINK>.\n\n　●Use <LINK=3>Spirit Commands</LINK> such as Wall.\n\n　●Use the <LINK=4>Special Effect 1</LINK> Attack Down L (R).\n\n　●Equip <LINK=5>Parts</LINK> such as Chobham Armor.\n\n　●Use <LINK=6>Ability Effects</LINK> such as Armor↑.\n\n　●Make use of <LINK=7>terrain effects</LINK>.\n",
+   "cell": "r12c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 60,
+   "en": "<W=24>Q</W><W=32>5</W>. What is Hit Rate?",
+   "cell": "r13c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 61,
+   "en": "A. The chance that an attack hits its target.",
+   "cell": "r13c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 62,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The chance that an attack hits its target.</C></H></W>\n\n　●Just before combat, the hit rate against each target is shown as\n　　a percentage.\n\n　<S=8><Y=-3><W=32><H=32><I=154></H></W></Y><S=3><LINK=0>Evasion Rate</LINK>.\n",
+   "cell": "r13c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 65,
+   "en": "<W=24>Q</W><W=32>6</W>. What's Evasion Rate?",
+   "cell": "r14c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 66,
+   "en": "A. The chance to dodge.",
+   "cell": "r14c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 67,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The chance to dodge.</C></H></W>\n\n　●It isn't shown as a percentage like the <LINK=0>hit rate</LINK>, but the\n　　chance to dodge is called the evasion rate.\n",
+   "cell": "r14c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 70,
+   "en": "<W=24>Q</W><W=32>7</W>. How do I raise Hit Rate?",
+   "cell": "r15c4",
+   "uses": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 71,
+   "en": "A. Use unit upgrades, pilot training, Spirit Commands, Special Effect 1, Parts, Ability Effects and more.",
+   "cell": "r15c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 72,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Upgrade Aim via <LINK=0>Unit Upgrades</LINK>.\n\n　●Raise Accuracy and more via <LINK=1>Pilot Training</LINK>.\n\n　●Use <LINK=2>Spirit Commands</LINK> such as Bullseye.\n\n　●Use the <LINK=3>Special Effect 1</LINK> Mobility Down L (R).\n\n　●Equip <LINK=4>Parts</LINK> such as a Dual Sensor.\n\n　●Use the <LINK=5>Ability Effect</LINK> Accuracy↑.\n",
+   "cell": "r15c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 75,
+   "en": "<W=24>Q</W><W=32>8</W>. How do I raise Evasion?",
+   "cell": "r16c4",
+   "uses": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 76,
+   "en": "A. Use unit upgrades, pilot training, Spirit Commands, Special Effect 1, Parts, Ability Effects,\n　　terrain effects and more.",
+   "cell": "r16c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 77,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>You can do the following.</C></H></W>\n\n　●Upgrade Mobility via <LINK=0>Unit Upgrades</LINK>.\n\n　●Raise Evasion and more via <LINK=1>Pilot Training</LINK>.\n\n　●Use <LINK=2>Spirit Commands</LINK> such as Flash.\n\n　●Use the <LINK=3>Special Effect 1</LINK> Aim Down L (R).\n\n　●Equip <LINK=4>Parts</LINK> such as a Servomotor.\n\n　●Use the <LINK=5>Ability Effect</LINK> Evasion↑.\n\n　●Make use of <LINK=6>terrain effects</LINK>.\n",
+   "cell": "r16c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 80,
+   "en": "<W=24>Q</W><W=32>9</W>. What can I earn in combat?",
+   "cell": "r17c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 81,
+   "en": "A. EXP, funds, PP, AP, Parts and more.",
+   "cell": "r17c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 82,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>You get the following.</C></H></W>\n\n　●<LINK=0>EXP</LINK> by level gap.\n\n　●<LINK=1>Funds</LINK>.\n\n　●<LINK=2>PP</LINK>.\n\n　●<LINK=3>AP</LINK>.\n\n　●<LINK=4>Parts</LINK>.\n",
+   "cell": "r17c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 85,
+   "en": "Weapons & Attacks",
+   "cell": "r18c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 86,
+   "en": "Q&A about weapons and attacks.",
+   "cell": "r18c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 88,
+   "en": "<W=24>Q</W><W=32>1</W>. What is Weapon Type?",
+   "cell": "r19c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 89,
+   "en": "A. Whether the pilot's Melee or Ranged stat affects it.",
+   "cell": "r19c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 90,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Whether the pilot's Melee or Ranged stat affects it.</C></H></W>\n\n　●In combat, Melee weapons use the pilot's Melee stat and Ranged\n　　weapons use the Ranged stat. High-Melee pilots deal more damage\n　　with Melee weapons, high-Ranged pilots with Ranged weapons.\n",
+   "cell": "r19c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 92,
+   "en": "<W=24>Q</W><W=32>2</W>. What is Weapon Class?",
+   "cell": "r20c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 93,
+   "en": "A. The attack methods a weapon can use.",
+   "cell": "r20c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 94,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The attack methods a weapon can use.</C></H></W>\n\n　●The class is shown by the contents of <I=30>. The left side is the\n　　main class, the right side the sub class.\n\n　●There are 3 main classes:\n\n　<T=30>[<LINK=0>Normal Attack Weapon</LINK>]</T>\n　- Main class is blank (<I=30>).\n\n　<T=30>[<LINK=1>ALL Attack Weapon</LINK>]</T>\n　- Main class shows <I=32> (<I=30><S=-79><I=32><S=39>).\n\n　<T=30>[<LINK=2>Map Weapon</LINK>]</T>\n　- Main class shows <I=31> (<I=30><S=-81><I=31><S=33>).\n\n　●There are 3 sub classes:\n\n　<T=30>[<LINK=3>Double Attack</LINK>-Capable]</T>\n　- Sub class shows <I=33> (<I=30><S=-30><I=33><S=6>).\n\n　<T=30>[<LINK=4>Combination Attack</LINK>-Capable]</T>\n　- Sub class shows <I=34> (<I=30><S=-31><I=34><S=7>).\n\n　<T=30>[<LINK=5>Maximum Break</LINK> Support]</T>\n　- Sub class shows <I=185> (<I=30><S=-31><I=185><S=7>).\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Separately, weapons showing <I=40> are <LINK=6>Combined Attack</LINK> weapons.\n",
+   "cell": "r20c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 97,
+   "en": "<W=24>Q</W><W=32>3</W>. What are Attributes?",
+   "cell": "r21c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 98,
+   "en": "A. A weapon's traits.",
+   "cell": "r21c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 99,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A weapon's traits.</C></H></W>\n\n　<I=37><S=-76><I=36><S=52>\n　- Special effects, e.g. status ailments or barrier piercing.\n\n　<I=37><S=-53><I=39><S=29>\n　- Usable after the Move command.\n\n　<I=37><S=-30><I=38><S=6>\n　- Beam weapons; reduced by barriers like Beam Coat.\n\n　<I=37><S=-30><I=106><S=6>\n　- Missile weapons; nullified by Jammer.\n",
+   "cell": "r21c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 101,
+   "en": "<W=24>Q</W><W=32>4</W>. What is Effect 1?",
+   "cell": "r22c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 102,
+   "en": "A. Whether a weapon inflicts status ailments.",
+   "cell": "r22c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 103,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Whether a weapon inflicts status ailments.</C></H></W>\n\n　<T=30>[Mobility Down L (R)]</T>\n　- Lowers the unit's Mobility for 1 turn.\n\n　<T=30>[Aim Down L (R)]</T>\n　- Lowers the unit's Aim for 1 turn.\n\n　<T=30>[Armor Down L (R)]</T>\n　- Lowers the unit's Armor for 1 turn.\n\n　<T=30>[Movement Down (R)]</T>\n　- Lowers the unit's Movement by 4 for 1 turn.\n\n　<T=30>[Attack Down L (R)]</T>\n　- Lowers the unit's final damage for 1 turn.\n\n　<T=30>[Range Down (R)]</T>\n　- Lowers the max range of all the unit's weapons by 2 for 1 turn.\n\n　<T=30>[EN Down L (R)]</T>\n　- Lowers the unit's current EN.\n\n　<T=30>[EN Drain L (R)]</T>\n　- Lowers the unit's current EN and adds that amount to the attacker's.\n\n　<T=30>[Stat Down L (P)]</T>\n　- Lowers the main pilot's Melee, Ranged, Accuracy, Evasion, Defense\n　　and Skill for 1 turn.\n\n　<T=30>[Disable (P)]</T>\n　- For 1 turn, blocks all commands except Join, Disband, Main and\n　　Status, and prevents choosing a response when attacked.\n\n　<T=30>[Will Down L (P)]</T>\n　- Lowers the main pilot's Will.\n\n　<T=30>[SP Drain L (P)]</T>\n　- Lowers the main pilot's current SP and adds that amount to the\n　　attacking unit's main pilot's SP.\n\n　<T=30>[Spirit Seal (P)]</T>\n　- Blocks the Spirit command for 1 turn. All ongoing Spirit Commands\n　　are also canceled.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>The <LINK=0>Spirit Command</LINK> Belief or Block-type <LINK=1>Special Abilities</LINK>\n　　　can prevent status ailments.\n",
+   "cell": "r22c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 106,
+   "en": "<W=24>Q</W><W=32>5</W>. What is Effect 2?",
+   "cell": "r23c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 107,
+   "en": "A. Whether a weapon negates barrier abilities.",
+   "cell": "r23c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 108,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Whether a weapon negates barrier abilities.</C></H></W>\n\n　<T=30>[Barrier Negate]</T>\n　- Stops the target's barrier abilities from activating.\n\n　<T=30>[Barrier Pierce]</T>\n　- Pierces barriers raised by the target.\n",
+   "cell": "r23c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 110,
+   "en": "<W=24>Q</W><W=32>6</W>. What attack types exist?",
+   "cell": "r24c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 111,
+   "en": "A. Normal, ALL, Map Weapon, Double Attack, Combination Attack, Maximum Break, etc.",
+   "cell": "r24c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 112,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are these attack methods.</C></H></W>\n\n　<T=30>[<LINK=0>Normal Attack</LINK>]</T>\n　- Attacks using Normal Attack Weapons.\n　- Uses weapons whose <LINK=1>class</LINK> shows <I=30>.\n\n　<T=30>[<LINK=2>ALL Attack</LINK>]</T>\n　- Attacks using ALL Attack Weapons.\n　- Uses weapons whose class shows <I=30><S=-79><I=32><S=39>.\n\n　<T=30>[<LINK=3>Map Weapon</LINK>]</T>\n　- Damages every squad in the area of effect.\n　- Uses weapons whose class shows <I=30><S=-81><I=31><S=33>.\n\n　<T=30>[<LINK=4>Double Attack</LINK>]</T>\n　- Hits the target and a squad adjacent to it.\n　- Uses weapons whose class shows <I=30><S=-30><I=33><S=6>.\n\n　<T=30>[<LINK=5>Combination Attack</LINK>]</T>\n　- Hits the target and the squads lined up with it.\n　- Uses weapons whose class shows <I=30><S=-31><I=34><S=7>.\n\n　<T=30>[<LINK=6>Maximum Break</LINK>]</T>\n　- Performed by 2 adjacent Twin Units.\n　- Requires a support weapon whose class shows <I=30><S=-31><I=185><S=7>.\n",
+   "cell": "r24c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 115,
+   "en": "<W=24>Q</W><W=32>7</W>. Normal Attack Weapons?",
+   "cell": "r25c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 116,
+   "en": "A. Weapons that damage 1 target unit.",
+   "cell": "r25c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 117,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Weapons that damage 1 target unit.</C></H></W>\n\n　●Mainly used in <LINK=0>Normal Attacks</LINK>. These weapons <I=30> damage\n　　1 unit in the target squad.\n",
+   "cell": "r25c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 120,
+   "en": "<W=24>Q</W><W=32>8</W>. What's Normal Attack?",
+   "cell": "r26c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 121,
+   "en": "A. Attacks using Normal weapons.",
+   "cell": "r26c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 122,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Attacks using Normal weapons.</C></H></W>\n\n　●Normal Attacks use <LINK=0>Normal Attack Weapons</LINK><I=30> and come in 2\n　　forms: Focused and Single.\n\n　<T=30>[Focused Attack]</T>\n　- Concentrates the attack on 1 unit in the target squad.\n\n　<T=30>[Single Attack]</T>\n　- The 2 units of the attacking <LINK=1>Twin Unit</LINK> each hit a different target.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If the attacker isn't a <LINK=1>Twin Unit</LINK>, it makes a Focused Attack.\n\n　●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can be used.\n",
+   "cell": "r26c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 125,
+   "en": "<W=24>Q</W><W=32>9</W>. ALL Attack Weapons?",
+   "cell": "r27c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 126,
+   "en": "A. Weapons that damage 1 target squad.",
+   "cell": "r27c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 127,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Weapons that damage 1 target squad.</C></H></W>\n\n　●Mainly used in <LINK=0>ALL Attacks</LINK>. ALL attack weapons <I=30><S=-79><I=32><S=39>\n　　damage 1 target squad. If the target is a <LINK=1>Twin Unit</LINK>, both\n　　units take damage at once.\n",
+   "cell": "r27c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 130,
+   "en": "<W=24>Q</W><W=16>10</W>. What is an ALL Attack?",
+   "cell": "r28c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 131,
+   "en": "A. An attack made with ALL weapons.",
+   "cell": "r28c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 132,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>An attack made with ALL weapons.</C></H></W>\n\n　●An ALL Attack uses <LINK=0>ALL weapons</LINK><I=30><S=-79><I=32><S=39>. When a <LINK=1>Twin Unit</LINK> makes\n　　an ALL Attack and the sub machine can also use an ALL weapon, both\n　　machines attack with ALL weapons.\n\n　●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can't be used.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><I=30><S=-30><I=33><S=6>-marked ALL weapons can also make a <LINK=4>Double Attack</LINK>,\n　　　hitting units adjacent to the target at the same time.\n",
+   "cell": "r28c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 135,
+   "en": "<W=24>Q</W><W=16>11</W>. What is a MAP Weapon?",
+   "cell": "r29c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 136,
+   "en": "A. A weapon that damages all units in its range.",
+   "cell": "r29c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 137,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A weapon that damages all units in its range.</C></H></W>\n\n　●MAP Weapons<I=30><S=-81><I=31><S=33> damage every valid target in their attack\n　　range. Even if the attacker is a <LINK=0>Twin Unit</LINK>, only one machine\n　　attacks.\n\n　●MAP Weapon attacks can't be met with a <LINK=1>Counterattack</LINK>,\n　　<LINK=2>Support Attack</LINK> (Attack Again) or <LINK=3>Support Defense</LINK>.\n\n　●MAP Weapons come in the following types:\n\n　<T=30>\"Self-Centered\"</T>\n　- The weapon's range is the attack area.\n\n　<T=30>\"Directional\"</T>\n　- Choose the attack area from 4 directions around the unit.\n\n　<T=30>\"Target Point\"</T>\n　- Choose the attack area anywhere within range.\n\n　<S=8><Y=-3><W=32><H=32><I=152></H></W></Y><S=3>MAP Weapons hit all units in the area, friend or foe.\n　　　Exception: if Friend/Foe ID is \"On,\" only enemies are hit.\n",
+   "cell": "r29c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 140,
+   "en": "<W=24>Q</W><W=16>12</W>. What is a Double Attack?",
+   "cell": "r30c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 141,
+   "en": "A. An attack on the target and a unit adjacent to it.",
+   "cell": "r30c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 142,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>An attack on the target and a unit adjacent to it.</C></H></W>\n\n　●A type of <LINK=0>ALL Attack</LINK> using weapons marked <I=30><S=-30><I=33><S=6>. It damages\n　　the target and one adjacent unit, 2 units in all (up to 4 machines),\n　　but costs twice the usual EN and ammo. Even if the attacker is a\n　　<LINK=1>Twin Unit</LINK>, only one machine attacks.\n\n　●<LINK=2>Support Attack</LINK> (Attack Again) and <LINK=3>Support Defense</LINK> can't be used.\n",
+   "cell": "r30c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 145,
+   "en": "<W=24>Q</W><W=16>13</W>. What is a Maximum Break?",
+   "cell": "r31c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 146,
+   "en": "A. An attack made by two adjacent Twin Units.",
+   "cell": "r31c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 147,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>An attack made by two adjacent Twin Units.</C></H></W>\n\n　●Two adjacent units attack the target. Both must be <LINK=0>Twin Units</LINK>.\n　　First all 4 machines attack with Support Weapons marked <I=7><S=-8><Y=-6><I=158></Y>,\n　　then each machine attacks in turn.\n\n　●Only <LINK=1>Normal Weapons</LINK><I=30> can be used in a Maximum Break.\n\n　●A Maximum Break requires the following:\n\n　- The attacker's main pilot has the <LINK=2>Special Skill</LINK> \"MB Activate.\"\n　- All participating main pilots have 140 Will or more.\n　- All participating machines have a Support Weapon that can hit the target.\n\n　●Maximum Breaks can't be met with a <LINK=3>Support Attack</LINK> (Attack Again)\n　　or <LINK=4>Support Defense</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>In the Weapon Stats and Weapon Select windows, any weapon\n　　　marked <I=30><S=-31><I=185><S=7> can be freely set as a Support Weapon.\n\n　<S=8><Y=-3><W=32><H=32><I=152></H></W></Y><S=3>After a Maximum Break, all participating main pilots\n　　　lose 10 Will.\n",
+   "cell": "r31c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 150,
+   "en": "<W=24>Q</W><W=16>14</W>. What is a Combination Attack?",
+   "cell": "r32c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 151,
+   "en": "A. Attacks the target and the units linked to it.",
+   "cell": "r32c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 152,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Attacks the target and the units linked to it.</C></H></W>\n\n　●Uses weapons marked <I=30><S=-31><I=34><S=7>. Damages the target unit and the\n　　units linked to it. Even if the attacker is a <LINK=0>Twin Unit</LINK>, only\n　　one machine attacks.\n\n　●A Combination Attack requires the following:\n\n　- The attacking unit is adjacent to the target.\n　- The main pilot has the <LINK=1>Special Skill</LINK> \"Continuous Attack.\"\n\n　●The number of machines that can be hit is set as follows:\n\n　- <LINK=1>Special Skill</LINK> \"Continuous Attack\" level + 1 = machines hit.\n　- A <LINK=0>Twin Unit</LINK> target counts as 2 machines. You can't attack\n　　only one side of a <LINK=0>Twin Unit</LINK>.\n\n　●Damage drops from the 2nd machine on: 70%, 65%, 60%, 55%.\n\n　●Combination Attacks can't be met with a <LINK=2>Support Attack</LINK> (Attack\n　　Again) or <LINK=3>Support Defense</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Even when hitting several machines, EN and ammo costs\n　　　are the same as for hitting one.\n",
+   "cell": "r32c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 156,
+   "en": "<W=24>Q</W><W=16>15</W>. What are Combined Attacks?",
+   "cell": "r33c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 157,
+   "en": "A. Weapons usable when certain conditions are met.",
+   "cell": "r33c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 158,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Weapons usable when certain conditions are met.</C></H></W>\n\n　●Combined Attack weapons normally don't appear in the weapon list. They\n　　only appear when the required machines are linked within the 8 squares\n　　around each other on the map, with the required pilots aboard. To use\n　　one, every participating machine must meet its EN, Will and Skill needs.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Combined Attack weapons show <I=40> as their type.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>If the attacker and another participant share a <LINK=0>Twin Unit</LINK>,\n　　　damage is 1.2x. Combined Attacks also don't trigger the target's\n　　　Counter <LINK=1>Special Skill</LINK>, <LINK=2>Support Defense</LINK> or barrier <LINK=3>Special Abilities</LINK>.\n",
+   "cell": "r33c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 161,
+   "en": "About Will",
+   "cell": "r34c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 162,
+   "en": "Q&A about pilot Will.",
+   "cell": "r34c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 164,
+   "en": "<W=24>Q</W><W=32>1</W>. What is Will?",
+   "cell": "r35c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 165,
+   "en": "A. It shows a pilot's morale.",
+   "cell": "r35c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 166,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>It shows a pilot's morale.</C></H></W>\n\n　●Will normally ranges from 50 to 150. At the start of a stage, each unit's\n　　Will usually starts at 100 when it's placed on the map.\n\n　●Will rises or falls when taking part in <LINK=0>Battle</LINK> or when enemy or\n　　allied machines are shot down. The amount varies by pilot.\n\n　●Some weapons can't be used until Will reaches a certain level. Stronger\n　　weapons tend to require more Will.\n\n　●Some machine <LINK=1>Special Abilities</LINK> and pilot <LINK=2>Special Skills</LINK>\n　　don't take effect until Will reaches a certain level.\n\n　●The higher the Will, the more damage dealt and the less damage taken.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Pilots with the Special Skill \"Will Limit Break\" have a\n　　　Will cap of 170.\n",
+   "cell": "r35c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 169,
+   "en": "<W=24>Q</W><W=32>2</W>. How do I raise Will?",
+   "cell": "r36c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 170,
+   "en": "A. Use Pilot Training, Spirit Commands, Parts, and more.",
+   "cell": "r36c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 171,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are several methods.</C></H></W>\n\n　●Shoot down enemies. Will rises even more if the pilot makes the kill\n　　personally. Will may also rise when an ally is shot down, but be careful:\n　　depending on the pilot, it may drop instead.\n\n　●Have the pilot take part in battle. Will may rise when dealing damage,\n　　evading an attack, or taking damage. How much it rises varies by pilot.\n　　Will may also rise when an attack fails to damage the target, but be\n　　careful: depending on the pilot, it may drop instead.\n\n　●Learn \"Will+ (Hit)\" or similar skills through <LINK=0>Pilot Training</LINK>.\n\n　●Use the <LINK=1>Spirit Command</LINK> \"Spirit\" or similar.\n\n　●Equip the <LINK=2>Part</LINK> \"Headband\" or similar.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>A pilot targeted by the unit command \"Resupply\" loses 10 Will.\n　　　Boarding a battleship lowers Will by 5. However, boarding will never\n　　　drop Will below 100.\n",
+   "cell": "r36c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 174,
+   "en": "<W=24>Q</W><W=32>3</W>. How do I lower enemy Will?",
+   "cell": "r37c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 175,
+   "en": "A. Use Spirit Commands, Special Effect 1, etc.",
+   "cell": "r37c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 176,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are several methods.</C></H></W>\n\n　●Use the <LINK=0>Spirit Command</LINK> \"Exhaust\" or similar.\n\n　●Attack with a weapon that has the <LINK=1>Special Effect 1</LINK> \"Will Down L (P)\".\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Boss-class enemies won't lose Will from allies being shot down or\n　　　from battle. Their Will also maxes out quickly, so lower it right before\n　　　you attack. Few pilots have Spirit Commands that lower Will, so tactics\n　　　that keep the enemy's Will from rising are also important.\n",
+   "cell": "r37c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 179,
+   "en": "About Terrain Effects",
+   "cell": "r38c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 180,
+   "en": "Q&A about map terrain effects.",
+   "cell": "r38c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 182,
+   "en": "<W=24>Q</W><W=32>1</W>. What are terrain effects?",
+   "cell": "r39c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 183,
+   "en": "A. Defense, evasion and HP/EN recovery bonuses of map squares.",
+   "cell": "r39c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 184,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Defense, evasion and HP/EN recovery bonuses of map squares.</C></H></W>\n\n　●Each map square has terrain effects that depend on its terrain type.\n　　Terrain effects give the unit on that square the following bonuses.\n\n　<T=30>\"Defense Rate\"</T>\n　- How much a unit's defense increases when it's attacked on that terrain.\n\n　<T=30>\"Evasion Rate\"</T>\n　- How much the enemy's hit rate drops when a unit on that terrain is\n　　attacked.\n\n　<T=30>\"HP Recovery Rate\"</T>\n　- What percentage of max HP a unit on that terrain recovers at the start\n　　of the player phase.\n\n　<T=30>\"EN Recovery Rate\"</T>\n　- What percentage of max EN a unit on that terrain recovers at the start\n　　of the player phase.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Press <S=-4><Y=-3><W=32><H=32><I=116></H></W></Y><S=-4> on a square to view its terrain effects.\n",
+   "cell": "r39c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 186,
+   "en": "<W=24>Q</W><W=32>2</W>. How do I reduce enemy damage?",
+   "cell": "r40c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 187,
+   "en": "A. Move the unit to a square with a high defense rate.",
+   "cell": "r40c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 188,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high defense rate.</C></H></W>\n\n　●Units in the air don't receive the defense rate bonus.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\n　　　while dense cover like buildings or forests gives a big bonus.\n",
+   "cell": "r40c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 190,
+   "en": "<W=24>Q</W><W=32>3</W>. How do I raise evasion?",
+   "cell": "r41c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 191,
+   "en": "A. Move the unit to a square with a high evasion rate.",
+   "cell": "r41c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 192,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Move the unit to a square with a high evasion rate.</C></H></W>\n\n　●Units in the air don't receive the evasion rate bonus.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with little cover, like roads and plains, gives no bonus,\n　　　while dense cover like buildings or forests gives a big bonus.\n",
+   "cell": "r41c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 194,
+   "en": "<W=24>Q</W><W=32>4</W>. How do I recover HP/EN?",
+   "cell": "r42c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 195,
+   "en": "A. Move the unit to a square with an HP/EN recovery rate.",
+   "cell": "r42c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 196,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Move the unit to a square with an HP/EN recovery rate.</C></H></W>\n\n　●HP/EN recovery from terrain happens at the start of the player phase.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Terrain with HP/EN recovery rates mainly includes facilities\n　　　like bases and buildings, as well as energy tanks.\n",
+   "cell": "r42c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 198,
+   "en": "Battle-Related Systems",
+   "cell": "r43c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 199,
+   "en": "Q&A about battle-related systems.",
+   "cell": "r43c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 201,
+   "en": "<W=24>Q</W><W=32>1</W>. What's a Support Attack?",
+   "cell": "r44c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 202,
+   "en": "A. A follow-up attack by another ally after a normal attack.",
+   "cell": "r44c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 203,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A follow-up attack by another ally after a normal attack.</C></H></W>\n\n　●When the attacking unit makes a <LINK=0>Normal Attack</LINK>, an allied unit follows up\n　　with its own attack. A unit can make a Support Attack if it:\n\n　- Is adjacent to the attacking unit.\n　- Has not finished its action.\n　- Has a <LINK=1>Movement Type</LINK> that can enter the attacking unit's terrain.\n　- Has a main pilot with the <LINK=2>Special Skill</LINK> \"Support Attack\" and supports\n　　remaining.\n　- Has a weapon that can attack the target.\n　- Is not taking part in the attacking unit's <LINK=3>Combination Attack</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Support Attacks get +20 hit rate but deal 75% of normal damage.\n　　　The number of supports per phase equals the skill level.\n",
+   "cell": "r44c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 206,
+   "en": "<W=24>Q</W><W=32>2</W>. What is Support Defense?",
+   "cell": "r45c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 207,
+   "en": "A. An ally unit takes the damage in another's place.",
+   "cell": "r45c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 208,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>An ally unit takes the damage in another unit's place.</C></H></W>\n\n　●When a unit is hit by a <LINK=0>Normal Attack</LINK>, an allied unit takes the damage instead.\n　　A unit can perform Support Defense if it meets these conditions:\n\n　- It is adjacent to the unit under attack.\n　- It has a <LINK=1>Move Type</LINK> that can enter the attacked unit's terrain.\n　- Its main pilot has the <LINK=2>Special Skill</LINK> \"Support Defense\" with uses\n　　remaining.\n　- It is not part of the attacked unit's <LINK=3>Combination Attack</LINK>.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>With Support Defense, the damage is taken while defending, so it is\n　　　50% of normal. The number of supports per phase equals the\n　　　skill level.\n",
+   "cell": "r45c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 210,
+   "en": "<W=24>Q</W><W=32>3</W>. What is Placement?",
+   "cell": "r46c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 211,
+   "en": "A. A bonus for surrounding a target with your units.",
+   "cell": "r46c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 212,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A bonus for surrounding a target with your units.</C></H></W>\n\n　●Damage varies with the number of your units adjacent to the target,\n　　excluding the attacking unit.\n\n　<T=30>2-3 Units</T>\n　- Damage +5%\n\n　<T=30>4 Units</T>\n　- Damage +10%\n",
+   "cell": "r46c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 214,
+   "en": "<W=24>Q</W><W=32>4</W>. What is Consecutive Targeting?",
+   "cell": "r47c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 215,
+   "en": "A. Evading repeatedly in one phase becomes harder.",
+   "cell": "r47c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 216,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Evading repeatedly in one phase becomes harder.</C></H></W>\n\n　●Each evasion (including blocking all damage with a barrier, etc.) adds 1\n　　to a unit's count, up to 40. In its next battle, evasion drops by count x 5%,\n　　and the count resets on a failed evasion or at phase end.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Evading with Flash, one of the <LINK=0>Spirit Commands</LINK>, isn't counted.\n",
+   "cell": "r47c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 219,
+   "en": "Unit Abilities",
+   "cell": "r48c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 220,
+   "en": "Q&A about unit special abilities.",
+   "cell": "r48c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 222,
+   "en": "<W=24>Q</W><W=32>1</W>. What are Abilities?",
+   "cell": "r49c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 223,
+   "en": "A. Special powers a unit has.",
+   "cell": "r49c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 224,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Special powers a unit has.</C></H></W>\n\n　●Some units have abilities: transforming, HP/EN recovery, evasion\n　　types that negate attacks, block types that negate weapon effects,\n　　barrier types that reduce damage, and more.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3><LINK=0>Parts</LINK> can grant similar effects.\n",
+   "cell": "r49c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 227,
+   "en": "<W=24>Q</W><W=32>2</W>. How can I extend movement range?",
+   "cell": "r50c4",
+   "uses": 4,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 228,
+   "en": "A. Use Transform, Combine, or Separate.",
+   "cell": "r50c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 229,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use Transform, Combine, or Separate.</C></H></W>\n\n　●Units with these abilities can use the unit commands \"Transform,\"\n　　\"Combine,\" and \"Separate\" to change form, which may change their\n　　<LINK=0>Move</LINK> or <LINK=1>Move Type</LINK>. Changing form to suit the terrain\n　　can extend a unit's movement range.\n",
+   "cell": "r50c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 232,
+   "en": "<W=24>Q</W><W=32>3</W>. How can I reduce damage taken?",
+   "cell": "r51c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 233,
+   "en": "A. Use AB Field, E Field, Passive Bit, TE Sphere, Beam Coat, G Wall,\n　　G Territory, TK Field, or TK Field S.",
+   "cell": "r51c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 234,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following abilities.</C></H></W>\n\n　●Use barrier abilities. Barriers spend EN to reduce or nullify a set\n　　amount of damage. They won't activate without enough EN, and some\n　　also require a minimum pilot Will or another ability.\n\n　<T=30>Anti-Beam Field</T>\n　- Reduces damage by 1200. Costs 10 EN. Beam weapons only.\n\n　<T=30>Energy Field</T>\n　- Reduces damage by 1500. Costs 15 EN. Requires 120 Will.\n\n　<T=30>Passive Bit</T>\n　- Reduces damage by 1100. Costs 5 EN. Beam weapons only.\n\n　<T=30>TE Sphere</T>\n　- Reduces damage by 1500. Costs 5 EN. Requires 120 Will.\n\n　<T=30>Beam Coat</T>\n　- Reduces damage by 900. Costs 5 EN. Beam weapons only.\n\n　<T=30>G Wall</T>\n　- Nullifies up to 800 damage. Costs 5 EN. Requires 120 Will.\n\n　<T=30>G Territory</T>\n　- Nullifies up to 1800 damage. Costs 15 EN. Requires 120 Will.\n\n　<T=30>TK Field</T>\n　- Nullifies up to 200 x the <LINK=0>Special Skill</LINK> Telekinesis level. Costs 5 EN.\n　　Requires 110 Will.\n\n　<T=30>TK Field S</T>\n　- Nullifies up to 250 x the <LINK=0>Special Skill</LINK> Telekinesis level. Costs 5 EN.\n　　Requires 110 Will.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Reducing barriers lower damage by their value. Nullifying barriers\n　　　cut damage to 0 if it's at or below their value; otherwise, full\n　　　damage is taken.\n\n　●Use Transform, Combine, or Separate. Units with these abilities can use\n　　the unit commands \"Transform,\" \"Combine,\" and \"Separate\" to change\n　　form, which may change their Armor.\n",
+   "cell": "r51c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 237,
+   "en": "<W=24>Q</W><W=32>4</W>. How do I avoid status ailments?",
+   "cell": "r52c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 238,
+   "en": "A. Use Pilot Block, Robot Block, or Full Block.",
+   "cell": "r52c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 239,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use block abilities.</C></H></W>\n\n　●Some weapons have a <LINK=0>Special Effect 1</LINK> that inflicts status ailments\n　　on the target. R-type effects affect units, and P-type effects affect\n　　pilots. Block abilities can nullify these effects.\n\n　<T=30>Pilot Block</T>\n　- Nullifies all P-type effects.\n\n　<T=30>Robot Block</T>\n　- Nullifies all R-type effects.\n\n　<T=30>Full Block</T>\n　- Nullifies all special effects.\n",
+   "cell": "r52c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 242,
+   "en": "<W=24>Q</W><W=32>5</W>. How can I raise evasion?",
+   "cell": "r53c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 243,
+   "en": "A. Use Afterimage, Jammer, Transform and the like.",
+   "cell": "r53c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 244,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following special abilities.</C></H></W>\n\n　●Use evasion abilities.\n\n　<T=30>Afterimage</T>\n　- Evades attacks with a 50% rate when the pilot's Will is 130+.\n\n　<T=30>Jammer</T>\n　- Nullifies missile attacks at a 50% rate.\n\n　●Use Transform, Combine or Separate. Units with these abilities can\n　　use the matching unit command to change form, which may change\n　　their Mobility.\n",
+   "cell": "r53c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 246,
+   "en": "About Pilot Skills",
+   "cell": "r54c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 247,
+   "en": "Q&A about pilots' special skills.",
+   "cell": "r54c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 249,
+   "en": "<W=24>Q</W><W=32>1</W>. What are special skills?",
+   "cell": "r55c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 250,
+   "en": "A. Special talents pilots have.",
+   "cell": "r55c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 251,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Special talents pilots have.</C></H></W>\n\n　●Special skills are a pilot's special talents. Some have levels, which may rise\n　　when the pilot levels up.\n\n　●Some can be learned via the Intermission command <LINK=0>Pilot Training</LINK>;\n　　others belong to specific pilots and can't be learned.\n",
+   "cell": "r55c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 254,
+   "en": "A. Use the In-Fighter special skill.",
+   "cell": "r56c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 255,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the \"In-Fighter\" skill.</C></H></W>\n\n　<T=30>\"In-Fighter\"</T>\n　- Raises the unit's <LINK=0>Movement</LINK> and the power of its melee weapons (except\n　　MAP weapons) as the skill level rises. Cannot be learned via Pilot Training.\n",
+   "cell": "r56c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 258,
+   "en": "A. Use skills: Support Attack, Attack Again, Attacker, Revenge, In-Fighter, Gunfighter,\n　　MB Activate, Continuous Atk, Cooperative Atk, Focused Attack, Will Limit Break.",
+   "cell": "r57c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 259,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Support Attack\"</T>\n　- Lets the pilot join adjacent allies' attacks with a <LINK=0>Support Attack</LINK>.\n　　Higher skill levels allow more supports.\n\n　<T=30>\"Attack Again\"</T>\n　- If the pilot's Skill is 20 or more above the target's main pilot, the pilot\n　　makes a support attack for its own unit after the target's counter.\n\n　<T=30>\"Attacker\"</T>\n　- Damage dealt is x1.2 at 130 Will or higher. Cannot be learned via Pilot\n　　Training.\n\n　<T=30>\"Revenge\"</T>\n　- Damage dealt when counterattacking is x1.2.\n\n　<T=30>\"In-Fighter\"</T>\n　- Raises the unit's <LINK=1>Movement</LINK> and the power of its melee weapons (except\n　　MAP weapons) as the skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Gunfighter\"</T>\n　- Raises the power and range of the unit's ranged weapons (except MAP weapons)\n　　as the skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"MB Activate\"</T>\n　- Allows the pilot to trigger a <LINK=2>Maximum Break</LINK>.\n\n　<T=30>\"Continuous Atk\"</T>\n　- When attacking with a Combination-capable weapon, lets the unit start a\n　　<LINK=3>Combination Attack</LINK>. Skill level + 1 = number of units that can attack.\n\n　<T=30>\"Cooperative Atk\"</T>\n　- Raises <LINK=0>Support Attack</LINK> damage from the usual 75% to 100%.\n\n　<T=30>\"Focused Attack\"</T>\n　- Raises damage when a main (sub) unit attacks a sub (main) unit from the usual\n　　65% to 85%.\n\n　<T=30>\"Will Limit Break\"</T>\n　- Raises the <LINK=4>Will</LINK> cap to 170.\n",
+   "cell": "r57c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 262,
+   "en": "A. Use skills: Support Defense, Guard, Potential.",
+   "cell": "r58c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 263,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Support Defense\"</T>\n　- Lets the pilot defend adjacent allies with a <LINK=0>Support Defense</LINK>.\n　　Higher skill levels allow more supports.\n\n　<T=30>\"Guard\"</T>\n　- Damage taken in battle is reduced to 80% at 130 Will or higher.\n\n　<T=30>\"Potential\"</T>\n　- Raises hit rate, evasion, armor and critical rate based on the unit's\n　　remaining HP%. The effect grows with skill level.\n",
+   "cell": "r58c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 266,
+   "en": "<W=24>Q</W><W=32>5</W>. How do I raise hit rate?",
+   "cell": "r59c4",
+   "uses": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 267,
+   "en": "A. Use skills: Commander, Predict, Genius, Potential, Telekinesis, Lucky.",
+   "cell": "r59c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 268,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Commander\"</T>\n　- Raises hit rate and evasion of allies within the unit's command range as the\n　　skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Predict\"</T>\n　- Raises hit rate and evasion by 10 at 130 Will or higher.\n\n　<T=30>\"Genius\"</T>\n　- Raises hit rate, evasion and critical rate by 20. Cannot be learned via\n　　Pilot Training.\n\n　<T=30>\"Potential\"</T>\n　- Raises hit rate, evasion, armor and critical rate based on the unit's\n　　remaining HP%. The effect grows with skill level.\n\n　<T=30>\"Telekinesis\"</T>\n　- Raises hit rate and evasion in battle as the skill level rises. Cannot be\n　　learned via Pilot Training.\n\n　<T=30>\"Lucky\"</T>\n　- When triggered, sets hit rate, evasion and critical rate to 100%, for that\n　　battle. Higher skill levels raise the trigger chance. Cannot be learned via\n　　Pilot Training.\n",
+   "cell": "r59c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 270,
+   "en": "<W=24>Q</W><W=32>6</W>. How do I raise evasion?",
+   "cell": "r60c4",
+   "uses": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 271,
+   "en": "A. Use skills: Commander, Predict, Genius, Foresight, Potential, Telekinesis, Lucky.",
+   "cell": "r60c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 272,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Commander\"</T>\n　- Raises hit rate and evasion of allies within the unit's command range as the\n　　skill level rises. Cannot be learned via Pilot Training.\n\n　<T=30>\"Predict\"</T>\n　- Raises hit rate and evasion by 10 at 130 Will or higher.\n\n　<T=30>\"Genius\"</T>\n　- Raises hit rate, evasion and critical rate by 20. Cannot be learned via\n　　Pilot Training.\n\n　<T=30>\"Foresight\"</T>\n　- At 130 Will or higher, raises final evasion by 30 during enemy phases only.\n　　Cannot be learned via Pilot Training.\n\n　<T=30>\"Potential\"</T>\n　- Raises hit rate, evasion, armor and critical rate based on the unit's\n　　remaining HP%. The effect grows with skill level.\n\n　<T=30>\"Telekinesis\"</T>\n　- Raises hit rate and evasion in battle as the skill level rises. Cannot be\n　　learned via Pilot Training.\n\n　<T=30>\"Lucky\"</T>\n　- When triggered, sets hit rate, evasion and critical rate to 100%, for that\n　　battle. Higher skill levels raise the trigger chance. Cannot be learned via\n　　Pilot Training.\n",
+   "cell": "r60c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 274,
+   "en": "<W=24>Q</W><W=32>7</W>. How do I raise Will?",
+   "cell": "r61c4",
+   "uses": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 275,
+   "en": "A. Use skills: Resolve, Morale, Will+ (Evade), Will+ (Hit), Will+ (Damaged),\n　　Will+ (Kill).",
+   "cell": "r61c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 276,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following skills.</C></H></W>\n\n　<T=30>\"Resolve\"</T>\n　- Will starts 5 higher when deployed.\n\n　<T=30>\"Morale\"</T>\n　- Will rises by 2 at the start of each player phase.\n\n　<T=30>\"Will+ (Evade)\"</T>\n　- When evading an attack, Will rises by 1 more than usual.\n\n　<T=30>\"Will+ (Hit)\"</T>\n　- When hitting an enemy, Will rises by 1 more than usual.\n\n　<T=30>\"Will+ (Damaged)\"</T>\n　- When taking damage from an attack, Will rises by 2 more than usual.\n\n　<T=30>\"Will+ (Kill)\"</T>\n　- When an enemy is shot down, Will rises by 1 more than usual.\n",
+   "cell": "r61c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 278,
+   "en": "<W=24>Q</W><W=32>8</W>. How do I earn more funds?",
+   "cell": "r62c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 279,
+   "en": "A. Use the Fortune skill.",
+   "cell": "r62c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 280,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the \"Fortune\" skill.</C></H></W>\n\n　<T=30>\"Fortune\"</T>\n　- Funds earned from shooting down enemies are x1.2. Even when combined with\n　　effects like Luck, funds earned max out at x2. Cannot be learned via Pilot\n　　Training.\n",
+   "cell": "r62c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 282,
+   "en": "<W=24>Q</W><W=32>9</W>. How do I earn more EXP?",
+   "cell": "r63c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 283,
+   "en": "A. Use skills: EXP Up, Learning.",
+   "cell": "r63c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 284,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The following skills apply.</C></H></W>\n\n　<T=30>\"EXP Up\"</T>\n　- EXP earned in battle is multiplied by 1.2.\n\n　<T=30>\"Learning\"</T>\n　- As a sub unit, earns the same EXP and PP as the main unit in battle.\n",
+   "cell": "r63c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 286,
+   "en": "<W=24>Q</W><W=16>10</W>. Anything else useful?",
+   "cell": "r64c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 287,
+   "en": "A. Skills such as SP Regen, Concentrate, SP Up, Counter, Energy Save, Bullet Save,\n　　Hit&Away, Mechanic, Resupply and Continuous Action.",
+   "cell": "r64c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 288,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are the following skills.</C></H></W>\n\n　<T=30>\"SP Regen\"</T>\n　- Recovers 10 SP at the start of each player phase. Cannot be learned via\n　　Pilot Training.\n\n　<T=30>\"Concentrate\"</T>\n　- Spirit Commands and Twin Commands cost 80% of their normal SP.\n\n　<T=30>\"SP Up\"</T>\n　- Raises max SP as the skill level rises.\n\n　<T=30>\"Counter\"</T>\n　- When triggered, the pilot strikes back before the enemy's attack. Higher\n　　skill levels raise the trigger chance.\n\n　<T=30>\"Energy Save\"</T>\n　- Weapons use 70% of their normal EN.\n\n　<T=30>\"Bullet Save\"</T>\n　- Weapons' max ammo is x1.5.\n\n　<T=30>\"Hit&Away\"</T>\n　- After attacking without moving, the unit can still move.\n\n　<T=30>\"Mechanic\"</T>\n　- HP restored with the Repair command is x1.2.\n\n　<T=30>\"Resupply\"</T>\n　- The Resupply command can be used after moving.\n\n　<T=30>\"Continuous Action\"</T>\n　- At 120 Will or higher, wiping out the attacked enemy squad lets the unit\n　　act again instead of ending its turn.\n",
+   "cell": "r64c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 291,
+   "en": "HP/EN Recovery",
+   "cell": "r65c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 292,
+   "en": "Q&A about support and HP/EN recovery.",
+   "cell": "r65c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 294,
+   "en": "<W=24>Q</W><W=32>1</W>. What is a support unit?",
+   "cell": "r66c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 295,
+   "en": "A. Backs up the front line with abilities and Spirit Commands.",
+   "cell": "r66c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 296,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A unit that backs up the front line with abilities and Spirit Commands.</C></H></W>\n\n　●It restores front-line units' HP and EN with its abilities and backs them up\n　　with <LINK=0>Spirit Commands</LINK>. If it stays out of enemy attacks, a support unit\n　　doesn't need strong combat ability, but to level up its pilot, it must earn\n　　EXP through battle or unit commands such as Repair and Resupply.\n",
+   "cell": "r66c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 298,
+   "en": "<W=24>Q</W><W=32>2</W>. What is Repair?",
+   "cell": "r67c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 299,
+   "en": "A. A special ability that restores lost HP.",
+   "cell": "r67c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 300,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A special ability that restores lost HP.</C></H></W>\n\n　●Units with a \"Repair Module\" can use the Repair command to restore the HP\n　　of squads within range. The amount restored rises with pilot level.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Repair Modules you obtain can be equipped via the Intermission\n　　　\"Replace Weapons\" command.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Using the Repair command earns EXP.\n",
+   "cell": "r67c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 302,
+   "en": "<W=24>Q</W><W=32>3</W>. What is Resupply?",
+   "cell": "r68c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 303,
+   "en": "A. A special ability that restores lost EN and ammo.",
+   "cell": "r68c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 304,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A special ability that restores lost EN and ammo.</C></H></W>\n\n　●Units with a \"Resupply Module\" can use the Resupply command to fully restore\n　　the EN and ammo of units within range. The target loses 10 Will.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Resupply Modules you obtain can be equipped via the Intermission\n　　　\"Replace Weapons\" command.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Using the Resupply command earns EXP.\n",
+   "cell": "r68c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 306,
+   "en": "<W=24>Q</W><W=32>4</W>. How do I restore HP?",
+   "cell": "r69c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 307,
+   "en": "A. Use Repair, abilities, terrain effects, parts, etc.",
+   "cell": "r69c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 308,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use the <LINK=0>Repair</LINK> command.\n\n　●Use <LINK=1>Spirit Commands</LINK> such as \"Vigor\".\n\n　●Board a battleship. While aboard, the unit recovers 15% HP and EN and all ammo\n　　at the start of each player phase. Boarding lowers the unit's <LINK=2>Will</LINK> by 5,\n　　but never below 100.\n\n　●Use the \"HP Regen\" <LINK=3>ability</LINK>.\n\n　<T=30>\"HP Regen (S)\"</T>\n　- Recovers 10% of max HP at the start of each player phase.\n\n　<T=30>\"HP Regen (M)\"</T>\n　- Recovers 20% of max HP at the start of each player phase.\n\n　<T=30>\"HP Regen (L)\"</T>\n　- Recovers 30% of max HP at the start of each player phase.\n\n　●Use <LINK=4>terrain effects</LINK>.\n\n　●Use <LINK=5>parts</LINK> such as the \"Repair Kit\".\n",
+   "cell": "r69c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 311,
+   "en": "<W=24>Q</W><W=32>5</W>. How do I restore EN and ammo?",
+   "cell": "r70c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 312,
+   "en": "A. Use Resupply, abilities, terrain effects, parts, etc.",
+   "cell": "r70c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 313,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use natural EN recovery. All units recover 5 EN at the start of each player\n　　phase.\n\n　●Use the <LINK=0>Resupply</LINK> command.\n\n　●Use the <LINK=1>Spirit Command</LINK> \"Resupply\".\n\n　●Board a battleship. While aboard, the unit recovers 15% HP and EN and all ammo\n　　at the start of each player phase. Boarding lowers the unit's <LINK=2>Will</LINK> by 5,\n　　but never below 100.\n\n　●Use the \"EN Regen\" <LINK=3>ability</LINK>.\n\n　<T=30>\"EN Regen (S)\"</T>\n　- Recovers 10% of max EN at the start of each player phase.\n\n　<T=30>\"EN Regen (M)\"</T>\n　- Recovers 20% of max EN at the start of each player phase.\n\n　<T=30>\"EN Regen (L)\"</T>\n　- Recovers 30% of max EN at the start of each player phase.\n\n　●Use <LINK=4>terrain effects</LINK>.\n\n　●Use <LINK=5>parts</LINK> such as the \"Propellant Tank\".\n",
+   "cell": "r70c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 316,
+   "en": "About Spirit Commands",
+   "cell": "r71c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 317,
+   "en": "Q&A about Spirit Commands.",
+   "cell": "r71c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 319,
+   "en": "<W=24>Q</W><W=32>1</W>. What are Spirit Commands?",
+   "cell": "r72c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 320,
+   "en": "A. Pilot powers that grant a variety of effects.",
+   "cell": "r72c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 321,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Pilot powers that grant a variety of effects.</C></H></W>\n\n　●Spirit Commands are used from the Spirit unit command. Spending <LINK=0>SP</LINK> (Spirit\n　　Points) gives effects such as higher hit rate and evasion, HP/EN recovery,\n　　more damage dealt, less damage taken, more Movement, and higher Will.\n\n　●Each pilot has up to 5, learning each one on reaching a set level. The same\n　　Spirit Command can differ in learn level and SP cost from pilot to pilot.\n",
+   "cell": "r72c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 324,
+   "en": "<W=24>Q</W><W=32>2</W>. What are Twin Commands?",
+   "cell": "r73c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 325,
+   "en": "A. Spirit Commands usable only as a Twin Unit.",
+   "cell": "r73c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 326,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Spirit Commands usable only by a Twin Unit.</C></H></W>\n\n　●In a <LINK=0>Twin Unit</LINK> made of 2 machines, only the main pilot can use\n　　these commands. Use Twin Commands from the Spirit unit command;\n　　they are marked with <W=32><H=32><I=97></H></W>.\n\n　●A command that affects only the user's machine as a normal Spirit\n　　Command affects both machines of the unit as a Twin Command.\n\n　●Like Spirit Commands, they need <LINK=1>SP</LINK> (Spirit Points), but Twin\n　　Commands use SP from the main pilots of both machines in the Twin\n　　Unit. Each pilot usually has one. SP costs for the same command\n　　vary by pilot.\n",
+   "cell": "r73c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 329,
+   "en": "<W=24>Q</W><W=32>3</W>. What is SP?",
+   "cell": "r74c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 330,
+   "en": "A. Spend it to use Spirit Commands and Twin Commands.",
+   "cell": "r74c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 331,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Spend it to use Spirit Commands and Twin Commands.</C></H></W>\n\n　●Spending SP (Spirit Points) lets you use <LINK=0>Spirit Commands</LINK> and\n　　<LINK=1>Twin Commands</LINK>.\n\n　●Twin Commands use SP from both main pilots of the <LINK=2>Twin Unit</LINK>.\n",
+   "cell": "r74c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 334,
+   "en": "<W=24>Q</W><W=32>4</W>. How do I boost Movement (range)?",
+   "cell": "r75c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 335,
+   "en": "A. Use Spirit Commands: Accel, Violent Assault, Love.",
+   "cell": "r75c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 336,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use Spirit Commands: Accel, Violent Assault, Love.</C></H></W>\n\n　<T=30>\"Accel\"</T>\n　- Adds +3 Movement for one move.\n\n　<T=30>\"Violent Assault\"</T>\n　- Grants the effects of Accel, Assault and Pierce at once.\n\n　<T=30>\"Love\"</T>\n　- Grants the effects of Accel, Valor, Flash, Bullseye, Spirit, Gain and Luck\n　　at once.\n",
+   "cell": "r75c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 338,
+   "en": "<W=24>Q</W><W=32>5</W>. How do I deal more damage?",
+   "cell": "r76c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 339,
+   "en": "A. Use Spirit Commands: Valor, Soul, Mettle, Love.",
+   "cell": "r76c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 340,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use Spirit Commands: Valor, Soul, Mettle, Love.</C></H></W>\n\n　<T=30>\"Valor\"</T>\n　- Once, damage dealt in battle is doubled.\n\n　<T=30>\"Soul\"</T>\n　- Once, damage dealt in battle is x2.5. Cannot be combined with Valor.\n\n　<T=30>\"Mettle\"</T>\n　- For 1 turn, attacks always land as criticals.\n\n　<T=30>\"Love\"</T>\n　- Grants the effects of Accel, Valor, Flash, Bullseye, Spirit, Gain and Luck\n　　at once.\n",
+   "cell": "r76c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 342,
+   "en": "<W=24>Q</W><W=32>6</W>. How do I take less damage?",
+   "cell": "r77c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 343,
+   "en": "A. Use Spirit Commands: Wall, Belief, Persist.",
+   "cell": "r77c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 344,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use Spirit Commands: Wall, Belief, Persist.</C></H></W>\n\n　<T=30>\"Wall\"</T>\n　- For 1 turn, damage taken in battle is cut to 1/4.\n\n　<T=30>\"Belief\"</T>\n　- For 1 turn, nullifies status ailments in battle and cuts damage taken to\n　　1/4.\n\n　<T=30>\"Persist\"</T>\n　- Once, all damage taken in battle is cut to 1/8.\n",
+   "cell": "r77c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 346,
+   "en": "A. Use Spirit Commands: Focus, Bullseye, Inspire, Sense, Love.",
+   "cell": "r78c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 347,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>\"Focus\"</T>\n　- For 1 turn, hit rate and evasion rise by 30.\n\n　<T=30>\"Bullseye\"</T>\n　- For 1 turn, attacks have a 100% hit rate (if the target used Flash, Flash\n　　takes priority).\n\n　<T=30>\"Inspire\"</T>\n　- Grants the Bullseye effect to a chosen unit.\n\n　<T=30>\"Sense\"</T>\n　- Grants the effects of Flash and Bullseye at once.\n\n　<T=30>\"Love\"</T>\n　- Grants the effects of Accel, Valor, Flash, Bullseye, Spirit, Gain and Luck\n　　at once.\n",
+   "cell": "r78c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 349,
+   "en": "A. Use the Spirit Commands Focus, Flash, Sense, Disrupt and Love.",
+   "cell": "r79c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 350,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Focus</T>\n　- Raises hit and evasion rates by 30 for 1 turn.\n\n　<T=30>Flash</T>\n　- Once, completely evades an enemy attack in battle.\n\n　<T=30>Sense</T>\n　- Grants the effects of \"Flash\" and \"Bullseye\" at once.\n\n　<T=30>Disrupt</T>\n　- Halves the hit rate of all enemies for 1 turn. \"Bullseye\" takes priority.\n\n　<T=30>Love</T>\n　- Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
+   "cell": "r79c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 352,
+   "en": "<W=24>Q</W><W=32>9</W>. How do I raise Will?",
+   "cell": "r80c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 353,
+   "en": "A. Use Spirit, Drive, Encouragement, Huge Encouragement and Love.",
+   "cell": "r80c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 354,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Spirit</T>\n　- Raises your own Will by 10.\n\n　<T=30>Drive</T>\n　- Raises your own Will by 30.\n\n　<T=30>Encouragement</T>\n　- Raises a chosen unit's Will by 10.\n\n　<T=30>Huge Encouragement</T>\n　- Raises the Will of all allied pilots by 5.\n\n　<T=30>Love</T>\n　- Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
+   "cell": "r80c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 356,
+   "en": "<W=24>Q</W><W=16>10</W>. How do I lower enemy Will?",
+   "cell": "r81c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 357,
+   "en": "A. Use the Spirit Command Exhaust.",
+   "cell": "r81c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 358,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the Spirit Command Exhaust.</C></H></W>\n\n　<T=30>Exhaust</T>\n　- Lowers a chosen unit's Will by 10.\n",
+   "cell": "r81c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 360,
+   "en": "<W=24>Q</W><W=16>11</W>. How do I restore HP?",
+   "cell": "r82c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 361,
+   "en": "A. Use Vigor, Guts, Trust, Friendship, or Bond.",
+   "cell": "r82c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 362,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the following Spirit Commands.</C></H></W>\n\n　<T=30>Vigor</T>\n　- Restores 30% of your own max HP.\n\n　<T=30>Guts</T>\n　- Fully restores your own HP.\n\n　<T=30>Trust</T>\n　- Restores 2000 HP to a chosen unit.\n\n　<T=30>Friendship</T>\n　- Fully restores a chosen unit's HP.\n\n　<T=30>Bond</T>\n　- Restores 50% of max HP to all allied units.\n",
+   "cell": "r82c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 364,
+   "en": "<W=24>Q</W><W=16>12</W>. How do I restore EN and ammo?",
+   "cell": "r83c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 365,
+   "en": "A. Use the Spirit Command Resupply.",
+   "cell": "r83c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 366,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the Spirit Command Resupply.</C></H></W>\n\n　<T=30>Resupply</T>\n　- Fully restores a chosen unit's EN and ammo.\n",
+   "cell": "r83c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 368,
+   "en": "<W=24>Q</W><W=16>13</W>. How do I earn more funds?",
+   "cell": "r84c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 369,
+   "en": "A. Use the Spirit Commands Luck, Bless and Love.",
+   "cell": "r84c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 370,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the Spirit Commands Luck, Bless and Love.</C></H></W>\n\n　<T=30>Luck</T>\n　- Doubles the funds earned in the next battle.\n\n　<T=30>Bless</T>\n　- Grants the effect of \"Luck\" to a chosen unit.\n\n　<T=30>Love</T>\n　- Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
+   "cell": "r84c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 372,
+   "en": "<W=24>Q</W><W=16>14</W>. How do I earn more EXP?",
+   "cell": "r85c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 373,
+   "en": "A. Use the Spirit Commands Gain, Cheer and Love.",
+   "cell": "r85c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 374,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the Spirit Commands Gain, Cheer and Love.</C></H></W>\n\n　<T=30>Gain</T>\n　- Doubles the EXP earned in the next battle.\n\n　<T=30>Cheer</T>\n　- Grants the effect of \"Gain\" to a chosen unit.\n\n　<T=30>Love</T>\n　- Grants the effects of \"Accel\", \"Valor\", \"Flash\", \"Bullseye\", \"Spirit\",\n　　\"Gain\" and \"Luck\" at once.\n",
+   "cell": "r85c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 376,
+   "en": "<W=24>Q</W><W=16>15</W>. Anything else that's useful?",
+   "cell": "r86c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 377,
+   "en": "A. Others: Scan, Snipe, Assault, Sync, Training, Pierce, Continuous Attack,\n　　Awaken, Enable (Move Again), Prayer, Mercy, Hope.",
+   "cell": "r86c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 378,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are the following Spirit Commands.</C></H></W>\n\n　<T=30>\"Scan\"</T>\n　- Reveals the status of a chosen enemy unit.\n\n　<T=30>\"Snipe\"</T>\n　- Once, adds +2 range to all weapons except range-1 and MAP weapons.\n\n　<T=30>\"Assault\"</T>\n　- For 1 turn, all weapons except MAP weapons can be used after moving.\n\n　<T=30>\"Sync\"</T>\n　- Sets a Twin Unit's pilot stats (Mel, Rng, Eva, Acc, Skl, Def) to the\n　　higher value of its two main pilots.\n\n　<T=30>\"Training\"</T>\n　- Doubles the Pilot Points earned in the next battle.\n\n　<T=30>\"Pierce\"</T>\n　- Once, stops enemy Support Defense and special defenses activating.\n\n　<T=30>\"Continuous Attack\"</T>\n　- Wipe out the unit you attack in the next battle to act once more.\n\n　<T=30>\"Awaken\"</T>\n　- Grants one extra action.\n\n　<T=30>\"Enable (Move Again)\"</T>\n　- Lets a chosen unit that has already acted act again.\n\n　<T=30>\"Prayer\"</T>\n　- Removes status ailments from a chosen unit.\n\n　<T=30>\"Mercy\"</T>\n　- In the next battle, leaves the enemy at 10 HP instead of destroying it.\n　　No effect unless your Skill exceeds the target's.\n\n　<T=30>\"Hope\"</T>\n　- Restores 50 SP to a chosen pilot.\n",
+   "cell": "r86c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 380,
+   "en": "About Funds and Experience",
+   "cell": "r87c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 381,
+   "en": "Q&A about what you earn in battle.",
+   "cell": "r87c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 383,
+   "en": "<W=24>Q</W><W=32>1</W>. What are funds?",
+   "cell": "r88c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 384,
+   "en": "A. Cost of unit/weapon upgrades.",
+   "cell": "r88c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 385,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Cost of unit/weapon upgrades.</C></H></W>\n\n　●Earned by shooting down enemy units or selling Parts. If one of your units is\n　　shot down, you must pay funds for repairs. Funds are spent when upgrading\n　　units or weapons with the <LINK=0>Upgrade Units/Weapons</LINK> command in the Intermission.\n",
+   "cell": "r88c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 388,
+   "en": "<W=24>Q</W><W=32>2</W>. What is EXP?",
+   "cell": "r89c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 389,
+   "en": "A. A measure of a pilot's growth.",
+   "cell": "r89c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 390,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A measure of a pilot's growth.</C></H></W>\n\n　●Pilots level up as they gain EXP. Leveling up raises a pilot's stats, teaches\n　　new <LINK=0>Spirit Commands</LINK>, and raises <LINK=1>Special Skill</LINK> levels.\n\n　●Damaging an enemy unit in battle earns EXP based on the enemy's level. Using\n　　the Repair and Resupply unit commands also earns EXP.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>EXP earned from MAP weapon attacks is 1/3 of normal.\n",
+   "cell": "r89c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 393,
+   "en": "<W=24>Q</W><W=32>3</W>. What is PP?",
+   "cell": "r90c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 394,
+   "en": "A. The cost of training pilots.",
+   "cell": "r90c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 395,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The cost of training pilots.</C></H></W>\n\n　●Earned by shooting down enemy units. Spent on <LINK=1>stat boosts</LINK> and <LINK=2>learning skills</LINK>\n　　with the <LINK=0>Pilot Training</LINK> command in the Intermission.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>PP earned from MAP weapon attacks is 1/2 of normal.\n",
+   "cell": "r90c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 398,
+   "en": "<W=24>Q</W><W=32>4</W>. What is AP?",
+   "cell": "r91c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 399,
+   "en": "A. Points needed to buy Abilities.",
+   "cell": "r91c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 400,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Points needed to buy Abilities.</C></H></W>\n\n　●Earned by shooting down enemy units. Spent when buying <LINK=0>Abilities</LINK>\n　　with the \"Buy Abilities\" command in the Intermission.\n",
+   "cell": "r91c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 403,
+   "en": "<W=24>Q</W><W=32>5</W>. How do I earn more funds?",
+   "cell": "r92c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 404,
+   "en": "A. Use the Spirit Command Luck, ace pilots, Abilities, difficulty, game mode and more.",
+   "cell": "r92c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 405,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use <LINK=0>Spirit Commands</LINK> such as \"Luck\".\n\n　●Use the <LINK=1>Special Skill</LINK> \"Fortune\".\n\n　●Use ace pilots. A pilot who shoots down 50 or more enemies becomes an ace,\n　　gaining +5 <LINK=2>Will</LINK> on deployment and 1.2x <LINK=3>funds</LINK> from kills.\n\n　●Use the <LINK=6>Ability Effect</LINK> \"Funds+\".\n\n　●Use the <LINK=4>difficulty</LINK>. If you've earned under 80% of <LINK=5>SR Points</LINK>, the\n　　difficulty is NORMAL; at 80% or more, it's HARD. On NORMAL, you earn 1.2x\n　　the funds you would on HARD.\n\n　●Use the <LINK=7>game mode</LINK>. If you started the game in Beginner's Mode, you earn\n　　an extra 20000 funds whenever you earn an SR Point.\n",
+   "cell": "r92c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 408,
+   "en": "<W=24>Q</W><W=32>6</W>. How do I earn more EXP?",
+   "cell": "r93c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 409,
+   "en": "A. Use the Spirit Command Gain, the Special Skill EXP Up, Abilities, etc.",
+   "cell": "r93c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 410,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are the following methods.</C></H></W>\n\n　●Use <LINK=0>Spirit Commands</LINK> such as \"Gain\".\n\n　●Use the <LINK=1>Special Skill</LINK> \"EXP Up\".\n\n　●Use the <LINK=2>Ability Effect</LINK> \"EXP+\".\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>The higher the target pilot's level, the more <LINK=3>EXP</LINK> you earn.\n",
+   "cell": "r93c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 413,
+   "en": "About Battling Tough Enemies",
+   "cell": "r94c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 414,
+   "en": "Q&A on defeating tough enemies.",
+   "cell": "r94c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 416,
+   "en": "<W=24>Q</W><W=32>1</W>. Tips for tough enemy fights?",
+   "cell": "r95c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 417,
+   "en": "A. Save your strength and defeat it fast.",
+   "cell": "r95c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 418,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Keep the following points in mind.</C></H></W>\n\n　●Save the forces and <LINK=0>Spirit Commands</LINK> you'll need for the fight.\n\n　●Raise <LINK=1>Will</LINK> to what your attack weapons require. If you can't raise it with\n　　<LINK=0>Spirit Commands</LINK> or <LINK=2>Special Skills</LINK>, defeat weaker enemies first.\n\n　●If the enemy has barrier-type <LINK=3>Special Abilities</LINK>, <LINK=4>nullify the barrier</LINK>.\n\n　●Weaken the unit and pilot with weapons that have <LINK=5>Special Effect 1</LINK> traits\n　　such as \"Armor Down L (R-type)\".\n\n　●Put into practice ways to <LINK=6>deal more damage</LINK>, <LINK=7>take less damage</LINK>,\n　　<LINK=8>raise hit rate</LINK> and <LINK=9>raise evasion</LINK>.\n\n　●Tough enemies yield high <LINK=10>funds</LINK> and <LINK=11>EXP</LINK>, so use <LINK=12>Spirit Commands</LINK>\n　　and <LINK=13>Special Skills</LINK> to finish them off.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Units with the <LINK=14>Special Ability</LINK> \"HP Recovery\" regain 10-30% of max\n　　　HP at the start of the enemy phase. An enemy with 100,000 max HP recovers\n　　　10,000-30,000, so concentrate your attacks into as few turns as possible.\n",
+   "cell": "r95c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 421,
+   "en": "<W=24>Q</W><W=32>2</W>. What if barriers block my damage?",
+   "cell": "r96c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 422,
+   "en": "A. Prevent barrier activation, or use Pierce or Special Effect 2 weapons.",
+   "cell": "r96c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 423,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Barrier-type Special Abilities can be nullified as follows.</C></H></W>\n\n　●If a barrier needs Will or EN to activate, lower the enemy's <LINK=0>Will</LINK> or drain\n　　its EN with <LINK=1>Special Effect 1</LINK> weapons to stop it from activating.\n\n　●The <LINK=2>Spirit Command</LINK> \"Pierce\" keeps barrier-type <LINK=3>Special Abilities</LINK>\n　　from activating.\n\n　●Attack with <LINK=4>Special Effect 2</LINK> weapons.\n",
+   "cell": "r96c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 426,
+   "en": "Formation",
+   "cell": "r97c2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 427,
+   "en": "Tips for organizing units.",
+   "cell": "r97c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 429,
+   "en": "About Unit Formation",
+   "cell": "r98c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 430,
+   "en": "Q&A on unit formation.",
+   "cell": "r98c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 432,
+   "en": "<W=24>Q</W><W=32>1</W>. What is a Twin Unit?",
+   "cell": "r99c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 433,
+   "en": "A. A unit made up of two machines.",
+   "cell": "r99c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 434,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A unit made up of two machines.</C></H></W>\n\n　●A unit consists of 1 or 2 machines. A unit of two machines is called a\n　　Twin Unit, and a unit of one is called a Single Unit.\n\n　●In the Intermission, the Unit Formation command lets you rearrange\n　　machines to switch between Twin Units and Single Units.\n\n　●On the map, the Join unit command forms a Twin Unit, and Disband forms\n　　Single Units. To join, the units must be adjacent within the 8\n　　surrounding squares.\n\n　●Battleships can't form Twin Units.\n\n　●Twin Units have these advantages:\n　- Both machines get the combined effects of the <LINK=0>Abilities</LINK> equipped\n　　on both.\n　- <LINK=1>Twin Commands</LINK> become available.\n　- Total <LINK=2>EXP</LINK> and <LINK=3>PP</LINK> earned in battle increase.\n　- Both machines can attack, so you can deal more damage in one battle.\n\n　●If a Twin Unit splits on the map, any <LINK=1>Twin Command</LINK> effects it\n　　had are lost. Effects of <LINK=4>Spirit Commands</LINK> that apply to the whole\n　　unit, like \"Accel\", carry over only to the user's machine.\n",
+   "cell": "r99c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 437,
+   "en": "<W=24>Q</W><W=32>2</W>. Formation tips by movement type?",
+   "cell": "r100c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 438,
+   "en": "A. Pair machines with similar movement types.",
+   "cell": "r100c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 439,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Pair machines with similar movement types.</C></H></W>\n\n　●A Twin Unit's <LINK=0>movement type</LINK> is set by those of its two machines. Each\n　　type, Air (A), Land (L), Water (W) and Underground (U), shows in normal color if\n　　both machines have it, or gray if only one does. Normal-color types cost less\n　　to enter terrain than gray ones, so consider both machines' movement types.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>If an [AL<C=808080FF>--</C>] machine pairs with a [<C=808080FF>-</C>L<C=808080FF>-</C>U] machine, the\n　　　Twin Unit's movement type becomes [<C=808080FF>A</C>L<C=808080FF>-U</C>].\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If \"<C=808080FF>A</C>\" is gray, the unit can't move into the air.\n",
+   "cell": "r100c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 441,
+   "en": "<W=24>Q</W><W=32>3</W>. Formation tips by Spirit Command?",
+   "cell": "r101c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 442,
+   "en": "A. Spread self-targeted Spirit Commands across units.",
+   "cell": "r101c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 443,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Spread self-targeted Spirit Commands across units.</C></H></W>\n\n　●<LINK=0>Spirit Commands</LINK> that affect your own unit should be spread over as many\n　　units as possible, without doubling up in one unit. Typical examples follow.\n\n　<T=30>Accel</T>\n　- Once, adds +3 to movement.\n\n　<T=30>Awaken</T>\n　- Grants one extra action.\n\n　<T=30>Luck</T>\n　- Doubles the funds earned in the next battle.\n\n　<T=30>Gain</T>\n　- Doubles the EXP earned in the next battle.\n",
+   "cell": "r101c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 445,
+   "en": "<W=24>Q</W><W=32>4</W>. Formation tips by Ability?",
+   "cell": "r102c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 446,
+   "en": "A. Form units so they hold 3 of the same Ability.",
+   "cell": "r102c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 447,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Form units so they hold 3 of the same Ability.</C></H></W>\n\n　●In a Twin Unit, the 12 slots of both machines and their two main pilots\n　　count, and both machines receive the <LINK=0>Ability effects</LINK>.\n",
+   "cell": "r102c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 449,
+   "en": "<W=24>Q</W><W=32>5</W>. Formation tips by weapon?",
+   "cell": "r103c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 450,
+   "en": "A. Pair machines with similar equipped weapons.",
+   "cell": "r103c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 451,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Pair machines with similar equipped weapons.</C></H></W>\n\n　●So the sub machine isn't left unable to attack due to short range,\n　　consider each machine's max weapon range, post-move attacks, and\n　　ALL attacks, and pair machines so both can attack in the same\n　　situations.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Machines that can swap weapons can adjust them by equipping\n　　　<LINK=0>Replace Weapons</LINK>.\n",
+   "cell": "r103c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 454,
+   "en": "<W=24>Q</W><W=32>6</W>. Formation tips by pilot?",
+   "cell": "r104c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 455,
+   "en": "A. Factor in relationships from the story.",
+   "cell": "r104c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 456,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Factor in relationships from the story.</C></H></W>\n\n　●Pilots with special story relationships who are near each other on the map\n　　may have a positive effect in battle.\n\n　●Friendship or trust, as between teammates or close friends, affects <LINK=0>hit rate</LINK>\n　　and <LINK=1>evasion</LINK> in battle.\n\n　●Romantic feelings affect the damage dealt in battle.\n\n　●Rivals who acknowledge each other affect the critical hit rate in battle.\n",
+   "cell": "r104c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 459,
+   "en": "About Pilot Transfers",
+   "cell": "r105c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 460,
+   "en": "Q&A on transferring pilots.",
+   "cell": "r105c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 462,
+   "en": "<W=24>Q</W><W=32>1</W>. What is transferring?",
+   "cell": "r106c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 463,
+   "en": "A. Changing the machine a pilot rides.",
+   "cell": "r106c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 464,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Changing the machine a pilot rides.</C></H></W>\n\n　●Pilots generally suit their starting machines, so transfers aren't often\n　　needed. But transferring as the situation calls for, such as when you get a\n　　new machine, or moving a pilot whose defeat is a loss condition into a\n　　high-armor machine, can make the game easier. Use the Intermission's\n　　Transfer command.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Some pilots can't be transferred, and some machines limit which\n　　　pilots can board them.\n",
+   "cell": "r106c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 466,
+   "en": "<W=24>Q</W><W=32>2</W>. Transfer tips?",
+   "cell": "r107c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 467,
+   "en": "A. Cover weaknesses, boost strengths.",
+   "cell": "r107c5",
+   "uses": 2,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 468,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Cover weaknesses, boost strengths. Some examples:</C></H></W>\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Put high-Melee pilots in machines with strong melee weapons, and\n　　　high-Ranged pilots in machines with strong ranged weapons.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Put pilots with the <LINK=0>Spirit Command</LINK> \"Bullseye\" in low-Aim machines.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Put pilots with the <LINK=1>Special Skill</LINK> \"Continuous Atk\" in machines\n　　　with combination-capable weapons.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Some pilots' battle quotes change depending on their machine.\n　　　Some lines can only be heard with specific combinations.\n",
+   "cell": "r107c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 470,
+   "en": "About Replacing Units",
+   "cell": "r108c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 471,
+   "en": "Q&A on machine replacement parts.",
+   "cell": "r108c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 473,
+   "en": "<W=24>Q</W><W=32>1</W>. What are Unit Parts?",
+   "cell": "r109c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 474,
+   "en": "A. Attaching and removing a unit's own option parts.",
+   "cell": "r109c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 475,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Attaching and removing a unit's own option parts.</C></H></W>\n\n　●Some units have their own replacement parts. Equipping or changing them\n　　alters stats such as Mobility and Armor. Equipping them often brings\n　　benefits such as extra powerful weapons. Replace Parts with the\n　　\"Replace Parts\" command in the Intermission.\n",
+   "cell": "r109c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 477,
+   "en": "About Replacing Weapons",
+   "cell": "r110c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 478,
+   "en": "Q&A about replacing weapons.",
+   "cell": "r110c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 480,
+   "en": "<W=24>Q</W><W=32>1</W>. What's a Weapon Swap?",
+   "cell": "r111c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 481,
+   "en": "A. Changing a unit's armaments.",
+   "cell": "r111c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 482,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Changing a unit's armaments.</C></H></W>\n\n　●There are fixed weapons exclusive to each unit, and replaceable weapons that\n　　can be freely equipped, removed and shared between units. Each replaceable\n　　weapon has a Weapon Gauge cost, and a unit can change weapons freely as\n　　long as the total stays within its Weapon Gauge capacity. Replace weapons\n　　with the \"Replace Weapons\" command in the Intermission.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Some units can't replace weapons.\n",
+   "cell": "r111c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 484,
+   "en": "<W=24>Q</W><W=32>2</W>. Any Weapon Tips?",
+   "cell": "r112c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 485,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Cover weaknesses and boost strengths. For example:</C></H></W>\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give melee-focused units melee replaceable weapons, and ranged\n　　　units ranged ones.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Equip support units with a Repair Module or Resupply Module.\n　　　<LINK=0>Repair</LINK> and <LINK=1>Resupply</LINK> let even non-combat units earn EXP.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give EN-hungry units, such as those with many EN-based fixed\n　　　weapons, ammo-based replaceable weapons, and vice versa.\n\n　<S=8><Y=-3><W=32><H=32><C=00C0FFFF><I=157></C></H></W></Y><S=3>Give units with only short-range fixed weapons long-range\n　　　replaceable weapons, and vice versa.\n",
+   "cell": "r112c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 488,
+   "en": "Upgrades",
+   "cell": "r113c2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 489,
+   "en": "Tips for upgrading pilots and units.",
+   "cell": "r113c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 491,
+   "en": "Pilot Training",
+   "cell": "r114c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 492,
+   "en": "Q&A about pilot training.",
+   "cell": "r114c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 494,
+   "en": "<W=24>Q</W><W=32>1</W>. What is Pilot Training?",
+   "cell": "r115c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 495,
+   "en": "A. Raising pilot stats and learning special skills.",
+   "cell": "r115c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 496,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Raising pilot stats and learning special skills.</C></H></W>\n\n　●By spending <LINK=0>PP</LINK> (Pilot Points) earned in battle, you can raise a pilot's\n　　stats or have them learn available <LINK=1>Special Skills</LINK>. Train pilots with\n　　the \"Pilot Training\" command in the Intermission.\n\n　●Pilots can learn special skills in up to 6 slots. A slot that already holds\n　　a skill can be overwritten if you decide it isn't needed. However, skills\n　　that would have no effect can't be learned.\n\n　●Some special skills can be learned, while others are unique to certain\n　　pilots and can't be learned. Unlearnable skills can't be overwritten with\n　　other skills.\n",
+   "cell": "r115c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 499,
+   "en": "<W=24>Q</W><W=32>2</W>. Tips for Stats?",
+   "cell": "r116c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 500,
+   "en": "A. Build on strengths.",
+   "cell": "r116c5",
+   "uses": 3,
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 501,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Build on strengths.</C></H></W>\n\n　<T=30>Mel</T>\n　- Raise to increase damage from melee weapons.\n\n　<T=30>Rng</T>\n　- Raise to increase damage from ranged weapons.\n\n　<T=30>Skl</T>\n　- Raise to improve critical rate and the Counter skill's activation rate, and\n　　to meet the conditions for the Attack Again skill, the Mercy spirit command, etc.\n\n　<T=30>Def</T>\n　- Raise to reduce damage taken.\n\n　<T=30>Eva</T>\n　- Raise to improve evasion.\n\n　<T=30>Acc</T>\n　- Raise to improve accuracy.\n\n　<T=30>Terrain Ability</T>\n　- The pilot's and unit's Terrain Ability combine into an overall rating that\n　　affects evasion and damage taken in battle. Raise it when, for example, a\n　　pilot lowers the unit's rating in terrain the unit excels at.\n\n　　　　　　　　<T=30><C=FF8000FF>Pilot</C></T>\n　　　　　　<C=0080FFFF>S　A　B　C　D</C>\n　　　　<C=0080FFFF>S</C>　S　S　A　B　B\n　　<T=30><C=FF8000FF>Unit</C></T><C=0080FFFF>A</C>　S　A　B　B　C\n　　　　<C=0080FFFF>B</C>　A　B　B　C　C\n　　　<T=30><C=FF8000FF>　</C></T><C=0080FFFF>C</C>　B　B　C　C　D\n　　　　<C=0080FFFF>D</C>　B　C　C　D　D\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>A one-rank change in Terrain Ability can change evasion and damage\n　　　taken by about 10%.\n",
+   "cell": "r116c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 503,
+   "en": "<W=24>Q</W><W=32>3</W>. Tips for Skills?",
+   "cell": "r117c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 504,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>See the Q&As below and build on strengths.</C></H></W>\n\n　●<LINK=0>How can I deal more damage to enemies?</LINK>\n\n　●<LINK=1>How can I take less damage from enemies?</LINK>\n\n　●<LINK=2>How can I raise accuracy?</LINK>\n\n　●<LINK=3>How can I raise evasion?</LINK>\n\n　●<LINK=4>How can I raise Will?</LINK>\n\n　●<LINK=5>How can I earn more EXP?</LINK>\n\n　●<LINK=6>Anything else useful?</LINK>\n\n　<S=8><Y=-3><W=32><H=32><I=154></H></W></Y><S=3><LINK=7>Special Skills</LINK>.\n",
+   "cell": "r117c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 507,
+   "en": "Unit/Weapon Upgrades",
+   "cell": "r118c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 508,
+   "en": "Q&A about unit/weapon upgrades.",
+   "cell": "r118c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 510,
+   "en": "<W=24>Q</W><W=32>1</W>. What are Upgrades?",
+   "cell": "r119c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 511,
+   "en": "A. Raising unit stats and weapon attack power.",
+   "cell": "r119c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 512,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Raising unit stats and weapon attack power.</C></H></W>\n\n　●By spending <LINK=0>funds</LINK> earned in battle, you can raise a unit's HP, EN, Armor,\n　　Mobility and Aim, and its weapons' attack power. Replaceable weapons must be\n　　upgraded one by one, but a unit's fixed weapons are all upgraded together.\n　　Upgrade with the \"Upgrade\" command in the Intermission.\n",
+   "cell": "r119c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 515,
+   "en": "<W=24>Q</W><W=32>2</W>. Unit Upgrade Tips?",
+   "cell": "r120c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 516,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Build on strengths.</C></H></W>\n\n　<T=30>\"HP\"</T>\n　- Suits units with high Armor and low Mobility. Units that can reliably dodge\n　　enemy attacks don't take damage, so upgrading it does little for them.\n\n　<T=30>\"EN\"</T>\n　- Suits units equipped with weapons that consume a lot of EN.\n\n　<T=30>\"Armor\"</T>\n　- Suits units with high Armor and low Mobility. Units that can dodge enemy\n　　attacks don't take damage, so upgrading it does little for them.\n\n　<T=30>\"Mobility\"</T>\n　- Suits units with high Mobility and low Armor. Units with enough Armor and\n　　HP to withstand enemy attacks don't need to dodge, so upgrading it does\n　　little for them.\n\n　<T=30>\"Aim\"</T>\n　- Suits units that can't make up for accuracy with spirit commands and such.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Upgrade HP, EN, Armor, Mobility and Aim all 10 levels, and...\n",
+   "cell": "r120c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 518,
+   "en": "<W=24>Q</W><W=32>3</W>. Tips for Weapons?",
+   "cell": "r121c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 519,
+   "en": "A. Upgrade fixed or replaceable weapons as needed.",
+   "cell": "r121c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 520,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Upgrade fixed or replaceable weapons as needed.</C></H></W>\n\n　<T=30>\"Fixed Weapons\"</T>\n　- All of a unit's weapons are upgraded at once, so it's costly, but they include\n　　high-power weapons and can deal more damage than replaceable ones. To reliably\n　　shoot down <LINK=0>tough enemies</LINK>, upgrade your main units' fixed weapons.\n\n　<T=30>\"Replaceable Weapons\"</T>\n　- Weaker than fixed weapons and poor against tough foes, but unlike fixed\n　　weapons they can be removed from units that leave the story or that you no\n　　longer use and kept in use on other units, so less money goes to waste.\n",
+   "cell": "r121c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 523,
+   "en": "About Enhance Parts",
+   "cell": "r122c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 524,
+   "en": "Q&A about Enhance Parts.",
+   "cell": "r122c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 526,
+   "en": "<W=24>Q</W><W=32>1</W>. What are Enhance Parts?",
+   "cell": "r123c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 527,
+   "en": "A. Equipment that boosts a unit's capabilities.",
+   "cell": "r123c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 528,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equipment that boosts a unit's capabilities.</C></H></W>\n\n　●Each unit can equip 1 to 4 Enhance Parts. Change equipped parts with the\n　　\"Equip Parts\" command in the Intermission. Enhance Parts come in these\n　　types:\n\n　<T=30>\"Unit\"</T>\n　- When equipped, raises unit stats such as <LINK=0>Move</LINK> and Mobility.\n\n　<T=30>\"Weapon\"</T>\n　- When equipped, raises weapon stats such as hit bonus and range.\n\n　<T=30>\"Consumable\"</T>\n　- When equipped, can be used with the unit's \"Parts\" command on the map to\n　　restore HP, EN and so on. Usable once per map. Battleships alone can use\n　　consumable parts on units within 3 squares.\n\n　<T=30>\"Special\"</T>\n　- When equipped, gives effects such as boosting several types at once, or\n　　raising a pilot's <LINK=1>Will</LINK> at the start of a stage.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>Unneeded parts can be sold for <LINK=2>funds</LINK>. Sell parts with the\n　　　\"Sell Parts\" command in the Intermission.\n",
+   "cell": "r123c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 531,
+   "en": "A. Equip a Booster, Megabooster, or Apogee Motor.",
+   "cell": "r124c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 532,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>These are the typical parts that raise Move:</C></H></W>\n\n　<T=30>\"Booster\"</T>\n　- Raises the unit's Move by 1.\n\n　<T=30>\"Megabooster\"</T>\n　- Raises the unit's Move by 2.\n\n　<T=30>\"Apogee Motor\"</T>\n　- Raises the unit's Move by 1 and Mobility by 5.\n",
+   "cell": "r124c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 534,
+   "en": "<W=24>Q</W><W=32>3</W>. How do I change move type?",
+   "cell": "r125c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 535,
+   "en": "A. Equip a Tesla Drive, Thruster Module, Dustproofer, or Water Jet.",
+   "cell": "r125c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 536,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Common Enhancement Parts that change move type:</C></H></W>\n\n　<T=30>\"Tesla Drive\"</T>\n　- Adds the Air move type; unit and weapon Air rating become A.\n\n　<T=30>\"Thruster Module\"</T>\n　- Sets unit and weapon Space rating to S.\n\n　<T=30>\"Dustproofer\"</T>\n　- Adds the Land move type; unit and weapon Land rating become S.\n\n　<T=30>\"Water Jet\"</T>\n　- Adds the Water move type; unit and weapon Sea rating become S.\n",
+   "cell": "r125c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 538,
+   "en": "A. Equip Chobham Armor, Hybrid Armor, Orichalconium, or Z.O. Armor.",
+   "cell": "r126c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 539,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip parts that raise Armor. Some typical ones:</C></H></W>\n\n　<T=30>\"Chobham Armor\"</T>\n　- Raises the unit's max HP by 500 and Armor by 100.\n\n　<T=30>\"Hybrid Armor\"</T>\n　- Raises the unit's max HP by 1000 and Armor by 150.\n\n　<T=30>\"Orichalconium\"</T>\n　- Raises the unit's max HP by 1000 and Armor by 200.\n\n　<T=30>\"Z.O. Armor\"</T>\n　- Raises the unit's max HP by 1500 and Armor by 250.\n",
+   "cell": "r126c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 541,
+   "en": "A. Equip a Dual Sensor, Multi-Sensor, Custom HUD, or T-Link Sensor.",
+   "cell": "r127c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 542,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>These are the typical parts that raise accuracy:</C></H></W>\n\n　<T=30>\"Dual Sensor\"</T>\n　- Raises the hit rate of equipped weapons by 10.\n\n　<T=30>\"Multi-Sensor\"</T>\n　- Raises the hit rate of equipped weapons by 20.\n\n　<T=30>\"Custom HUD\"</T>\n　- Raises the hit rate of equipped weapons by 30.\n\n　<T=30>\"T-Link Sensor\"</T>\n　- Raises the hit rate of equipped weapons by 40.\n",
+   "cell": "r127c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 544,
+   "en": "A. Equip a Servomotor, Apogee Motor, Biosensor, or HG Thrusters.",
+   "cell": "r128c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 545,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip parts that raise Mobility. Some typical ones:</C></H></W>\n\n　<T=30>\"Servomotor\"</T>\n　- Raises the unit's Mobility by 5.\n\n　<T=30>\"Apogee Motor\"</T>\n　- Raises the unit's Move by 1 and Mobility by 5.\n\n　<T=30>\"Biosensor\"</T>\n　- Raises the unit's Mobility by 15.\n\n　<T=30>\"HG Thrusters\"</T>\n　- Raises the unit's Mobility by 25.\n",
+   "cell": "r128c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 547,
+   "en": "A. Equip a Headband or Twisty Headband.",
+   "cell": "r129c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 548,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>These are the typical parts that raise Will:</C></H></W>\n\n　<T=30>\"Headband\"</T>\n　- Raises the pilot's Will by 5 on sortie.\n\n　<T=30>\"Twisty Headband\"</T>\n　- Raises the pilot's Will by 10 on sortie.\n",
+   "cell": "r129c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 550,
+   "en": "<W=24>Q</W><W=32>8</W>. How do I restore HP, EN, SP, etc.?",
+   "cell": "r130c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 551,
+   "en": "A. Equip a Repair Kit, Propellant Tank, Cartridge, Repair Kit DX, SP Drink,\n　　or SSP Drink.",
+   "cell": "r130c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 552,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the unit's \"Parts\" command. Some typical ones:</C></H></W>\n\n　<T=30>\"Repair Kit\"</T>\n　- Fully restores the unit's HP. Usable once per map.\n\n　<T=30>\"Propellant Tank\"</T>\n　- Fully restores the unit's EN. Usable once per map.\n\n　<T=30>\"Cartridge\"</T>\n　- Fully restores the ammo of equipped weapons. Usable once per map.\n\n　<T=30>\"Repair Kit DX\"</T>\n　- Fully restores the unit's HP, EN and ammo. Usable once per map.\n\n　<T=30>\"SP Drink\"</T>\n　- Restores 50 of the pilot's SP. Usable once per map.\n\n　<T=30>\"SSP Drink\"</T>\n　- Fully restores the pilot's SP. Usable once per map.\n",
+   "cell": "r130c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 554,
+   "en": "<W=24>Q</W><W=32>9</W>. Anything else useful?",
+   "cell": "r131c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 555,
+   "en": "A. Options include the A-Adapter, Hyper Jammer, Radar Module, Enhancer,\n　　Large Generator, Mega Generator, Solar Panel, Beam Coat (part), and G-Wall (part).",
+   "cell": "r131c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 556,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Some typical ones:</C></H></W>\n\n　<T=30>\"A-Adapter\"</T>\n　- Sets all terrain ratings of the unit and its weapons to A.\n\n　<T=30>\"Hyper Jammer\"</T>\n　- With the pilot's Will at 130+, evades enemy attacks at a 50% rate.\n\n　<T=30>\"Radar Module\"</T>\n　- Raises range by 1 for all weapons except MAP weapons and range-1 weapons.\n\n　<T=30>\"Enhancer\"</T>\n　- Raises the critical rate of equipped weapons by 20.\n\n　<T=30>\"Large Generator\"</T>\n　- Raises the unit's max EN by 50.\n\n　<T=30>\"Mega Generator\"</T>\n　- Raises the unit's max EN by 100.\n\n　<T=30>\"Solar Panel\"</T>\n　- Restores 10% of max EN at the start of the player phase.\n\n　<T=30>\"Beam Coat (part)\"</T>\n　- With 5+ EN, reduces damage from beam attacks (except barrier-piercing\n　　weapons) by 900.\n\n　<T=30>\"G-Wall (part)\"</T>\n　- With 5+ EN and 120+ Will, nullifies damage of up to 800 from all attacks\n　　(except barrier-piercing weapons).\n",
+   "cell": "r131c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 558,
+   "en": "About Abilities",
+   "cell": "r132c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 559,
+   "en": "Q&A about Abilities.",
+   "cell": "r132c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 561,
+   "en": "<W=24>Q</W><W=32>1</W>. What are Abilities?",
+   "cell": "r133c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 562,
+   "en": "A. Equip 3 of the same Ability on a unit to get its effect.",
+   "cell": "r133c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 563,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip 3 of the same Ability on a unit to get its effect.</C></H></W>\n\n　●Units and pilots can each equip 3 Abilities. Change equipped Abilities with\n　　the Intermission \"Ability\" command.\n\n　●If 3 or more of the same Ability are among the 6 slots of a unit and its main\n　　pilot, you get the Ability effect, such as more damage or a higher hit rate.\n\n　●For a <LINK=0>Twin Unit</LINK>, the 12 slots of both units and their 2 main pilots\n　　count, and both units get the Ability effect.\n\n　●Abilities can be bought and sold using <LINK=1>AP</LINK> (Ability Points), with the\n　　\"Buy Abilities\" and \"Sell Abilities\" commands in the Intermission.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>If an Ability totals fewer than 3, it is wasted.\n　　　If it totals 4 or more, any beyond 3 are wasted.\n",
+   "cell": "r133c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 566,
+   "en": "A. Equip 3 \"Move+\" on the unit and pilot.",
+   "cell": "r134c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 567,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip 3 \"Move+\" on the unit and pilot.</C></H></W>\n\n　<T=30>\"Move+\"</T>\n　- Raises the unit's Movement by 1.\n",
+   "cell": "r134c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 569,
+   "en": "A. Equip 3 Melee Up, Ranged Up, Counter Up, Beam Up, Ammo Up or Sup Atk Up.",
+   "cell": "r135c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 570,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip 3 of one of these Abilities on the unit and pilot.</C></H></W>\n\n　<T=30>\"Melee Up\"</T>\n　- Damage dealt by the unit's melee weapons rises by 5%.\n\n　<T=30>\"Ranged Up\"</T>\n　- Damage dealt by the unit's ranged weapons rises by 5%.\n\n　<T=30>\"Counter Up\"</T>\n　- Damage dealt by the unit when counterattacking rises by 5%.\n\n　<T=30>\"Beam Up\"</T>\n　- Damage dealt by the unit's beam weapons rises by 5%.\n\n　<T=30>\"Ammo Up\"</T>\n　- Damage dealt by the unit's ammo-based weapons rises by 5%.\n\n　<T=30>\"Sup Atk Up\"</T>\n　- Damage dealt by the unit in Support Attacks rises by 5%.\n",
+   "cell": "r135c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 572,
+   "en": "A. Equip 3 Armor Up or Sup Def Up on unit and pilot.",
+   "cell": "r136c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 573,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip 3 of one of these Abilities on the unit and pilot.</C></H></W>\n\n　<T=30>\"Armor Up\"</T>\n　- Damage taken by the unit drops by 5%.\n\n　<T=30>\"Sup Def Up\"</T>\n　- Damage taken by the unit in Support Defense drops by 5%.\n",
+   "cell": "r136c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 575,
+   "en": "A. Equip 3 \"Hit Up\" on the unit and pilot.",
+   "cell": "r137c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 576,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip 3 \"Hit Up\" on the unit and pilot.</C></H></W>\n\n　<T=30>\"Hit Up\"</T>\n　- Raises the unit's hit rate by 5.\n",
+   "cell": "r137c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 578,
+   "en": "A. Equip 3 \"Evade Up\" on the unit and pilot.",
+   "cell": "r138c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 579,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Equip 3 \"Evade Up\" on the unit and pilot.</C></H></W>\n\n　<T=30>\"Evade Up\"</T>\n　- Raises the unit's evasion by 5.\n",
+   "cell": "r138c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 580,
+   "en": "<W=24>Q</W><W=32>7</W>. Anything else useful?",
+   "cell": "r139c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 581,
+   "en": "A. There are CRT Up, EXP+, Funds+, Repair+, HP+, EN+, Block, Barrier+, Range+ and more.",
+   "cell": "r139c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 582,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>There are the following Abilities.</C></H></W>\n\n　<T=30>\"CRT Up\"</T>\n　- Raises the unit's critical rate by 10.\n\n　<T=30>\"EXP+\"</T>\n　- Raises the EXP the unit earns in battle by 10%.\n\n　<T=30>\"Funds+\"</T>\n　- Raises the funds the unit earns in battle by 10%.\n\n　<T=30>\"Repair+\"</T>\n　- Raises the unit's recovery rate when repaired by 10%.\n\n　<T=30>\"HP+\"</T>\n　- Raises the unit's max HP by 5%.\n\n　<T=30>\"EN+\"</T>\n　- Raises the unit's max EN by 5%.\n\n　<T=30>\"Block\"</T>\n　- Gives the unit the \"Full Block\" ability.\n\n　<T=30>\"Barrier+\"</T>\n　- Raises the unit's barrier abilities by 200 (no effect without a barrier).\n\n　<T=30>\"Range+\"</T>\n　- Raises the range of the unit's weapons by 1, except MAP and range-1 weapons.\n",
+   "cell": "r139c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 584,
+   "en": "Other Topics",
+   "cell": "r140c2",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 585,
+   "en": "Other handy things worth knowing.",
+   "cell": "r140c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 587,
+   "en": "SR Points/Difficulty/Game Mode",
+   "cell": "r141c3",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 588,
+   "en": "Q&A about SR Points, difficulty and game mode.",
+   "cell": "r141c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 590,
+   "en": "<W=24>Q</W><W=32>1</W>. What are SR Points?",
+   "cell": "r142c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 591,
+   "en": "A. The basis for game difficulty.",
+   "cell": "r142c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 592,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The basis for game difficulty.</C></H></W>\n\n　●Meeting a stage's SR Point (Super Robot Wars Point) condition earns you\n　　+1 SR Point.\n\n　●Earning an SR Point gives +10 <LINK=0>PP</LINK> to all allied pilots on the map.\n\n\n　●Check SR Point conditions with the \"Objectives\" command. Your SR Point rate\n　　determines the next stage's <LINK=1>difficulty</LINK>.\n\n　●Generally, with under 80% of SR Points earned the difficulty is NORMAL;\n　　at 80% or more, it's HARD.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>If you replay a stage right after a Game Over, you can't earn that\n　　　stage's SR Point.\n",
+   "cell": "r142c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 595,
+   "en": "<W=24>Q</W><W=32>2</W>. What is Difficulty?",
+   "cell": "r143c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 596,
+   "en": "A. The game's difficulty rank, set by SR Points.",
+   "cell": "r143c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 597,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>The game's difficulty rank, set by SR Points.</C></H></W>\n\n　●Difficulty changes with your <LINK=0>SR Point</LINK> rate and has two ranks, HARD and\n　　NORMAL. The current difficulty is shown in the general command menu.\n\n　<T=30>\"HARD (80% or more)\"</T>\n　- Compared to NORMAL, there may be more enemies or stronger ones.\n　- Enemy units and weapons get +3 to their <LINK=1>upgrade levels</LINK>.\n\n　<T=30>\"NORMAL (under 80%)\"</T>\n　- <LINK=2>Funds</LINK> earned in battle are 1.2x those on HARD.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>If you chose Beginner's Mode as the <LINK=3>game mode</LINK>, the difficulty is\n　　　always NORMAL; if you chose EX Hard Mode, the difficulty is\n　　　always HARD.\n",
+   "cell": "r143c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 600,
+   "en": "<W=24>Q</W><W=32>3</W>. What is Game Mode?",
+   "cell": "r144c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 601,
+   "en": "A. A difficulty setting you can choose when starting the game.",
+   "cell": "r144c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 602,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>A difficulty setting you choose when starting the game.</C></H></W>\n\n　●When starting the main scenario, you can pick a difficulty that suits your\n　　taste. The game modes are as follows.\n\n　<T=30>\"Normal Mode\"</T>\n　- Normal play.\n\n　<T=30>\"Beginner's Mode\"</T>\n　- The flow at the start of the game changes slightly.\n　- You earn an extra 20000 <LINK=1>funds</LINK> whenever you earn an <LINK=0>SR Point</LINK>.\n　- The <LINK=2>difficulty</LINK> is always NORMAL.\n\n　<T=30>\"EX Hard Mode\"</T>\n　- Selectable when you start a game by loading Clear Data, the save made\n　　when you clear the game.\n　- <LINK=3>Unit and weapon upgrades</LINK> and <LINK=4>pilot training</LINK> are disabled.\n　- Buying <LINK=5>Abilities</LINK> is disabled.\n　- Enemy pilots are strengthened, and the difficulty is always HARD.\n\n　<T=30>\"Special Mode\"</T>\n　- Selectable when you start a game by loading Clear Data from a game\n　　cleared twice.\n　- Units and weapons can be upgraded up to 15 levels.\n　- You have all <LINK=6>Parts</LINK> from the start of the game.\n　- You have some <LINK=7>Replaceable Weapons</LINK> from the start of the game.\n",
+   "cell": "r144c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 605,
+   "en": "Useful Trivia",
+   "cell": "r145c3",
+   "kind": "name",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 606,
+   "en": "Q&A about handy things to know.",
+   "cell": "r145c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 608,
+   "en": "<W=24>Q</W><W=32>1</W>. What if it's too hard?",
+   "cell": "r146c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 609,
+   "en": "A. Retry right after a Game Over.",
+   "cell": "r146c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 610,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Retry right after a Game Over.</C></H></W>\n\n　●After a Game Over, you return to the Intermission screen (except on Stage 1).\n　　Choose the \"Next Map\" command in the Intermission to replay the same stage.\n　　You can no longer earn its <LINK=0>SR Point</LINK>, but you keep your <LINK=1>funds</LINK>, pilot\n　　<LINK=2>EXP</LINK> and kill counts. By repeating Game Overs, you can retry after building\n　　up, such as <LINK=3>upgrading</LINK> units or leveling pilots. However, this doesn't\n　　apply to newly debuting pilots or pilots exclusive to that scenario.\n\n　<S=8><Y=-3><W=32><H=32><I=155></H></W></Y><S=3>You can lower the game's <LINK=4>difficulty</LINK> by deliberately not earning\n　　　<LINK=0>SR Points</LINK>.\n",
+   "cell": "r146c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 613,
+   "en": "<W=24>Q</W><W=32>2</W>. How can I move faster?",
+   "cell": "r147c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 614,
+   "en": "A. Use the shortcut buttons.",
+   "cell": "r147c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 615,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the shortcut buttons.</C></H></W>\n\n　●While the move range is shown, press <S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4> to jump the cursor to the\n　　edge of the move range.\n\n　●When choosing a destination, hold <S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4> and press <S=-4><Y=-3><W=32><H=32><I=115></H></W></Y><S=-4> to skip the\n　　move animation.\n",
+   "cell": "r147c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 617,
+   "en": "<W=24>Q</W><W=32>3</W>. How can I restart quickly?",
+   "cell": "r148c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 618,
+   "en": "A. Use the soft reset function.",
+   "cell": "r148c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 619,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Use the soft reset function.</C></H></W>\n\n　●Press <Y=-3><W=32><H=32><I=125></H></W></Y><S=-4><Y=-3><W=32><H=32><I=121></H></W></Y><S=-4><Y=-3><W=32><H=32><I=122></H></W></Y><S=-4> at the same time to soft reset.\n\n　●If you keep holding <S=-4><Y=-3><W=32><H=32><I=125></H></W></Y><S=-4> while soft resetting, the title screen is\n　　skipped and the title's CONTINUE command runs automatically. This is\n　　called Quick Continue.\n\n　<S=8><Y=-3><W=32><H=32><I=156></H></W></Y><S=3>Choosing CONTINUE on the title screen returns you to the state saved\n　　　with the \"Suspend Save\" general command.\n",
+   "cell": "r148c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  },
+  {
+   "id": 621,
+   "en": "<W=24>Q</W><W=32>4</W>. What's there after clearing?",
+   "cell": "r149c4",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 622,
+   "en": "A. Using clear data grants you bonuses.",
+   "cell": "r149c5",
+   "kind": "text",
+   "keep": false,
+   "en_src": "tm"
+  },
+  {
+   "id": 623,
+   "en": "<H=10>\n</H><W=28><H=28>A. <C=FF8000FF>Using clear data grants you bonuses.</C></H></W>\n\n　●After clearing the final stage, you can save your progress as clear data.\n　　Loading clear data lets you start over from the beginning, carrying over\n　　the <LINK=0>funds</LINK>, <LINK=1>PP</LINK>, <LINK=2>AP</LINK> and more that you earned. New play modes\n　　also become available.\n",
+   "cell": "r149c6",
+   "kind": "text",
+   "keep": false,
+   "en_src": "ai"
+  }
+ ]
+}
