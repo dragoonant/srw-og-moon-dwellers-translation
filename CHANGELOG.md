@@ -13,4 +13,6 @@
 - Fixed a crash when the first enemy phase began: the EBOOT patch no longer writes inside game code.
 - Consistency: 解散 is Disband, ド根性 is Guts, Support Defense, a space before skill levels (Counter Lv8), startle
   marks written "...!", Alistair Lynx; voice-actor names romanised.
+- Installer: fixed "No module named 'Crypto'" when pip installed pycryptodome/pillow per user (the tools ran with
+  `python -I`, which skips the user site-packages).
 - Known gaps: the screenshots inside the tutorial summary pages still show the Japanese interface; no human edit pass yet.

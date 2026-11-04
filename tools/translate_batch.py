@@ -355,7 +355,7 @@ def cmd_retry(argv):
     re-translates them with that feedback. Kept entries are just cleared."""
     import subprocess
     out = os.path.join(REPO, "translations", "fit_failures.json")
-    subprocess.run([sys.executable, "-I", os.path.join(HERE, "fitcheck.py"), "--json", out, "--max", "0"],
+    subprocess.run([sys.executable, "-E", os.path.join(HERE, "fitcheck.py"), "--json", out, "--max", "0"],
                    capture_output=True, text=True, encoding="utf-8")
     fails = json.load(open(out, encoding="utf-8"))
     by_path = {}

@@ -93,7 +93,9 @@ def matches(path, size_sha):
 
 def run_tool(args):
     """Run a repo tool, streaming its output; stop on failure."""
-    r = subprocess.run([sys.executable, "-I"] + args)
+    # -E, not -I: -I also hides the user site-packages, where pip --user
+    # (step 1) puts pycryptodome and pillow, so the tools could not import them.
+    r = subprocess.run([sys.executable, "-E"] + args)
     if r.returncode != 0:
         raise Stop("%s failed (exit code %d). The messages above say why." % (os.path.basename(args[0]), r.returncode))
 

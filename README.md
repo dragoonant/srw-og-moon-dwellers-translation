@@ -74,6 +74,10 @@ python install.py --rpcs3 "D:\Emulators\RPCS3" --game "D:\Games\BLJS10335" --wor
 
 - **"is not the original file from the Japanese release"**: another patch was applied, or the dump differs. Restore
   the original files (or dump the disc again) and run the installer again.
+- **"ModuleNotFoundError: No module named 'Crypto'"** (or **'PIL'**): download the patch again. Copies from before
+  this fix could not find Python packages that pip had installed for your user account only. If the error still
+  comes up, open a Command Prompt with **Run as administrator**, run `py -m pip install pycryptodome pillow`, and
+  then run `Install.bat` again.
 - **"RPCS3 could not decrypt the EBOOT"**: install the PS3 firmware in RPCS3 (**File → Install Firmware**) and check
   that the game boots.
 - **The game says its data is corrupted (「ゲームデータが壊れています」)**: run `Install.bat` again. If that does not

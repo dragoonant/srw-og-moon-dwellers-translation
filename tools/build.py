@@ -52,7 +52,7 @@ GENERATED = [
 
 
 def run(args):
-    r = subprocess.run([PY, "-I"] + args, capture_output=True, text=True, encoding="utf-8")
+    r = subprocess.run([PY, "-E"] + args, capture_output=True, text=True, encoding="utf-8")
     if r.returncode != 0:
         raise RuntimeError("%s failed:\n%s%s" % (" ".join(args), r.stdout, r.stderr))
     return r.stdout
